@@ -1,0 +1,3493 @@
+astver = 2.0
+ast = {
+	["0001_00001"] = {
+		{"savetitle", text="冷泉問答-5.5-", ja="冷泉問答-5.5-", en="Diálogo Reizei -5.5-", cn="冷泉问答 -5.5-", tw="冷泉問答 -5.5-"},
+		{"eval", exp="g.01_c_00=1"},
+		{"eval", exp="g.scenariosopen=1"},
+		{"eval", exp="g.01_c_00=1"},
+		{"fg", mode=-1, id=30},
+		{"ex", time=3000, func="wait"},
+		{"ex", time=1000, func="wait"},
+		{"bgm", file="bgm13.5", vol=100},
+		{"se", id=0, loop=0, file="se_b029"},
+		{"bg", id=16, file="be1_00001", x=0, y=0, path=":cg/be1/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=100, rule="eff_029_00000"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sostengo un vibrador en la mano.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这是，一个按摩棒。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這是，一根按摩棒。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0001_00002",
+		line = 26,
+	},
+	["0001_00002"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=300, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"bg", time=300, sync=0, file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Desde luego, no se trata de un vibrador cualquiera.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当然，这不只是自慰工具。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當然，這不只是自慰工具。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00001",
+		linknext = "0001_00003",
+		line = 40,
+	},
+	["0001_00003"] = {
+		{"bg", id=18, file="pm115-1", x=-5, y=-5, path=":cg/pm1/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Por lo general, se introduce este dispositivo en la vagina de tu amante para manipularlo con suavidad.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"平常在穴中如同爱抚恋人一般，温柔地搅动。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"平常在穴中如同愛撫戀人一般，溫柔地攪動。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00002",
+		linknext = "0001_00004",
+		line = 51,
+	},
+	["0001_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sin embargo, una vez que este vibrador específico recibe un impacto, el líquido especial de su interior, compuesto de 'd10o', se solidifica y lo convierte en acero.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是，一旦受到猛烈冲击，流入其中的特殊液体“d10o”的分子将会互相结合，化作钢铁。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是，一旦受到猛烈衝擊，流入其中的特殊液體「d10o」的分子將會互相結合，化作鋼鐵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00003",
+		linknext = "0001_00005",
+		line = 62,
+	},
+	["0001_00005"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=18, time=500, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"En pocas palabras, se trata de un objeto con dos funciones únicas: puede utilizarse para la estimulación manual y también como arma cuerpo a cuerpo.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"换句话说，它是结合了爱抚的指尖与战斗用武器的东西。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"換句話說，它是結合了愛撫的指尖與戰鬥用武器的東西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00004",
+		linknext = "0001_00006",
+		line = 74,
+	},
+	["0001_00006"] = {
+		{"se", id=1, loop=0, file="se_a020"},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01010201", x=-480, y=-2280, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=250, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡Mmm!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“哈————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「哈————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00005",
+		linknext = "0001_00007",
+		line = 89,
+	},
+	["0001_00007"] = {
+		{"se", id=0, loop=0, file="se_b028", vol=50},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01010201", x=-480, y=-2280, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=18, file="jci_l01020201", x=-280, y=-80, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=17, file="bg08_3l_00000", x=0, y=100, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"extrans", sync=0, time=100, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Empuño el vibrador por encima de mi cabeza.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"呼气之间，我将按摩棒高举过顶。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"呼氣之間，我將按摩棒高舉過頂。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00006",
+		linknext = "0001_00008",
+		line = 105,
+	},
+	["0001_00008"] = {
+		{"se", id=1, stop=1, time=4000},
+		{"se", id=1, loop=0, file="se_b084", vol=50},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=17, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be1_00003", x=0, y=0, path=":cg/be1/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"extrans", sync=0, time=200, rule="eff_043_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Las luces LED que parpadean en el interior iluminan el arco de mi movimiento en el aire.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"像蚯蚓一样轻微振动的它，随着内部的LED光线画出一个圆弧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"像蚯蚓一樣輕微振動的它，隨著內部的LED光線畫出一個圓弧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00007",
+		linknext = "0001_00009",
+		line = 126,
+	},
+	["0001_00009"] = {
+		{"se", id=0, stop=1, time=4000},
+		{"se", id=1, stop=1, time=4000},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1},
+		{"bg", id=16, file="tci_l010101", x=-480, y=-580, path=":cg/tci_l/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"cgact", file="cgact", id=15, act="移動", x=-55, y=-5, time=3000, lv=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0000", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Jeje.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“呵呵——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「呵呵——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00008",
+		linknext = "0001_00010",
+		line = 148,
+	},
+	["0001_00010"] = {
+		{"se", id=0, loop=0, file="se_b010"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=-55, y=-5, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be4_00002", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=100, rule="eff_008_00000"},
+		{"ex", time=200, func="wait"},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=15, file="bg08_3l_00000", x=-55, y=-5, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="bc_00000", x=0, y=0, path=":cg/bc/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=100, rule="eff_008_00000"},
+		{"ex", time=100, func="wait"},
+		{"se", id=1, loop=0, file="se_b077"},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=16, file="be0_00001", x=0, y=0, path=":cg/be0/", ev=1, time=100, rule="eff_017_00000", lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"cgact", file="cgact", id=16, act="浮遊横", loop=7, size=12.5, time=35, ease="easeinout_sine", lv=5, x=0, y=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sin embargo, una moneda que se eleva por los aires la desvía fácilmente.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"然而，按摩棒却被快速飞行的硬币轻易地击落了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"然而，按摩棒卻被快速飛行的硬幣輕易地擊落了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00009",
+		linknext = "0001_00011",
+		line = 178,
+	},
+	["0001_00011"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgdel", id=15, lv=5, time=50, alphadel=1, evmaskoff=1},
+		{"se", id=0, loop=0, file="se_a034"},
+		{"bg", id=1, time=300, sync=0, file="bg08_3_00000", path=":bg/", zone="0x919fab", ax=805, ay=455, bx=-5, by=-5},
+		{"fg", ch="淳之介", size="m", mw="jun", mwframe="mwframe", sync=0, time=300, mode=3, path=":fg/jun_01m/", file="jun_01m_00001", file1="jun_01m_00124", file4="jun_01m_00402", file2="jun_01m_00202", head="jun_01m", lv=3},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡¿Urgh...?!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“唔……！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「唔……！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00010",
+		linknext = "0001_00012",
+		line = 197,
+	},
+	["0001_00012"] = {
+		{"fg", mode=-1, id=30},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=1, time=50, x=0, y=0, alphadel=1, style="reset"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=2, time=50, x=0, y=0, alphadel=1, style="reset"},
+		{"fg", ch="淳之介", sync=0, mode=-1, lv=3},
+		{"fg", file="touka_01l_00001", file1="touka_01l_00102", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, style="blur", blurx=11, blury=11, mode=3, x=0, y=-1000},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=0, path=":bg/", sync=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=200, rule="eff_008_00000"},
+		{"cgact", file="cgact", id=1, act="移動", x=-55, y=-5, time=3500},
+		{"text"},
+		delay = {
+			[3500] = {
+				{"bg", id=1, x=-55, y=-5, time=400, style="blur", blur=11, file="bg08_3l_00000", path=":bg/", ax=1280, ay=730, bx=-480, by=-280},
+				{"fg", ch="桐香", size="l", id=8, lv=3, time=400, mode=2, resize=1, path=":fg/touka_01l/", file="touka_01l_00001", file1="touka_01l_00102", head="touka_01l", y=-1000},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="touka0001", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Lo admito, es un vibrador potente. Pero apuntar a mis dedos hace que sea aún más fácil desviarlo.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“那个按摩棒的确很强大，但是只要瞄准指尖就能轻易将其无力化。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「那根按摩棒的確很強大，但是只要瞄準指尖就能輕易將其無力化。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00011",
+		linknext = "0001_00013",
+		line = 224,
+	},
+	["0001_00013"] = {
+		{"se", id=0, loop=0, file="se_a098"},
+		{"cgdel", id=15, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=8, ch="桐香", lv=3, time=100},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=200, rule="eff_009_00000"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00112", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡No he terminado!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“还没完呢——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「還沒完呢——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00012",
+		linknext = "0001_00014",
+		line = 245,
+	},
+	["0001_00014"] = {
+		{"se", id=0, loop=0, file="se_a035"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=12, file="system_base0000", x=-5, y=-5, path=":cg/system_base/", lv=5, bx=800, by=450},
+		{"bg", id=13, file="system_sonar_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=200, rule="eff_009_00000"},
+		{"bg", id=13, file="system_sonar_00000", x=-660, y=38, lv=5, path=":bg/", sync=0, clip="5,91,290,814", ax=145, ay=493, bx=655, by=-43},
+		{"cgact", file="cgact", id=13, act="汎用アクション", rotate=360, time=3000, loop=-1, ease="none", lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Doy un paso atrás, como una polla arqueándose antes del clímax.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我如同进入高潮之前的男根一样向后高昂，往后退了一步。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我如同進入高潮之前的男根一樣向後高昂，往後退了一步。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00013",
+		linknext = "0001_00015",
+		line = 265,
+	},
+	["0001_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mientras amplío la distancia que nos separa, saco un objeto ovalado de la bolsa que llevo en la cintura.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"拉开距离后，我从腰袋中取出蛋状物。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"拉開距離後，我從腰袋中取出蛋狀物。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00014",
+		linknext = "0001_00016",
+		line = 275,
+	},
+	["0001_00016"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=1, time=300, x=0, y=0, alphadel=1, style="reset"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=12, time=300, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgact", file="cgact", id=13, act="stopact", lv=5, rotate=360},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=13, time=300, x=0, y=0, alphadel=1, style="reset", lv=5, rotate=360},
+		{"bg", time=300, sync=0, file="black", path=":bg/"},
+		{"bg", id=18, file="pm101-1", x=-5, y=-5, path=":cg/pm1/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Este objeto tiene la misma forma que cierto tipo de onahole que suele venderse en el Japón continental.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那是与在日本主岛上出售的自慰器形状相同的物体。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那是與在日本主島上出售的自慰器形狀相同的物體。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00015",
+		linknext = "0001_00017",
+		line = 294,
+	},
+	["0001_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Fácilmente puede utilizarse para masturbarse, y su interior es ideal para los que disfrutan el edging. Este artículo se conoce comúnmente como “huevo”.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"可以很容易地享受自慰的乐趣，也可以作为家具的一部分，俗称“Egg”的东西。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"可以很容易地享受自慰的樂趣，也可以作為家具的一部分，俗稱「Egg」的東西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00016",
+		linknext = "0001_00018",
+		line = 304,
+	},
+	["0001_00018"] = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01020101-1", x=-280, y=-80, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=300, rule="eff_009_00000"},
+		{"ex", time=400, func="wait"},
+		{"se", id=0, loop=0, file="se_b039"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="pm202-1", x=-5, y=-5, path=":cg/pm2/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=300, rule="eff_009_00000"},
+		{"bg", id=30, lv=5, path=":ani/", file="em_smoke", loop=0, alpha=0},
+		{"text"},
+		delay = {
+			[1000] = {
+				{"se", id=1, loop=0, file="se_b008", delay2=1000},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Lanzo algunos de estos “huevos” al suelo.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我往地上扔了多个“Egg”。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我往地上扔了多個「Egg」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00017",
+		linknext = "0001_00019",
+		line = 329,
+	},
+	["0001_00019"] = {
+		{"se", id=0, loop=0, file="se_b034"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgdel", id=15, lv=5, time=50, alphadel=1, evmaskoff=1},
+		{"cgact", act="移動", id=30, lv=5, alpha=255},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=-300, path=":bg/", sync=0, style="blur", blurx=11, blury=11, time=300, rule="eff_008_00000", ax=1280, ay=730, bx=-480, by=-280},
+		{"fg", file="touka_01l_00001", file1="touka_01l_00103", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, rule="eff_008_00000", mode=3, x=0, y=-450},
+		{"cgact", file="cgact", id=1, act="移動", x=45, y=-5, time=3000},
+		{"text"},
+		delay = {
+			[1500] = {
+				{"fg", ch="桐香", size="l", id=8, time=0, mode=2, path=":fg/touka_01l/", file="touka_01l_00001", file1="touka_01l_00101", head="touka_01l", y=-450, lv=5},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="touka0002", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“¿Una cortina de humo...? Buen intento.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“烟幕——？但……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「煙幕——？但……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00018",
+		linknext = "0001_00020",
+		line = 354,
+	},
+	["0001_00020"] = {
+		{"se", id=0, loop=0, file="se_b011"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=100},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=30, lv=5},
+		{"bg", id=1, file="bg08_3l_00000", x=45, y=-305, path=":bg/", sync=0, style="blur", blurx=11, blury=11, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be4_00003", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=200, rule="eff_029_00000"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00117", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡Mm!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00019",
+		linknext = "0001_00021",
+		line = 378,
+	},
+	["0001_00021"] = {
+		{"se", id=0, loop=0, file="se_b055"},
+		{"cgdel", id=12, time=100, alphadel=1, lv=5},
+		{"cgdel", id=13, time=100, alphadel=1, lv=5},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=12, file="system_base0000", x=-5, y=-5, path=":cg/system_base/", lv=5, time=300, bx=800, by=450},
+		{"bg", id=13, file="system_sonar_00000", x=0, y=0, lv=5, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=13, file="system_sonar_00000", x=-660, y=38, lv=5, path=":bg/", sync=0, time=300, clip="5,91,290,814", ax=145, ay=493, bx=655, by=-43},
+		{"cgact", file="cgact", id=13, act="汎用アクション", rotate=360, time=3000, loop=-1, ease="none", lv=5},
+		{"cgact", file="cgact", id=1, act="浮遊横", loop=4, size=7.5, time=40, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Una moneda sale disparada a una velocidad absurda hacia mi posición anterior.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"高速射出的硬币穿过我刚刚在的地方。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"高速射出的硬幣穿過我剛剛在的地方。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00020",
+		linknext = "0001_00022",
+		line = 402,
+	},
+	["0001_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"¿La cortina de humo no bastó para cegarla?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"……光是烟幕，无法瞒过这家伙是吗。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"……光是煙幕，無法瞞過這傢伙是嗎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00021",
+		linknext = "0001_00023",
+		line = 412,
+	},
+	["0001_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Tengo que probar otra estrategia.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"必须马上采取其他措施。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"必須馬上採取其他措施。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00022",
+		linknext = "0001_00024",
+		line = 422,
+	},
+	["0001_00024"] = {
+		{"se", id=0, loop=0, file="se_b048"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Tomo un objeto de plástico de mi mochila, pulso un interruptor e inmediatamente se expande.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我从腰袋取出塑料的硬块，打开充气开关。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我從腰袋取出塑膠的硬塊，打開充氣開關。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00023",
+		linknext = "0001_00025",
+		line = 433,
+	},
+	["0001_00025"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00124", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"(Perdóname, Miko...)",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"（对不起了，美子——）",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"（對不起了，美子——）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00024",
+		linknext = "0001_00026",
+		line = 445,
+	},
+	["0001_00026"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mordiendo mi labio inferior, sé que debo olvidar este sentimiento de arrepentimiento para ganar.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然咬着下唇，但为了胜利我并不感到后悔。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然咬著下唇，但為了勝利我並不感到後悔。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00025",
+		linknext = "0001_00027",
+		line = 455,
+	},
+	["0001_00027"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=1, time=50, x=0, y=0, alphadel=1, style="reset"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=12, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgact", file="cgact", id=13, act="stopact", lv=5, rotate=360},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=13, time=50, x=0, y=0, alphadel=1, style="reset", lv=5, rotate=360},
+		{"fg", file="touka_01l_00001", file1="touka_01l_00110", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=-450},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=-250, path=":bg/", sync=0, style="blur", blurx=11, blury=11, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"cgact", file="cgact", id=1, act="移動", x=45, y=-55, time=3000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0003", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Por más que andes esparciendo humo, sentiré tu presencia. No te me vas a escapar, senpai.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“就算你再怎么用烟雾，我也可以察觉有人在的地方……所以没地方跑的哦，前辈。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「就算你再怎麼用煙霧，我也可以察覺有人在的地方……所以沒地方跑的哦，前輩。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00026",
+		linknext = "0001_00028",
+		line = 477,
+	},
+	["0001_00028"] = {
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=100},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_011_00000"},
+		{"se", id=0, loop=0, file="se_b048"},
+		{"fg", file="dw_00002", path=":fg/dw/", id=2, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, time=450, mode=3, x=0, y=200},
+		{"fgact", ch="dw", id=2, act="移動", x=0, y=-200, time=700},
+		{"fgact", ch="dw", id=2, act="浮遊横", loop=6, size=5, time=50, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Una sombra aparece ante la mujer que me grita.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在吼叫着的她前面，出现了人影。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在吼叫著的她前面，出現了人影。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00027",
+		linknext = "0001_00029",
+		line = 498,
+	},
+	["0001_00029"] = {
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="dw_00002", path=":fg/dw/", id=2, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, time=450, mode=3, x=0, y=0},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="tci_l010101", x=-280, y=-480, path=":cg/tci_l/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_008_00000"},
+		{"se", id=0, loop=0, file="se_b010"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="dw_00002", path=":fg/dw/", id=2, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, time=450, mode=3, x=0, y=0},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be4_00002", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=100, rule="eff_008_00000"},
+		{"fg", mode=-1, id=2, ch="dw", lv=5, time=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Inmediatamente lanza otra moneda.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她马上用硬币狙击。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她馬上用硬幣狙擊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00028",
+		linknext = "0001_00030",
+		line = 527,
+	},
+	["0001_00030"] = {
+		{"cgdel", id=15, lv=5, time=100, alphadel=1},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_011_00000"},
+		{"se", id=0, loop=0, file="se_b048"},
+		{"fg", file="dw_00002", path=":fg/dw/", id=2, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, time=450, mode=3, x=-400, y=200},
+		{"fgact", ch="dw", id=2, act="移動", x=0, y=-200, time=700},
+		{"fgact", ch="dw", id=2, act="浮遊横", loop=6, size=5, time=50, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sin embargo, otra sombra aparece a su izquierda.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是很快，在左前方又出现了人影。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是很快，在左前方又出現了人影。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00029",
+		linknext = "0001_00031",
+		line = 550,
+	},
+	["0001_00031"] = {
+		{"fgact", ch="dw", id=2, act="移動", x=0, y=100, time=700},
+		{"fgact", ch="dw", id=2, act="浮遊横", loop=6, size=5, time=50, ease="easeinout_sine"},
+		{"fg", mode=-1, id=2, ch="dw", lv=5, time=600},
+		{"se", id=1, loop=0, file="se_b049"},
+		{"text"},
+		delay = {
+			[1500] = {
+				{"se", id=0, loop=0, file="se_b048", delay2=1500},
+				{"fg", file="dw_00002", path=":fg/dw/", id=3, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, delay2=1500, time=450, mode=3, x=400, y=200},
+				{"fgact", ch="dw", id=3, act="移動", x=0, y=-200, time=700, delay2=1500},
+				{"fgact", ch="dw", id=3, act="浮遊横", loop=6, size=5, time=50, ease="easeinout_sine", delay2=1500},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"En cuanto cae la moneda, aparece otra sombra a la derecha, como si fuera la creación de una réplica.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"硬币直接打在上面，却仿佛又生出了残像一样，一个新的影子出现在右边。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"硬幣直接打在上面，卻彷彿又生出了殘像一樣，一個新的影子出現在右邊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00030",
+		linknext = "0001_00032",
+		line = 569,
+	},
+	["0001_00032"] = {
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="tci_l010301", x=-280, y=-480, path=":cg/tci_l/", lv=5, ev=1, bx=800, by=450},
+		{"fg", file="dw_00002", path=":fg/dw/", id=3, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, delay2=1500, time=450, mode=3, x=400, y=0},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_008_00000"},
+		{"se", id=0, loop=0, file="se_b010"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be4_00002", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"fg", file="dw_00002", path=":fg/dw/", id=3, lv=5, head="dw", ch="dw", mw="mw", mwframe="mwframe", sync=0, delay2=1500, time=450, mode=3, x=400, y=0},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=200, rule="eff_029_00000"},
+		{"ex", time=200, func="wait"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=200, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgdel", id=15, lv=5, time=200, alphadel=1, evmaskoff=1},
+		{"text"},
+		delay = {
+			[500] = {
+				{"fgact", ch="dw", id=3, act="移動", x=0, y=100, time=700, delay2=500},
+				{"fgact", ch="dw", id=3, act="浮遊横", loop=6, size=5, time=50, ease="easeinout_sine", delay2=500},
+				{"fg", mode=-1, id=3, ch="dw", lv=5, time=600, delay2=500},
+				{"se", id=0, loop=0, file="se_b049", delay2=500},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Cuando la moneda atraviesa la sombra, se oye el sonido de aire comprimido desinflándose.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当硬币穿过影子的同时，我听到了好像空气被压缩喷出的声音。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當硬幣穿過影子的同時，我聽到了好像空氣被壓縮噴出的聲音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00031",
+		linknext = "0001_00033",
+		line = 606,
+	},
+	["0001_00033"] = {
+		{"fg", file="touka_01l_00001", file1="touka_01l_00103", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, mode=3, x=0, y=-450},
+		{"bg", id=10, lv=5, path=":ani/", file="em_smoke", loop=-1, sync=0, time=300},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=-300, path=":bg/", sync=0, style="blur", blurx=11, blury=11, ax=1280, ay=730, bx=-480, by=-280},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_008_00000"},
+		{"cgact", file="cgact", id=1, act="移動", x=25, y=0, time=50},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0004", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Una muñeca inflable... ¿Una esposa holandesa...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“气球假人……充气娃娃……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「氣球假人……充氣娃娃……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00032",
+		linknext = "0001_00034",
+		line = 625,
+	},
+	["0001_00034"] = {
+		{"se", id=0, loop=0, file="se_a020"},
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=300},
+		{"bg", id=1, file="bg08_3l_00000", x=30, y=-250, path=":bg/", sync=0, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"cgact", file="cgact", id=1, act="移動", x=55, y=-5, time=10000},
+		{"cgdel", id=10, time=1000, alphadel=1, stop=0, lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Así es. El plan es utilizar estas generaciones sucesivas de novias queridas para acortar la distancia entre nosotros.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"没错。我把我至今爱过的她们当做诱饵，试图接近。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"沒錯。我把我至今愛過的她們當做誘餌，試圖接近。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00033",
+		linknext = "0001_00035",
+		line = 643,
+	},
+	["0001_00035"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00111", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"(Lo siento...)",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"（对不起——）",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"（對不起——）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00034",
+		linknext = "0001_00036",
+		line = 655,
+	},
+	["0001_00036"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Las novias en cuestión—Miko, Chiemi y Mayuko—pierden su forma, pues su sangre vital, o mejor dicho, su aire vital, se escapa y las desinfla por completo.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她们——美子、智惠美、真由子——被剥夺了身体的自由，耗尽了被称为血液的空气，倒下了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她們——美子、智惠美、真由子——被剝奪了身體的自由，耗盡了被稱為血液的空氣，倒下了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00035",
+		linknext = "0001_00037",
+		line = 665,
+	},
+	["0001_00037"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Aun así, estoy seguro de que las oí animarme.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"即使是这样，她们也确实对我说了这句话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"即使是這樣，她們也確實對我說了這句話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00036",
+		linknext = "0001_00038",
+		line = 675,
+	},
+	["0001_00038"] = {
+		{"bg", id=2, file="dw-101-1", x=-480, y=-180, path=":cg/dw/", lv=5, time=450, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"“¡Ve, Junnosuke...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"“去吧，淳之介……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"「去吧，淳之介……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00037",
+		linknext = "0001_00039",
+		line = 686,
+	},
+	["0001_00039"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=2, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"text"},
+		delay = {
+			[50] = {
+				{"bg", id=2, file="dw-1-101", x=-680, y=-180, path=":cg/dw/", lv=5, delay2=50, time=450, bx=800, by=450},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"“¡Vas a ganar...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"“然后，拿下吧——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"「然後，拿下吧——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00038",
+		linknext = "0001_00040",
+		line = 699,
+	},
+	["0001_00040"] = {
+		{"se", id=0, loop=0, file="se_a098"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, lv=5, time=100, alphadel=1},
+		{"cgdel", id=1, time=100, alphadel=1, lv=5},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, style="blur", blurx=11, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01010101", x=-480, y=-280, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=200, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			en = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介", "Junnosuke"},
+					"“¡¡HAAAAAAAHH!!”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			cn = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"“哦哦哦哦哦————！”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			tw = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"「哦哦哦哦哦————！」",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+		},
+		linkback = "0001_00039",
+		linknext = "0001_00041",
+		line = 720,
+	},
+	["0001_00041"] = {
+		{"se", id=0, loop=0, file="se_a020"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=13, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01010201", x=-1180, y=-1880, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=100, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"No es momento de desesperarse ni compadecerse.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我现在要做的既不是绝望也不是怜悯。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我現在要做的既不是絕望也不是憐憫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00040",
+		linknext = "0001_00042",
+		line = 738,
+	},
+	["0001_00042"] = {
+		{"se", id=0, stop=1, time=4000},
+		{"se", id=2, loop=0, file="se_a204"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=100, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=15, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_l01020201", x=-80, y=-280, path=":cg/jci_l/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=100, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Agarro el vibrador con las dos manos y me precipito hacia delante.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我拿起掉在地上的按摩棒，再一次用双手握住，向前走去。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我拿起掉在地上的按摩棒，再一次用雙手握住，向前走去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00041",
+		linknext = "0001_00043",
+		line = 757,
+	},
+	["0001_00043"] = {
+		{"se", id=2, stop=1, time=4000},
+		{"se", id=1, loop=0, file="se_b084", vol=50},
+		{"evset", file="jci_m", set="jci_m", path=":ev/jci_m/"},
+		{"evset", file="jci_m01010201", set="jci_m0101", path=":ev/jci_m0101/"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=17, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="jci_m01010201", x=-305, y=-105, path=":cg/jci_m/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=100, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sí.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"是的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"是的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00042",
+		linknext = "0001_00044",
+		line = 779,
+	},
+	["0001_00044"] = {
+		{"se", id=1, stop=1, time=4000},
+		{"se", id=0, loop=0, file="se_b029"},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=15, file="bg08_3l_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, style="blur", blurx=17, blury=0, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be1_00003", x=0, y=0, path=":cg/be1/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"extrans", sync=0, time=150, rule="eff_033_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"¡Lo daré todo en este ataque...!",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"一切都是为了这一击——！",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"一切都是為了這一擊——！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00043",
+		linknext = "0001_00045",
+		line = 796,
+	},
+	["0001_00045"] = {
+		{"se", id=0, stop=1, time=3000},
+		{"bgm", stop=1},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=-250, path=":bg/", sync=0, style="blur", blurx=11, blury=11, ax=1280, ay=730, bx=-480, by=-280},
+		{"fg", file="touka_01l_00001", file1="touka_01l_00111", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, mode=3, x=0, y=-450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_008_00000"},
+		{"cgact", file="cgact", id=1, act="移動", x=35, y=-5, time=6000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0005", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Pues no te dejaré.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“——但是，可惜了。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「——但是，可惜了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00044",
+		linknext = "0001_00046",
+		line = 819,
+	},
+	["0001_00046"] = {
+		{"se", id=0, loop=0, file="se_b012"},
+		{"cgdel", id=12, time=100, alphadel=1, lv=5},
+		{"cgdel", id=13, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=100},
+		{"bg", id=1, file="bg08_3l_00000", x=35, y=-255, path=":bg/", sync=0, style="blur", blurx=11, blury=11, ax=1280, ay=730, bx=-480, by=-280},
+		{"bg", id=16, file="be4_00004", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=100, rule="eff_008_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"En ese momento...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那一刻。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那一刻。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00045",
+		linknext = "0001_00047",
+		line = 840,
+	},
+	["0001_00047"] = {
+		{"se", id=0, loop=0, file="se_a129"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=16, time=50, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=12, file="system_base0000", x=-5, y=-5, path=":cg/system_base/", lv=5, time=300, bx=800, by=450},
+		{"bg", id=13, file="system_sonar_00000", x=0, y=0, lv=5, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=13, file="system_sonar_00000", x=-660, y=38, lv=5, path=":bg/", sync=0, time=300, clip="5,91,290,814", ax=145, ay=493, bx=655, by=-43},
+		{"cgact", file="cgact", id=13, act="汎用アクション", rotate=360, time=3000, loop=-1, ease="none", lv=5},
+		{"cgact", file="cgact", id=1, act="浮遊", loop=2, size=12.5, time=75, ease="easeinout_sine"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00116", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡¿Ugah?!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“哇————！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「哇————！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00046",
+		linknext = "0001_00048",
+		line = 863,
+	},
+	["0001_00048"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Recibo un impacto fuerte en la mandíbula.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我的下巴受到了猛烈的打击。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我的下巴受到了猛烈的打擊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00047",
+		linknext = "0001_00049",
+		line = 873,
+	},
+	["0001_00049"] = {
+		{"se", id=0, loop=0, file="se_b004"},
+		{"bg", id=15, file="system_d2_00000", x=50, y=0, lv=5, path=":bg/", sync=0, time=100, ax=805, ay=455, bx=-5, by=-5},
+		{"cgact", file="cgact", id=15, act="移動", x=-55, y=-5, time=300, lv=5},
+		{"text"},
+		delay = {
+			[100] = {
+				{"bg", id=16, file="system_d3_00000", x=50, y=0, lv=5, path=":bg/", sync=0, delay2=100, time=100, ax=805, ay=455, bx=-5, by=-5},
+				{"cgact", file="cgact", id=16, act="移動", x=-55, y=-5, time=300, delay2=100, lv=5},
+			},
+			[400] = {
+				{"bg", id=17, file="system_d1_00000", x=0, y=0, lv=5, path=":bg/", sync=0, delay2=400, time=200, ax=805, ay=455, bx=-5, by=-5},
+				{"cgact", file="cgact", id=17, act="アルファフェード点滅", loop=-1, alpha="0,256", time=300, alphadel=0, delay2=400, lv=5},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Es fuerte y potente, similar en fuerza al pene de un hombre penetrando un par de nalgas gigantes desde atrás.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"就好像后入位时，男根撞击着丰满的臀部所感受到的猛烈冲击一样——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"就好像後入位時，男根撞擊著豐滿的臀部所感受到的猛烈衝擊一樣——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00048",
+		linknext = "0001_00050",
+		line = 890,
+	},
+	["0001_00050"] = {
+		{"bg", id=17, file="system_d1_00000", x=0, y=0, lv=5, path=":bg/", sync=0, delay2=400, time=200, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=15, file="system_d2_00000", x=-5, y=-5, lv=5, path=":bg/", sync=0, time=100, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="touka_01m_00001", file1="touka_01m_00102", path=":fg/touka_01m/", id=8, lv=5, head="touka_01m", ch="桐香", mw="mw", mwframe="mwframe", sync=0, mode=3, x=0, y=0},
+		{"bg", id=12, file="system_base0000", x=-5, y=-5, path=":cg/system_base/", lv=5, time=300, bx=800, by=450},
+		{"bg", id=13, file="system_sonar_00000", x=-660, y=38, lv=5, path=":bg/", sync=0, time=300, clip="5,91,290,814", ax=145, ay=493, bx=655, by=-43},
+		{"bg", id=16, file="system_d3_00000", x=-5, y=-5, lv=5, path=":bg/", sync=0, delay2=100, time=100, ax=805, ay=455, bx=-5, by=-5},
+		{"extrans", sync=0, time=500},
+		{"cgact", file="cgact", id=13, act="汎用アクション", rotate=360, time=3000, loop=-1, ease="none", lv=5},
+		{"cgact", file="cgact", id=17, act="アルファフェード点滅", loop=-1, alpha="0,256", time=300, alphadel=0, lv=5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0006", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Era un contraataque que estaba guardando para un día lluvioso.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“……我会一招反击技。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「……我會一招反擊技。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00049",
+		linknext = "0001_00051",
+		line = 912,
+	},
+	["0001_00051"] = {
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=500},
+		{"se", id=0, loop=0, file="se_a095"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mi brazo que empuña el vibrador se debilita.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"拿着按摩棒的手腕，失去了力量。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"拿著按摩棒的手腕，失去了力量。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00050",
+		linknext = "0001_00052",
+		line = 925,
+	},
+	["0001_00052"] = {
+		{"msgoff", time=1},
+		{"se", id=0, loop=0, file="se_b003"},
+		{"cgact", file="cgact", id=17, act="stopact", lv=5, alpha="0,256"},
+		{"cgdel", id=17, lv=5, time=100, alphadel=1},
+		{"bg", id=14, time=300, file="apstart7_00000", path=":cg/apstart7/", lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=15, time=300, file="apstart3_00000", path=":cg/apstart3/", lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=16, time=300, file="apstart6_00000", path=":cg/apstart6/", lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"cgact", file="cgact", id=15, act="汎用アクション", rotate=360, time=1000, loop=-1, ease="none", lv=5},
+		{"ex", time=500, func="wait"},
+		{"msgoff", time=1},
+		{"text"},
+		delay = {
+			[3] = {
+				{"cgact", file="cgact", id=16, act="アルファフェード点滅", loop=2, alpha="256,0", time=500, lv=5, ease="out"},
+			},
+			[1000] = {
+				{"cgdel", id=15, time=600, rule="eff_048_00001", lv=5},
+			},
+			[1200] = {
+				{"cgdel", id=12, time=600, rule="eff_048_00001", lv=5},
+				{"cgdel", id=13, time=600, rule="eff_048_00001", lv=5},
+				{"cgdel", id=14, time=600, rule="eff_048_00001", lv=5},
+			},
+		},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Siento que una fatiga abrumadora se extiende por mi cuerpo.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"无力感传向全身。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"無力感傳向全身。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00051",
+		linknext = "0001_00053",
+		line = 954,
+	},
+	["0001_00053"] = {
+		{"se", id=0, loop=0, file="se_a135"},
+		{"cgdel", id=12, lv=5, time=100, alphadel=1},
+		{"cgact", file="cgact", id=13, act="stopact"},
+		{"cgdel", id=13, lv=5, time=100, alphadel=1},
+		{"cgdel", id=14, time=100, alphadel=1, lv=5},
+		{"cgdel", id=15, lv=5, time=100, alphadel=1},
+		{"cgdel", id=16, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_040_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"En un parpadeo, estoy tumbado de espaldas como un perdedor.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当我发觉时，自己已经难看地仰卧在地上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當我發覺時，自己已經難看地仰臥在地上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00052",
+		linknext = "0001_00054",
+		line = 979,
+	},
+	["0001_00054"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Perdí el conocimiento solo por un momento.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我只有那么一瞬间失去了知觉。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我只有那麼一瞬間失去了知覺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00053",
+		linknext = "0001_00055",
+		line = 989,
+	},
+	["0001_00055"] = {
+		{"se", id=0, loop=0, file="se_b013"},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=16, file="be4_00001", x=0, y=0, path=":cg/be4/", ev=1, lv=5, ax=822, ay=465, bx=-22, by=-15},
+		{"extrans", sync=0, time=200, rule="eff_008_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Pero ese breve momento fue suficiente para ella.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是对她来说，那一瞬间已经够了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是對她來說，那一瞬間已經夠了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00054",
+		linknext = "0001_00056",
+		line = 1003,
+	},
+	["0001_00056"] = {
+		{"se", id=0, loop=0, file="se_b047"},
+		{"se", id=1, loop=1, file="se_d026", vol=50},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=16, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_045_00000"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00117", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Ugh... ¡N-No puedo moverme...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“动……不了……！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「動……不了……！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00055",
+		linknext = "0001_00057",
+		line = 1024,
+	},
+	["0001_00057"] = {
+		{"se", id=0, loop=0, file="se_a099"},
+		{"bg", id=1, file="bg08_3l_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=1280, ay=730, bx=-480, by=-280},
+		{"fg", file="touka_01l_00001", file1="touka_01l_00110", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="桐香", id=8, act="振動下", loop=1, size=17.5, time=350, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0007", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Jeje... Por fin te atrapé, senpai.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“呜呼呼……终于抓住你了，前辈。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「嗚呼呼……終於抓住你了，前輩。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00056",
+		linknext = "0001_00058",
+		line = 1041,
+	},
+	["0001_00058"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"La chica se sienta sobre mí.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"少女骑到我身上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"少女騎到我身上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00057",
+		linknext = "0001_00059",
+		line = 1051,
+	},
+	["0001_00059"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"De sus ojos desaparece la luz. Tiene la mirada hambrienta de una depredadora.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"即使两眼无神，那也是猎人一般的“眼睛”。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"即使兩眼無神，那也是獵人一般的「眼睛」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00058",
+		linknext = "0001_00060",
+		line = 1061,
+	},
+	["0001_00060"] = {
+		{"fg", file="touka_01l_00001", file1="touka_01l_00111", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0008", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Por fin, por fin... mis plegarias han sido respondidas.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“终于——终于，成就圆满夙愿的时候要来了。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「終於——終於，成就圓滿夙願的時候要來了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00059",
+		linknext = "0001_00061",
+		line = 1075,
+	},
+	["0001_00061"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00112", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡Ugh, d-detente...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“唔，住、手——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「唔，住、手——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00060",
+		linknext = "0001_00062",
+		line = 1087,
+	},
+	["0001_00062"] = {
+		{"se", id=0, loop=0, file="se_b047"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Intento liberarme, pero estoy completamente inmovilizado.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我想要挣扎，却办不到。身体被什么固定住了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我想要掙扎，卻辦不到。身體被什麼固定住了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00061",
+		linknext = "0001_00063",
+		line = 1098,
+	},
+	["0001_00063"] = {
+		{"fg", file="touka_01l_00001", file1="touka_01l_00110", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0009", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Por más que lo intentes, no vas a escapar. Ahora eres mi prisionero. Nada más que una marioneta para ser manipulada y utilizada.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“想要逃跑是没有用的，你已经是笼中鸟。现在只需要在这个用蓝染的线编织而成的舞台上跳舞——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「想要逃跑是沒有用的，你已經是籠中鳥。現在只需要在這個用藍染的線編織而成的舞臺上跳舞——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00062",
+		linknext = "0001_00064",
+		line = 1112,
+	},
+	["0001_00064"] = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sonríe con dulzura y se acerca.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她露出妩媚的笑容，伸出了手。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她露出嫵媚的笑容，伸出了手。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00063",
+		linknext = "0001_00065",
+		line = 1123,
+	},
+	["0001_00065"] = {
+		{"fg", file="touka_01l_00001", file1="touka_01l_00111", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0010", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“Ah... por fin...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“啊啊……真的，这样终于——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「啊啊……真的，這樣終於——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00064",
+		linknext = "0001_00066",
+		line = 1137,
+	},
+	["0001_00066"] = {
+		{"se", id=0, loop=0, file="se_a171"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Me baja la cremallera.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"然后，我的拉链被拉下。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"然後，我的拉鍊被拉下。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00065",
+		linknext = "0001_00067",
+		line = 1148,
+	},
+	["0001_00067"] = {
+		{"fg", file="touka_01l_00001", file1="touka_01l_00102", path=":fg/touka_01l/", id=8, lv=5, head="touka_01l", ch="桐香", mw="mw", mwframe="mwframe", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="touka0011", path=":vo/", ch="touka"},
+			},
+			ja = {
+				{
+					name = {"？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"？？？", "???"},
+					"“La polla de senpai es mía.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"？？？", "？ ？ ？"},
+					"“——我终于可以吃到前辈的鸡巴了。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"？？？"},
+					"「——我終於可以吃到前輩的肉棒了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00066",
+		linknext = "0001_00068",
+		line = 1162,
+	},
+	["0001_00068"] = {
+		{"fg", mode=-1, id=8, ch="桐香", lv=5, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Le grito que se detenga.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"住手——我喊道。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"住手——我喊道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00067",
+		linknext = "0001_00069",
+		line = 1174,
+	},
+	["0001_00069"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Pero no se detiene.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是她没有停下来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是她沒有停下來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00068",
+		linknext = "0001_00070",
+		line = 1184,
+	},
+	["0001_00070"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00112", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡No...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“我——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「我——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00069",
+		linknext = "0001_00071",
+		line = 1196,
+	},
+	["0001_00071"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sus dedos fríos y suaves desabrochan el cierre de mis pantalones...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"内裤的纽扣被打开，冰冷又柔软的指尖——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"內褲的鈕扣被打開，冰冷又柔軟的指尖——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00070",
+		linknext = "0001_00072",
+		line = 1206,
+	},
+	["0001_00072"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“¡No voy a...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“我绝对——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「我絕對——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00071",
+		linknext = "0001_00073",
+		line = 1217,
+	},
+	["0001_00073"] = {
+		{"se", id=0, loop=0, file="se_a095"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"... Va a por mi polla.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"碰触了我的男根。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"碰觸了我的男根。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00072",
+		linknext = "0001_00074",
+		line = 1228,
+	},
+	["0001_00074"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00128", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			en = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介", "Junnosuke"},
+					"“¡¡¡NO VOY A TENER SEXO CONTIGO!!!”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			cn = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"“绝对，不会做爱的——！”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			tw = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"「絕對，不會做愛的——！」",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+		},
+		linkback = "0001_00073",
+		linknext = "0001_00075",
+		line = 1241,
+	},
+	["0001_00075"] = {
+		{"se", id=1, stop=1, time=4000},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg26_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500, rule="eff_045_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mi agónico grito resuena por toda la selva tropical, entre el telón de fondo de la noche.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我的惨叫，在夜晚的热带雨林中回荡着消失了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我的慘叫，在夜晚的熱帶雨林中迴盪著消失了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00074",
+		linknext = "0001_00076",
+		line = 1257,
+	},
+	["0001_00076"] = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="whiteback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"extrans", sync=0, time=4000},
+		{"ex", time=3000, func="wait"},
+		{"movie", id=1, lv=5, path=":mv/", cancel=1, file="pv1"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg20_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"extrans", sync=0, time=2000},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"se", id=1, loop=1, file="se_d016", vol=50},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"La pantalla cambia, indicando el final del anuncio.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"画面突然变白，影片结束了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"畫面突然變白，影片結束了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00075",
+		linknext = "0001_00077",
+		line = 1279,
+	},
+	["0001_00077"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Estuvo activa durante unos minutos.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"大约几分钟的影片。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"大約幾分鐘的影片。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00076",
+		linknext = "0001_00078",
+		line = 1289,
+	},
+	["0001_00078"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Tardó en reproducirse lo mismo que el barco en recorrer la distancia entre el puerto de entrada a la isla y nuestro destino final.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"和從入岛审查所到目的地的距离是差不多的时间。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"和從入島審查所到目的地的距離是差不多的時間。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00077",
+		linknext = "0001_00079",
+		line = 1299,
+	},
+	["0001_00079"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Nos estaba insinuando a entregarnos a una indulgencia sexual sin límites.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"为了之后让我们没日没夜沉溺在做爱中。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"為了之後讓我們沒日沒夜沉溺在做愛中。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00078",
+		linknext = "0001_00080",
+		line = 1309,
+	},
+	["0001_00080"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"El sonido de las olas resuena a nuestro alrededor, mientras el barco atraviesa el agua.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"飞溅到船上的浪花，混杂着海浪的声音。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"飛濺到船上的浪花，混雜著海浪的聲音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00079",
+		linknext = "0001_00081",
+		line = 1319,
+	},
+	["0001_00081"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A medida que disminuye su velocidad, las olas comienzan a cambiar su forma.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"随着船的减速，破浪的形状发生了变化。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"隨著船的減速，破浪的形狀發生了變化。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00080",
+		linknext = "0001_00082",
+		line = 1329,
+	},
+	["0001_00082"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="gmoba0000a", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"船内放送"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"船内放送", "Anunciante del barco"},
+					"“Pronto llegaremos a la Isla Seiran. Rogamos a los pasajeros con vehículos que permanezcan en ellos por ahora.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"船内放送", "船内广播"},
+					"“——很快就要到达青蓝岛了。驾车的乘客请在车内等候——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"船内放送", "船內廣播"},
+					"「——很快就要到達青藍島了。駕車的乘客請在車內等候——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00081",
+		linknext = "0001_00083",
+		line = 1341,
+	},
+	["0001_00083"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Gritos de alegría se oyen en su interior.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"可以从船内听到欢呼声。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"可以從船內聽到歡呼聲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00082",
+		linknext = "0001_00084",
+		line = 1351,
+	},
+	["0001_00084"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"La vibrante energía de este lugar también es palpable para los que estamos en cubierta.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在我们所在的甲板上，也感受到了岛上充满生气的能量。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在我們所在的甲板上，也感受到了島上充滿生氣的能量。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00083",
+		linknext = "0001_00085",
+		line = 1361,
+	},
+	["0001_00085"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"La isla no puede hablar, pero todos sentimos su bienvenida.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我意识到，这个沉默的孤岛欢迎我们来到这里。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我意識到，這個沉默的孤島歡迎我們來到這裡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00084",
+		linknext = "0001_00086",
+		line = 1371,
+	},
+	["0001_00086"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Y sin embargo...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00085",
+		linknext = "0001_00087",
+		line = 1381,
+	},
+	["0001_00087"] = {
+		{"fg", file="asane_01f_00002", file1="asane_01f_00104", path=":fg/asane_01f/", id=30, ch="麻沙音", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane0000", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+					"“Hermanito...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+					"“哥哥……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+					"「哥哥……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00086",
+		linknext = "0001_00088",
+		line = 1394,
+	},
+	["0001_00088"] = {
+		{"fg", file="jun_01f_00002", file1="jun_01f_00111", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Sí...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“嗯——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「嗯——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00087",
+		linknext = "0001_00089",
+		line = 1406,
+	},
+	["0001_00089"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Con la mirada puesta en esa gran isla azul, murmuro para mí.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我盯着那个蓝色的小岛，嘀咕着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我盯著那個藍色的小島，嘀咕著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00088",
+		linknext = "0001_00090",
+		line = 1416,
+	},
+	["0001_00090"] = {
+		{"fg", file="jun_01f_00002", file1="jun_01f_00103", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Parece que hemos vuelto.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“……我又回来了。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「……我又回來了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00089",
+		linknext = "block_00090",
+		line = 1428,
+	},
+	block_00090 = {
+		{"se", id=1, stop=1, time=1000},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=3000, func="wait"},
+		{"excall", file="01_c_01"},
+		{"text"},
+		linkback = "0001_00090",
+		line = 1438,
+	},
+	label = {
+		top = { block="0001_00001", label=1 },
+	},
+}
