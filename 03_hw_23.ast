@@ -1,0 +1,5952 @@
+astver = 2.0
+ast = {
+	["0073_00001"] = {
+		{"savetitle", text="レイ", ja="レイ", en="Rey", cn="雷", tw="雷"},
+		{"eval", exp="g.03_hw_23=1"},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"……………………",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"……………………",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0073_00002",
+		line = 40,
+	},
+	["0073_00002"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"………………",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"………………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00001",
+		linknext = "0073_00003",
+		line = 50,
+	},
+	["0073_00003"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"…………",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"…………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00002",
+		linknext = "0073_00004",
+		line = 60,
+	},
+	["0073_00004"] = {
+		{"bgm", file="bgm21", vol=100},
+		{"bg", id=1, file="bg26_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's been six years since Dad died.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"父亲去世已经是6年前的事了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"父親去世已經是6年前的事了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00003",
+		linknext = "0073_00005",
+		line = 75,
+	},
+	["0073_00005"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Back then, all five of us lived in a small apartment in the Kanto region: myself, my parents, and my siblings.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那时，我和父母、弟弟妹妹5个人住在关东的一个小公寓里。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那時，我和父母、弟弟妹妹5個人住在關東的一個小公寓裡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00004",
+		linknext = "0073_00006",
+		line = 85,
+	},
+	["0073_00006"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was too young to know about it back then, but we were exceptionally poor.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然当时没有意识到，但现在回想起来，那是个非常贫困的家庭。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然當時沒有意識到，但現在回想起來，那是個非常貧困的家庭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00005",
+		linknext = "0073_00007",
+		line = 95,
+	},
+	["0073_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Most of my socks had holes in them, and having a side dish with meals was a luxury.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"每个袜子上都有洞，吃饭时只要有配菜就已经不错了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"每個襪子上都有洞，吃飯時只要有配菜就已經不錯了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00006",
+		linknext = "0073_00008",
+		line = 105,
+	},
+	["0073_00008"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"We weren't exactly happy, either.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"再加上，应该也不算是个好家庭吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"再加上，應該也不算是個好家庭吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00007",
+		linknext = "0073_00009",
+		line = 115,
+	},
+	["0073_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Dad spent a lot of time away, but even when he was there he was either violent or asleep.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"父亲经常不在家，偶尔在家也只会大声叫骂或是睡觉。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"父親經常不在家，偶爾在家也只會大聲叫罵或是睡覺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00008",
+		linknext = "0073_00010",
+		line = 125,
+	},
+	["0073_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mom would always be complaining about him, and if we ever supported him, she'd be hysterical.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"母亲总是抱怨那样的父亲，只要我稍微替父亲说点话，她就会马上歇斯底里起来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"母親總是抱怨那樣的父親，只要我稍微替父親說點話，她就會馬上歇斯底里起來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00009",
+		linknext = "0073_00011",
+		line = 135,
+	},
+	["0073_00011"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Just to spite him, Mom didn't do any housework, so I had to take care of most of it myself.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"因为母亲为了抵抗父亲而不做家务，所以家里的事基本上都是我在做。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"因為母親為了抵抗父親而不做家事，所以家裡的事基本上都是我在做。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00010",
+		linknext = "0073_00012",
+		line = 145,
+	},
+	["0073_00012"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Naturally, I was going to school as well at the time, but I didn't really fit in there, either.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"就算这样，我也上了学，但在学校里我也不怎么自在。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"就算這樣，我也上了學，但在學校裡我也不怎麼自在。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00011",
+		linknext = "0073_00013",
+		line = 155,
+	},
+	["0073_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The other girls my age were focused on fashion and picking up guys, so they didn't have any time for me and my worn-out, childish clothes.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在同年代的女孩子开始注意形象的时候，总是穿着破破烂烂的童装的我，很自然地在群体中被孤立。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在同年代的女孩子開始注意形象的時候，總是穿著破破爛爛的童裝的我，很自然地在群體中被孤立。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00012",
+		linknext = "0073_00014",
+		line = 165,
+	},
+	["0073_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The only way I got to enjoy myself was by reading shoujo manga.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那时少有的乐趣就是偶尔看看少女漫画。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那時少有的樂趣就是偶爾看看少女漫畫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00013",
+		linknext = "0073_00015",
+		line = 175,
+	},
+	["0073_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"There was a used bookstore in the neighborhood, run by a kind old woman who let me read manga on the weekends, even if I didn't by anything.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"附近的旧书店有一位慈祥的老奶奶，休息日去玩时，即使没有钱，也会一直让我看漫画。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"附近的舊書店有一位慈祥的老奶奶，休息日去玩時，即使沒有錢，也會一直讓我看漫畫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00014",
+		linknext = "0073_00016",
+		line = 185,
+	},
+	["0073_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Manga gave me an escape from my difficult life.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"看漫画的时候，我可以轻易忘记讨厌的事情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"看漫畫的時候，我可以輕易忘記討厭的事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00015",
+		linknext = "0073_00017",
+		line = 195,
+	},
+	["0073_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'd daydream about the love stories, and come up with my own Cinderella-like tales in my head.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"憧憬着幻想中的爱情故事，梦想着终有一天自己也能遇上，在脑海里无数次想象着灰姑娘的故事。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"憧憬著幻想中的愛情故事，夢想著終有一天自己也能遇上，在腦海裡無數次想像著灰姑娘的故事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00016",
+		linknext = "0073_00018",
+		line = 205,
+	},
+	["0073_00018"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I know it was childish, but I fantasized that if I wore pretty clothes and worked hard, I could change my life, just like her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"怀抱着童心的我坚信，如果能穿这么漂亮的衣服，就连我也会改变，只要努力就会有好事发生。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"懷抱著童心的我堅信，如果能穿這麼漂亮的衣服，就連我也會改變，只要努力就會有好事發生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00017",
+		linknext = "0073_00019",
+		line = 215,
+	},
+	["0073_00019"] = {
+		{"bg", id=1, file="bg26_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was after returning home from that bookstore one day that I heard that my dad had died.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有一天，当我从旧书店回家时，传来了父亲去世的消息。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有一天，當我從舊書店回家時，傳來了父親去世的消息。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00018",
+		linknext = "0073_00020",
+		line = 229,
+	},
+	["0073_00020"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Apparently he fell down the stairs in a drunken stupor, and no one found him until it was too late.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"据说他深夜在烂醉状态下从楼梯上摔了下来，被发现时已经为时已晚。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"據說他深夜在爛醉狀態下從樓梯上摔了下來，被發現時已經為時已晚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00019",
+		linknext = "0073_00021",
+		line = 239,
+	},
+	["0073_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Despite how much she complained about him, our mom was wailing uncontrollably. Meanwhile, my siblings were too young to understand as they looked on, bewildered.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不知道为什么，发了那么多牢骚的母亲竟号啕大哭，不知道死亡的意思的弟弟妹妹只是一个劲儿地歪着头。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不知道為什麼，發了那麼多牢騷的母親竟號啕大哭，不知道死亡的意思的弟弟妹妹只是一個勁地歪著頭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00020",
+		linknext = "0073_00022",
+		line = 249,
+	},
+	["0073_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was disillusioned. I hadn't truly loved him for several years, so I didn't cry over him.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我没有特别惊讶，因为不喜欢父亲，所以也没有哭。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我沒有特別驚訝，因為不喜歡父親，所以也沒有哭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00021",
+		linknext = "0073_00023",
+		line = 259,
+	},
+	["0073_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The only thing I missed was the way he carried me on his shoulders when I was little.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"只是，小的时候让我坐过的肩膀——今后再也坐不了了，我这样想着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"只是，小的時候讓我坐過的肩膀——今後再也坐不了了，我這樣想著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00022",
+		linknext = "0073_00024",
+		line = 269,
+	},
+	["0073_00024"] = {
+		{"bg", id=1, file="bg26_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That was all I was nostalgic for, and before long I no longer had time to dwell on things like that.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"沉浸在过去中的只有那一次，那种从容很快就消失了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"沉浸在過去中的只有那一次，那種從容很快就消失了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00023",
+		linknext = "0073_00025",
+		line = 283,
+	},
+	["0073_00025"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"For reasons that I still don't understand to this day, he'd accumulated massive amounts of debt.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然现在已经不知道原因了，但是那时父亲背负了很多的债务。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然現在已經不知道原因了，但是那時父親背負了很多的債務。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00024",
+		linknext = "0073_00026",
+		line = 293,
+	},
+	["0073_00026"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"People would come banging on our door late at night. Those days were hell.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"每晚公寓的门都被敲响，地狱般的日子开始了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"每晚公寓的門都被敲響，地獄般的日子開始了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00025",
+		linknext = "0073_00027",
+		line = 303,
+	},
+	["0073_00027"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'd gently hold my crying brother and sister in my arms and whisper soothing words to them.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我双手抱着快要哭出来的弟弟妹妹，小声地说着温柔的话语。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我雙手抱著快要哭出來的弟弟妹妹，小聲地說著溫柔的話語。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00026",
+		linknext = "0073_00028",
+		line = 313,
+	},
+	["0073_00028"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"On top of that, just because our dad was gone didn't mean we didn't get beaten. Mom started doing it instead.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不久，母亲就像死去的父亲附身了一样，对我们行使暴力。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不久，母親就像死去的父親附身了一樣，對我們行使暴力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00027",
+		linknext = "0073_00029",
+		line = 323,
+	},
+	["0073_00029"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"As the older sister, I thought it was my job to protect my little brother and sister, no matter what we went through. I'd shield them from our mother.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"无论多么难受也要作为姐姐保护弟弟妹妹，所以我总是站在最前面挨打。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"無論多麼難受也要作為姐姐保護弟弟妹妹，所以我總是站在最前面挨打。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00028",
+		linknext = "0073_00030",
+		line = 333,
+	},
+	["0073_00030"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I just endured it all. I told myself that life has its hard times, and this would pass.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"人生也有痛苦的时候，我总是这样对自己说，忍耐着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"人生也有痛苦的時候，我總是這樣對自己說，忍耐著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00029",
+		linknext = "0073_00031",
+		line = 343,
+	},
+	["0073_00031"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was on one of these days that I came home from school, and my mom greeted me with a broad grin. She had an unfamiliar man beside her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有一天，从学校回来时，母亲笑眯眯地迎接了我。旁边站着一个不认识的男人。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有一天，從學校回來時，母親笑瞇瞇地迎接了我。旁邊站著一個不認識的男人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00030",
+		linknext = "0073_00032",
+		line = 353,
+	},
+	["0073_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That was the first time I heard the name Seiran Island.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那时候，我才第一次听到“青蓝岛”这个名字。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那時候，我才第一次聽到「青藍島」這個名字。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00031",
+		linknext = "0073_00033",
+		line = 363,
+	},
+	["0073_00033"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Mom excitedly told me that going there would make my life better. It would let me escape from all I'd been suffering through.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"母亲高兴地告诉我，只要去那里，就能从这种艰苦的生活中解放出来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"母親高興地告訴我，只要去那裡，就能從這種艱苦的生活中解放出來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00032",
+		linknext = "0073_00034",
+		line = 373,
+	},
+	["0073_00034"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Finally.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"——终于。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"——終於。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00033",
+		linknext = "0073_00035",
+		line = 383,
+	},
+	["0073_00035"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I started crying out of happiness. It was like my fairy godmother had finally appeared.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"魔法师终于出现在灰姑娘面前了——得到回报了——我不由自主地流下了眼泪。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"魔法師終於出現在灰姑娘面前了——得到回報了——我不由自主地流下了眼淚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00034",
+		linknext = "0073_00036",
+		line = 393,
+	},
+	["0073_00036"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What a fool I was.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但，我终究还是太愚蠢了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但，我終究還是太愚蠢了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00035",
+		linknext = "0073_00037",
+		line = 403,
+	},
+	["0073_00037"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Shortly afterwards, I learned what Seiran Island really was.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那之后，我马上了解了青蓝岛的事情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那之後，我馬上了解了青藍島的事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00036",
+		linknext = "0073_00038",
+		line = 413,
+	},
+	["0073_00038"] = {
+		{"bg", id=1, file="bg25_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I don't even remember anymore how I first found out.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"第一次的事情，我完全不记得了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"第一次的事情，我完全不記得了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00037",
+		linknext = "0073_00039",
+		line = 427,
+	},
+	["0073_00039"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I couldn't accept it as reality, and I refused to believe it. I think the trauma caused me to block the memory.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"大概是因为我无法接受，无法相信这就是现实，而抗拒去记住。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"大概是因為我無法接受，無法相信這就是現實，而抗拒去記住。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00038",
+		linknext = "0073_00040",
+		line = 437,
+	},
+	["0073_00040"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"However, what I do remember is weeping uncontrollably in bed that night. It just hurt so much.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"唯一清楚记得的，是那天晚上痛得在被窝里哭泣。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"唯一清楚記得的，是那天晚上痛得在被窩裡哭泣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00039",
+		linknext = "0073_00041",
+		line = 447,
+	},
+	["0073_00041"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I hadn't yet reached the sexual maturity age where the law applies.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当时我还没有达到条例的对象年龄。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當時我還沒有達到條例的對象年齡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00040",
+		linknext = "0073_00042",
+		line = 457,
+	},
+	["0073_00042"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But, even though I wasn't required by the law to start having sex, my mom said I had to do it anyway if people told me to. She said I could save everyone that way.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"所以其实应该还不能做爱，但是母亲说如果我做爱，大家就会得救，所以我就照她说的做了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"所以其實應該還不能做愛，但是母親說如果我做愛，大家就會得救，所以我就照她說的做了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00041",
+		linknext = "0073_00043",
+		line = 467,
+	},
+	["0073_00043"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But apparently they didn't see me as satisfactory.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是，我的评价似乎不好。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是，我的評價似乎不好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00042",
+		linknext = "0073_00044",
+		line = 477,
+	},
+	["0073_00044"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I didn't make any sounds, and it was plainly clear that I wasn't enjoying it.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"因为我连声音都不发出，满脸都渗透着厌恶感。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"因為我連聲音都不發出，滿臉都滲透著厭惡感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00043",
+		linknext = "0073_00045",
+		line = 487,
+	},
+	["0073_00045"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"They saw me as worthless, so my mom abused me more.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"母亲骂我这样很不像话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"母親罵我這樣很不像話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00044",
+		linknext = "0073_00046",
+		line = 497,
+	},
+	["0073_00046"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She said that if my little brother and sister ended up homeless, it would be my fault.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我不想因为自己的错而让弟弟妹妹流落街头。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我不想因為自己的錯而讓弟弟妹妹流落街頭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00045",
+		linknext = "0073_00047",
+		line = 507,
+	},
+	["0073_00047"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I studied desperately.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"所以我拼命学习了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"所以我拼命學習了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00046",
+		linknext = "0073_00048",
+		line = 517,
+	},
+	["0073_00048"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I observed the islanders to learn what sounds I should make and what I should be saying to turn them on.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我观察岛上的人，学习他们发出什么样的声音，说什么样的话，才能让对方兴奋。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我觀察島上的人，學習他們發出什麼樣的聲音，說什麼樣的話，才能讓對方興奮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00047",
+		linknext = "0073_00049",
+		line = 527,
+	},
+	["0073_00049"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I wasn't good at it, but tackling my weaknesses and trying to improve was something I was always good at.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然我并不精明，但很擅长踏实努力。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然我並不精明，但很擅長踏實努力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00048",
+		linknext = "0073_00050",
+		line = 537,
+	},
+	["0073_00050"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Their responses obviously improved when I started imitating what I'd seen and heard from others.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当我尝试着模仿学会的技巧，评价显而易见地变好了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當我嘗試著模仿學會的技巧，評價顯而易見地變好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00049",
+		linknext = "0073_00051",
+		line = 547,
+	},
+	["0073_00051"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I made incredible amounts of money that way, and I was finally able to buy beautiful clothes like the ones I always saw in manga.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我拿到了多到难以置信的钱，穿上了只能在漫画中看到的漂亮衣服。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我拿到了多到難以置信的錢，穿上了只能在漫畫中看到的漂亮衣服。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00050",
+		linknext = "0073_00052",
+		line = 557,
+	},
+	["0073_00052"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If I wore pretty clothes and worked hard, I could change my life—those childish fantasies were actually coming true.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"总有一天想穿漂亮的衣服，那样的话我一定也会改变的——没想到，梦想就这样实现了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"總有一天想穿漂亮的衣服，那樣的話我一定也會改變的——沒想到，夢想就這樣實現了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00051",
+		linknext = "0073_00053",
+		line = 567,
+	},
+	["0073_00053"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even so, though, I didn't know if I liked the person I was becoming.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我就是想变成这样吗——我只记得我这么想过。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我就是想變成這樣嗎——我只記得我這麼想過。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00052",
+		linknext = "0073_00054",
+		line = 577,
+	},
+	["0073_00054"] = {
+		{"bg", id=1, file="bg14_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Because of the work I was doing in secret, I naturally couldn't fit in at Minotsuki Academy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"因为在私底下做了那些事，所以当然也无法融入水乃月学园。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"因為在私底下做了那些事，所以當然也無法融入水乃月學園。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00053",
+		linknext = "0073_00055",
+		line = 591,
+	},
+	["0073_00055"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even though my classmates at the time were underaged for the law, they still engaged in sex 'play' in secret.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那时候的同班同学，即使还没有达到条例对象年龄，也在偷偷地玩着名为性爱的“游戏”。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那時候的同班同學，即使還沒有達到條例對象年齡，也在偷偷地玩著名為性愛的「遊戲」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00054",
+		linknext = "0073_00056",
+		line = 601,
+	},
+	["0073_00056"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The way they saw it, while it was forbidden for an adult to have sex with a child, that didn't mean that children couldn't have sex with each other.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"没有到达条例的对象年龄的孩子是禁止做爱的，但没有条例禁止孩子们之间的性爱——这是他们的说法。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"沒有到達條例的對象年齡的孩子是禁止做愛的，但沒有條例禁止孩子們之間的性愛——這是他們的說法。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00055",
+		linknext = "0073_00057",
+		line = 611,
+	},
+	["0073_00057"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I learned that I could join the SS once I reached the B-level classes, so I started striving to be an exemplary student.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"进入B等部之后被推荐加入SS的我，从那时起打算成为认真的模范生。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"進入B等部之後被推薦加入SS的我，從那時起打算成為認真的模範生。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00056",
+		linknext = "0073_00058",
+		line = 621,
+	},
+	["0073_00058"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I took it upon myself to reprimand my peers for breaking regulations, which naturally led to me immediately being ostracized. I became even more isolated.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"无视自身行为谴责违反条例的他人，其结果是理所当然地转眼间就被孤立了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"無視自身行為譴責違反條例的他人，其結果是理所當然地轉眼間就被孤立了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00057",
+		linknext = "0073_00059",
+		line = 631,
+	},
+	["0073_00059"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In reality, I couldn't stomach them.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但说实话，我也只是不喜欢他们而已吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但說實話，我也只是不喜歡他們而已吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00058",
+		linknext = "0073_00060",
+		line = 641,
+	},
+	["0073_00060"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"They would revel in sex, even though they were too young to be allowed to do it, which I came to see as unforgivable.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"明明是尚未允许做爱的年龄，却故意让自己沉迷在无秩序的性，这让我无法原谅。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"明明是尚未允許做愛的年齡，卻故意讓自己沉迷在無秩序的性，這讓我無法原諒。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00059",
+		linknext = "0073_00061",
+		line = 651,
+	},
+	["0073_00061"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I wanted to tell them that if they wanted to do it that badly, they might as well just take my place.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果那么想做那就代替我啊——在内心深处我一直是这么认为的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果那麼想做那就代替我啊——在內心深處我一直是這麼認為的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00060",
+		linknext = "0073_00062",
+		line = 661,
+	},
+	["0073_00062"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I couldn't just come out and say that, of course. Since no one wanted to be around me, I often found myself spending time alone in an empty classroom.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当然，那些话我说不出口，被孤立的我经常一个人在空教室里度过。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當然，那些話我說不出口，被孤立的我經常一個人在空教室裡度過。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00061",
+		linknext = "0073_00063",
+		line = 671,
+	},
+	["0073_00063"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1731", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Are you crying? Are you okay?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“你哭了？没事吧？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「你哭了？沒事吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00062",
+		linknext = "0073_00064",
+		line = 683,
+	},
+	["0073_00064"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That was when a little girl approached me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这时，一个小女孩对我搭话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這時，一個小女孩對我搭話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00063",
+		linknext = "0073_00065",
+		line = 693,
+	},
+	["0073_00065"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"At first I thought she must be younger than me, but I remembered seeing her carefree face before.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我以为是比我小的孩子，但她那天真的表情很是眼熟。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我以為是比我小的孩子，但她那天真的表情很是眼熟。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00064",
+		linknext = "0073_00066",
+		line = 703,
+	},
+	["0073_00066"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I realized she was a classmate of mine. For some reason, she often carried a folding chair around with her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她是经常随身带着钢管椅子的，我的同班同学。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她是經常隨身帶著鋼管椅的，我的同班同學。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00065",
+		linknext = "0073_00067",
+		line = 713,
+	},
+	["0073_00067"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0747", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Shut up, shrimp.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“……烦死了，矮子。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「……煩死了，矮子。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00066",
+		linknext = "0073_00068",
+		line = 725,
+	},
+	["0073_00068"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1732", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“But I'm not a shrimp!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“我不是矮子！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「我不是矮子！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00067",
+		linknext = "0073_00069",
+		line = 737,
+	},
+	["0073_00069"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I gruffly shrugged her off. I didn't want to talk to someone like her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她粗鲁地回答，没有跟我争吵。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她粗魯地回答，沒有跟我爭吵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00068",
+		linknext = "0073_00070",
+		line = 747,
+	},
+	["0073_00070"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I hated that silly, grinning face. I despised that she got to live a trouble-free, innocent life.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她那傻笑的表情，那没有经历过辛苦过着幸福生活的天真样子，让我感到憎恨。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她那傻笑的表情，那沒有經歷過辛苦過著幸福生活的天真樣子，讓我感到憎恨。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00069",
+		linknext = "0073_00071",
+		line = 757,
+	},
+	["0073_00071"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What about me?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我也。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我也。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00070",
+		linknext = "0073_00072",
+		line = 767,
+	},
+	["0073_00072"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Why couldn't I live that kind of life?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我明明也想那样活着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我明明也想那樣活著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00071",
+		linknext = "0073_00073",
+		line = 777,
+	},
+	["0073_00073"] = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Meanwhile, I continued having sex in secret.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在这期间，我继续做着见不得人的性行为。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在這期間，我繼續做著見不得人的性行為。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00072",
+		linknext = "0073_00074",
+		line = 814,
+	},
+	["0073_00074"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Again and again, over and over, I slept with more and more men. My sensations gradually grew numb.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在一次又一次、一次又一次不断的身体交叠中，感官也逐渐地麻痹了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在一次又一次、一次又一次不斷的身體交疊中，感官也逐漸地麻痺了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00073",
+		linknext = "0073_00075",
+		line = 824,
+	},
+	["0073_00075"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I told myself that sex is perfectly normal and good, so what could be wrong with what I was doing?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"性爱是理所当然的事情，是好事情——我这么对自己说。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"性愛是理所當然的事情，是好事情——我這麼對自己說。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00074",
+		linknext = "0073_00076",
+		line = 834,
+	},
+	["0073_00076"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I called it 'procreation actions'. It let me convince myself that it was legitimate.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"用“性产行为”这句话，误导自己的大脑说这是正当行为。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"用「性產行為」這句話，誤導自己的大腦說這是正當行為。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00075",
+		linknext = "0073_00077",
+		line = 844,
+	},
+	["0073_00077"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I forced myself to align my own values with those of the island.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"为了在这个岛上生存下去，我硬是改变了迄今为止的价值观。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"為了在這個島上生存下去，我硬是改變了迄今為止的價值觀。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00076",
+		linknext = "0073_00078",
+		line = 854,
+	},
+	["0073_00078"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I knew that if I ever let myself become tired of it, everything I had would come crashing down.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不过我知道一旦被感到厌烦我就完了，所以我的努力从没间断过。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不過我知道一旦被感到厭煩我就完了，所以我的努力從沒間斷過。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00077",
+		linknext = "0073_00079",
+		line = 864,
+	},
+	["0073_00079"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I always kept an eye on how others acted during sex. I remembered what they'd say so I could imitate them.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"要有怎样的表现，要说什么才能让对方喜欢——我磨练着观察能力，无时无刻都模仿着他人。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"要有怎樣的表現，要說什麼才能讓對方喜歡——我磨練著觀察能力，無時無刻都模仿著他人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00078",
+		linknext = "0073_00080",
+		line = 874,
+	},
+	["0073_00080"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's so big.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"非常大。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"非常大。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00079",
+		linknext = "0073_00081",
+		line = 884,
+	},
+	["0073_00081"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I want it so bad.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"想要得不得了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"想要得不得了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00080",
+		linknext = "0073_00082",
+		line = 894,
+	},
+	["0073_00082"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I've never felt this before.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"第一次有这样的感觉。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"第一次有這樣的感覺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00081",
+		linknext = "0073_00083",
+		line = 904,
+	},
+	["0073_00083"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My body's hot.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"身体好热。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"身體好熱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00082",
+		linknext = "0073_00084",
+		line = 914,
+	},
+	["0073_00084"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"No, it's so deep, it feels too good, I've never felt one like this, I'm going crazy, I'm losing my mind, do it harder...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不行、好深、太舒服了、怎么有这种感觉、要变奇怪了、要上天了、再更激烈点————",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不行、好深、太舒服了、怎麼有這種感覺、要變奇怪了、要上天了、再更激烈點————",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00083",
+		linknext = "0073_00085",
+		line = 924,
+	},
+	["0073_00085"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If I'd intersperse those words and sayings with moans, everything seemed to work out.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"呻吟和淫语夹杂，只要用演戏般的语调说这些话，大概就没有错。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"呻吟和淫語夾雜，只要用演戲般的語調說這些話，大概就沒有錯。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00084",
+		linknext = "0073_00086",
+		line = 934,
+	},
+	["0073_00086"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I knew that climaxing would feel good, so I taught myself to climax, regardless of who I was with or what they were doing.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我知道高潮了会让人高兴，所以为了能在任何人面前高潮，我让身体学习了那种感觉。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我知道高潮了會讓人高興，所以為了能在任何人面前高潮，我讓身體學習了那種感覺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00085",
+		linknext = "0073_00087",
+		line = 944,
+	},
+	["0073_00087"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If I just told them it felt good and that I was cumming while making my body tremble, they looked satisfied.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"舒服，要去了——只要我颤抖着身体如此说道，对方就会露出满足的表情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"舒服，要去了——只要我顫抖著身體如此說道，對方就會露出滿足的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00086",
+		linknext = "0073_00088",
+		line = 954,
+	},
+	["0073_00088"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was all just faking, though. It never really felt good.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"做爱很舒服什么的，我明明一次都没这么觉得过。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"做愛很舒服什麼的，我明明一次都沒這麼覺得過。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00087",
+		linknext = "0073_00089",
+		line = 965,
+	},
+	["0073_00089"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Nonetheless, I just kept going, mindlessly encouraging myself. I told myself that if I kept working hard, it would all pay off one day.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"尽管如此，我还是深信只要不断努力，总有一天会得到回报，所以一心努力着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"儘管如此，我還是深信只要不斷努力，總有一天會得到回報，所以一心努力著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00088",
+		linknext = "0073_00090",
+		line = 975,
+	},
+	["0073_00090"] = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"………………",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"………………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00089",
+		linknext = "0073_00091",
+		line = 986,
+	},
+	["0073_00091"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Naturally, that never happened.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"怎么可能得到回报。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"怎麼可能得到回報。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00090",
+		linknext = "0073_00092",
+		line = 997,
+	},
+	["0073_00092"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"No one would ever love someone like me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这样的我，怎么会有人喜欢。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這樣的我，怎麼會有人喜歡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00091",
+		linknext = "0073_00093",
+		line = 1007,
+	},
+	["0073_00093"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"How could they?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这样的我，怎么能喜欢上别人。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這樣的我，怎麼能喜歡上別人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00092",
+		linknext = "0073_00094",
+		line = 1017,
+	},
+	["0073_00094"] = {
+		{"bgm", file="bgm22", vol=100},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0748", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Uuh... aah... waaah!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“唔……啊……唔唔唔唔……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「唔……啊……唔唔唔唔……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00093",
+		linknext = "0073_00095",
+		line = 1030,
+	},
+	["0073_00095"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Sometimes, when I thought I was perfectly calm and composed, I'd spontaneously burst into tears.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有时只要冷静下来，我就会不由自主地哭出来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有時只要冷靜下來，我就會不由自主地哭出來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00094",
+		linknext = "0073_00096",
+		line = 1040,
+	},
+	["0073_00096"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What am I working so hard for?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这样努力是为了什么？",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這樣努力是為了什麼？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00095",
+		linknext = "0073_00097",
+		line = 1050,
+	},
+	["0073_00097"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If only there was even one person who loved me. Then I could work day in and day out for their sake.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果身旁有喜欢的人就好了。如果是为了那个人而天天努力就好了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果身旁有喜歡的人就好了。如果是為了那個人而天天努力就好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00096",
+		linknext = "0073_00098",
+		line = 1060,
+	},
+	["0073_00098"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I knew that I would never get to have my first time with someone I truly loved. I'd never get the chance to learn to please them, and that cut deep.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"对性事一窍不通的我有了恋人，为了让对方高兴而努力学习，然后害羞地抱着头说这些事情我干不到——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"對性事一竅不通的我有了戀人，為了讓對方高興而努力學習，然後害羞地抱著頭說這些事情我幹不到——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00097",
+		linknext = "0073_00099",
+		line = 1070,
+	},
+	["0073_00099"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I could never get that back.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果是这种纯爱的经验就好了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果是這種純愛的經驗就好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00098",
+		linknext = "0073_00100",
+		line = 1080,
+	},
+	["0073_00100"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I wanted to experience a bittersweet romance like normal girls, like the ones I saw in manga.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"好想像个普通的女孩子，像读过的漫画里的女孩子一样，谈场酸酸甜甜的恋爱。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"好想像個普通的女孩子，像讀過的漫畫裡的女孩子一樣，談場酸酸甜甜的戀愛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00099",
+		linknext = "0073_00101",
+		line = 1090,
+	},
+	["0073_00101"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That could never happen.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然，这已经是无法实现的愿望。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然，這已經是無法實現的願望。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00100",
+		linknext = "0073_00102",
+		line = 1101,
+	},
+	["0073_00102"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg14_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"One morning, my chair had disappeared.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有天早晨，我座位的椅子消失了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有天早晨，我座位的椅子消失了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00101",
+		linknext = "0073_00103",
+		line = 1116,
+	},
+	["0073_00103"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Where did it go?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"————我的椅子在哪里。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"————我的椅子在哪裡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00102",
+		linknext = "0073_00104",
+		line = 1126,
+	},
+	["0073_00104"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The classroom was silent for a moment, but no one offered a response.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"一瞬间，教室安静了下来，但没有一个人告诉我答案。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"一瞬間，教室安靜了下來，但沒有一個人告訴我答案。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00103",
+		linknext = "0073_00105",
+		line = 1136,
+	},
+	["0073_00105"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"They resumed their idle chatting shortly after.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"闲谈马上重新开始。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"閒談馬上重新開始。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00104",
+		linknext = "0073_00106",
+		line = 1146,
+	},
+	["0073_00106"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I could hear scattered laughter, and I believed it was all directed at me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"四处传来的笑声，感觉都是冲着我的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"四處傳來的笑聲，感覺都是衝著我的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00105",
+		linknext = "0073_00107",
+		line = 1156,
+	},
+	["0073_00107"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That was when my heart finally broke.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那时，我的内心终于崩溃了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那時，我的內心終於崩潰了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00106",
+		linknext = "0073_00108",
+		line = 1166,
+	},
+	["0073_00108"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even after I fled the mainland, I even found myself ostracized here. There was nowhere I could feel like I belonged.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"从本岛逃了出来，结果在青蓝岛也被排斥，我想，哪里都没有我的立足之地了吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"從本島逃了出來，結果在青藍島也被排斥，我想，哪裡都沒有我的立足之地了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00107",
+		linknext = "0073_00109",
+		line = 1176,
+	},
+	["0073_00109"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I didn't want them to see me cry. I didn't want them to see my weakness. I couldn't stand it, and the tears were welling up...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"明明决定不在他人面前哭泣，决定不在这样的家伙们面前表现出软弱，但我却无法忍受，大颗大颗的眼泪掉了下来——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"明明決定不在他人面前哭泣，決定不在這樣的傢伙們面前表現出軟弱，但我卻無法忍受，大顆大顆的眼淚掉了下來——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00108",
+		linknext = "0073_00110",
+		line = 1186,
+	},
+	["0073_00110"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1733", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Use this!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“用这个吧！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「用這個吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00109",
+		linknext = "0073_00111",
+		line = 1198,
+	},
+	["0073_00111"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0749", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Huh?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“诶……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「欸……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00110",
+		linknext = "0073_00112",
+		line = 1210,
+	},
+	["0073_00112"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1734", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“You lost your chair, right? Use this one!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“你椅子不见了吧？我的这个借你！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「你椅子不見了吧？我的這個借你！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00111",
+		linknext = "0073_00113",
+		line = 1222,
+	},
+	["0073_00113"] = {
+		{"se", id=0, loop=0, file="se_a156"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That amicable, innocent-looking classmate said something absurd as she held out a folding chair.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"头脑看似很和平的同班同学，说着奇怪的话把钢管椅子递给了我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"頭腦看似很和平的同班同學，說著奇怪的話把鋼管椅遞給了我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00112",
+		linknext = "0073_00114",
+		line = 1233,
+	},
+	["0073_00114"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1735", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Go on, don't be shy!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“来吧来吧，不必客气啦！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「來吧來吧，不必客氣啦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00113",
+		linknext = "0073_00115",
+		line = 1245,
+	},
+	["0073_00115"] = {
+		{"se", id=0, loop=0, file="se_a157"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was dumbfounded, but she sat me down forcibly on the chair.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她硬让呆住的我坐到钢管椅子上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她硬讓呆住的我坐到鋼管椅上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00114",
+		linknext = "0073_00116",
+		line = 1256,
+	},
+	["0073_00116"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was like a bizarre dream.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我以为自己在做奇怪的梦。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我以為自己在做奇怪的夢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00115",
+		linknext = "0073_00117",
+		line = 1266,
+	},
+	["0073_00117"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1736", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Ehehe, thank goodness. I wanted to talk to Rei-chan at least once.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“诶嘿嘿，太好了。我一直想和礼酱说说话呢。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「欸嘿嘿，太好了。我一直想和禮醬說說話呢。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00116",
+		linknext = "0073_00118",
+		line = 1278,
+	},
+	["0073_00118"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0750", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Why?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“……为什么。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「……為什麼。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00117",
+		linknext = "0073_00119",
+		line = 1290,
+	},
+	["0073_00119"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1737", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Because I can see how Rei-chan is always working hard! You're always trying your best, right?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“因为礼酱一直在努力啊！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「因為禮醬一直在努力啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00118",
+		linknext = "0073_00120",
+		line = 1302,
+	},
+	["0073_00120"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I wanted to say something in response, but the words didn't come out.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"想回嘴说些什么，但张开的嘴里什么话也吐不出来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"想回嘴說些什麼，但張開的嘴裡什麼話也吐不出來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00119",
+		linknext = "0073_00121",
+		line = 1312,
+	},
+	["0073_00121"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"For the first time since I came to Seiran Island, I cried in front of someone.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那个时候，我来到这个岛后第一次——在他人面前哭了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那個時候，我來到這個島後第一次——在他人面前哭了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00120",
+		linknext = "0073_00122",
+		line = 1322,
+	},
+	["0073_00122"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1738", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Wh-Wha!? R-Rei-chan, are you okay!?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“哇哇！？礼、礼酱没事吧！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「哇哇！？禮、禮醬沒事吧！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00121",
+		linknext = "0073_00123",
+		line = 1334,
+	},
+	["0073_00123"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0751", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Aah... uuh...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“嗯……唔……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「嗯……唔……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00122",
+		linknext = "0073_00124",
+		line = 1346,
+	},
+	["0073_00124"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I thought that no one paid any attention to me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我以为没有人在关注我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我以為沒有人在關注我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00123",
+		linknext = "0073_00125",
+		line = 1356,
+	},
+	["0073_00125"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even my own mother never gave me sincere praise like that.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"即使是母亲，也一次都没对我说过“你真努力”。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"即使是母親，也一次都沒對我說過「你真努力」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00124",
+		linknext = "0073_00126",
+		line = 1366,
+	},
+	["0073_00126"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But, faced with those kind words, I couldn't hold back the floodgates.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在那样的情况下，她对我说了温柔的话——这让我抑制不住复杂的情感。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在那樣的情況下，她對我說了溫柔的話——這讓我抑制不住複雜的情感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00125",
+		linknext = "0073_00127",
+		line = 1376,
+	},
+	["0073_00127"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I guess that was all I always wanted.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我应该一直很希望被别人这么说吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我應該一直很希望被別人這麼說吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00126",
+		linknext = "0073_00128",
+		line = 1386,
+	},
+	["0073_00128"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1739", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“There, there, good job, Rei-chan...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“……好乖好乖，礼酱真了不起啊。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「……好乖好乖，禮醬真了不起啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00127",
+		linknext = "0073_00129",
+		line = 1398,
+	},
+	["0073_00129"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0752", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Why are you petting my head?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“为什么要摸我……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「為什麼要摸我……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00128",
+		linknext = "0073_00130",
+		line = 1410,
+	},
+	["0073_00130"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1740", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "???"},
+					"“Because hard workers like Rei-chan deserve to be praised!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "？ ？ ？"},
+					"“因为礼酱很努力！努力的人一定要好好表扬！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "？？？"},
+					"「因為禮醬很努力！努力的人一定要好好表揚！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00129",
+		linknext = "0073_00131",
+		line = 1422,
+	},
+	["0073_00131"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With a girl so much smaller than me patting my head like that, it was like she was just playing mommy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"被比自己小一、两圈的孩子抚摸着，就像过家家一样。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"被比自己小一、兩圈的孩子撫摸著，就像扮家家酒一樣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00130",
+		linknext = "0073_00132",
+		line = 1432,
+	},
+	["0073_00132"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But that didn't matter.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"尽管如此。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"儘管如此。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00131",
+		linknext = "0073_00133",
+		line = 1442,
+	},
+	["0073_00133"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her kind words helped calm the turmoil in my heart.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她温柔的话语确实治愈了我那颗受伤的心。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她溫柔的話語確實治癒了我那顆受傷的心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00132",
+		linknext = "0073_00134",
+		line = 1452,
+	},
+	["0073_00134"] = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I soon became friends with this girl, Hinami.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"从那之后，我和她——和雏见的关系很快就变好了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"從那之後，我和她——和雛見的關係很快就變好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00133",
+		linknext = "0073_00135",
+		line = 1490,
+	},
+	["0073_00135"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She was purehearted, kind, and quite the airhead. She didn't even know our classmates were secretly having sex.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"雏见非常纯洁且温柔，还有相当天然呆的地方——她不知道同学们在暗地里沉迷于性爱。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雛見非常純潔且溫柔，還有相當天然呆的地方——她不知道同學們在暗地裡沉迷於性愛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00134",
+		linknext = "0073_00136",
+		line = 1500,
+	},
+	["0073_00136"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I always liked that about her. I never told her that, though.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然没有说出口，但我对这一点还是有好感的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然沒有說出口，但我對這一點還是有好感的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00135",
+		linknext = "0073_00137",
+		line = 1510,
+	},
+	["0073_00137"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My days were the same as ever, but when I was with her, it felt like everything was okay.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然我的日子一如往常，但和雏见在一起的日子让我忘掉了痛苦。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然我的日子一如往常，但和雛見在一起的日子讓我忘掉了痛苦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00136",
+		linknext = "0073_00138",
+		line = 1520,
+	},
+	["0073_00138"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg26_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In home economics class one day, Hinami made me a phone strap.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有一天在家庭科的课上，雏见给我做了一个挂件。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有一天在家庭科的課上，雛見給我做了一個挂件。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00137",
+		linknext = "0073_00139",
+		line = 1535,
+	},
+	["0073_00139"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0753", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Why a rabbit...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“……为什么是兔子……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「……為什麼是兔子……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00138",
+		linknext = "0073_00140",
+		line = 1547,
+	},
+	["0073_00140"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1741", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+					"“Because Rei-chan hates to be alone!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+					"“因为礼酱是一个怕寂寞的人！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+					"「因為禮醬是一個怕寂寞的人！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00139",
+		linknext = "0073_00141",
+		line = 1559,
+	},
+	["0073_00141"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1742", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+					"“You can think of this as me being with you all the time!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+					"“你可以想着我一直都在你身边哦！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+					"「你可以想著我一直都在你身邊哦！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00140",
+		linknext = "0073_00142",
+		line = 1571,
+	},
+	["0073_00142"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I curtly responded at the time but honestly I was really happy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然当时我粗暴地回答了，但其实我很开心。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然當時我粗暴地回答了，但其實我很開心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00141",
+		linknext = "0073_00143",
+		line = 1581,
+	},
+	["0073_00143"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was probably too embarrassed to show my happiness back then.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我想，当时我一定还不好意思坦率地表达高兴。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我想，當時我一定還不好意思坦率地表達高興。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00142",
+		linknext = "0073_00144",
+		line = 1591,
+	},
+	["0073_00144"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Instead, I decided to convey my feelings for her by making a strap for her, too.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"所以作为补偿，我决定也做个挂件送给她，来表达我的感激。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"所以作為補償，我決定也做個挂件送給她，來表達我的感激。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00143",
+		linknext = "0073_00145",
+		line = 1601,
+	},
+	["0073_00145"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was really clumsy so I had to redo it over and over again, but when I handed it to her, she was overjoyed.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然笨手笨脚重做了好几次，但当我把做好的挂件交给她时，她非常高兴。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然笨手笨腳重做了好幾次，但當我把做好的挂件交給她時，她非常高興。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00144",
+		linknext = "0073_00146",
+		line = 1611,
+	},
+	["0073_00146"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Somehow, I was even happier seeing her response to the gift than I was to receive the rabbit strap from her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不可思议的是，比起收到兔子的挂件，让雏见开心更让我感到开心。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不可思議的是，比起收到兔子的挂件，讓雛見開心更讓我感到開心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00145",
+		linknext = "0073_00147",
+		line = 1621,
+	},
+	["0073_00147"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg14_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I even started lending her my beloved manga.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我把喜欢的漫画借给了她。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我把喜歡的漫畫借給了她。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00146",
+		linknext = "0073_00148",
+		line = 1636,
+	},
+	["0073_00148"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The first was a shoujo manga set in a school. A boy and a girl meet by accident, and then wind up falling in love. A common shoujo manga story.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"以学校为舞台的少女漫画。偶然相遇的两个人，经历各种各样的曲折，最终成为恋人——这并不是稀奇的事情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"以學校為舞臺的少女漫畫。偶然相遇的兩個人，經歷各種各樣的曲折，最終成為戀人——這種事並不稀奇。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00147",
+		linknext = "0073_00149",
+		line = 1646,
+	},
+	["0073_00149"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was something I once yearned for.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那是我曾经憧憬的情景。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那是我曾經憧憬的情景。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00148",
+		linknext = "0073_00150",
+		line = 1656,
+	},
+	["0073_00150"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"When I first came to the island with nothing, reading that could cheer me up, no matter what happened.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"刚来岛上的时候，即使痛苦，我也藉由看漫画打起精神。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"剛來島上的時候，即使痛苦，我也藉由看漫畫打起精神。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00149",
+		linknext = "0073_00151",
+		line = 1666,
+	},
+	["0073_00151"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"However, over time, it became harder and harder to read.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是，逐渐地，反而看的时候更难受了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是，逐漸地，反而看的時候更難受了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00150",
+		linknext = "0073_00152",
+		line = 1676,
+	},
+	["0073_00152"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It started making me bitter, knowing that it was something I'd never get to experience.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"当我厌倦地望着摇晃的天花板时，就感觉好像被直接指出那些都是空想，都是和你没有缘分的事情一样。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"當我厭倦地望著搖晃的天花板時，就感覺好像被直接指出那些都是空想，都是和你沒有緣分的事情一樣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00151",
+		linknext = "0073_00153",
+		line = 1686,
+	},
+	["0073_00153"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Romantic fantasies like that have no place on an island where random sex is mandatory.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"在强迫进行性行为的这个岛上，那是绝对不能被容许的幻想纯真恋爱。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"在強迫進行性行為的這個島上，那是絕對不能被容許的幻想純真戀愛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00152",
+		linknext = "0073_00154",
+		line = 1696,
+	},
+	["0073_00154"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Especially since I strove to join the SS, it was completely out of reach.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"是立志成为SS的我，绝对不能原谅的存在方式。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"是立志成為SS的我，絕對不能原諒的存在方式。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00153",
+		linknext = "0073_00155",
+		line = 1706,
+	},
+	["0073_00155"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Nonetheless...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"尽管如此。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"儘管如此。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00154",
+		linknext = "0073_00156",
+		line = 1716,
+	},
+	["0073_00156"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1743", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+					"“I want to experience a wonderful romance like this.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+					"“我也好想谈一场这么美好的恋爱哦……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+					"「我也好想談一場這麼美好的戀愛哦……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00155",
+		linknext = "0073_00157",
+		line = 1728,
+	},
+	["0073_00157"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Hinami could still experience that kind of romance.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但我希望雏见能谈场那样的恋爱。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但我希望雛見能談場那樣的戀愛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00156",
+		linknext = "0073_00158",
+		line = 1738,
+	},
+	["0073_00158"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I couldn't, but maybe she could.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"因为，那是我无法再体验到的事情了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"因為，那是我無法再體驗到的事情了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00157",
+		linknext = "0073_00159",
+		line = 1749,
+	},
+	["0073_00159"] = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_043_00000"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I secretly swore to myself.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我暗自下了决定。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我暗自下了決定。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00158",
+		linknext = "0073_00160",
+		line = 1787,
+	},
+	["0073_00160"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even if a fairytale romance was no longer possible for me, I would protect Hinami at all costs, like those heroes of justice from when I was little. Even if it meant sacrificing myself, I would make it happen.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我已经无法体验童话般的恋爱了，那么就像小时候看到的正义主人公一样，即使牺牲自己，也要保护雏见到底。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我已經無法體驗童話般的戀愛了，那麼就像小時候看到的正義主角一樣，即使犧牲自己，也要保護雛見到底。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00159",
+		linknext = "0073_00161",
+		line = 1797,
+	},
+	["0073_00161"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Once I joined the SS, I spread a rumor that Hinami had skipped grades, and was still underage. Any chance I had to keep her away from sex, I took.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"成为SS后，我散播了雏见是跳级生的流言，并屡屡帮助雏见远离性行为。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"成為SS後，我散播了雛見是跳級生的流言，並屢屢幫助雛見遠離性行為。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00160",
+		linknext = "0073_00162",
+		line = 1807,
+	},
+	["0073_00162"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And yet...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00161",
+		linknext = "0073_00163",
+		line = 1817,
+	},
+	["0073_00163"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg25_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even while I was trying to protect Hinami, I was continuing to be the perfect SS member. Things became less and less clear to me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"身为SS模范的我，却一直在做着保护雏见的矛盾事情——逐渐地，我自己也不知道该怎么办了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"身為SS模範的我，卻一直在做著保護雛見的矛盾事情——逐漸地，我自己也不知道該怎麼辦了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00162",
+		linknext = "0073_00164",
+		line = 1832,
+	},
+	["0073_00164"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0033", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Why are you going straight home? What happened to perverted sex?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“你这家伙为什么马上就要回家？变态做爱呢？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「你這傢伙為什麼馬上就要回家？變態做愛呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00163",
+		linknext = "0073_00165",
+		line = 1844,
+	},
+	["0073_00165"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I proactively endorsed sex as the SS.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"作为SS的我，积极推广着性行为。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"作為SS的我，積極推廣著性行為。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00164",
+		linknext = "0073_00166",
+		line = 1854,
+	},
+	["0073_00166"] = {
+		{"bg", id=1, file="bg25_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0020", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“It matters not whether you consider it strange. This is the island law. And you have broken it.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“奇不奇怪，由这个岛的条例来决定……然后你们，触犯了禁忌。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「奇不奇怪，由這個島的條例來決定……然後你們，觸犯了禁忌。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00165",
+		linknext = "0073_00167",
+		line = 1870,
+	},
+	["0073_00167"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0022", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“The punishment will now be carried out. Do it.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“执行惩罚——下手。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「執行懲罰——下手。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00166",
+		linknext = "0073_00168",
+		line = 1882,
+	},
+	["0073_00168"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I suppressed my own feelings and punished those who stood up to the law.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"扼杀自己的内心裁决违反了条例的人。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"扼殺自己的內心裁決違反了條例的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00167",
+		linknext = "0073_00169",
+		line = 1892,
+	},
+	["0073_00169"] = {
+		{"bg", id=1, file="bg25_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0201", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“For you, Hinami... How to put this...? Were you to join the SS, certain tourists may get the wrong idea about what the lawful age of consent is...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“雏见……嗯，怎么说。雏见在SS的话，可能会让游客误解条例的对象年龄……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「雛見……嗯，怎麼說。雛見在SS的話，可能會讓遊客誤解條例的對象年齡……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00168",
+		linknext = "0073_00170",
+		line = 1908,
+	},
+	["0073_00170"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I always kept Hinami away from sex.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"让雏见远离性行为。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"讓雛見遠離性行為。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00169",
+		linknext = "0073_00171",
+		line = 1918,
+	},
+	["0073_00171"] = {
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_009_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="rei0754", path=":vo/", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"礼"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"礼", "Rei"},
+					"“Ngh, hah, ah... ugh... aaaah!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"礼"},
+					"“嗯，哈，啊啊……唔……啊啊啊啊啊嗯！！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"礼", "禮"},
+					"「嗯，哈，啊啊……唔……啊啊啊啊啊嗯！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00170",
+		linknext = "0073_00172",
+		line = 1934,
+	},
+	["0073_00172"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Meanwhile, I go on imitating moans I've heard from others.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"模仿了在哪里听过的某人的呻吟。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"模仿了在哪裡聽過的某人的呻吟。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00171",
+		linknext = "0073_00173",
+		line = 1944,
+	},
+	["0073_00173"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I spent so long trying to reconcile those two ideals that I no longer have any idea which is right.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"长年持续戴着不同的面具，自己已经连什么是正确的——都不知道了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"長年持續戴著不同的面具，自己已經連什麼是正確的——都不知道了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00172",
+		linknext = "0073_00174",
+		line = 1954,
+	},
+	["0073_00174"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What about me?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00173",
+		linknext = "0073_00175",
+		line = 1965,
+	},
+	["0073_00175"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What should I do?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我该怎么办才好呢。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我該怎麼辦才好呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00174",
+		linknext = "0073_00176",
+		line = 1976,
+	},
+	["0073_00176"] = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What should I have done?",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"怎么做，才是对的呢。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"怎麼做，才是對的呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0073_00175",
+		linknext = "block_00176",
+		line = 1987,
+	},
+	block_00176 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=3000, func="wait"},
+		{"excall", file="03_hw_24"},
+		{"text"},
+		linkback = "0073_00176",
+		line = 2019,
+	},
+	label = {
+		top = { block="0073_00001", label=1 },
+	},
+}

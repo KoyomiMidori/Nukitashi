@@ -1,0 +1,3524 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm20", vol=100},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=0, time=100, alphadel=1},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=12, time=100, alphadel=1, lv=5},
+		{"cgdel", id=13, time=100, alphadel=1, lv=5},
+		{"cgdel", id=14, time=100, alphadel=1, lv=5},
+		{"cgdel", id=15, time=100, alphadel=1, lv=5},
+		{"cgdel", id=16, time=100, alphadel=1, lv=5},
+		{"cgdel", id=17, time=100, alphadel=1, lv=5},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_008_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミは電柱の裏でパンツを下げ、幹に手をついてお尻を突き出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 41,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1606", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ねぇ、淳くん……もう我慢できないよぉ……お願い……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 45,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"普段明るくて元気なヒナミからは考えられない、色っぽい仕草に。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 47,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"薄暗い空間の中に、はだけた姿のヒナミがいるという事実に。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 49,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「はあぁ…………はっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 52,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"理性のタガは、あっという間に外れてしまう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 54,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"誰かが来るかもしれない。そんな意識さえ、どこかへ行ってしまうような。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 56,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1607", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「もう、すごい……ぐちゅぐちゅって……なっちゃってるでしょ……？　淳くんのでいっぱいにしてほしいって……おまんこが、言ってるんだよ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 60,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"青藍島で生まれた少女らしい言葉。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 62,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかしヒナミの口から放たれると、まったく違った響きを持ってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 64,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"露わになった割れ目を見ると、先程触った時よりも激しく汁が溢れていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 66,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1608", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ…………はあぁぁぁ…………ねぇ……？　もう、待ちきれない、みたいだよ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 70,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"初体験の時とは違う、艶やかな色味を帯びた声。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 72,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"前に媚薬を飲んでしまった時と同じような……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 74,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"淫猥に濡れた局部から、脳を侵すような香りが漂ってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 76,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「はあぁ……もう……入れても、いいか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 79,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1609", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「いいよぉ～……お姉ちゃんの中に、いっぱいびゅーびゅーしていいからねぇ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 83,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"甘い声が、脳を内側からとろけさせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 85,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうか。いいんだ、ヒナミの中に…………。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 87,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一気に、イチモツを根元まで挿入する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 89,
+	},
+	block_00020 = {
+		{"se", id=0, loop=0, file="se_c005"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1610", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はあぁぁ……っ、んっ、うううぅん……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 97,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"薬の影響でとろとろになった秘肉は、抵抗もなく俺のイチモツを包み込む。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 99,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのまま、ぬるりと深い部分まで挿入できた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 101,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「もう、痛くないか……ヒナミ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 104,
+	},
+	block_00024 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1611", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うん、ぜんぜん……痛くないよぉ……それよりも……んうっ……はあぁぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 111,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミが身もだえをする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 113,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1612", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「なんで、かなぁ……入った、後のほうが……あそこ、むずむずするって、いうかぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 117,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1613", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「もっと……もっと、淳くんが、ほしいって、思っちゃう、かも……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 121,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"とろんとした上目遣いは、まるで懇願しているようだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 123,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな顔をされたら、抑えなんて効かなくなる――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 125,
+	},
+	block_00030 = {
+		{"se", id=0, loop=1, file="se_c016"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1614", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んぅっ…………はっ……あっ、あぅ、んっ、はあぁ……はあぁ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 133,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最初から遠慮なく、欲望のままに腰を振る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 135,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どれだけ濡れてもヒナミの小さな膣はキツく締まっていて、奥に入れるたびに搾り取られそうになる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 137,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1615", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ぅっ、んはぁ……んっ、あっ……うぅん、ひゃあっ、あうっ、あ、はぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 141,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"艶やかな声が夜空の下に響き渡る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 143,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"媚薬の力が理性を失わせているのか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 145,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"狂った状況にイチモツは痛いほど勃起し、絡みつく粘膜で凄まじい快感が込み上げてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 147,
+	},
+	block_00037 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1616", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はあっ、んぅっ、はぁっ……うっ、んぅ、はあぁ……すごい、音ぉ……しちゃってる、ね……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 154,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぐちゃぐちゃと、愛液を肉棒で引っかき回す音が、こちらの耳にまで届く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 156,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それほどまでに濡れているのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 158,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あのヒナミが性的に興奮していると考えると、呼応するように俺の衝動も激しくなった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 160,
+	},
+	block_00041 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1617", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んんんうぅ――っ！　はっ……ひぃやっ……あっ、ぁ……っ！　淳、くんの……もっと、大きく、んぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 167,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"完全に挿入すると、亀頭の先に何か当たるものがある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 169,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミの一番深い部分にまで届いているのだろう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 171,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大きすぎるイチモツと、とても小さな身体では、そうなるのも当然のこと。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 173,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1618", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ、ぅっ、はぁっ、はあぁ……いっ、ぅ、はっ、はああぁ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 177,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「奥は、まだ痛いか……ヒナミ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 180,
+	},
+	block_00047 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1619", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うぅん、びっくり……ビックリ、しちゃっただけ……大丈夫だよぉー……淳くんの、好きなように……動いて、いいからねぇ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 187,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まるで俺をなだめるように、優しくこぼす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 189,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女の声には、不思議と甘えてしまいたくなるような魅力があった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 191,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"歯止めなんてとうにきかず、言われた通り快楽任せに腰を動かす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 193,
+	},
+	block_00051 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1620", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ぅ、んっ……あっ、んっ……はぁっ、ああぁ……いっ……う、っんぅ……ひぁああ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 200,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顔を真っ赤にしながら、絶え間なく喘ぎ声を漏らすヒナミ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 202,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"苦しみとも快楽ともとれる嬌声が、俺の息をも荒くする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 204,
+	},
+	block_00054 = {
+		{"text"},
+		delay = {
+			[4000] = {
+				{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1, delay2=4000},
+				{"bg", id=18, file="hhcg050131-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, delay2=4000, time=500, bx=800, by=450},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="hinami1621", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ぅ、んぅ……はあぁ……ぅ、んっ……はあぁ……あははっ……淳くん、気持ちよさそうな……顔、してるぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 211,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こちらの顔をうっとりと見つめながら、嬉しそうに口元をゆがめた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 213,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1622", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「いい、いんだよ……淳、くんが……んっ……私で、気持ちよく、なってくれるのが……すごく、嬉しいから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 217,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それが、心底嬉しいというように。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 219,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1623", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「だから……はっ、ぁ……たくさん、気持ちいいこと……して、ね……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 223,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんなことを言われてしまうと。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 225,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミにも、もっと気持ちよくなってほしいと思ってしまう――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 227,
+	},
+	block_00061 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1624", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひゃうぅ――っ！　あっ、ちょっ、と……待って、淳くん……おっぱいは、触らなくて、んぅ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 234,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"きゅう、っと膣が締まる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 236,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1625", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はっ、ひゃっ……うっ、ふぅ……んひゃああぁ……乳首、ころころ……しちゃ、ダメだよぉ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 240,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミのすべすべとした肌は、触れているだけで気持ちがいい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 242,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"手のひらで、5本の指で、硬くなった乳首をころがしながら、きめ細やかな肌触りを堪能する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 244,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「こうしたら、ヒナミの……おっぱいも、大きくなるから……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 247,
+	},
+	block_00067 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1626", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ええぇ……ほん、っとぉ……うっ、ぅんっ……じゃあ、いっぱいして、ね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 254,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"許可がなくとも、このつんと張った胸から手を離せるわけもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 256,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"薄くて敏感な胸を刺激するたびに、膣がきゅうきゅうと反応する快楽に、抗えるはずもないのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 258,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もっと、強い刺激を与えたら――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 260,
+	},
+	block_00071 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1627", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うっ、んんぅうっ……じゅ、淳くんっ……ち、乳首は……おっぱいと、関係な……はうぅ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 267,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"乳首を人差し指と中指でつまみ上げると、これまでにないほど強く膣壁がイチモツをしめつけてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 269,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1628", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひゃっ、ぅっ、んぅ……あっ、ひゃっ、ぅ、んっ、はぁ……はあぁぁ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 273,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"胸への刺激が気持ちいいのか、声から痛みの要素が完全に消え去る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 275,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1629", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ、はぁっ、ひゃあっ……だっ、ダメ……おっぱい、ダメだよぉ……んっ、はっ、はあぁぁぁ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 279,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"残った声色は、ただただ甘ったるく、色っぽい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 281,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その声色が癖になり、腰の動きがただ快楽だけを求めて速くなっていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 283,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1630", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はあぁっ、はっ……あっ、んっ……ふぅ、はぁっ、はっ、んうぅぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 287,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"余裕がなくなったヒナミが、生暖かい吐息を漏らす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 289,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして、なぜか申し訳なさそうにこちらを振り返った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 291,
+	},
+	block_00081 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1631", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ごめんね、淳くん……私……はぅ、お姉さんみたいなこと……言った、けどね……本当はね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 298,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1632", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「あの時からね……ずっとぉ……淳くんと、またぁ……えっちなこと、したいと、思ってて、ね……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 302,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だから、自分で媚薬を飲んできたのだろうか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 304,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それを口で言うのが憚られるから……俺が、エッチな子が嫌いだから。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 306,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1633", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ、はぁっ、ごめん、ごめんねぇ……わがままで……かっこわるい、先輩で、ごめんね……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 310,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"謝ることなんて何もない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 312,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺は、そんなヒナミのことがたまらなく愛おしいのだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 314,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「俺も……ヒナミと、一緒に……気持ちよくなりたい……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 317,
+	},
+	block_00089 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1634", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ、うぅんっ、ふあぁっ、へっ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 324,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「だから、今……すごく、幸せだよ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 327,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おっぱいを堪能しつつ、先汁をだらだらと垂らし続けるイチモツを深い部分まで出し入れする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 329,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミは身をよじらせながら、それに応えるように膣をきゅうっと締めつけた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 331,
+	},
+	block_00093 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1635", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うっ、うんぅ……わた、私もっ……はっ、はあぁ……淳くん、一緒に……気持ちよく、なろうねぇ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 338,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"心も身体もヒナミと繋がり、一体になったような官能的な感覚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 340,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"初体験の時に感じたものと同じだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 342,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが、より性に対して開放的になったこの快楽は、前回と比べものにならない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 344,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あまりにも気持ちよすぎて、腰が砕けてしまいそうだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 346,
+	},
+	block_00098 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1636", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はっ、ぅっ、んぅ、はあぁ……ひゃっ、はぁ、あっ、んぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 353,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嬌声の間隔が次第に短くなっていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 355,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"膣の締めつけもさらに激しくなってきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 357,
+	},
+	block_00101 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1637", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はぁっ、んぅっ、ねぇ、淳くん……私、すごく、頭が、ぽわぁって、なって……んっ、はあぁ……気持ち、いいよぉ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 364,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「はっぁ……俺も、だ……ヒナミ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 367,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"キツくてとろけるヒナミの秘肉を思う存分味わって、こみ上げてくる絶頂感にガクガクと腰が震える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 369,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それでも、もっとヒナミとしていたい、繋がっていたいという一心だけで、己に我慢を強いていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 371,
+	},
+	block_00105 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1638", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「んっ、ぅ、んぅっ、はぁ、ぅんうっ……淳、くんの……奥で、ぐいぐいってぇ……押しこんで、くぅ、んうぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 378,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「まだ、痛いか……っ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 381,
+	},
+	block_00107 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1639", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ううん、もぉ……ぜんぜん……なんだか、くせになっちゃい、そ、んんぅ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 388,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1640", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「でもぉ、はっ、んっふぅっ、こんな、ところまで……おちんちん、きちゃったらぁ……にんしん、しちゃうよぉ……こども、できちゃうよぉ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 392,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ああっ……いい……妊娠してくれ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 395,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1641", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「あっ、んぅっ、やったぁ……っ、おっぱい、大きく、なっちゃうね、えっ……はぁっ、はっ、んうぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 399,
+	},
+	block_00111 = {
+		{"se", id=0, loop=1, file="se_c019"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ラストスパートの抽送。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 402,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"より奥へ、より深くへと、ぬめるヒダをかきわけるように肉棒を押しこんでいく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 404,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本当に、ヒナミを妊娠させるように、もっとも深いところに。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 406,
+	},
+	block_00114 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050111-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1642", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はっ、ぅっ、あっ、はあぁ、ああっ、んんんぅ……んっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 413,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"波のように押し寄せる射精感――背中に鳥肌が立った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 415,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミを受精させたくて、イチモツが絶えずびくびく震えている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 417,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体中の精液が、ヒナミから生まれたがっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 419,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「はあぁぁっ……ヒナミ、そろそろ、出る、ぞ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 422,
+	},
+	block_00119 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050121-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1643", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うんっ、私、こども、ほしいぃ……おかあさんに、してね……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 429,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その言葉を聞いた途端、限界が訪れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 431,
+	},
+	block_00121 = {
+		{"se", id=0, stop=1, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="hhcg0501521", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg0501521", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1644", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひゃっ、あっ、んぅっ、んんんぅ――――っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 456,
+	},
+	block_00122 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="hhcg050152-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"爆発のような快楽の奔流。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 468,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"視界がホワイトアウトするような、強い衝撃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 470,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その快楽が、何度も何度も、分かれるようにして続いていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 472,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1645", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひゃっ、あっ、うっ……んっ、はあ…………っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 476,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミの身体が、微かに震えている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 478,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ビクビクっと、数回ほど背中を跳ねさせた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 480,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1646", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はああっ、あぁ……お、く……奥の、ほうで……淳くん、の……熱いの、が……たくさんぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 484,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"膣内に精液が入ってくるのが分かるのか、恍惚としてそれを味わっているようだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 486,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして、ようやく俺の射精が終わる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 488,
+	},
+	block_00131 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="hhcg050113-1", x=-5, y=-5, path=":cg/hhcg05/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"イチモツを引き抜くと、膣内から大量の精液が溢れ出してきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 493,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"脱いだ下着へどろりと垂れていく精子に、この子にここまでたっぷり射精したのだという充足感が生まれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 495,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ヒナミに中出しをしたのだ。本当に妊娠させてしまいそうなほど――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 497,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1647", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「はあっ…………はあああぁぁぁ…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 501,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っ、ヒナミ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 504,
+	},
+	block_00136 = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg09_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"se", id=0, loop=0, file="se_a100"},
+		{"fgact", ch="ヒナミ", id=5, act="振動下", loop=1, size=12.5, time=150, ease="easeinout_sine"},
+		{"bg", id=1, file="bg09_3_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		delay = {
+			[1500] = {
+				{"fg", file="hinami_01l_00000", file1="hinami_01l_00102", file2="hinami_01l_00204", path=":fg/hinami_01l/", id=5, lv=5, head="hinami_01l", ch="ヒナミ", mw="mw", sync=0, delay2=1500, time=300, mode=3, x=0, y=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="hinami1648", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひゃあっ…………ごめんね、淳くん……なんだか、いきなり、力、抜けちゃってぇ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 519,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"抱きとめたヒナミが、力なく笑う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 521,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これほどまでに、消耗させてしまったのか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 523,
+	},
+	block_00139 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00106", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「すまない、疲れたよな……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 527,
+	},
+	block_00140 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00107", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1649", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「うん、たっぷり突かれちゃったぁ……だから、嬉しいんだねぇ……淳くんと一緒に、いっぱい気持ちよくなれたから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 533,
+	},
+	block_00141 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00102", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1650", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「ひああぁ……お腹いっぱいだぁ……まだ、奥から……んぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 539,
+	},
+	block_00142 = {
+		{"fgact", ch="ヒナミ", id=5, act="浮遊横", loop=1, size=12.5, time=250, ease="inout"},
+		{"se", id=0, loop=0, file="se_a127"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もぞり、とヒナミは色っぽい声で内股を擦る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 543,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まだ溢れ出るほど、奥にたっぷり射精してしまったのだ――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 545,
+	},
+	block_00144 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00113", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「――……大丈夫だ、もし妊娠したら責任はちゃんととるから……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 549,
+	},
+	block_00145 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00112", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1651", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「えっ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 555,
+	},
+	block_00146 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00103", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「まだ卒業まで時間がかかるから待たせてしまうかもしれないけど、卒業したらすぐに働くし……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 559,
+	},
+	block_00147 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00102", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1652", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「……あははっ、大丈夫だよ淳くん！　私だって島のお薬呑んでるんだよ？　妊娠しないよ～」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 565,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"…………そういえば、そうだったっけ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 567,
+	},
+	block_00149 = {
+		{"fg", file="hinami_01m_00000", file1="hinami_01m_00112", file2="hinami_01m_00201", path=":fg/hinami_01m/", id=5, lv=5, head="hinami_01m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1653", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「あ、でもやっぱりおっぱい大きくしたいし、今日からお薬呑むのやめようかなぁ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 573,
+	},
+	block_00150 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00109", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「えっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 577,
+	},
+	block_00151 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00129", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami1654", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"「私、お母さんになるのが夢だったんだぁ。淳くんとなら叶えられるかもな？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 583,
+	},
+	block_00152 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00125", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「いっ……一応、もうちょっとだけ呑んでてください……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 587,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"思わずお願いしてしまう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 589,
+	},
+	block_00154 = {
+		{"fg", file="hinami_02m_00000", file1="hinami_02m_00102", file2="hinami_02m_00203", path=":fg/hinami_02m/", id=5, lv=5, head="hinami_02m", ch="ヒナミ", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="ヒナミ", id=5, act="振動下", loop=2, size=12.5, time=200, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すると、ヒナミはからからと笑った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 594,
+	},
+	block_00155 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=5, ch="ヒナミ", lv=5, time=100},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=3000, func="wait"},
+		{"text"},
+		linkback = "block_00154",
+		line = 625,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
