@@ -1,0 +1,93 @@
+astver = 2.0
+ast = {
+	["0025_00001"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Before I know it...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"待我发觉时，我……",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"待我發覺時，我……",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0025_00002",
+		line = 10,
+	},
+	["0025_00002"] = {
+		{"se", id=0, loop=0, file="se_b060"},
+		{"cgact", file="cgact", id=1, act="浮遊", loop=4, size=7.5, time=50, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My consciousness fades and I collapse on the ground.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"失去了意识，倒在了地上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"失去了意識，倒在了地上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0025_00001",
+		linknext = "block_00002",
+		line = 22,
+	},
+	block_00002 = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"excall", file="01_c_18"},
+		{"text"},
+		linkback = "0025_00002",
+		line = 52,
+	},
+	label = {
+		top = { block="0025_00001", label=1 },
+	},
+}

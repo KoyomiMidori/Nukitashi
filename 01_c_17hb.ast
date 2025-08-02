@@ -1,0 +1,615 @@
+astver = 2.0
+ast = {
+	["0024_00001"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg08_3_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The commanding officer falls down limp on top of me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"咚，中队长从我身上倒了下来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"咚，中隊長從我身上倒了下來。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0024_00002",
+		line = 14,
+	},
+	["0024_00002"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She's lost consciousness.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"好像失去意识了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"好像失去意識了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00001",
+		linknext = "0024_00003",
+		line = 24,
+	},
+	["0024_00003"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00116", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Uhh... ugh, hahh...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“哈啊啊……唔、哈啊啊啊啊……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「哈啊啊……唔、哈啊啊啊啊……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00002",
+		linknext = "0024_00004",
+		line = 36,
+	},
+	["0024_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I get my breath back and just barely succeed at standing up.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"呼吸逐渐正常后，我艰难地站了起来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"呼吸逐漸正常後，我艱難地站了起來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00003",
+		linknext = "0024_00005",
+		line = 46,
+	},
+	["0024_00005"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Unsteady on my feet, I somehow manage to run away.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然双腿摇摇晃晃，但还是跑了起来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然雙腿搖搖晃晃，但還是跑了起來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00004",
+		linknext = "0024_00006",
+		line = 56,
+	},
+	["0024_00006"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00103", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Gahh... hahh... hahh...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“哈啊……哈啊……哈……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「哈啊……哈啊……哈……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00005",
+		linknext = "0024_00007",
+		line = 68,
+	},
+	["0024_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She doesn't appear to be following me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"似乎，没有其他人追赶过来——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"似乎，沒有其他人追趕過來——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00006",
+		linknext = "0024_00008",
+		line = 78,
+	},
+	["0024_00008"] = {
+		{"fg", ch="淳之介", mw="jun", mwframe="mwframe", mode=1, path=":fg/jun_01m/", file="jun_01m_00001", size="m", file1="jun_01m_00113", file4="jun_01m_00402", file2="jun_01m_00202", head="jun_01m", lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Ugh!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“唔——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「唔——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00007",
+		linknext = "0024_00009",
+		line = 91,
+	},
+	["0024_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Right, I...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"啊啊，我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"啊啊，我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00008",
+		linknext = "0024_00010",
+		line = 101,
+	},
+	["0024_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00009",
+		linknext = "0024_00011",
+		line = 111,
+	},
+	["0024_00011"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00124", file2="jun_01f_00202", file4="jun_01f_00402", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mwframe="mwframe", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“I used that damn thing again.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“又‘使用’了——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「又『使用』了——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00010",
+		linknext = "0024_00012",
+		line = 123,
+	},
+	["0024_00012"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I feel the characteristic weariness I get after ejaculating.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"射精后特有的倦怠感袭来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"射精後特有的倦怠感襲來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00011",
+		linknext = "0024_00013",
+		line = 133,
+	},
+	["0024_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I stagger unsteadily.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"脚不听使唤。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"腳不聽使喚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00012",
+		linknext = "0024_00014",
+		line = 143,
+	},
+	["0024_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My body feels heavy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"身体沉重。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"身體沉重。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00013",
+		linknext = "0024_00015",
+		line = 153,
+	},
+	["0024_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My mind doesn't work.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"大脑麻痹。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"大腦麻痺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00014",
+		linknext = "0024_00016",
+		line = 163,
+	},
+	["0024_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I can't move anymore.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"已经，动不了了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"已經，動不了了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00015",
+		linknext = "0024_00017",
+		line = 173,
+	},
+	["0024_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"However...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是————",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是————",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0024_00016",
+		linknext = "block_00017",
+		line = 183,
+	},
+	block_00017 = {
+		{"select", file="05_fk_01", text="select"},
+		{"select", file="01_c_17hb_2", text="select"},
+		{"select", name="01_c_17hb"},
+		{"text"},
+		select = {
+			ja = {
+				"――このまま倒れるわけにはいかない",
+				"だが、肉体の限界には敵わない――",
+				text="しかし――――",
+			},
+			en = {
+				"It can't end now... not yet…",
+				"Can't... keep... going…",
+				text="However…",
+			},
+			cn = {
+				"――不能就这样倒下去。 ",
+				"然而，肉体已经到了极限――",
+				text="但是————",
+			},
+			tw = {
+				"――不能就這樣倒下去。 ",
+				"然而，肉體已經到了極限――",
+				text="但是————",
+			},
+		},
+		linkback = "0024_00017",
+		linknext = "block_00018",
+		line = 189,
+	},
+	block_00018 = {
+		{"select", mode="hide"},
+		{"text"},
+		text = {
+			select = {
+			},
+		},
+		linkback = "block_00017",
+		line = 190,
+	},
+	label = {
+		top = { block="0024_00001", label=1 },
+		select = { block="block_00017", label=1 },
+	},
+}

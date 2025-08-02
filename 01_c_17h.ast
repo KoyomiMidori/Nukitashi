@@ -1,0 +1,3999 @@
+astver = 2.0
+ast = {
+	["0022_00001"] = {
+		{"savetitle", text="ザーメン・レイン", ja="ザーメン・レイン", en="Cumdrops and Sunshine", cn="精雨", tw="精雨 "},
+		{"eval", exp="g.01_c_17h=1"},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=19, file="khcg07_l0101", x=-680, y=20, path=":cg/khcg07_l/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"cgact", file="cgact", id=19, act="移動", x=180, y=-600, time=10000, lv=5},
+		{"bgm", file="bgm19", vol=100},
+		{"se", id=0, loop=0, file="se_a093"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0027", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Uhehehe, I've caught you now ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“唔呵呵呵，看吧我抓住你了〜",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「唔呵呵呵，看吧我抓住你了〜",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0022_00002",
+		line = 44,
+	},
+	["0022_00002"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=19, time=1000, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070101", set="khcg07010", path=":ev/khcg07010/"},
+		{"bg", id=18, file="khcg070101", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I can't move.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"身体动不了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"身體動不了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00001",
+		linknext = "0022_00003",
+		line = 60,
+	},
+	["0022_00003"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She's just mounted on my abdomen and is pushing her index finger on my right shoulder, yet I can barely breathe.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"只不过是被骑在了肚子上，右肩被食指压着而已，却不能好好呼吸。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"只不過是被騎在了肚子上，右肩被食指壓著而已，卻不能好好呼吸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00002",
+		linknext = "0022_00004",
+		line = 70,
+	},
+	["0022_00004"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070103", set="khcg07010", path=":ev/khcg07010/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070103", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0028", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“You really shouldn't try so hard to move. You'll have so much trouble breathing it might kill you ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“最好不要乱动哦〜不然可是会因为呼吸困难死掉的♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「最好不要亂動哦〜不然可是會因為呼吸困難死掉的♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00003",
+		linknext = "0022_00005",
+		line = 88,
+	},
+	["0022_00005"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I wheeze and struggle to breathe.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"呼——呼——我痛苦地呼吸着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"呼——呼——我痛苦地呼吸著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00004",
+		linknext = "0022_00006",
+		line = 98,
+	},
+	["0022_00006"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She laughs, seemingly confusing that for me trying to speak.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"似乎是误解了什么，女中队长笑了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"似乎是誤會了什麼，女中隊長笑了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00005",
+		linknext = "0022_00007",
+		line = 108,
+	},
+	["0022_00007"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070102", set="khcg07010", path=":ev/khcg07010/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070102", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0029", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“There's no need to worry about anything, though. What I'm going to do will feel so pleasurable you'll melt ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“但是啊，你什么都不需要担心哦？因为现在开始要干的事情，可是会舒服到融化哦♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「但是啊，你什麼都不需要擔心哦？因為現在開始要幹的事情，可是會舒服到融化哦♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00006",
+		linknext = "0022_00008",
+		line = 126,
+	},
+	["0022_00008"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her sickly sweet voice echoes in my mind.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"甜美的声音在大脑中回响。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"甜美的聲音在大腦中迴響。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00007",
+		linknext = "0022_00009",
+		line = 136,
+	},
+	["0022_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's nothing like it was when we were facing each other as adversaries. It's sweet talk to entice the opposite sex.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"和刚刚敌对时完全不一样，这是要将异性收入囊中的甜言蜜语。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"和剛剛敵對時完全不一樣，這是要將異性收入囊中的甜言蜜語。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00008",
+		linknext = "0022_00010",
+		line = 146,
+	},
+	["0022_00010"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0030", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Once your cock is massaged by my squelching pussy, you won't even think about trying to get away...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“等到鸡巴被湿哒哒的小穴吃掉，你就不會再想跑了……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「等到肉棒被濕噠噠的小穴吃掉，你就不會再想跑了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00009",
+		linknext = "0022_00011",
+		line = 158,
+	},
+	["0022_00011"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'm aware of that, but each time she speaks...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我明白——但每次听到那个声音……",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我明白——但每次聽到那個聲音……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00010",
+		linknext = "0022_00012",
+		line = 168,
+	},
+	["0022_00012"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070104", set="khcg07010", path=":ev/khcg07010/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070104", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0031", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“So, allow me to devour your cock.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“所以——让郁吃掉你的鸡巴吧？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「所以——讓郁吃掉你的肉棒吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00011",
+		linknext = "0022_00013",
+		line = 186,
+	},
+	["0022_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My sense of reason crumbles more and more...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"理性都會逐渐崩坏——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"理性都會逐漸崩壞——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00012",
+		linknext = "0022_00014",
+		line = 196,
+	},
+	["0022_00014"] = {
+		{"se", id=0, loop=0, file="se_a171", vol=30},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070103", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0032", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Hehehe... Time for the unveiling ♪ Well hello there ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“呵呵……那么，让我看看〜♪你好啊〜〜♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「呵呵……那麼，讓我看看〜♪你好啊〜〜♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00013",
+		linknext = "0022_00015",
+		line = 212,
+	},
+	["0022_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She flops my penis out of my uniform.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"弟弟从裤子里被拿了出来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"命根子從褲子裡被拿了出來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00014",
+		linknext = "0022_00016",
+		line = 222,
+	},
+	["0022_00016"] = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070204", set="khcg07020", path=":ev/khcg07020/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070204", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I don't resist, nor even let out a whimper.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"别说抵抗，我连呻吟都做不到。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"別說抵抗，我連呻吟都做不到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00015",
+		linknext = "0022_00017",
+		line = 239,
+	},
+	["0022_00017"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0033", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ohoh, I see, you're about average sized...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“嗯嗯原来如此，大小一般呢……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「嗯嗯原來如此，大小一般呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00016",
+		linknext = "0022_00018",
+		line = 251,
+	},
+	["0022_00018"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I have my hands tied behind my back and she grasps my floppy cock and nods to herself.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她握着我萎靡的弟弟点点头。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她握著我軟趴趴的命根子點點頭。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00017",
+		linknext = "0022_00019",
+		line = 261,
+	},
+	["0022_00019"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0034", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“I love really big and hard ones, but... your glans might feel real nice rubbing inside me... ehehe.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“我虽然喜欢又大又硬的……但是你的龟头可能会摩擦到不错的地方呢……呜呵呵。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「我雖然喜歡又大又硬的……但是你的龜頭可能會摩擦到不錯的地方呢……嗚呵呵。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00018",
+		linknext = "0022_00020",
+		line = 273,
+	},
+	["0022_00020"] = {
+		{"bg", id=19, file="khcg07_l0203", x=-780, y=-480, path=":cg/khcg07_l/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"cgact", file="cgact", id=19, act="移動", x=600, y=500, time=15000, lv=5},
+		{"se", id=1, loop=1, file="se_c020"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0035", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“All right, time to make it big. Stroke stroke... stroke stroke... mm, it's not really getting bigger.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“那，让我把你弄大吧。撸一撸……撸一撸……嗯——不怎么勃起呢？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「那，讓我把你弄大吧。擼一擼……擼一擼……嗯——不怎麼勃起呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00019",
+		linknext = "0022_00021",
+		line = 288,
+	},
+	["0022_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her soft warm hands slowly rub around my cock.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她缓慢地抚摸着我软绵绵的弟弟。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她緩慢地撫摸著我軟綿綿的命根子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00020",
+		linknext = "0022_00022",
+		line = 298,
+	},
+	["0022_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"However, I'm a proud impotent virgin.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是我是阳痿，也是高傲的处男。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是我是陽痿，也是高傲的處男。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00021",
+		linknext = "0022_00023",
+		line = 308,
+	},
+	["0022_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"As if I'd get a erection from just a handjob.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这种手交，我怎么可能硬起来——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這種手交，我怎麼可能硬起來——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00022",
+		linknext = "0022_00024",
+		line = 318,
+	},
+	["0022_00024"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=19, time=1000, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070202", set="khcg07020", path=":ev/khcg07020/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070202", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0036", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Oh, I see, you're resisting. You're trying to stop it from getting bigger.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“嘿，原来如此——你在抵抗啊？努力让自己的鸡巴不大起来吗？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「嘿，原來如此——你在抵抗啊？努力讓自己的肉棒不大起來嗎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00023",
+		linknext = "0022_00025",
+		line = 338,
+	},
+	["0022_00025"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070201", set="khcg07020", path=":ev/khcg07020/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070201", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0037", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“But we can't - have - that.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“但是啊……不・可・以・哦。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「但是啊……不・可・以・哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00024",
+		linknext = "0022_00026",
+		line = 356,
+	},
+	["0022_00026"] = {
+		{"se", id=0, loop=0, file="se_a093"},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="blackback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_045_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The commanding officer whispers into my ear.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"女部队长的嘴靠近了我的耳边。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"女部隊長的嘴靠近了我的耳邊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00025",
+		linknext = "0022_00027",
+		line = 373,
+	},
+	["0022_00027"] = {
+		{"se", id=1, loop=1, file="se_c021"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0038", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Your cock will become rigid in no time... even if you resist... lick.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“就算你忍耐……你的鸡巴，也会很快就硬的……啾。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「就算你忍耐……你的肉棒，也會很快就硬的……啾。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00026",
+		linknext = "0022_00028",
+		line = 386,
+	},
+	["0022_00028"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She licks my ear.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这么说着，她舔了我的耳朵。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這麼說著，她舔了我的耳朵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00027",
+		linknext = "0022_00029",
+		line = 396,
+	},
+	["0022_00029"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070203", set="khcg07020", path=":ev/khcg07020/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="khcg070203", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=300, rule="eff_045_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0039", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ahahaha, it got a little bigger. Impressive. I have to pet him to show my appreciation ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊哈哈哈，有点变大了呢。很乖很乖，让我好好摸摸你♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊哈哈哈，有點變大了呢。很乖很乖，讓我好好摸摸你♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00028",
+		linknext = "0022_00030",
+		line = 416,
+	},
+	["0022_00030"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“——————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「——————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00029",
+		linknext = "0022_00031",
+		line = 427,
+	},
+	["0022_00031"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My penis is reacting.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我的弟弟有反应了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我的命根子有反應了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00030",
+		linknext = "0022_00032",
+		line = 437,
+	},
+	["0022_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I never expected that, but there's no doubt about it.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然我觉得不可能，但确实是这样。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然我覺得不可能，但確實是這樣。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00031",
+		linknext = "0022_00033",
+		line = 447,
+	},
+	["0022_00033"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'm responding to this female commanding officer's voice...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"就好像被这个部队长的声音诱惑了一般——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"就好像被這個部隊長的聲音誘惑了一般——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00032",
+		linknext = "0022_00034",
+		line = 457,
+	},
+	["0022_00034"] = {
+		{"bg", id=19, file="khcg07_l0202", x=-180, y=-80, path=":cg/khcg07_l/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"cgact", file="cgact", id=19, act="移動", x=-600, y=-500, time=10000, lv=5},
+		{"se", id=1, loop=1, file="se_c020"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0040", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Let's make it a little bigger, then ♪ Come on, you can do it.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“你还可以变得更大吧♪……来，加油。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「你還可以變得更大吧♪……來，加油。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00033",
+		linknext = "0022_00035",
+		line = 472,
+	},
+	["0022_00035"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The strength of my dick is growing.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"弟弟在逐渐积攒力量。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"命根子在逐漸積攢力量。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00034",
+		linknext = "0022_00036",
+		line = 482,
+	},
+	["0022_00036"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0041", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Engorge yourself with blood, become stiff and please me...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“收集血液，让鸡巴变硬，让我舒服吧……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「收集血液，讓肉棒變硬，讓我舒服吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00035",
+		linknext = "0022_00037",
+		line = 494,
+	},
+	["0022_00037"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Whether I like it or not, it's getting harder.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"没有犹豫，逐渐变硬。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"沒有猶豫，逐漸變硬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00036",
+		linknext = "0022_00038",
+		line = 504,
+	},
+	["0022_00038"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0042", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“If you do that... I'll let you ejaculate inside my pussy... ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“然后……在我的小穴里，使劲地射出来吧……",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「然後……在我的小穴裡，使勁地射出來吧……",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00037",
+		linknext = "0022_00039",
+		line = 516,
+	},
+	["0022_00039"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It reaches its limit.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那是我的极限。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那是我的極限。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00038",
+		linknext = "0022_00040",
+		line = 526,
+	},
+	["0022_00040"] = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgdel", id=19, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070303", set="khcg07030", path=":ev/khcg07030/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070303", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0043", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Yay ♪ Your cock has gotten all big and stiff ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“太好了〜♪鸡巴变得又大又硬了呢♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「太好了〜♪肉棒變得又大又硬了呢♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00039",
+		linknext = "0022_00041",
+		line = 547,
+	},
+	["0022_00041"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She squeals seeing my cock arching backwards.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"看着我翘起来的弟弟，女部队长欢快地喊道。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"看著我翹起來的命根子，女部隊長歡快地喊道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00040",
+		linknext = "0022_00042",
+		line = 557,
+	},
+	["0022_00042"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0044", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“This is amazing! It looked normal before, but... look at how big it is! I've never seen one like this!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“好厉害……！明明普通的时候那么一般……居然会变得这么大……郁都没见到过……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「好厲害……！明明普通的時候那麼一般……居然會變得這麼大……郁都沒見到過……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00041",
+		linknext = "0022_00043",
+		line = 569,
+	},
+	["0022_00043"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Nggh, ugh!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“呜，咕——————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「嗚，咕——————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00042",
+		linknext = "0022_00044",
+		line = 580,
+	},
+	["0022_00044"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0045", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“It's been a long time since I've had such a big cock inside me... Ah, I'm so looking forward to it ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“好久没有插入这么大的鸡巴了……呀啊，有点小激动呢♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「好久沒有插入這麼大的肉棒了……呀啊，有點小激動呢♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00043",
+		linknext = "0022_00045",
+		line = 592,
+	},
+	["0022_00045"] = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She lifts her hips up.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"女部队长把腰抬起来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"女部隊長把腰抬起來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00044",
+		linknext = "0022_00046",
+		line = 603,
+	},
+	["0022_00046"] = {
+		{"se", id=0, loop=0, file="se_c008"},
+		{"bg", id=19, file="khcg07_l0301", x=-1080, y=20, path=":cg/khcg07_l/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A moist sensation wraps around my glans.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"温热的触感，将龟头包住。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"溫熱的觸感，將龜頭包住。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00045",
+		linknext = "0022_00047",
+		line = 615,
+	},
+	["0022_00047"] = {
+		{"se", id=0, loop=0, file="se_c009"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's lined up with her slit, and then...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"瞄准小穴，然后————",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"瞄準小穴，然後————",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00046",
+		linknext = "0022_00048",
+		line = 626,
+	},
+	["0022_00048"] = {
+		{"cgdel", id=19, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=19, file="khcg07_l0302", x=-1080, y=20, path=":cg/khcg07_l/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"se", id=0, loop=0, file="se_c010"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0046", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Here goes, thanks for the feast ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“那么……我开动了〜♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「那麼……我開動了〜♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00047",
+		linknext = "0022_00049",
+		line = 642,
+	},
+	["0022_00049"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“——————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「——————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00048",
+		linknext = "0022_00050",
+		line = 653,
+	},
+	["0022_00050"] = {
+		{"se", id=0, loop=0, file="se_c015"},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=19, time=600, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070409", set="khcg07040", path=":ev/khcg07040/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070409", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My dick is enveloped in warmth to the base in one fell swoop with a squelch.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"伴随着水声，温热的某物一下子包裹到了根部。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"伴隨著水聲，溫熱的某物一下子包裹到了根部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00049",
+		linknext = "0022_00051",
+		line = 672,
+	},
+	["0022_00051"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Intense stimulations sends some kind of heat shooting up my back to my mind.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"强烈的刺激——不明的炽热感，从背部窜上了头脑。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"強烈的刺激——不明的熾熱感，從背部竄上了頭腦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00050",
+		linknext = "0022_00052",
+		line = 682,
+	},
+	["0022_00052"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070412", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070412", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0047", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Aha... what is this... it's not just incredibly big... but hard too... ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊哈……这是什么……好厉害，不光是大……还硬啊〜♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊哈……這是什麼……好厲害，不光是大……還硬啊〜♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00051",
+		linknext = "0022_00053",
+		line = 700,
+	},
+	["0022_00053"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her face is one of ecstasy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"女部队长露出了恍惚的表情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"女部隊長露出了恍惚的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00052",
+		linknext = "0022_00054",
+		line = 710,
+	},
+	["0022_00054"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0048", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“It reached all the way to my depths in one breath... What a shame you're not using such an awesome thing.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“一下子就顶到了里面……你明明有着这么好的鸡巴，不用太可惜了吧〜？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「一下子就頂到了裡面……你明明有著這麼好的肉棒，不用太可惜了吧〜？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00053",
+		linknext = "0022_00055",
+		line = 722,
+	},
+	["0022_00055"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Nggh, ugh!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“嗯唔，嗯唔！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「嗯唔，嗯唔！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00054",
+		linknext = "0022_00056",
+		line = 733,
+	},
+	["0022_00056"] = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070412", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0049", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Eh? Oh, I see... your cock must really be aching for it. I'll move for you, then... ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“诶〜？啊，对诶……你的鸡巴也受不了一直这样吧。那，我来动吧……♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「欸〜？啊，對欸……你的肉棒也受不了一直這樣吧。那，我來動吧……♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00055",
+		linknext = "0022_00057",
+		line = 748,
+	},
+	["0022_00057"] = {
+		{"se", id=1, loop=1, file="se_c017"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her ass slaps against me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"屁股拍打在我身上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"屁股拍打在我身上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00056",
+		linknext = "0022_00058",
+		line = 759,
+	},
+	["0022_00058"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She moans in rapture so loud it approaches a scream.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我发出接近悲鸣的声音。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我發出接近悲鳴的聲音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00057",
+		linknext = "0022_00059",
+		line = 769,
+	},
+	["0022_00059"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070414", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070414", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0050", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Hah... aaah! Oh my, this... aah... glans is gripping my pussy so hard... it feels so good ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“呼……啊啊啊！讨厌，这是……啊……龟头、顶到了好舒服的地方……好棒啊啊",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「呼……啊啊啊！討厭，這是……啊……龜頭、頂到了好舒服的地方……好棒啊啊",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00058",
+		linknext = "0022_00060",
+		line = 787,
+	},
+	["0022_00060"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She moves her hips without restraint, making it thrust in and out.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"毫不温柔地被迫抽插着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"毫不溫柔地被迫抽插著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00059",
+		linknext = "0022_00061",
+		line = 797,
+	},
+	["0022_00061"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She lifts her genitals up and thrusts down so firmly my cock disappears entirely in her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她把腰抬起到可以看到龟头为止，再用力坐下去。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她把腰抬起到可以看到龜頭為止，再用力坐下去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00060",
+		linknext = "0022_00062",
+		line = 807,
+	},
+	["0022_00062"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I feel intense stimulation each time she does that.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"每次重复抽插时，强烈的刺激感都会传到弟弟上。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"每次重複抽插時，強烈的刺激感都會傳到命根子上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00061",
+		linknext = "0022_00063",
+		line = 817,
+	},
+	["0022_00063"] = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070412", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0051", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Hahh, ah... eeek... how about you? Does my pussy feel good ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“哈、啊……呀呜呜……呐……你怎么样……？郁的小穴好舒服〜",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「哈、啊……呀嗚嗚……吶……你怎麼樣……？郁的小穴好舒服〜",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00062",
+		linknext = "0022_00064",
+		line = 832,
+	},
+	["0022_00064"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0052", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“No matter how much I use my pussy, it remains tight and is pleasurable ",
+					{"gaiji", text="①"},
+					" Maybe it's got a life of its own?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“我的小穴，据说怎么用都非常紧致舒服呢",
+					{"gaiji", text="①"},
+					"这就叫千只蚯蚓吗？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「我的小穴，據說怎麼用都非常緊緻舒服呢",
+					{"gaiji", text="①"},
+					"這就叫千隻蚯蚓嗎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00063",
+		linknext = "0022_00065",
+		line = 844,
+	},
+	["0022_00065"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her vagina is indeed so tight it's hard to believe she's a nympho slut. I feel intense contraction right to the hilt.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"部队长的阴道的确紧的让人不觉得这是淫乱女的小穴，且紧紧地抓住我的根部。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"部隊長的陰道的確緊的讓人不覺得這是淫亂女的小穴，且緊緊地抓住我的根部。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00064",
+		linknext = "0022_00066",
+		line = 854,
+	},
+	["0022_00066"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And yet she's so drenched inside that it glides in and out smoothly, it takes everything I've got to withstand only that.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"然而因为小穴内非常湿润的缘故，活塞运动十分顺畅，光是这样就让我很难忍受。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"然而因為小穴內非常濕潤的緣故，活塞運動十分順暢，光是這樣就讓我很難忍受。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00065",
+		linknext = "0022_00067",
+		line = 864,
+	},
+	["0022_00067"] = {
+		{"se", id=0, loop=0, file="se_c008"},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070413", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070413", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0053", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Plus if I do this... and strain, I can make it wring around your cock... ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“然后……像这样，用力的话，还可以让它蠕动呢〜",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「然後……像這樣，用力的話，還可以讓它蠕動呢〜",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00066",
+		linknext = "0022_00068",
+		line = 883,
+	},
+	["0022_00068"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“————！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「————！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00067",
+		linknext = "0022_00069",
+		line = 894,
+	},
+	["0022_00069"] = {
+		{"se", id=1, loop=1, file="se_c019"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0054", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“If I swing my hips like this... ah, ahaha, that's such an adorable expression you're making... ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“这样摇动腰部的话……啊啊，啊哈哈，好可爱的表情〜♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「這樣搖動腰部的話……啊啊，啊哈哈，好可愛的表情〜♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00068",
+		linknext = "0022_00070",
+		line = 907,
+	},
+	["0022_00070"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The peristalsis of her vaginal walls squeezes down even around the indentation below my glans.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"蠕动的阴道壁入侵到肉棒和龟头的缝隙之中。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"蠕動的陰道壁入侵到肉棒和龜頭的縫隙之中。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00069",
+		linknext = "0022_00071",
+		line = 917,
+	},
+	["0022_00071"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I screw my face up at feeling a sensation I've never had even from my onaholes.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这不曾在飞机杯体验到的感觉，让我的表情扭曲。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這不曾在飛機杯體驗到的感覺，讓我的表情扭曲。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00070",
+		linknext = "0022_00072",
+		line = 927,
+	},
+	["0022_00072"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"This is bad news.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这——很糟糕。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這——很糟糕。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00071",
+		linknext = "0022_00073",
+		line = 937,
+	},
+	["0022_00073"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"This girl is... unmistakably a formidable enemy.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这个女人——毫无疑问，是个强敌。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這個女人——毫無疑問，是個強敵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00072",
+		linknext = "0022_00074",
+		line = 947,
+	},
+	["0022_00074"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070415", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070415", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0055", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ah... aaah, aha... I'd actually prefer it if you stimulated my boobs or my clit, but... I guess that's a not gonna happen... aha... ♪”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊……啊啊嗯、啊哈……其实我希望你可以同时玩弄我的胸和阴核……但看你这个样子应该是不行了吧〜啊哈……♪”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊……啊啊嗯、啊哈……其實我希望你可以同時玩弄我的胸和陰核……但看你這個樣子應該是不行了吧〜啊哈……♪」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00073",
+		linknext = "0022_00075",
+		line = 965,
+	},
+	["0022_00075"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0056", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Nfuu... ahhh... ah, haah... but that's fine, your cock is perfect for my pussy ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“嗯呼……啊啊嗯……啊、哈啊啊……但是很棒，你的鸡巴，很合郁的小穴呢〜",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「嗯呼……啊啊嗯……啊、哈啊啊……但是很棒，你的肉棒，很合郁的小穴呢〜",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00074",
+		linknext = "0022_00076",
+		line = 977,
+	},
+	["0022_00076"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0057", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“You make such a cute face each time I plunge my hips... I think I like you ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“每次摇动腰部的时候，你的表情都很可爱……我喜欢上你了〜",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「每次搖動腰部的時候，你的表情都很可愛……我喜歡上你了〜",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00075",
+		linknext = "0022_00077",
+		line = 989,
+	},
+	["0022_00077"] = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070414", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0058", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“I should make you my love slave... Your cock'll be my own personal cock... ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“就这样抓住你……把你变成郁专用的鸡巴……",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「就這樣抓住你……把你變成郁專用的肉棒……",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00076",
+		linknext = "0022_00078",
+		line = 1004,
+	},
+	["0022_00078"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The corners of her mouth are bent out of shape.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"女部队长扭曲着嘴角说道。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"女部隊長扭曲著嘴角說道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00077",
+		linknext = "0022_00079",
+		line = 1014,
+	},
+	["0022_00079"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But there's no doubt she's being serious.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这表情——她是认真的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這表情——她是認真的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00078",
+		linknext = "0022_00080",
+		line = 1024,
+	},
+	["0022_00080"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0059", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Don't worry, I'll only be doing pleasurable things with you... Soon you won't be able to live without my pussy ",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“不用担心〜以后我们可以一直做舒服的事情……你马上就会离不开小穴的",
+					{"gaiji", text="①"},
+					"”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「不用擔心〜以後我們可以一直做舒服的事情……你馬上就會離不開小穴的",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00079",
+		linknext = "0022_00081",
+		line = 1036,
+	},
+	["0022_00081"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Ugh!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“呜呜呜——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「嗚嗚嗚——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00080",
+		linknext = "0022_00082",
+		line = 1047,
+	},
+	["0022_00082"] = {
+		{"bg", id=19, file="khcg07_l0415", x=-580, y=-580, path=":cg/khcg07_l/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"cgact", file="cgact", id=19, act="移動", x=400, y=200, time=6000, lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My cock is being milked by her obscene hip movements.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"她淫乱的腰部动作，正打算榨干我的肉棒。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"她淫亂的腰部動作，正打算榨乾我的肉棒。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00081",
+		linknext = "0022_00083",
+		line = 1059,
+	},
+	["0022_00083"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'm overwhelmed by pleasure from the intense stimulation.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"那强烈的刺激，快溢出的快感。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"那強烈的刺激，快溢出的快感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00082",
+		linknext = "0022_00084",
+		line = 1069,
+	},
+	["0022_00084"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's like my inner self is oozing out in agreement with her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"就好像在回应它一般，从体内漏出。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"就好像在回應它一般，從體內漏出。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00083",
+		linknext = "0022_00085",
+		line = 1079,
+	},
+	["0022_00085"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=19, time=3000, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070413", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0060", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Mmnh, big cocks are the best... ",
+					{"gaiji", text="①"},
+					" Give it to me more, more!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“嗯嗯唔，大鸡巴最棒了——",
+					{"gaiji", text="①"},
+					"再来，让郁更舒服……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「嗯嗯唔，大肉棒最棒了——",
+					{"gaiji", text="①"},
+					"再來，讓郁更舒服……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00084",
+		linknext = "0022_00086",
+		line = 1096,
+	},
+	["0022_00086"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What's oozing out little by little is beginning to take form.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"一点一点泄出来的东西，在体内堆积，积聚，成形。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"一點一點洩出來的東西，在體內堆積，積聚，成形。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00085",
+		linknext = "0022_00087",
+		line = 1106,
+	},
+	["0022_00087"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I desperately try to restrain it, but it's overcoming my will.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"即使我拼命地压抑，但却无法靠自己的意志压制住——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"即使我拼命地壓抑，但卻無法靠自己的意志壓制住——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00086",
+		linknext = "0022_00088",
+		line = 1116,
+	},
+	["0022_00088"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070416", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070416", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=1000, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0061", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Haah... mmm, ahaahn, eh... huh...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“哈啊……嗯唔……啊哈啊啊……诶……咦……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「哈啊……嗯唔……啊哈啊啊……欸……咦……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00087",
+		linknext = "0022_00089",
+		line = 1134,
+	},
+	["0022_00089"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Oh no...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"啊啊——真是的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"啊啊——真是的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00088",
+		linknext = "0022_00090",
+		line = 1144,
+	},
+	["0022_00090"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's out of my control now.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我已经没有办法了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我已經沒有辦法了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00089",
+		linknext = "0022_00091",
+		line = 1154,
+	},
+	["0022_00091"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0062", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“What... is this...? Your cock is getting bigger inside my vagina...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“怎、怎么回事……小穴里的鸡巴，变大了……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「怎、怎麼回事……小穴裡的肉棒，變大了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00090",
+		linknext = "0022_00092",
+		line = 1166,
+	},
+	["0022_00092"] = {
+		{"bgm", stop=1},
+		{"se", id=1, stop=1, time=1000},
+		{"se", id=0, loop=0, file="se_a105"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's all your fault.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"——是你不好。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"——是你不好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00091",
+		linknext = "0022_00093",
+		line = 1179,
+	},
+	["0022_00093"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070418", set="khcg07041", path=":ev/khcg07041/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070418", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0063", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Oh, could it be that you're about to ejaculate? Hold on just a bit longer...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“咦，难道你要射了？再忍耐一下——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「咦，難道你要射了？再忍耐一下——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00092",
+		linknext = "0022_00094",
+		line = 1197,
+	},
+	["0022_00094"] = {
+		{"bgm", file="bgm13", vol=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was trying to keep it sealed away.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"让想要封印这个的我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"讓想要封印這個的我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00093",
+		linknext = "0022_00095",
+		line = 1208,
+	},
+	["0022_00095"] = {
+		{"se", id=1, loop=0, file="se_c016"},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070420", set="khcg07042", path=":ev/khcg07042/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070420", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0064", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Huh... no, this... is big... like nothing else... Your cock's getting even bigger...!?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“——啊、咦……不、这是……完全……不能比的，鸡巴……越来越大了……！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「——啊、咦……不、這是……完全……不能比的，肉棒……越來越大了……！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00094",
+		linknext = "0022_00096",
+		line = 1227,
+	},
+	["0022_00096"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was trying to hold it back.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"想要压制它的我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"想要壓制它的我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00095",
+		linknext = "0022_00097",
+		line = 1237,
+	},
+	["0022_00097"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0065", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ah, amazing, aaah! My vaginal walls are being expanded hard... Your cock hole isn't moving from my womb, ahaaa!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊，好厉害，啊啊啊嗯！穴壁、被摩擦着……鸡巴顶着子宫口、不放、啊呜！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊，好厲害，啊啊啊嗯！穴壁、被摩擦著……肉棒頂著子宮口、不放、啊嗚！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00096",
+		linknext = "0022_00098",
+		line = 1249,
+	},
+	["0022_00098"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was determined to never use this.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"决定不再使用它的我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"決定不再使用它的我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00097",
+		linknext = "0022_00099",
+		line = 1259,
+	},
+	["0022_00099"] = {
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070421", set="khcg07042", path=":ev/khcg07042/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070421", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0066", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“No, you can't...! You're moving on your own... ah... your cock is grinding hard into me... no...!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“不行、不行啊……！身体、自己动起来了……啊，鸡巴使劲顶撞着我，不行……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「不行、不行啊……！身體、自己動起來了……啊，肉棒使勁頂撞著我，不行……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00098",
+		linknext = "0022_00100",
+		line = 1277,
+	},
+	["0022_00100"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'd vowed never to show this to anyone.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"发誓不再给任何人看的我。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"發誓不再給任何人看的我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00099",
+		linknext = "0022_00101",
+		line = 1287,
+	},
+	["0022_00101"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0067", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Eeek... ah, aaah... mm, mm, nnggh! Aaah, it's getting even bigger!?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“呀啊……啊、啊啊啊……嗯唔、嗯嗯、嗯嗯额呜呜！啊啊啊、又、又变大了！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「呀啊……啊、啊啊啊……嗯唔、嗯嗯、嗯嗯額嗚嗚！啊啊啊、又、又變大了！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00100",
+		linknext = "0022_00102",
+		line = 1299,
+	},
+	["0022_00102"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"You're the one who forcibly unleashed it!",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"想要强制解放它的、你——！",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"想要強制解放它的、你——！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00101",
+		linknext = "0022_00103",
+		line = 1309,
+	},
+	["0022_00103"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0068", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ah, no, wait... wait... if you keep doing this, I'll lose my mind, aaah!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊、不行、等一下……一直、被这样操下去……我、会发疯的、啊啊！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊、不行、等一下……一直、被這樣操下去……我、會發瘋的、啊啊！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00102",
+		linknext = "0022_00104",
+		line = 1321,
+	},
+	["0022_00104"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0069", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ah, aaah, eeek, no, I'm cumming, gonna fly now, I'm cumming, I'm cummiiiiiing!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊、啊啊啊、呀啊、不行、要去了，要去了啊，郁、不行了——！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊、啊啊啊、呀啊、不行、要去了，要去了啊，郁、不行了——！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00103",
+		linknext = "0022_00105",
+		line = 1333,
+	},
+	["0022_00105"] = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="khcg070421", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070521", set="khcg07052", path=":ev/khcg07052/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070521", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0070", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Nhaaaaaaah!!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“嗯哈啊————————————————！！！！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「嗯哈啊————————————————！！！！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00104",
+		linknext = "0022_00106",
+		line = 1369,
+	},
+	["0022_00106"] = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="khcg070521", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"evset", file="khcg07", set="khcg07", path=":ev/khcg07/"},
+		{"evset", file="khcg070523", set="khcg07052", path=":ev/khcg07052/"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="khcg070523", x=-5, y=-5, path=":cg/khcg07/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0071", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+					"“Ah... aah... hah, ah... ugh...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+					"“啊……啊啊啊……哈唔，啊……唔————”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+					"「啊……啊啊啊……哈唔，啊……唔————」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0022_00105",
+		linknext = "block_00106",
+		line = 1397,
+	},
+	block_00106 = {
+		{"bgm", stop=1},
+		{"se", id=0, loop=0, file="se_b060"},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500, rule="eff_043_00000"},
+		{"scene", file="ev_com_002"},
+		{"excall", file="01_c_17ha", cond="g.05_fk_00!=1"},
+		{"excall", file="01_c_17hb", cond="g.05_fk_00"},
+		{"text"},
+		linkback = "0022_00106",
+		line = 1432,
+	},
+	label = {
+		scene = { block="0022_00001", label=3 },
+		top = { block="0022_00001", label=1 },
+	},
+}
