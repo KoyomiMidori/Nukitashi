@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0051_00001"] = {
-		{"savetitle", text="俺たちの先輩と", ja="俺たちの先輩と", en="With Our Senpai", cn="与我们的前辈", tw="與我們的前輩"},
+		{"savetitle", text="俺たちの先輩と", ja="俺たちの先輩と", en="Con nuestra senpai", cn="与我们的前辈", tw="與我們的前輩"},
 		{"system_info", scenario="g.03_hw_01"},
 		{"eval", exp="g.03_hw_01=1"},
 		{"fg", mode=-1, id=30},
@@ -19,7 +19,7 @@ ast = {
 			},
 			en = {
 				{
-					"Monday, after school.",
+					"Lunes, después de clases.",
 					{"rt2"},
 				},
 			},
@@ -6436,3 +6436,4 @@ ast = {
 		top = { block="0051_00001", label=1 },
 	},
 }
+
