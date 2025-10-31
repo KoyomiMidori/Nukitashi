@@ -1,0 +1,955 @@
+astver = 2.0
+ast = {
+	["0100_00001"] = {
+		{"fg", mode=-1, id=30},
+		{"savetitle", text="伽藍の九夏", ja="伽藍の九夏", en="Sacred Summer", cn="伽蓝的九夏", tw="伽藍的九夏"},
+		{"system_info", scenario="g.05_fk_00"},
+		{"eval", exp="g.05_fk_00=1"},
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg29_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=3000, rule="eff_033_00000"},
+		{"bgm", file="bgm10", vol=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I adore the view of the town from the top of the mountain.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我很喜欢从山顶俯视城镇的景色。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我很喜歡從山頂俯視城鎮的景色。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0100_00002",
+		line = 20,
+	},
+	["0100_00002"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"This island is surrounded by coral reef in a perfect 360 degree radius, and it's dotted with a number of facilities.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这个岛被称为堡礁的珊瑚礁360度包围，里面有各种各样的设施。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這個島被稱為堡礁的珊瑚礁360度包圍，裡面有各種各樣的設施。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00001",
+		linknext = "0100_00003",
+		line = 30,
+	},
+	["0100_00003"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In the center, there's a relatively shallow lagoon of coral reef, and the sea is a beautiful turquoise.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"其内侧相对比较浅的珊瑚礁被称为礁湖，可以看到美丽的淡蓝色大海。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"其內側相對比較淺的珊瑚礁被稱為礁湖，可以看到美麗的淡藍色大海。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00002",
+		linknext = "0100_00004",
+		line = 40,
+	},
+	["0100_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The line between the pretty turquoise sea and the deep blue ocean is clearly visible, and incredibly beautiful.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"因为那美丽的水色大海和深蓝色大海的境界线非常清晰且美丽，",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"因為那美麗的水色大海和深藍色大海的境界線非常清晰且美麗，",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00003",
+		linknext = "0100_00005",
+		line = 50,
+	},
+	["0100_00005"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was taught that this island is named Seiran Island— “seiran” translating literally to “turquoise.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"所以这个岛才被取名为青蓝岛。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"所以這個島才被取名為青藍島。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00004",
+		linknext = "0100_00006",
+		line = 60,
+	},
+	["0100_00006"] = {
+		{"bg", id=2, file="bg25_2l_00000", x=300, y=-100, lv=5, path=":bg/", sync=0, time=1000, ax=1290, ay=730, bx=-490, by=-280},
+		{"cgact", file="cgact", id=2, act="移動", x=-605, y=-5, time=100000, lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I love the bustling town and the beautiful scenery of the sea.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我喜欢活泼的街道和悄声细语的海景。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我喜歡活潑的街道和悄聲細語的海景。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00005",
+		linknext = "0100_00007",
+		line = 72,
+	},
+	["0100_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"At dusk, the setting sun illuminates the sea; it gives the illusion of a thick, brightly colored syrup melting into the water.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"黄昏时，海面被日落的阳光照射，呈现出仿佛与融化后的浓糖混合在一起的景象。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"黃昏時，海面被日落的陽光照射，呈現出彷彿與融化後的濃糖混合在一起的景象。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00006",
+		linknext = "0100_00008",
+		line = 82,
+	},
+	["0100_00008"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Visiting the bustling town at that time of night is so beautiful that it takes your breath away.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"美到连说话都会忘记的时刻，突然降临到了喧闹的街道。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"美到連說話都會忘記的時刻，突然降臨到了喧鬧的街道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00007",
+		linknext = "0100_00009",
+		line = 92,
+	},
+	["0100_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A fleeting moment between daytime and night.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"时光的涓涓细流，诞生于白天和夜晚之间的隙缝。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"時光的涓涓細流，誕生於白天和夜晚之間的隙縫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00008",
+		linknext = "0100_00010",
+		line = 102,
+	},
+	["0100_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Observing that from the highest point is my greatest pleasure.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"站在最高的位置眺望这景色，对我来说是比什么都幸福的事情。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"站在最高的位置眺望這景色，對我來說是比什麼都幸福的事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00009",
+		linknext = "0100_00011",
+		line = 112,
+	},
+	["0100_00011"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Thinking carefully about it, there isn't a single location on the island I dislike.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是仔细想想，岛上根本没有我讨厌的地方。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是仔細想想，島上根本沒有我討厭的地方。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00010",
+		linknext = "0100_00012",
+		line = 122,
+	},
+	["0100_00012"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"There's the lively shopping district, the beach full of happy-looking tourists, and the amusement park full of smiling people.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"充满活力的繁华街、游客开心散步的海滩、充满笑容的游乐园，",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"充滿活力的繁華街、遊客開心散步的海灘、充滿笑容的遊樂園，",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00011",
+		linknext = "0100_00013",
+		line = 132,
+	},
+	["0100_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I love all of them.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我都曾非常喜欢。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我都曾非常喜歡。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00012",
+		linknext = "0100_00014",
+		line = 142,
+	},
+	["0100_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If pressed to name anywhere that I disliked, it would be the dark places.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果硬要说个稍微害怕的地方，大概就是比较阴暗的地方吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果硬要說個稍微害怕的地方，大概就是比較陰暗的地方吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00013",
+		linknext = "0100_00015",
+		line = 152,
+	},
+	["0100_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Embarrassing though it may be for a girl my age, I have always had a timid disposition.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"虽然都到了这个年纪了有些不好意思，但我本来就很害怕黑暗。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"雖然都到了這個年紀了有些不好意思，但我本來就很害怕黑暗。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00014",
+		linknext = "0100_00016",
+		line = 162,
+	},
+	["0100_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"So by all accounts, it would make sense for me to dislike the evening— the harbinger of darkness.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"也就是说，代表黑暗即将到来的黄昏，也应该是我会感到害怕的部份。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"也就是說，代表黑暗即將到來的黃昏，也應該是我會感到害怕的部份。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00015",
+		linknext = "0100_00017",
+		line = 172,
+	},
+	["0100_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But all the same...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"但是尽管如此，我果然——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"但是儘管如此，我果然——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00016",
+		linknext = "0100_00018",
+		line = 182,
+	},
+	["0100_00018"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The scenery at this time of evening really is something special.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"还是钟爱在这个时候眺望的景色。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"還是鍾愛在這個時候眺望的景色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00017",
+		linknext = "0100_00019",
+		line = 192,
+	},
+	["0100_00019"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Every time I gaze at the spectacle unfolding...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"每当我凝视眼前辽阔的风景，",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"每當我凝視眼前遼闊的風景，",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00018",
+		linknext = "0100_00020",
+		line = 202,
+	},
+	["0100_00020"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I feel like I want to protect this scenery forevermore.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我都会打从心底想着，今后也要守护这里的景色。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我都會打從心底想著，今後也要守護這裡的景色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00019",
+		linknext = "0100_00021",
+		line = 212,
+	},
+	["0100_00021"] = {
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=2, time=2000, x=0, y=0, alphadel=1, style="reset", lv=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Yes... forevermore. Thinking about it that way...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"嗯。确实，既然如此——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"嗯。確實，既然如此——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00020",
+		linknext = "0100_00022",
+		line = 224,
+	},
+	["0100_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It is fitting that I have been bequeathed with the obligation I have.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"——我想我的责任，一定是适合我的。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"——我想我的責任，一定是適合我的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00021",
+		linknext = "0100_00023",
+		line = 234,
+	},
+	["0100_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Experience repeated hardships, overcome numerous difficulties, and finally attain the fulfillment of your goals through your trials and tribulations.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"尝过多重辛酸，克服无数苦难，在辛苦艰难的尽头，成就圆满夙愿",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"嚐過多重辛酸，克服無數苦難，在辛苦艱難的盡頭，成就圓滿夙願",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00022",
+		linknext = "0100_00024",
+		line = 244,
+	},
+	["0100_00024"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg26_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_045_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Thus...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"正因为如此——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"正因為如此——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00023",
+		linknext = "0100_00025",
+		line = 259,
+	},
+	["0100_00025"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With weapon in hand, I shall disappear into the darkness of the night once more.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"今天我也拿着手中的剑，藏身在黑暗中吧。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"今天我也拿著手中的劍，藏身在黑暗中吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00024",
+		linknext = "0100_00026",
+		line = 269,
+	},
+	["0100_00026"] = {
+		{"bgm", stop=1},
+		{"se", id=1, loop=1, file="se_d026", vol=40},
+		{"bg", file="bg26_3_00000", id=2, time=3000, sync=0, path=":bg/", lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino0351", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃", "？？？"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "???"},
+					"“Ah...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃", "？ ？ ？"},
+					"“啊……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃", "？？？"},
+					"「啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00025",
+		linknext = "0100_00027",
+		line = 285,
+	},
+	["0100_00027"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The veil of darkness descends.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"夜幕降临了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"夜幕降臨了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00026",
+		linknext = "0100_00028",
+		line = 295,
+	},
+	["0100_00028"] = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg26_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=2, file="bg08_3_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_045_00000"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The forest gradually becomes as tranquil as a sacred temple.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"今宵，森林也依然如同伽蓝一般静谧祥和。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"今宵，森林也依然如同伽藍一般靜謐祥和。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0100_00027",
+		linknext = "block_00028",
+		line = 310,
+	},
+	block_00028 = {
+		{"se", id=1, stop=1, time=2000},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, lv=5, time=100, alphadel=1},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=2000, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"excall", file="01_c_01"},
+		{"text"},
+		linkback = "0100_00028",
+		line = 342,
+	},
+	label = {
+		top = { block="0100_00001", label=1 },
+	},
+}

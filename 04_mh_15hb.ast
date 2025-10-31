@@ -1,0 +1,4694 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"se", id=1, loop=1, file="se_a199"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どこをどう歩いたのかも覚えてないが、気づけば家に帰ってきていて、気づけば俺の部屋にいて――――",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 7,
+	},
+	block_00001 = {
+		{"se", id=0, loop=0, file="se_a100"},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01m_00001", file1="misaki_01m_00107", file2="misaki_01m_00203", path=":fg/misaki_01m/", id=6, lv=5, head="misaki_01m", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"気づけば、美岬と隣り合ってベッドに座っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 12,
+	},
+	block_00002 = {
+		{"se", id=0, loop=0, file="se_a107"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00118", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「………………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 17,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"心臓が馬鹿みたいに高鳴っている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 19,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鼓動の音が相手にまで聞こえるんじゃないかとさえ思った。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 21,
+	},
+	block_00005 = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"fg", file="misaki_01l_00001", file1="misaki_01l_00107", file2="misaki_01l_00203", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1472", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ん……淳之介くん…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 28,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬が身を寄せ、静かにもたれかかってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 30,
+	},
+	block_00007 = {
+		{"fg", file="misaki_01l_00001", file2="misaki_01l_00205", file3="misaki_01l_00307", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1473", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「2年とか、1年とか、言っていたのに……よ、4日に、なってしまいましたね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 36,
+	},
+	block_00008 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00107", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そうだな………………美岬」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 40,
+	},
+	block_00009 = {
+		{"se", id=0, loop=0, file="se_a100"},
+		{"fg", file="misaki_01ll_00001", file1="misaki_01ll_00109", file2="misaki_01ll_00205", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=1, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=5, time=150, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1474", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はわ…………淳之介くん……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 48,
+	},
+	block_00010 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00103", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「自分の言ったことも守れなくてごめん……けど、俺は……2年付き合ったのと同じくらい――いや、それ以上に美岬のことが好きだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 52,
+	},
+	block_00011 = {
+		{"fg", file="misaki_01ll_00001", file1="misaki_01ll_00107", file2="misaki_01ll_00203", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1475", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「……はい。私も、淳之介くんが大好きです……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 58,
+	},
+	block_00012 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00107", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 62,
+	},
+	block_00013 = {
+		{"se", id=1, stop=1, time=1000},
+		{"bgm", file="bgm18", vol=100},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=18, file="mcg04b011", x=-5, y=-5, path=":cg/mcg04b/", lv=5, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1476", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「んっ、ちゅ…………ん、ふぅ…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 70,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"柔らかい髪を撫でながら唇を重ね――そうしていると、美岬のもっと深い部分まで触れたくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 72,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ゆっくりと、舌を口の中に入れた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 74,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1477", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ふゎっ……！？　あ、は……ん……ちゅっ……ぇろ……ちゅむっ、れろ……んむ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 78,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少し驚きながら、美岬も求めるように舌を絡めてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 80,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"粘膜の中で濡れた舌がねっとりと絡み合い、そうしているだけで頭がとろけそうになる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 82,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1478", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「んっ、えろぉ……んはっ…………はぁ……はぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 86,
+	},
+	block_00020 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01ll_00001", file1="misaki_01ll_00107", file2="misaki_01ll_00203", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"extrans", sync=0, time=1000},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01ll_00001", file1="misaki_01ll_00107", file2="misaki_01ll_00203", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"口を離して見つめ合う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 98,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"火照った頬と、何かを期待するようにとろんとした薄い瞳――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 100,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もう、耐えられなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 102,
+	},
+	block_00023 = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00103", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ふ、服……脱がして、いいか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 106,
+	},
+	block_00024 = {
+		{"fg", file="misaki_01ll_00001", file2="misaki_01ll_00203", file3="misaki_01ll_00308", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1479", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はい……どうぞ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 112,
+	},
+	block_00025 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=6, ch="美岬", lv=5, time=100},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"se", id=1, loop=0, file="se_a107"},
+		{"se", id=0, loop=0, file="se_a094"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"静謐な空間に、衣擦れと呼吸の音がやけに大きく聞こえる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 145,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺の部屋で、美岬の白い肌が少しずつ露わになっていく――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 147,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"心臓が止まりそうだった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 149,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「えっと…………あれ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 152,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1480", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「なにか……あ……ブラの外し方、分からないんですね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 156,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……すまん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 159,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1481", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「いえ……私は、淳之介くんのそういう不器用なところも好きですから。こんなこと、前にもありましたね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 163,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「前……壁にはまった時のことか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 166,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1482", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はい……あはは、いま思い出すと変な感じですね……あの頃は、全然恥ずかしくなんてなかったのに……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 170,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そうだったな……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 173,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1483", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「全部、淳之介くんのせいなんですからね……ほら……ブラは、こうやって外すんですよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 177,
+	},
+	block_00036 = {
+		{"se", id=0, loop=0, file="se_a127"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"白い手に補助してもらいながら、ホックを外す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 180,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1484", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ちゃんと、覚えてくださいね……これから、何度もやるんですから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 184,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あ、ああ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 187,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"たわわな胸に目を奪われそうになりながら、まだ早いと視線を下げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 189,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬の肌を覆う布はあと1枚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 191,
+	},
+	block_00041 = {
+		{"se", id=0, loop=0, file="se_c023"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"くっきりとシミのついたその1枚に手をかけ――そっと脱ぎ下ろす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 194,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「すごく、濡れてるな……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 197,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1485", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「～～～～～～～っ……！　いっ、言わなくていいじゃないですか……！　それも全部、淳之介くんのせいなんですから……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 201,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1486", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「大体、淳之介くんだってそんなにおっきくしてるくせにぃ……い、いま脱がせてあげますから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 205,
+	},
+	block_00045 = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一糸纏わぬ美岬が、慣れない手つきで俺の服を脱がしにかかる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 208,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"やがて、俺たちは互いに生まれたままの姿となり――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 210,
+	},
+	block_00047 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg040111-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_033_00000"},
+		{"bgm", file="bgm18", vol=100},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1487", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あぁ……ううぅ……醜いので、あまり見ないでください……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 242,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……まだ気にしてたのか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 245,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1488", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「だって……1年って言うからそれまでに痩せればいいかなって……そう思って、まだブヨブヨで……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 249,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「痩せる必要なんてない。美岬……お前の体、綺麗だぞ……俺は、すごく好きだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 252,
+	},
+	block_00051 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg040121-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1489", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ほ、本当ですか？　お世辞言ってませんか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 260,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「嘘をついてるように見えるか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 263,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1490", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あ……そうですよね……そんなにおっきくしてるのってつまり……でも、まじまじと見るのは初めてですけど……ほ、本当に……すごいです……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 267,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「う…………すまない、こんなので」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 270,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1491", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、いえっ……！　私はどれだけおっきくても……淳之介くんのだったら、好きですから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 274,
+	},
+	block_00056 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04013-1-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1492", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「それに……おっきいのっていいと思います。私に興奮してそんなになってるんだなって、愛の大きさが伝わってくるみたいで……私には、愛おしいです……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 281,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 284,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"イチモツが、今まで経験したことがないほど硬く反り返っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 286,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"早く彼女の中に挿れたい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 288,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう思いながら、濡れ具合を確かめようと割れ目に指を滑らせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 290,
+	},
+	block_00061 = {
+		{"se", id=0, loop=0, file="se_c008", vol=50},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg040121-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1493", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はっ、ひゃぅっ……あっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 298,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぬるっとした感触――手を上げると、熱い愛液がいやらしく糸を引く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 300,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「すごいな……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 303,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1494", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あ、ううぅ……！　そんな、見せつけるようなことしなくたっていいじゃないですかぁ……！　……えいっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 307,
+	},
+	block_00065 = {
+		{"se", id=0, loop=0, file="se_a127"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「――――っ！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 311,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1495", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ほ、ほら……淳之介くんのだって糸引いて……人のこと、言えないですよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 315,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そう……かもな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 318,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少しの間、黙って視線を交わし合う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 320,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬……入れて、いいか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 323,
+	},
+	block_00070 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg040131-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1496", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「……はい……欲しいです。淳之介くんの……私の中に、ください」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 330,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ああ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 333,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬は、俺を求めてもじもじと股を擦り合わせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 335,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その足を開き、開いた股の間に自分の体を挟み込んだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 337,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「それじゃあ、入れるぞ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 340,
+	},
+	block_00075 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg040151-1-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1497", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はい……ふぅー……ふぅー……んっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 347,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"濡れた膣口に亀頭をあてがい、ゆっくりと挿入を開始する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 349,
+	},
+	block_00077 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg0402411-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=800},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1498", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、はぁっ……入って……んくっ……ふはっ……やっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 358,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"熱い愛液が溢れる膣に、イチモツが包み込まれていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 360,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"挿入しただけで、痺れるような感覚が立ち昇ってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 362,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「このまま、最後まで入れて大丈夫か……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 365,
+	},
+	block_00081 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg0402211-1", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1499", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「んっ……くはっ……はい、来てください……はぁ……淳之介くんの……私、全部受け入れたいです……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 372,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っ…………ありがとう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 375,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"反り返ったイチモツを、ぬめる膣の奥深くにまで沈めていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 377,
+	},
+	block_00084 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg04022111", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"extrans", sync=0, time=800},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"やがて――根本まですべて美岬の中に入ってしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 384,
+	},
+	block_00085 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04024211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1500", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あぁっ……！　うくっ……はぁぁ……全部……全部入ったんですね……？　くっ……んぅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 391,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あぁ……平気か？　痛かったりしないか……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 394,
+	},
+	block_00087 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04022211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1501", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「んくっ……しょ、正直……少しだけ、痛いかもです……はぁ……えへへ……でも、ちょっと嬉しいです……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 401,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「嬉しい……って……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 404,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1502", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「私、色々1人でエッチなことしてたから……はぁ……初めてなのに痛くなかったら……淳之介くん、ショックかなって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 408,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……バカ、そんなこと気にしないでいいんだよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 411,
+	},
+	block_00091 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04023211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1503", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「えへへ……すみません。淳之介くん、可愛い顔してます。私の中って……気持ち、いいんですか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 418,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ああ……こうしてるだけでイきそうなくらいだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 421,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1504", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「大袈裟ですよ……でも、それなら……んっ……腰動かしたら、もっと気持ちよくなれますね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 425,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「…………いいのか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 428,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1505", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はい、少し慣れてきました……私は淳之介くんの彼女ですから……やりたいように、好きにしていいんですよ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 432,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「好きにって……俺は、美岬にも気持ちよくなってほしい……というか……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 435,
+	},
+	block_00097 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04021211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1506", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「だ、だったら……なおのこと動いてほしいです……はぁ……あの、実は……さっきから、ずっと焦らされてるみたいで……切ないんですっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 442,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そう、だったか…………じゃあ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 445,
+	},
+	block_00099 = {
+		{"se", id=1, loop=1, file="se_c017"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04024211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1507", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、はんっ、やぁっ……！　ふっ、あっ……ああぁっ……！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 453,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"腰を振り始めると、美岬が色っぽい嬌声を上げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 455,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可愛らしい声がますます俺を興奮させた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 457,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っ…………美岬、痛くないか……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 460,
+	},
+	block_00103 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04027211", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1508", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はっ、くっ……んうぅっ……！　はいっ……すごく、気持ち、いいでひゅっ……はっあぁっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 467,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突く度に豊かな胸が大きく揺れ、さらなる劣情を煽る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 469,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"桜色の乳首を見ていると、理性など弾けてしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 471,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1509", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、ぅんっ…………ひゃあっ！？　そんな所、急に舐めちゃぁっ……はんっ……！　私……乳首も弱くてぇ……くっ、うぅぅうんっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 475,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"乳首を甘噛みすると、膣がきゅうきゅうと締めつけてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 477,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その感覚もさることながら、美岬の過敏な反応が可愛らしくてたまらなくなってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 479,
+	},
+	block_00109 = {
+		{"se", id=1, loop=1, file="se_c016"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04026212", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1510", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、やっ、はあぁっ……！？　はやっ、あんっ……こんなっ、かき回されたら……おかしく、うぅぅーっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 487,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"腰を深く沈めると、粘膜がイチモツを包み、溢れる愛液が肉棒を舐めるかのようだ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 489,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1511", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「やっ、あっ……うぅっ……全然、ちがっ……んんっ！　すごすぎ……ですっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 493,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"腰を引くとヒダが名残惜しそうに絡みついてきて――言いようもない快感が襲う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 495,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くぅっ――――美岬、俺、もう……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 498,
+	},
+	block_00114 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04022212", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1512", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっはぁっ…………中で、膨らんでるの……これぇ……イきそう、なんですね……はぁっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 505,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1513", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「わ、私もトんじゃいそうで……はっあぁっ……一緒に……淳之介くんと、一緒にイきたいです……うっんっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 509,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"甘い吐息が鼻をくすぐり、頭の中が真っ白になる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 511,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もう――美岬のことしか考えられない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 513,
+	},
+	block_00118 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04027212", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1514", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「やっ、はっ、あぁっ……体熱いぃ……んぁっ、はぁっ……！　あぁぁぁあぁぁっ！　もう、もう……イき、そう――っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 520,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬……すごくかわいいぞ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 523,
+	},
+	block_00120 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04026212", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1515", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「～～～～～～～～～～っ！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 530,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"膣の締めつけが一気にきつくなり、快感に負けて思わず息が漏れる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 532,
+	},
+	block_00122 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04027212", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1516", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「こんな時にそんなっ、ずる……ひゃ、あんっ……！　はぁはぁ……わたし、も……だめっ、あっ！　あああぁぁっ……！　イ、イっちゃ……うっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 539,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1517", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あっ、はぁ……イく……イくイくっ……も、だめ……イくっ、イくっ――！！　イく―――――っ！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 543,
+	},
+	block_00124 = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg04027213", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg04027213", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1518", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はっ……あぁあああぁぁぁっ……！　ああっ……んっ……はぁ……はぁ……はぁ……ん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 572,
+	},
+	block_00125 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="mhcg04027213", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"絶頂の余韻に、美岬は甘い喘ぎ声を漏らして体をぴくぴくと痙攣させる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 586,
+	},
+	block_00126 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04022213", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1519", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「んぁ……ふぅ……お腹の中、熱いです……これ、淳之介くんの精液……なんですね。……気持ち、よかったですか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 593,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ああ………………最高だった。美岬は？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 596,
+	},
+	block_00128 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg04023213", x=-5, y=-5, path=":cg/mhcg04/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1520", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「はぁ……えとえと……す、すごかったです……本当に、淳之介くんでよかったなぁって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 603,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そう、か……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 606,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事後の気恥ずかしさで、お互い口数が少なくなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 608,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし、気まずさはまったく感じなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 610,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"やっと、心から愛する人と――美岬と1つになれた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 612,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多幸感が体の奥底から溢れてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 614,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうすると――同時に、別の感情が頭をもたげてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 616,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1521", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"淳之介＆美岬"},
+					"「あの……もう1回……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介＆美岬", "Junnosuke & Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介＆美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介＆美岬"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 620,
+	},
+	block_00136 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それから、俺たちはすぐに2回戦を開始した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 650,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"2回戦が終われば3回戦を開始し、それが終わればまたすぐ4回戦へともつれ込む――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 652,
+	},
+	block_00138 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg18_2_00000", x=0, y=0, path=":bg/", sync=0, style="blur", blurx=11, blury=11, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"se", id=1, loop=1, file="se_a110"},
+		{"bg", id=1, file="bg18_2_00000", x=0, y=0, path=":bg/", sync=0, style="blur", blurx=11, blury=11, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00127", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"cgact", file="cgact", id=1, act="振動下", loop=-1, size=2.5, time=200, ease="easeinout_sine"},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=-1, size=-17.5, time=200, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1522", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ああぁっ……",
+					{"gaiji", text="①"},
+					"　もっと、もっと激しく突いてくださいっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 666,
+	},
+	block_00139 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00110", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「どこを突いてほしいって？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 670,
+	},
+	block_00140 = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgact", file="cgact", id=1, act="stopact"},
+		{"fgact", id=6, ch="美岬", act="stopact"},
+		{"bg", id=1, file="bg18_2_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00106", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1523", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「えっ……！？　それはその……ここ……女性器、を……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 679,
+	},
+	block_00141 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00101", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「そんな堅い言い方するなよ。島の連中はもっと違う言い方してるだろ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 683,
+	},
+	block_00142 = {
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00117", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1524", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あ、うぅ……だ、だって淳之介くんが言ったんじゃないですか！　その、そういうの言うのは恥ずかしいんだって！　了見がおかしいですよ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 689,
+	},
+	block_00143 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00101", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「俺の前ではいいんだ。恥ずかしがってる美岬が見たい」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 693,
+	},
+	block_00144 = {
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00104", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1525", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「じゅ、淳之介くん変態です！　異常性癖です！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 699,
+	},
+	block_00145 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00101", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬が俺を変態にしたんだ。ちょっとくらい異常性癖な方がいいって言ってただろう？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 703,
+	},
+	block_00146 = {
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00106", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		delay = {
+			[1500] = {
+				{"fg", file="misaki_01l_00000", file1="misaki_01l_00104", file2="misaki_01l_00205", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, delay2=1500, time=300, mode=3, x=0, y=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="misaki1526", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「言いましたけどぉ……でも嫌です！　言いたくないですっ！　自分で言うなって教えて今度は言えって、あべこべ教育です！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 711,
+	},
+	block_00147 = {
+		{"fg", file="jun_01f_00000", file3="jun_01f_00302", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬――――食べ物なぞなぞだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 715,
+	},
+	block_00148 = {
+		{"fg", file="misaki_01l_00000", file2="misaki_01l_00203", file3="misaki_01l_00301", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1527", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「食べ物なぞなぞ！？　面白そう！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 721,
+	},
+	block_00149 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00110", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ライスを卵に包んだ料理の名前は？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 725,
+	},
+	block_00150 = {
+		{"fg", file="misaki_01l_00000", file2="misaki_01l_00203", file3="misaki_01l_00308", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=1, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=-12.5, time=150, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1528", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「オムライス！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 732,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あんこを卵に包んだ料理の名前は？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 735,
+	},
+	block_00152 = {
+		{"fg", file="misaki_01l_00000", file1="misaki_01l_00102", file2="misaki_01l_00203", path=":fg/misaki_01l/", id=6, lv=5, head="misaki_01l", ch="美岬", mw="mw", sync=0, time=1, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=-12.5, time=150, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1529", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「オムアンコ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 742,
+	},
+	block_00153 = {
+		{"ex", time=500, func="wait"},
+		{"fg", file="misaki_01ll_00000", file1="misaki_01ll_00125", file2="misaki_01ll_00205", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="浮遊横", loop=15, size=5, time=75, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1530", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「……ああああああああああああああああああああああああああぁぁぁぁぁ！！！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 750,
+	},
+	block_00154 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=6, ch="美岬", lv=5, time=100},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな調子で、俺たちは何度も体を重ねて愛を確かめ合った――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 780,
+	},
+	block_00155 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg18_3_00000", x=0, y=0, path=":bg/", sync=0, style="blur", blurx=11, blury=11, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"se", id=1, loop=1, file="se_a110"},
+		{"bg", id=1, file="bg18_3_00000", x=0, y=0, path=":bg/", sync=0, style="blur", blurx=11, blury=11, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01ll_00000", file1="misaki_01ll_00102", file2="misaki_01ll_00203", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=-1, size=-17.5, time=200, ease="easeinout_sine"},
+		{"cgact", file="cgact", id=1, act="振動下", loop=-1, size=2.5, time=200, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1531", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「あぁっはぁんっ",
+					{"gaiji", text="①"},
+					"　んちゅっ、ちゅむっ……淳之介くんの凶暴おちんちんにとろとろおまんこかき回されされて……ひあわせですぅ……",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 794,
+	},
+	block_00156 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00107", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ああ……永遠にしていられる気がする……こんな感覚は初めてだ……美岬……愛してる……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 798,
+	},
+	block_00157 = {
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=-12.5, time=150, ease="easeinout_sine"},
+		{"bgm", file="bgm31", vol=100},
+		{"cgact", file="cgact", id=1, act="stopact"},
+		{"se", id=0, loop=0, file="se_a129"},
+		{"se", id=1, loop=0, file="se_a078"},
+		{"cgact", file="cgact", id=1, act="浮遊横", loop=1, size=5, time=75, ease="easeinout_sine"},
+		{"fg", file="asane_02m_00001", file1="asane_02m_00121", path=":fg/asane_02m/", id=3, lv=5, head="asane_02m", ch="麻沙音", mw="mw", sync=0, time=300, mode=3, x=-800, y=0},
+		{"fgact", ch="麻沙音", id=3, act="移動", x=400, y=0, time=300},
+		{"fgact", ch="美岬", id=6, act="移動", x=400, y=0, time=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1494", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「いつまでヤってんだよこのクソザルどもがよおおおぉ……！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 811,
+	},
+	block_00158 = {
+		{"fgact", id=6, ch="美岬", act="stopact"},
+		{"bg", id=1, file="bg18_3_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="misaki_01ll_00000", file1="misaki_01ll_00109", file2="misaki_01ll_00205", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=400, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=-12.5, time=150, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1532", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ひゃわっ！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 819,
+	},
+	block_00159 = {
+		{"fg", file="jun_01f_00000", file1="jun_01f_00111", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「アサちゃん……悪いが3Pなら無理だぞ。俺と美岬の間には何人たりとも……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 823,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1495", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「全裸でなに言い腐ってんだこのメガネザルは人が気ぃ利かせてればブタザルと夜中まで延々盛りやがっていま何時だと思ってんださっさと豚小屋帰れ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 827,
+	},
+	block_00161 = {
+		{"fg", file="misaki_01ll_00000", file1="misaki_01ll_00120", file2="misaki_01ll_00205", path=":fg/misaki_01ll/", id=6, lv=5, head="misaki_01ll", ch="美岬", mw="mw", sync=0, time=300, mode=3, x=400, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1533", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「せ、せめてあと3回だけ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 833,
+	},
+	block_00162 = {
+		{"se", id=0, loop=0, file="se_a128"},
+		{"cgact", file="cgact", id=1, act="浮遊横", loop=1, size=5, time=75, ease="easeinout_sine"},
+		{"se", id=0, loop=0, file="se_a098"},
+		{"fg", file="asane_02ll_00001", file1="asane_02ll_00121", file4="asane_02ll_00402", path=":fg/asane_02ll/", id=3, lv=5, head="asane_02ll", ch="麻沙音", mw="mw", sync=0, time=1, mode=3, x=0, y=0},
+		{"fgact", ch="麻沙音", id=3, act="振動下", loop=1, size=-12.5, time=150, ease="easeinout_sine"},
+		{"fgact", ch="美岬", id=6, act="移動", x=600, y=0, time=300},
+		{"fg", mode=-1, id=6, ch="美岬", lv=5, time=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1496", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「帰れええぇっ……！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 846,
+	},
+	block_00163 = {
+		{"se", id=0, loop=0, file="se_a128"},
+		{"fg", file="misaki_01f_00000", file1="misaki_01f_00125", file2="misaki_01f_00205", path=":fg/misaki_01f/", id=30, ch="美岬", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"cgact", file="cgact", id=1, act="浮遊", loop=1, size=5, time=75, ease="easeinout_sine"},
+		{"cgact", file="cgact", id=6, act="振動下", loop=1, size=12.5, time=150, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki1534", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"「ひゃあっ！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 854,
+	},
+	block_00164 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="美岬", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=3, ch="麻沙音", lv=5, time=100},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"なぜかアサちゃんの怒りを買ってしまい、美岬と俺はそこで引き裂かれることになってしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 885,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今朝のようなことがあっては困ると、女部田も美岬宅に預けることになり――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 887,
+	},
+	block_00166 = {
+		{"bg", id=1, file="bg18_3_1_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺1人になった部屋は、なぜだか普段より広く感じられた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 891,
+	},
+	block_00167 = {
+		{"fg", file="jun_01f_00002", file1="jun_01f_00106", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「美岬…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 895,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬美岬と連呼してばかりだが――決して条例やNLNSの諸問題を忘れたわけではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 897,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その晩、ベッドに残る美岬の匂いで23回オナニーをして――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 899,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺は、一大決心をする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 901,
+	},
+	block_00171 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=3000, func="wait"},
+		{"excall", file="04_mh_16"},
+		{"text"},
+		linkback = "block_00170",
+		line = 933,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

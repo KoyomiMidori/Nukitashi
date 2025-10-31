@@ -1,0 +1,1865 @@
+astver = 2.0
+ast = {
+	["0129_00001"] = {
+		{"fg", mode=-1, id=30},
+		{"savetitle", text="艱難辛苦", ja="艱難辛苦", en="Hardship", cn="艰难困苦", tw="艱難辛苦"},
+		{"eval", exp="g.05_fk_29=1"},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="bg24_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1200, rule="eff_033_00000"},
+		{"bgm", file="bgm22.5", vol=100},
+		{"se", id=0, loop=0, file="se_a250"},
+		{"se", id=1, loop=0, file="se_a098"},
+		{"fg", file="jun_01f_00001", file1="jun_01f_00128", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Mr. Kenzou! Is Fumino all right!?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“……健藏先生！文乃没事吧……！？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「……健藏先生！文乃沒事吧……！？」",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0129_00002",
+		line = 45,
+	},
+	["0129_00002"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0070", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“Yeah, the doc next door had a look at her today, but she still ain't fully conscious yet.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“哦哦，刚才让对面的看过了……意识暂时还有些混乱。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「哦哦，剛才讓對面的看過了……意識暫時還有些混亂。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00001",
+		linknext = "0129_00003",
+		line = 57,
+	},
+	["0129_00003"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00109", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Oh God, no...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“混乱……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「混亂……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00002",
+		linknext = "0129_00004",
+		line = 69,
+	},
+	["0129_00004"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00106", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Did he say... what's wrong with her, exactly?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“文乃会……怎么样……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「文乃會……怎麼樣……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00003",
+		linknext = "0129_00005",
+		line = 81,
+	},
+	["0129_00005"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0071", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“He dun't got the equipment t'know fer sure... but he said she's most likely got CTE.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“详细的情况，因为没有像样的设备所以很难说……她说大概是慢性创伤性脑病变……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「詳細的情況，因為沒有像樣的設備所以很難說……她說大概是慢性創傷性腦病變……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00004",
+		linknext = "0129_00006",
+		line = 93,
+	},
+	["0129_00006"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00112", file2="jun_01f_00202", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“CTE...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“慢性创伤性脑病变……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「慢性創傷性腦病變……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00005",
+		linknext = "0129_00007",
+		line = 105,
+	},
+	["0129_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"He proceeds to explain it to me.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"健藏向我说明。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"健藏向我說明。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00006",
+		linknext = "0129_00008",
+		line = 115,
+	},
+	["0129_00008"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chronic traumatic encephalopathy— in a nutshell, it's like punch-drunk dementia.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"慢性创伤性脑病变，简单来说就是拳击员痴呆。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"慢性創傷性腦病變，簡單來說就是拳擊手癡呆。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00007",
+		linknext = "0129_00009",
+		line = 125,
+	},
+	["0129_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Boxers, footballers, wrestlers— anyone playing a contact sport is particularly at risk of contracting it.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"拳击手等职业容易患的病。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"拳擊手等職業容易患的病。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00008",
+		linknext = "0129_00010",
+		line = 135,
+	},
+	["0129_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And it's not uncommon among those returning from military service, either.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"据说从战场上回来的士兵，也经常出现症状——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"據說從戰場上回來的士兵，也經常出現症狀——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00009",
+		linknext = "0129_00011",
+		line = 145,
+	},
+	["0129_00011"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0072", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“Tell me, has that lass been dropping things recently? Is she unable to walk in a straight line, havin' sudden blackouts, or forgettin' things?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“文乃酱她……最近经常摔东西吗？或是不能笔直走，突然睡着，忘东忘西之类的……？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「文乃醬她……最近經常摔東西嗎？或是不能筆直走，突然睡著，忘東忘西之類的……？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00010",
+		linknext = "0129_00012",
+		line = 157,
+	},
+	["0129_00012"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The answer to all those is yes.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"有。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"有。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00011",
+		linknext = "0129_00013",
+		line = 167,
+	},
+	["0129_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Ever since I met her, she's had sudden blackouts.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"从相遇的时候起，她就会突然睡着。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"從相遇的時候起，她就會突然睡著。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00012",
+		linknext = "0129_00014",
+		line = 177,
+	},
+	["0129_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She can't always walk in a straight line.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"不能笔直走。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"不能筆直走。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00013",
+		linknext = "0129_00015",
+		line = 187,
+	},
+	["0129_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Plus, there was that time she accidentally broke a plate. At the time, I definitely thought that was unusual for her.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"还会罕见地打碎盘子。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"還會罕見地打碎盤子。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00014",
+		linknext = "0129_00016",
+		line = 197,
+	},
+	["0129_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And then there was the way she stared bewilderedly at the photo we took together.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"然后，不可思议地看着一起拍的照片。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"然後，不可思議地看著一起拍的照片。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00015",
+		linknext = "0129_00017",
+		line = 207,
+	},
+	["0129_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I would have thought those were all due to exhaustion or some other injury, but...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我以为这一切都是疲劳和受伤造成的——",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我以為這一切都是疲勞和受傷造成的——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00016",
+		linknext = "0129_00018",
+		line = 217,
+	},
+	["0129_00018"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0073", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“Them's all symptoms of it, lad. She's been taking on the OSS, yakuza and whatnot since she was young, after all...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“那些好像都是病症。我听说那孩子从小就和SHO和黑社会战斗……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「那些好像都是病症。我聽說那孩子從小就和SHO和黑社會戰鬥……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00017",
+		linknext = "0129_00019",
+		line = 229,
+	},
+	["0129_00019"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Those riot bullets are more powerful than a punch from a fully grown man.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"防暴弹有相当于成年男性一拳以上的攻击力。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"防暴彈有相當於成年男性一拳以上的攻擊力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00018",
+		linknext = "0129_00020",
+		line = 239,
+	},
+	["0129_00020"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If she's been suffering blows like that for this long now, of course it'd just exacerbate the damage.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果从小就被打中过多次，大脑的负担就会积累起来。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果從小就被打中過多次，大腦的負擔就會積累起來。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00019",
+		linknext = "0129_00021",
+		line = 249,
+	},
+	["0129_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Add that to the torture she suffered at Sakimori's hands, the heavy fighting she endured, then taking that riot bullet to the head, and...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"再加上防人老人拷问般的虐待，频繁的战斗，落下后的一击————",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"再加上防人老人拷問般的虐待，頻繁的戰鬥，落下後的一擊————",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00020",
+		linknext = "0129_00022",
+		line = 259,
+	},
+	["0129_00022"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0074", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“Mind ya, t'ain't like she can't recover. If she just takes things easy on herself 'n gits proper treatment fer the next few years, she should improve.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“这不是治不好的病。只要长期静养，应该会逐步痊愈的。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「這不是治不好的病。只要長期靜養，應該會逐步痊癒的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00021",
+		linknext = "0129_00023",
+		line = 271,
+	},
+	["0129_00023"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0075", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“But if she takes any more serious blows like that, she could end up sufferin' permanent brain damage.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“——但是如果再受到伤害的话，那个孩子有可能会完全崩坏。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「——但是如果再受到傷害的話，那個孩子有可能會完全崩壞。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00022",
+		linknext = "0129_00024",
+		line = 283,
+	},
+	["0129_00024"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00104", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Can I see her?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“……我能见文乃吗？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「……我能見文乃嗎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00023",
+		linknext = "0129_00025",
+		line = 295,
+	},
+	["0129_00025"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="kenzo0076", path=":vo/", ch="bmob"},
+			},
+			ja = {
+				{
+					name = {"健蔵"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"健蔵", "Kenzou"},
+					"“'Fraid the doc's given 'er strict resting orders. She keeps driftin' in and out of sleep, too... so she wouldn't be able to talk to ya's anyway.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"健蔵", "健藏"},
+					"“说是要绝对安静，而且她现在重复着短促的睡眠……就算见了面，也不能说话……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"健蔵", "健藏"},
+					"「說是要絕對安靜，而且她現在重複著短促的睡眠……就算見了面，也不能說話……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00024",
+		linknext = "0129_00026",
+		line = 307,
+	},
+	["0129_00026"] = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"He rests his hand on my shoulder. That's all the indication I need to understand that it's better for me to just leave.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"健藏老人把手放在我的肩上，催促我出去。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"健藏老人把手放在我的肩上，催促我出去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00025",
+		linknext = "0129_00027",
+		line = 318,
+	},
+	["0129_00027"] = {
+		{"se", id=0, loop=0, file="se_a081"},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"bg", id=1, file="bg10_2_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_008_00000"},
+		{"se", id=3, loop=1, file="se_d031", vol=30},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Stepping outside, I see my fellow NLNS members utterly distraught, tears streaming down their faces.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"一走出门口，我就听到NLNS的成员们抽泣的声音。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"一走出門口，我就聽到NLNS的成員們啜泣的聲音。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00026",
+		linknext = "0129_00028",
+		line = 335,
+	},
+	["0129_00028"] = {
+		{"bgm", file="bgm21", vol=100},
+		{"fg", file="hinami_01m_00001", file1="hinami_01m_00125", path=":fg/hinami_01m/", id=5, lv=5, head="hinami_01m", ch="ヒナミ", mw="mw", sync=0, time=500, mode=3, x=-600, y=0},
+		{"bg", id=1, file="bg10_2_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"fgact", ch="ヒナミ", id=5, act="振動下", loop=1, size=12.5, time=500, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="hinami2264", path=":vo/", ch="hinami"},
+			},
+			ja = {
+				{
+					name = {"ヒナミ"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"ヒナミ", "Hinami"},
+					"“Jun... Th-This is so awful! Why... Why did this have to happen?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"ヒナミ", "雏见"},
+					"“淳君……呜呜……好、好过分啊……！为什么……为什么会变成这样呢……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"ヒナミ", "雛見"},
+					"「淳君……嗚嗚……好、好過分啊……！為什麼……為什麼會變成這樣呢……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00027",
+		linknext = "0129_00029",
+		line = 351,
+	},
+	["0129_00029"] = {
+		{"fg", file="misaki_02m_00001", file1="misaki_02m_00108", path=":fg/misaki_02m/", id=6, lv=5, head="misaki_02m", ch="美岬", mw="mw", sync=0, time=500, mode=3, x=0, y=0},
+		{"fgact", ch="美岬", id=6, act="振動下", loop=1, size=12.5, time=500, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="misaki2139", path=":vo/", ch="misaki"},
+			},
+			ja = {
+				{
+					name = {"美岬"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"美岬", "Misaki"},
+					"“She'd only... She'd only just made a good recovery...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"美岬"},
+					"“……好不容易……好不容易身体……都好起来了……结果却……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"美岬"},
+					"「……好不容易……好不容易身體……都好起來了……結果卻……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00028",
+		linknext = "0129_00030",
+		line = 365,
+	},
+	["0129_00030"] = {
+		{"fg", file="asane_01m_00001", file1="asane_01m_00111", path=":fg/asane_01m/", id=3, lv=5, head="asane_01m", ch="麻沙音", mw="mw", sync=0, time=500, mode=3, x=600, y=0},
+		{"fgact", ch="麻沙音", id=3, act="振動下", loop=1, size=12.5, time=500, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1822", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+					"“Fumi... Fumino's already suffered a lifetime's worth of pain... Why can't she just get some peace...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+					"“文、文乃……已经经历了一辈子的痛苦了……为什么总是她……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+					"「文、文乃……已經經歷了一輩子的痛苦了……為什麼總是她……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00029",
+		linknext = "0129_00031",
+		line = 379,
+	},
+	["0129_00031"] = {
+		{"fg", mode=-1, id=3, ch="麻沙音", lv=5, time=300},
+		{"fg", mode=-1, id=5, ch="ヒナミ", lv=5, time=300},
+		{"fg", mode=-1, id=6, ch="美岬", lv=5, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"All the other elderly folks gathered round are rather flustered, unsure what to even say.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"聚集在一起的老人们看起来也不知道该如何搭话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"聚集在一起的老人們看起來也不知道該如何搭話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00030",
+		linknext = "0129_00032",
+		line = 395,
+	},
+	["0129_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My eyes take in the spectacle with a thousand-yard stare.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我呆呆地看着那景象。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我呆呆地看著那景象。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00031",
+		linknext = "0129_00033",
+		line = 405,
+	},
+	["0129_00033"] = {
+		{"fg", file="nanase_02m_00001", file1="nanase_02m_00126", file2="nanase_02m_00202", path=":fg/nanase_02m/", id=4, lv=5, head="nanase_02m", ch="奈々瀬", mw="mw", sync=0, time=500, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="nanase2336", path=":vo/", ch="nanase"},
+			},
+			ja = {
+				{
+					name = {"奈々瀬"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"奈々瀬", "Nanase"},
+					"“Jun... What do we do...?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"奈々瀬", "奈奈濑"},
+					"“淳……我、我们……”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"奈々瀬", "奈奈瀨"},
+					"「淳……我、我們……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00032",
+		linknext = "0129_00034",
+		line = 418,
+	},
+	["0129_00034"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Nanase's lips tremble as she speaks to me. Her face is ashen white.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"奈奈濑嘴唇颤抖，脸色铁青地向我搭话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"奈奈瀨嘴唇顫抖，臉色鐵青地向我搭話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00033",
+		linknext = "0129_00035",
+		line = 428,
+	},
+	["0129_00035"] = {
+		{"se", id=0, loop=0, file="se_a021"},
+		{"fg", mode=-1, id=4, ch="奈々瀬", lv=5, time=400},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But I can't even say anything to her. All I can do is walk away.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"而我无法回应，直接走了过去。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"而我無法回應，直接走了過去。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00034",
+		linknext = "0129_00036",
+		line = 441,
+	},
+	["0129_00036"] = {
+		{"se", id=0, stop=1, time=1000},
+		{"bgm", stop=1},
+		{"se", id=0, loop=0, file="se_a114"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Suddenly, my phone starts to ring.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"电话响了。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"電話響了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00035",
+		linknext = "0129_00037",
+		line = 454,
+	},
+	["0129_00037"] = {
+		{"se", id=0, loop=0, file="se_a163"},
+		{"ex", time=1000, func="wait"},
+		{"fg", file="sakimori_01f_00001", file1="sakimori_01f_00101", file3="sakimori_01f_00301", path=":fg/sakimori_01f/", id=30, ch="防人老人", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0209", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“So you managed to get away safely. Well, I would expect as much of my former pawn.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“……看来又让你跑了。该说是不愧是我之前的棋子吗？”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「……看來又讓你跑了。該說是不愧是我之前的棋子嗎？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00036",
+		linknext = "0129_00038",
+		line = 469,
+	},
+	["0129_00038"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00104", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Sakimori...”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“……防人。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「……防人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00037",
+		linknext = "0129_00039",
+		line = 481,
+	},
+	["0129_00039"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0210", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“I may not have crushed the last of the resistance... but that only means I shall have to pull out my last-ditch plan, in order to bring you even more despair.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“既然不能毁掉最后的反叛者……那么，我就给予你更多的绝望，使用最后的手段吧。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「既然不能毀掉最後的反叛者……那麼，我就給予你更多的絕望，使用最後的手段吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00038",
+		linknext = "0129_00040",
+		line = 493,
+	},
+	["0129_00040"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0211", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“The islanders have one last foundation— a place that allows things to continue to function. I'm going to destroy it.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“岛上居民的最后依靠——集结了岛上机能的",
+					{"ruby", text="・・・・"},
+					"那个地方",
+					{"/ruby"},
+					"，就让我来破坏掉吧。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「島上居民的最後依靠——集結了島上機能的",
+					{"ruby", text="・・・・"},
+					"那個地方",
+					{"/ruby"},
+					"，就讓我來破壞掉吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00039",
+		linknext = "0129_00041",
+		line = 505,
+	},
+	["0129_00041"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0212", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“And as I execute my revenge, I'll be sure to have a front row seat, so I can have the best possible view of when the islanders lose all hope.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“我将从特等席上眺望因此崩溃的岛上的人们，完成这场复仇。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「我將從特等席上眺望因此崩潰的島上的人們，完成這場復仇。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00040",
+		linknext = "0129_00042",
+		line = 517,
+	},
+	["0129_00042"] = {
+		{"fg", file="sakimori_01f_00001", file1="sakimori_01f_00111", file3="sakimori_01f_00301", path=":fg/sakimori_01f/", id=30, ch="防人老人", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0213", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“At last, this old man's longstanding desire shall come to fruition... Heh heh heh... Bwahahaha!”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“——老子的夙愿，即将圆满实现了……呵呵呵……哈哈哈哈……！”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「——老子的夙願，即將圓滿實現了……呵呵呵……哈哈哈哈……！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00041",
+		linknext = "0129_00043",
+		line = 530,
+	},
+	["0129_00043"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"His demented cackling rings through my ear.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"我听到了防人老人的高笑。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"我聽到了防人老人的高笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00042",
+		linknext = "0129_00044",
+		line = 540,
+	},
+	["0129_00044"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00111", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“Sakimori.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“——防人。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「——防人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00043",
+		linknext = "0129_00045",
+		line = 552,
+	},
+	["0129_00045"] = {
+		{"se", id=3, stop=1, time=1000},
+		{"bgm", file="bgm12", vol=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That serves as the spark to rekindle the flame in my withering soul.",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"这再次点燃了我干枯的心。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"這再次點燃了我乾枯的心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00044",
+		linknext = "0129_00046",
+		line = 564,
+	},
+	["0129_00046"] = {
+		{"fg", file="jun_01f_00001", file3="jun_01f_00305", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“You're not getting away with this.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“我不会原谅你的。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「我不會原諒你的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00045",
+		linknext = "0129_00047",
+		line = 576,
+	},
+	["0129_00047"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If that's what his plan is, then...",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					"如果你那么打算的话。",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					"如果你那麼打算的話。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00046",
+		linknext = "0129_00048",
+		line = 586,
+	},
+	["0129_00048"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00121", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+					"“You know what I'm gonna do?”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+					"“我将把这个条例——”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+					"「我將把這個條例——」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00047",
+		linknext = "0129_00049",
+		line = 598,
+	},
+	["0129_00049"] = {
+		{"fg", file="jun_01f_00001", file1="jun_01f_00128", file4="jun_01f_00401", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"*テキスト*",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			en = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介", "Junnosuke"},
+					"“I'm gonna fuckin' crush the new perverted sex law!”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			cn = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"“这个新变态条例给摧毁掉！”",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+			tw = {
+				{
+					{"exfont", size="f4"},
+					name = {"淳之介"},
+					"「這個新變態條例給摧毀掉！」",
+					{"rt2"},
+					{"exfont"},
+				},
+			},
+		},
+		linkback = "0129_00048",
+		linknext = "0129_00050",
+		line = 611,
+	},
+	["0129_00050"] = {
+		{"fg", file="sakimori_01f_00001", file1="sakimori_01f_00110", file3="sakimori_01f_00301", path=":fg/sakimori_01f/", id=30, ch="防人老人", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="sakimori0214", path=":vo/", ch="sakimori"},
+			},
+			ja = {
+				{
+					name = {"防人老人"},
+					"*テキスト*",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"防人老人", "Sakimori"},
+					"“Go ahead and try, then... if you dare.”",
+					{"rt2"},
+				},
+			},
+			cn = {
+				{
+					name = {"防人老人"},
+					"“来试试看吧……如果你办得到的话。”",
+					{"rt2"},
+				},
+			},
+			tw = {
+				{
+					name = {"防人老人"},
+					"「來試試看吧……如果你辦得到的話。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0129_00049",
+		linknext = "block_00050",
+		line = 624,
+	},
+	block_00050 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="防人老人", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"excall", file="05_fk_30"},
+		{"text"},
+		linkback = "0129_00050",
+		line = 656,
+	},
+	label = {
+		top = { block="0129_00001", label=1 },
+	},
+}

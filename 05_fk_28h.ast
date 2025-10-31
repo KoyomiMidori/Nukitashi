@@ -1,0 +1,4526 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"fg", mode=-1, id=30},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"extrans", sync=0, time=1200, rule="eff_033_00000"},
+		{"bgm", file="bgm19", vol=100},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"fg", file="fumino_02m_00001", file1="fumino_02m_00101", path=":fg/fumino_02m/", id=7, lv=5, head="fumino_02m", ch="文乃", mw="mw", sync=0, time=500, mode=3, x=0, y=0},
+		{"fgact", ch="文乃", id=7, act="振動下", loop=1, size=12.5, time=400, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1300", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「撮影しながら、というのは……どのようなことを、したらよいでしょうか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 11,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃は真剣な表情で尋ねてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 13,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……今回は、本当に俺の好きにしちゃっていいか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 16,
+	},
+	block_00003 = {
+		{"fg", file="fumino_02m_00001", file1="fumino_02m_00107", path=":fg/fumino_02m/", id=7, lv=5, head="fumino_02m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1301", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はい…………どのようなご希望にも、文乃は沿ってみせます……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 22,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「じゃあ、全裸になってくれ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 25,
+	},
+	block_00005 = {
+		{"fg", file="fumino_02m_00001", file1="fumino_02m_00114", file2="fumino_02m_00202", path=":fg/fumino_02m/", id=7, lv=5, head="fumino_02m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="文乃", id=7, act="振動下", loop=1, size=12.5, time=300, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1302", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「え…………っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 32,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「この場で、服を着ないで、服一枚残さず、脱いでくれ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"さすがに面喰らったように、ぽかんと口を開ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 37,
+	},
+	block_00008 = {
+		{"fg", file="fumino_01m_00001", file1="fumino_01m_00113", file2="fumino_01m_00204", path=":fg/fumino_01m/", id=7, lv=5, head="fumino_01m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="文乃", id=7, act="振動下", loop=1, size=12.5, time=250, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1303", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「しょ、承知致しました……それが、あなた様の望みなら……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 44,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし流石は誉れ高き“犬馬の防人”、すぐにすべて呑みこんで頷く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 46,
+	},
+	block_00010 = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"fg", mode=-1, id=7, ch="文乃", lv=5, time=600},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"するすると耳心地のよい音を立てて、着物がはだけられていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 51,
+	},
+	block_00011 = {
+		{"fg", file="fumino_01m_00000", file1="fumino_01m_00113", file2="fumino_01m_00201", path=":fg/fumino_01m/", id=7, lv=5, head="fumino_01m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"fgact", ch="文乃", id=7, act="振動下", loop=1, size=12.5, time=350, ease="easeinout_sine"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1304", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「…………こちらで、よろしい、でしょうか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 57,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「おっ、おおおぉぉ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 60,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"薄暗い洞窟の中で、文乃が全裸になっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 62,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美しく、白い肌が発光している。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 64,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"首筋には、俺が噛んだ痕が、まだ薄らと残っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"se", id=0, loop=0, file="se_a105"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「………………！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 70,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この、服を着て当たり前の空間の中で、全裸でいるという非日常感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 72,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"島の人間なら、いざ知らず。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 74,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"普段きっちりと染め物を着こんでいる彼女が、あられもない姿をしているというギャップと罪悪感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 76,
+	},
+	block_00020 = {
+		{"fg", file="fumino_02m_00000", file1="fumino_02m_00113", file2="fumino_02m_00201", path=":fg/fumino_02m/", id=7, lv=5, head="fumino_02m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1305", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「………………っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 82,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして、文乃が薄らと浮かべる含羞の表情が。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 84,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺の理性を、完全に吹き飛ばしてしまう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 86,
+	},
+	block_00023 = {
+		{"fg", file="fumino_02m_00000", file1="fumino_02m_00101", file2="fumino_02m_00201", path=":fg/fumino_02m/", id=7, lv=5, head="fumino_02m", ch="文乃", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1306", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「こ、これから……わたしは、どうしたら、よいでしょう――えっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 92,
+	},
+	block_00024 = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=7, ch="文乃", lv=5, time=100},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00001", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_045_00000"},
+		{"bgm", file="bgm19", vol=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「文乃、口でしてくれ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 123,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃にひざまつかせ、目の前に座るように命令する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 125,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして首には――T-A-E開発で使おうと考えていた、首輪をつけた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 127,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ほら、早く。自分で取り出すんだぞ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 130,
+	},
+	block_00028 = {
+		{"se", id=0, loop=0, file="se_a124"},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00002", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カメラを回しながら促す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 136,
+	},
+	block_00029 = {
+		{"se", id=0, stop=1, time=1000},
+		{"se", id=0, loop=0, file="se_a232"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1307", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はい、承知致しました……淳之介さん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 142,
+	},
+	block_00030 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00003", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_008_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1308", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「…………っ、もう、こんなに……大きく……なって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 152,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すでにギンギンに怒張している肉棒に瞠目している。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 154,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"全裸で首輪をつけた女の子が、俺のイチモツの前にいるという現実に、より血が集中していくのを感じた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 156,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……口で舐めるんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 159,
+	},
+	block_00034 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00004", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1309", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は、い…………ん、ちゅっ…………ちゅうっ……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 166,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃は唯々諾々と、イチモツへの愛撫をはじめる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 168,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女の口には大きすぎるに肉棒を、すべてくまなく感じさせるように、必死に舌を使っていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 170,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1310", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「ちゅっ……んっ、ちゅうっ……れろっ……ちゅっ……じゅるっ、れろ……んっ、こくんっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 174,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"たまった唾液を飲みこみながら、それでも絶え間なく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 176,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"画面越しで見ると、違ったエロさがある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 178,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「我慢汁が出てきた、ちゃんと舐めとって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 181,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1311", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はい……ちゅっ、ちゅっ、じゅるっ…………んっ、れろっ……ちゅっ……れろっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 185,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"命令通りに、言われたことはすべて、必要以上にこなす器用な文乃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 187,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこに、微かな苛立ちを感じる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 189,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"賢い仔犬に感じる、妙な腹立たしさ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 191,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……ちゃんと、カメラのほうを見てするんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 194,
+	},
+	block_00046 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00005", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1312", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はい……ちゅっ、んちゅっ…れろっ、れろ……ん、れろ……ちゅっ……れろっ、ちゅう…………ぷはぁっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 201,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カメラ越しなせいか、まるで他人事のようにも思える――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 203,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……それじゃあ、まだまだイケそうにないな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 206,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1313", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「も、申し訳……ございません……何卒、ご容赦ください……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 210,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「もっと奥までのみこんでくれ、こうやって――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 213,
+	},
+	block_00051 = {
+		{"se", id=0, loop=0, file="se_a098"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃の口内に、一気に奥までイチモツを挿入する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 216,
+	},
+	block_00052 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00006", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1314", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んぐっ――……んっ、れろっ、ちゅっ……ん、じゅるっ……れろ、じゅるっ、ちゅう……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 223,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然の挿入に驚きながらも、そのまま大きく口を開けてフェラチオを開始する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 225,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本当に、心の底から、俺に気持ちよくなってほしいという思いが感じられた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 227,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1315", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んっ、じゅるっ、んぐっ……れろっ、じゅるぅっ、ちゅっ……んぅ、ちゅっ……じゅるっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 231,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この献身的な少女に、口での奉仕を強要している。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 233,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その事実が、俺をより興奮させる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 235,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だからこそ、底なし沼に落ちていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 237,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「……やっぱり、そこまで気持ちよくないな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 240,
+	},
+	block_00060 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00008", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1316", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「じゅるっ、ちゅっ……も、申し訳、ございません……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 247,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「文乃は経験が浅いから、仕方ない」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 250,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1317", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「……わたくしの経験不足なばかりに……ふがいなく、存じます……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 254,
+	},
+	block_00063 = {
+		{"se", id=0, loop=0, file="se_b047"},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00009", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「だから、代わりにもっと喉の奥まで入れてもらわないと――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 261,
+	},
+	block_00064 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00011", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1318", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んごぅっ――！　んがっ、じゅっ、ぐっ、じゅるっ、んぅ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 268,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"首輪を思い切り引っ張って、イチモツを喉の奥まで突っこむ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 270,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"悲鳴に似た小さな鳴き声を出す文乃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 272,
+	},
+	block_00067 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00010", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1319", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んぐっ、ごっ、んっ、ちゅっ、じゅるっ……じゅるっ、んぐっ、ちゅう……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 279,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それでも目をつむりながら、すべてを受け入れてくれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 281,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1320", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「じゅるっ、んっちゅ、ぐっ、じゅる、んちゅっ、ちゅうっ、じゅる、んぅ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 285,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"喉の奥に、イチモツの先が当たっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 287,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"心地よい刺激。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 289,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして時たま歯が当たるのも気持ちいい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 291,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女の小さな口の端が、微かに切れかかっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 293,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それでも無理な口内抽送は止まらない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 295,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1321", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んぐっ、じゅるっ、ちゅっ、んっ、んぐっ、じゅるるっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 299,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……まだまだ、我慢できそうだが。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 301,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この子の驚く顔が、もっと見たい――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 303,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「出すぞ、文乃――――！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 306,
+	},
+	block_00079 = {
+		{"se", id=0, loop=0, file="se_b047"},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00011", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00011", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1322", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んぐうぅぅ――ぅんっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 335,
+	},
+	block_00080 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00010", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=20, time=1000, x=0, y=0, alphadel=1, style="reset"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"思い切り首輪を引いて、もっとも深い部分で射精する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 351,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それは、これまで経験した射精とはまったく違っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 353,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"満ちてしく服従感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 355,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"射精も自我を失いような強烈なものではなく、ただ別の欲望が満ちていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 357,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まだ精液は出続ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 359,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃の喉の奥には、イチモツが入ったままになっている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 361,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くっ……全部飲むんだぞ、文乃――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 364,
+	},
+	block_00087 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00011", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1323", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「――――――っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 371,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃はそのまま、微動だにしない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 373,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"注ぎこまれる精液を、胸をこくりと動かしながらも嚥下している。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 375,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ようやく、射精が終わる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 377,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「………………はあっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 380,
+	},
+	block_00092 = {
+		{"se", id=0, loop=0, file="se_a094"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"イチモツを、ゆっくりと引き抜いていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 383,
+	},
+	block_00093 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00012", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1324", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「――――ぷはっ……はあっ…………はあぁ……は……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 390,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ようやく呼吸を取り戻した文乃は、深呼吸をしながら、しかし慌てた様子は。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 392,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1325", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はあぁぁ……淳之介、さん……文乃の、お口で……気持ちよく……なって、頂けましたか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 396,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"健気にも、彼女は尋ねてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 398,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まるでペットが飼い主に、褒めてほしいとねだるような顔。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 400,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな表情をされたら、俺は――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 402,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「――文乃、後ろを向いてケツを突き出せ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 405,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もっと、酷くしてしまいたくなるではないか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 407,
+	},
+	block_00101 = {
+		{"se", id=0, loop=0, file="se_a032"},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg050101", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_033_00000"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1326", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「……こちらで……よろしい、でしょうか……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 418,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"全裸の文乃は、四つん這いになるようにして、こちらに小さなお尻を向ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 420,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「嫌か、こんな犬みたいな格好は？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 423,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"首輪をつけているせいか、ほとんど犬そのものであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 425,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし文乃は優しげな色を滲ませながら、かぶりを振る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 427,
+	},
+	block_00106 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050102", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1327", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「あなた様が、楽しんでくださるのなら……文乃は、それだけで嬉しい、です……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 434,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この少女は、俺のすべてを受け止めてくれるのだろうか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 436,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺の、歪んだ性欲ですら、すべて――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 438,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺は、文乃を試しているのだろうか。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 440,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それともこうすることで、彼女が自分のものであることを再認識したいだけなのかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 442,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「文乃、今回は自分で挿入しろ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 445,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こうして、命令することで。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 447,
+	},
+	block_00113 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050103", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1328", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「……はい、承知いたしました」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 454,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女が思い通りになると、ただ理解したいだけなのかもしれない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 456,
+	},
+	block_00115 = {
+		{"se", id=0, loop=0, file="se_c008"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050104", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1329", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「…………はぁ、んっ…………ぅ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 464,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女は自分で腰を落とし、イチモツを掴んで、陰部にあてがう。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 466,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして腰を後方へ下ろすようにしながら、根元まで一気に挿入した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 468,
+	},
+	block_00118 = {
+		{"se", id=0, loop=0, file="se_c009"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぬるりとした感触が、肉棒すべてを覆う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 471,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"抵抗感はあるが、入りづらさはほとんどない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 473,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"初体験の時とは、ずいぶんと違う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 475,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"奥の奥まで、濡れているようであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 477,
+	},
+	block_00122 = {
+		{"se", id=0, loop=0, file="se_c011"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050105", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1330", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「………………ん、ぅ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 485,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女は、甘い声を漏らす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 487,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これも、今までとは違う反応――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 489,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「今回は、自分で動くんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 492,
+	},
+	block_00126 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050104", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1331", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は、い……承知、いたしました……はっ、ぅ…………んぅ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 499,
+	},
+	block_00127 = {
+		{"se", id=3, loop=1, file="se_c017"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女はゆっくりと、腰を前後に動かしていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 502,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"濡れそぼった膣は、前回のキツキツな刺激とは違う、緩やかな刺激を与えていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 504,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし、深さが違う。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 506,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"限界だと思っていたところよりも、更に先があったように、奥深くまで届く。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 508,
+	},
+	block_00131 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050106", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1332", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はっ…………ん、ぅ…………くっ……は、ぁ……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 515,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女も当たる部分が違うのか、美しい嬌声を上げていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 517,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それをなんとか押し殺すように、下唇を噛んで声を我慢している。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 519,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"羞恥心故か、乱れた姿を俺に見られたくないのか――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 521,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「――文乃、声を我慢するのは禁止だ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 524,
+	},
+	block_00136 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050101", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1333", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「――……っ、は、い……わかり、ました……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 531,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頷いて、それでも腰を動かす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 533,
+	},
+	block_00138 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050107", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1334", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はあっ……んっ……あっ、んぅ……うっ、ぅ……んっ…………あ、んっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 540,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女は、初めて甘ったるい声を漏らす。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 542,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その声を、自分で恥じ入っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 544,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「俺はもっと感じている文乃が見たいんだ、そんなんじゃ撮ってる意味がないだろ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 547,
+	},
+	block_00142 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050109", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1335", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は、ぃ……ぅ、はっ…………ん、ぅ……ぅんっ……あっ、……んっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 554,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女は声を殺すことを禁止され、はっきりとくぐもった嬌声を漏らしはじめた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 556,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それでも控えめで、文乃らしい。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 558,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"腰を振るスピードも、あまり積極的なものではない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 560,
+	},
+	block_00146 = {
+		{"se", id=0, loop=0, file="se_c008"},
+		{"se", id=3, loop=1, file="se_c019"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「これじゃなかなかイキそうにないな……俺も手伝うか」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 565,
+	},
+	block_00147 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050108", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1336", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は――んんぅぅ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 572,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"動きに合わせて、奥まで一気に挿入する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 574,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃は一瞬目を回した。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 576,
+	},
+	block_00150 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050109", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1337", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「あっ、はっ……んっ、ぁ……うっ、あっ、うっ、んう……っ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 583,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まるでオナホールを扱うように、乱暴に腰を打ち付ける。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 585,
+	},
+	block_00152 = {
+		{"se", id=0, loop=0, file="se_b047"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くっ、さすがに刺激が、強すぎるか……逃げるなよ、文乃」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 589,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1338", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「ぅんっ――……あぁ……っ、はっ、ぅ、あ、ん……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 593,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"無意識のうちに逃げようとする身体を、首輪で引き寄せる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 595,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"肉体を叩きつけ合う音が、洞窟の中に響き渡る。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 597,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「文乃もっ、ほら、ちゃんと、腰を動かして……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 600,
+	},
+	block_00157 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050107", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1339", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はぁあっ、んっ、うぅんっ、はっ……は、いっ……んっ、んんぅ――！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 607,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女の腰の動きが、俺の抽送に合わさる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 609,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これまでよりも、刺激が強いものになる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 611,
+	},
+	block_00160 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050110", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1340", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はあぁっ、うっ、んっ、はぁっ、うっ、ん、ぅ――――！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 618,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃の声が乱れている。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 620,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これまで見たことないほど、取り乱した様子で。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 622,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1341", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「くっ、はあ、ああっ、んんん…………っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 626,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺の一突きに合わせて、身体が震える。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 628,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"全身が仰け反るように。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 630,
+	},
+	block_00166 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050104", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1342", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はっ…………あっ、う、んぅ…………あっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 637,
+	},
+	block_00167 = {
+		{"se", id=3, stop=1, time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顔を真っ赤にする彼女は、数秒力んでから、へなへなと脱力する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 640,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それを、首輪が辛うじて立たせていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 642,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ああ、これが見たかったんだ、俺は――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 644,
+	},
+	block_00170 = {
+		{"se", id=3, loop=1, file="se_c017"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「勝手にイって、終わらせるなよ文乃……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 648,
+	},
+	block_00171 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050109", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1343", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は、はい……もうし、申し訳、ござ……んっ、あっ、ぅっ、はあっ、んんぅ……っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 655,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"バンバンと音を立て、腰を突き立てる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 657,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"先程イったばかりだというのに。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 659,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし、もう限界だ――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 661,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「イクぞ、文乃……どこに出されるか、言ってみろ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 664,
+	},
+	block_00176 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050108", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1344", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「は、い……文乃、は……淳之介さん、に……中で、出して……頂きま、す……ぅんっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 671,
+	},
+	block_00177 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050110", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1345", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はっ……あっ――――……、あっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 678,
+	},
+	block_00178 = {
+		{"se", id=3, stop=1, time=500},
+		{"se", id=2, stop=1, time=500},
+		{"se", id=1, stop=1, time=500},
+		{"se", id=0, stop=1, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg050110", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg050210", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"彼女の、もっとも深い場所で精液を吐き出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 708,
+	},
+	block_00179 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg05024", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, bx=800, by=450},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgact", file="cgact", act="汎用アクション", alpha=0, id=20, time=1000, x=0, y=0, alphadel=1, style="reset"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"愛液を攪拌するように、二度目とは思えないほどの精液がぶちまけられる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 724,
+	},
+	block_00180 = {
+		{"se", id=3, loop=1, file="se_c017"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="fhcg050205", x=-5, y=-5, path=":cg/fhcg05/", lv=5, ev=1, time=500, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1346", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「あ――――……は、ああぁぁ……んっ、ぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 732,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"余韻を楽しませるためか、静かに、ゆっくりと抽送を続けている文乃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 734,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"結合部から液体がミックスされ、溢れ出す。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 736,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自分でも、信じられないほど濃い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 738,
+	},
+	block_00184 = {
+		{"se", id=3, stop=1, time=500},
+		{"se", id=1, loop=0, file="se_d047"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「おい、勝手にひとりで楽しむな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 743,
+	},
+	block_00185 = {
+		{"se", id=1, loop=0, file="se_a032"},
+		{"se", id=0, loop=0, file="se_a094"},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg13_1_00000", x=0, y=0, path=":bg/", sync=0, time=500, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=18, file="fhcg04_00013", x=0, y=0, path=":cg/fhcg04/", ev=1, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_045_00000"},
+		{"se", id=1, stop=1, time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"精液と愛液で汚れたイチモツの前に、彼女を座らせる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 754,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「どうすればいいか分かるな？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 757,
+	},
+	block_00187 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00008", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1347", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「はい……ちゅっ、ん、ちゅっ……じゅるっ……れろっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 764,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まだ大きいままのイチモツを、文乃は口いっぱいに頬張って、くまなく綺麗にしていく。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 766,
+	},
+	block_00189 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1348", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「ん、ちゅっ、じゅる……れろっ、ちゅう……んぅ……ぺろっ……れろっ……じゅるる…………ぅん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 770,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"玉の裏に垂れた液体まで、丁寧に舐めとってくれた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 772,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ちゃんと、残さず飲みこむんだぞ、文乃」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 775,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1349", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「んっ…………こくんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 779,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文乃は口の端から精液をこぼしながら、音を立ててそれを飲みこむ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 781,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「飲んだら、カメラに向かってなんて言えばいい？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 784,
+	},
+	block_00195 = {
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=18, file="fhcg04_00014", x=0, y=0, path=":cg/fhcg04/", ev=1, time=500, lv=5, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fumino1350", path=":vo/", ch="fumino"},
+			},
+			ja = {
+				{
+					name = {"文乃"},
+					"「ごちそうさま、でした……淳之介さんの精子……大変美味しゅうございました……飲ませて頂き、ありがとうございます……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"文乃", "Fumino"},
+				},
+			},
+			cn = {
+				{
+					name = {"文乃"},
+				},
+			},
+			tw = {
+				{
+					name = {"文乃"},
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 791,
+	},
+	block_00196 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"深々と、文乃は頭を下げる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 793,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「………………うん、よく言えました」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 796,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こうして、俺たちの撮影会は終了したのであった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 798,
+	},
+	block_00199 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, evmaskoff=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=2000, func="wait"},
+		{"text"},
+		linkback = "block_00198",
+		line = 829,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

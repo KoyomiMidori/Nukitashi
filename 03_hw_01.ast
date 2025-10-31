@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0051_00001"] = {
-		{"savetitle", text="俺たちの先輩と", ja="俺たちの先輩と", en="Con nuestra senpai", cn="与我们的前辈", tw="與我們的前輩"},
+		{"savetitle", text="俺たちの先輩と", ja="俺たちの先輩と", en="With Our Senpai", cn="与我们的前辈", tw="與我們的前輩"},
 		{"system_info", scenario="g.03_hw_01"},
 		{"eval", exp="g.03_hw_01=1"},
 		{"fg", mode=-1, id=30},
@@ -19,7 +19,7 @@ ast = {
 			},
 			en = {
 				{
-					"Lunes, después de clases.",
+					"Monday, after school.",
 					{"rt2"},
 				},
 			},
@@ -50,7 +50,7 @@ ast = {
 			},
 			en = {
 				{
-					"Todos los miembros de la NLNS se reunieron en la base.",
+					"It's an NLNS full house today.",
 					{"rt2"},
 				},
 			},
@@ -89,7 +89,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Bien... ¿estamos todos?”",
+					"“Right... All present?”",
 					{"rt2"},
 				},
 			},
@@ -134,7 +134,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uno, dos, tres... ¡Sí, estamos todos!”",
+					"“One, two, three... yeah, all accounted for!”",
 					{"rt2"},
 				},
 			},
@@ -171,7 +171,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Buena respuesta, me gusta la eficiencia.”",
+					"“Good response, I like the efficiency.”",
 					{"rt2"},
 				},
 			},
@@ -211,7 +211,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡Déjalo en mis manos! ¡El trabajo de los mayores es ser eficientes!”",
+					"“I got this! It's the elder's job to be efficient around here!”",
 					{"rt2"},
 				},
 			},
@@ -248,7 +248,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Bien, como todos saben, el evento del Rey del Lanzamiento concluyó la semana pasada.”",
+					"“Now then. As you all know, the Shootdown King event concluded last week.”",
 					{"rt2"},
 				},
 			},
@@ -285,7 +285,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Nos enfrentamos a muchas cosas, pero las superamos.”",
+					"“We all had our share of hardships, but we persevered the entire time.”",
 					{"rt2"},
 				},
 			},
@@ -325,21 +325,21 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Aunque vaya que hicimos un desastre... La SS no nos descubrió, pero no puedo dejar de sentirme asustada.”",
+					"“We sure made a mess by the end, though... the SS didn't find us out, but I can't stop feeling chills all day.”",
 					{"rt2"},
 				},
 			},
 			cn = {
 				{
 					name = {"奈々瀬", "奈奈濑"},
-					"“真的，最后实在是太乱来了……我今天一天都一直提心吊胆，害怕是否暴露给SS了。”",
+					"“真的，最后实在是太乱来了……我今天一天都一直提心吊胆，害怕是否暴露给FS了。”",
 					{"rt2"},
 				},
 			},
 			tw = {
 				{
 					name = {"奈々瀬", "奈奈瀨"},
-					"「真的，最後實在是太亂來了……我今天一天都一直提心吊膽，害怕是否暴露給SS了。」",
+					"「真的，最後實在是太亂來了……我今天一天都一直提心吊膽，害怕是否暴露給FS了。」",
 					{"rt2"},
 				},
 			},
@@ -364,7 +364,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“No creo que tengamos muchos problemas. La presi tampoco pareció darse cuenta de que éramos nosotros...”",
+					"“Doesn't seem like we'll have too much trouble on that front. The class president didn't seem to notice it was us, either...”",
 					{"rt2"},
 				},
 			},
@@ -401,7 +401,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sí. No creo que nos llamen para interrogarnos o algo así.”",
+					"“Yeah. I don't see us being called for questioning or anything.”",
 					{"rt2"},
 				},
 			},
@@ -435,7 +435,7 @@ ast = {
 			},
 			en = {
 				{
-					"Siempre me aseguro de llevar mis gafas protectoras, y las chicas tienen alguna forma de ocultar sus rostros.",
+					"I always make a point of wearing my goggles, and everyone else has one way or another of obscuring their faces.",
 					{"rt2"},
 				},
 			},
@@ -467,7 +467,7 @@ ast = {
 			},
 			en = {
 				{
-					"Parece que hemos salido de este lío sin muchos problemas.",
+					"Looks like we made it through this mess without too much hassle.",
 					{"rt2"},
 				},
 			},
@@ -510,7 +510,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Lo hicieron muy bien. ¡Tengo unos kouhais increíbles! Pero yo no fui muy útil... No estoy siendo una buen senpai para ustedes.”",
+					"“You all did your best. I've got some amazing juniors! But I wasn't that useful myself... I'm not being a very good senior.”",
 					{"rt2"},
 				},
 			},
@@ -550,7 +550,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Oh, yo no creo eso... ¿Te sientes mal?”",
+					"“Oh, I don't think so... Do you?”",
 					{"rt2"},
 				},
 			},
@@ -590,7 +590,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡Claro que sí! Asane-chan está todo el día soltando palabrería científica sin sentido, y Nanase-chan está tirando huevos mientras se luce...”",
+					"“Of course I do! Asane's spouting sciency mumbo-jumbo all day, and Nanase's throwing eggs around, looking all cool and stuff...”",
 					{"rt2"},
 				},
 			},
@@ -630,21 +630,21 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Tachibana-kun derrotó a una chica de la SS bastante dura, ¿no? Yo soy la única que no está haciendo nada...”",
+					"“And you took down a pretty tough SS lady, didn't you? I'm the only one that does nothing...”",
 					{"rt2"},
 				},
 			},
 			cn = {
 				{
 					name = {"ヒナミ", "雏见"},
-					"“橘君还把SS厉害的人打倒了吧？只有我什么都没做到……”",
+					"“橘君还把FS厉害的人打倒了吧？只有我什么都没做到……”",
 					{"rt2"},
 				},
 			},
 			tw = {
 				{
 					name = {"ヒナミ", "雛見"},
-					"「橘君還把SS厲害的人打倒了吧？只有我什麼都沒做到……」",
+					"「橘君還把FS厲害的人打倒了吧？只有我什麼都沒做到……」",
 					{"rt2"},
 				},
 			},
@@ -679,7 +679,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“¿Qué hay de mí...?”",
+					"“What about me...?”",
 					{"rt2"},
 				},
 			},
@@ -731,7 +731,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡¿UNYAAAA?! Misaki-chan... ¡Me asustaste! ¿Cuánto tiempo llevas aquí?”",
+					"“YEAAAUGH!? O-Oh, it's just you, Misaki... God, you scared me! How long have you been here?”",
 					{"rt2"},
 				},
 			},
@@ -771,7 +771,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Fui la primera en llegar... ¿Eh? ¿No dijiste que llegamos todos?”",
+					"“I was the first one here... oh? Didn't you say we were all here just now?”",
 					{"rt2"},
 				},
 			},
@@ -808,7 +808,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Si te sirve de consuelo, te vi cuando llegué.”",
+					"“If it's any consolation, I did notice you.”",
 					{"rt2"},
 				},
 			},
@@ -842,7 +842,7 @@ ast = {
 			},
 			en = {
 				{
-					"En realidad no, no la vi hasta hace unos segundos. Pero no voy a ser un idiota y decir eso en voz alta.",
+					"Well, actually, no, I didn't, not until a few seconds ago. But I'm not gonna be the asshole and say that to her face.",
 					{"rt2"},
 				},
 			},
@@ -880,7 +880,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uuugh... pero Misaki-chan también hizo lo suyo... ¡como ir a toda velocidad con su bicicleta para despejar el camino! Yo soy la única que no hizo nada...”",
+					"“Uuugh... but Misaki did her thing too... like going all swooosh with her bike to clear the way! I'm the only one that did nothing the whole time...”",
 					{"rt2"},
 				},
 			},
@@ -917,21 +917,21 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oye, tú también fuiste útil, ¿sabes? Derribaste a alguien de la SS con tu silla.”",
+					"“Hey, you were useful too, you know. You took down an SS with your chair.”",
 					{"rt2"},
 				},
 			},
 			cn = {
 				{
 					name = {"淳之介"},
-					"“渡酱也努力了啊。用钢管椅子打倒SS之类的……”",
+					"“渡酱也努力了啊。用钢管椅子打倒FS之类的……”",
 					{"rt2"},
 				},
 			},
 			tw = {
 				{
 					name = {"淳之介"},
-					"「渡醬也努力了啊。用鋼管椅打倒SS之類的……」",
+					"「渡醬也努力了啊。用鋼管椅打倒FS之類的……」",
 					{"rt2"},
 				},
 			},
@@ -962,7 +962,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Pero fue accidental... ¡Si estuviera usando esa cosa de verdad, estaría matando a la SS como moscas! Es lo menos que podía hacer... Habrase visto esta senpai...”",
+					"“That was accidental... If I were using that thing for real, I'd be swatting down SS like flies left and right! It's the least I could do... Gawd, some senior I am...”",
 					{"rt2"},
 				},
 			},
@@ -1012,7 +1012,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“¡Ah, qué linda eres...! Jun, ¿por qué la haces llorar?”",
+					"“Omigawd so kee-yute! Hey, Jun, what're you doing making her cry, you big jerk?”",
 					{"rt2"},
 				},
 			},
@@ -1049,7 +1049,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No digas eso mientras le tomas fotos... ¿Por qué es mi culpa?”",
+					"“Stop taking creepshots of her, you fucking freak! And how's it my fault, anyway?”",
 					{"rt2"},
 				},
 			},
@@ -1089,7 +1089,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Qué tristeee...”",
+					"“Glooooom...”",
 					{"rt2"},
 				},
 			},
@@ -1123,7 +1123,7 @@ ast = {
 			},
 			en = {
 				{
-					"Se ve bastante desanimada.",
+					"She does look rather down.",
 					{"rt2"},
 				},
 			},
@@ -1155,7 +1155,7 @@ ast = {
 			},
 			en = {
 				{
-					"Un líder no debe permitir que la moral de uno de los suyos decaiga de esta manera. ¡Tengo que animarla para alcanzar la victoria...!",
+					"A leader mustn't allow the morale of one of his troops to drop like this. I have to rally her to victory...!",
 					{"rt2"},
 				},
 			},
@@ -1190,21 +1190,21 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Wata-chan-senpai! Dijiste que le diste con tu silla por pura casualidad, ¿no?”",
+					"“Yo, senior of the year! You said you beat that SS with your chair by pure chance, right?”",
 					{"rt2"},
 				},
 			},
 			cn = {
 				{
 					name = {"淳之介"},
-					"“渡酱前辈。刚才，你说用椅子打倒SS是偶然……”",
+					"“渡酱前辈。刚才，你说用椅子打倒FS是偶然……”",
 					{"rt2"},
 				},
 			},
 			tw = {
 				{
 					name = {"淳之介"},
-					"「渡醬前輩。剛才，你說用椅子打倒SS是偶然……」",
+					"「渡醬前輩。剛才，你說用椅子打倒FS是偶然……」",
 					{"rt2"},
 				},
 			},
@@ -1227,7 +1227,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Pero ¿no te parece increíble que puedas hacer eso sin siquiera ponerte seria?”",
+					"“But isn't it amazing that you can do such a thing without even trying?”",
 					{"rt2"},
 				},
 			},
@@ -1267,7 +1267,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh... No te entiendo...”",
+					"“Uh... I'm not sure I follow...?”",
 					{"rt2"},
 				},
 			},
@@ -1304,7 +1304,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No creo que nadie que no sea un maestro en el arte de manejar sillas pueda derrotar a un oponente por pura casualidad.”",
+					"“I don't think anyone short of a master in the art of chair wielding could take down an opponent just by chance.”",
 					{"rt2"},
 				},
 			},
@@ -1341,7 +1341,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Lo que llamas coincidencia es solo un instinto inconsciente. Y eso es la prueba de que lo tienes, Wata-chan-senpai.”",
+					"“What you call coincidence is really just an unconscious instinct. And that, senior of the year, is proof that you've got the right stuff.”",
 					{"rt2"},
 				},
 			},
@@ -1387,7 +1387,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡No, claro que no! B-Bueno, aún crecen...”",
+					"“No, I don't! W-Well, they're still coming in...”",
 					{"rt2"},
 				},
 			},
@@ -1424,7 +1424,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No me refiero a tu pecho.”",
+					"“I'm not talking about your chest.”",
 					{"rt2"},
 				},
 			},
@@ -1462,7 +1462,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Esto es prueba de que Wata-chan-senpai tiene un poder especial. ¡Es una joven encantadora que rebosa de un potencial único!”",
+					"“I mean, you've got the right stuff to be someone greater than normal. A fine young lady overflowing with unique potential!”",
 					{"rt2"},
 				},
 			},
@@ -1507,7 +1507,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡¿J-Joven encantadora...?! ¿De verdad? ¿De veras tengo potencial?”",
+					"“F... Fine young lady...!? You think so? Do I really have that in me?”",
 					{"rt2"},
 				},
 			},
@@ -1544,7 +1544,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Por supuesto que sí. ¿No te parece, Hotori?”",
+					"“Absolutely. Don't you agree, Hotori?”",
 					{"rt2"},
 				},
 			},
@@ -1590,7 +1590,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“¿Eh? ¡Pues sí, claro! ¡Tienes un aura muy fuerte de hermana mayor, dopyudopyu!”",
+					"“Huh? Uh, yeah, of course! You've definitely got a young lady aura coming from you! In dribs and drabs!”",
 					{"rt2"},
 				},
 			},
@@ -1627,7 +1627,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¿No podías encontrar una onomatopeya más adecuada?”",
+					"“Could've done without that last part...”",
 					{"rt2"},
 				},
 			},
@@ -1667,7 +1667,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡Ya veo...! ¡Tanto se notaba...! ¡Jeje, el aura de una hermana mayor es algo que no se puede ocultar!”",
+					"“I see! So it's pouring out like that! Hehe, I can't hide my ladyness!”",
 					{"rt2"},
 				},
 			},
@@ -1704,7 +1704,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Tu aura de hermana mayor es increíble! ¡Siento que puedo confiar en ti para cualquier cosa!”",
+					"“Aw man, you're just exuding confidence! I feel like leaning on you!”",
 					{"rt2"},
 				},
 			},
@@ -1751,7 +1751,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡En marcha, pequeñín! ¡Puedes confiar en tu senpai, nyajaja!”",
+					"“Go ahead, little one! You can rely on me! Ahaha!”",
 					{"rt2"},
 				},
 			},
@@ -1785,7 +1785,7 @@ ast = {
 			},
 			en = {
 				{
-					"Ahora está presumiendo su pecho inexistente.",
+					"She's puffing out her nonexistent chest now.",
 					{"rt2"},
 				},
 			},
@@ -1817,7 +1817,7 @@ ast = {
 			},
 			en = {
 				{
-					"Alright.. Managed to get her spirits up again.",
+					"Good. Managed to get her spirits up again.",
 					{"rt2"},
 				},
 			},
@@ -1855,7 +1855,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Ahh, Wata-chan's super cute when she gets played...”",
+					"“Oh man, Wata's hella cute when she gets played...”",
 					{"rt2"},
 				},
 			},
@@ -1934,7 +1934,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You just HAD to ruin it for everyone!”",
+					"“God damn it, you just had to ruin it for everyone!”",
 					{"rt2"},
 				},
 			},
@@ -2098,7 +2098,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Mature! That's the biggest compliment a senpai can get! I see, I'm super cute... I'll start blushing if you praise me this much...”",
+					"“Mature! That's the biggest compliment a senior can get! I see, I'm hella cute... I'll start blushing if you praise me this much...”",
 					{"rt2"},
 				},
 			},
@@ -2203,7 +2203,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I'm super cute!”",
+					"“I'm hella cute!”",
 					{"rt2"},
 				},
 			},
@@ -2471,7 +2471,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No... We still have nothing.”",
+					"“No... We're running in the dark, honestly.”",
 					{"rt2"},
 				},
 			},
@@ -2631,7 +2631,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“I'm fairly certain our big-shot sponsor would rather we didn't go rounding up every person named Fumino, though.”",
+					"“I'm fairly certain our big-shot sponsor would rather we didn't go rounding up every person named Fumino from here to Timbuktu, though.”",
 					{"rt2"},
 				},
 			},
@@ -2858,7 +2858,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I know that. But I'm sure he wants to find and safeguard Fumino as soon as possible.”",
+					"“I know that. But I'm sure he wants to find her ASAP too. Make sure she's safe and all.”",
 					{"rt2"},
 				},
 			},
@@ -2972,7 +2972,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ooooh, Tachibana-kun, you're so cool! But do we even know when he'll call next?”",
+					"“Ooooh, you're so cool! But do we even know when he'll call next?”",
 					{"rt2"},
 				},
 			},
@@ -3585,7 +3585,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eh... Ah! Sorry Tachibana-kun! Slip of the tongue, I'm just real nervous right now...”",
+					"“Huh? Oh, crap, sorry! Slip of the tongue, I'm just real nervous right now...”",
 					{"rt2"},
 				},
 			},
@@ -4075,7 +4075,7 @@ ast = {
 			},
 			en = {
 				{
-					"Asa-chan and Wata-chan are trailing behind me. Although...",
+					"Asa and Wata are trailing behind me. Although...",
 					{"rt2"},
 				},
 			},
@@ -4115,7 +4115,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gawrrrrrrrrrr...!”",
+					"“Rrrrrrrgggggh...!”",
 					{"rt2"},
 				},
 			},
@@ -4149,7 +4149,7 @@ ast = {
 			},
 			en = {
 				{
-					"Wata-chan's really offended.",
+					"Wata's really offended.",
 					{"rt2"},
 				},
 			},
@@ -4219,7 +4219,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Tachibana-kun! That old man said Fumino is older than me, right? RIGHT!?”",
+					"“Tachibana! That old man said Fumino is older than me, right? RIGHT!?”",
 					{"rt2"},
 				},
 			},
@@ -4296,7 +4296,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“But when you asked for her specific age, it turned out Fumino-chan's like 3 years younger than me! What's that supposed to mean, huh!?”",
+					"“But when you asked for her specific age, it turned out she's like 3 years younger than me! What's that supposed to mean, huh!?”",
 					{"rt2"},
 				},
 			},
@@ -4337,7 +4337,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“That you're a loli, right.”",
+					"“That you're a loli, duh.”",
 					{"rt2"},
 				},
 			},
@@ -4418,7 +4418,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Getting mad and not being able speak properly, it's like the perfect embodiment of a loli...”",
+					"“Getting so mad that you can't articulate anymore is classic loli shit.”",
 					{"rt2"},
 				},
 			},
@@ -4458,7 +4458,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I'm not a loli, I'm a big lady... everyone said I'm super cute!”",
+					"“I'm not a loli, I'm a big lady... everyone said I'm hella cute!”",
 					{"rt2"},
 				},
 			},
@@ -4492,7 +4492,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's still bothered by that?",
+					"She's still hung up on that?",
 					{"rt2"},
 				},
 			},
@@ -4556,7 +4556,7 @@ ast = {
 			},
 			en = {
 				{
-					"Though it is true she's super cute.",
+					"Though it is true she's hella cute.",
 					{"rt2"},
 				},
 			},
@@ -4633,7 +4633,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh? R-Really? Didn't we get it because Tachibana-kun's good at talking?”",
+					"“Huh? R-Really? Didn't we get it because you're good at talking?”",
 					{"rt2"},
 				},
 			},
@@ -4869,7 +4869,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh? Wait, but if he said Fumino-chan was probably older than me, what was that supposed to mean?”",
+					"“Huh? Wait, but if he said Fumino was probably older than me, what was that supposed to mean?”",
 					{"rt2"},
 				},
 			},
@@ -4943,7 +4943,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I don't think you need to get so bothered about things like that. A lady's supposed to have a forgiving disposition.”",
+					"“I don't think you need to get hung up on small things like that. A lady's supposed to have a forgiving disposition.”",
 					{"rt2"},
 				},
 			},
@@ -5108,7 +5108,7 @@ ast = {
 			},
 			en = {
 				{
-					"Somehow, she seems even more childish than usual when trying to act mature.",
+					"Somehow, she seems even more childish than usual when trying to put on adult airs.",
 					{"rt2"},
 				},
 			},
@@ -5172,7 +5172,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Thanks Tachibana-kun for going this far with me. It's kind of a long walk to my house...”",
+					"“Thanks for going this far with me. It's kind of a long walk to my house...”",
 					{"rt2"},
 				},
 			},
@@ -5206,7 +5206,7 @@ ast = {
 			},
 			en = {
 				{
-					"After leaving Asa-chan home, we're left walking down under the orange glow of dusk.",
+					"After leaving Asa home, we're left walking down under the orange glow of dusk.",
 					{"rt2"},
 				},
 			},
@@ -5282,7 +5282,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hmm... As a senpai, it's a bit embarrassing, but... Ehehe, having a boy walk me home makes me feel like I'm in a shoujo manga!”",
+					"“Hmm... I kinda feel bad making my junior do this, but... Ehehe, having a boy walk me home makes me feel like I'm in a shoujo manga!”",
 					{"rt2"},
 				},
 			},
@@ -5319,7 +5319,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh, Wata-chan-senpais into that stuff?”",
+					"“Oh, so you're into that stuff?”",
 					{"rt2"},
 				},
 			},
@@ -5514,7 +5514,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I've got friends who are big into manga from the mainland too, so they borrow from me a lot. That's why I really get what Tachibana-kun's always talking about.”",
+					"“I've got friends who are big into manga from the mainland too, so they borrow from me a lot. That's why I really get what you're always talking about.”",
 					{"rt2"},
 				},
 			},
@@ -5554,7 +5554,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Lovey-dovey sex is sooo nice... I read manga like that and I always think that I'd love to have sex just like they do in these.'”",
+					"“Lovey-dovey sex is sooo nice... I read manga like that and I always think, 'Man, I'd love to have sex just like they do in these.'”",
 					{"rt2"},
 				},
 			},
@@ -5766,7 +5766,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“But just the thought of it makes me get all flustered... it's so weird. Everyone else seems to be enjoying themselves when they're doing it.”",
+					"“But just the thought of it makes me get all flustered... It's so weird. Everyone else seems to be enjoying themselves when they're doing it.”",
 					{"rt2"},
 				},
 			},
@@ -5920,7 +5920,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I see... We've got more in common than I thought! Thank goodness...”",
+					"“I see... Sheesh, we've got more in common than I thought! Thank goodness...”",
 					{"rt2"},
 				},
 			},
@@ -5956,7 +5956,7 @@ ast = {
 			},
 			en = {
 				{
-					"The fact Wata-chan grew up with those sensibilities despite living on this island must mean that manga influenced her in a big way.",
+					"The fact Wata grew up with those sensibilities despite living on this island must mean that manga influenced her in a big way.",
 					{"rt2"},
 				},
 			},
@@ -6064,7 +6064,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“If we find this Fumino-chan girl, we can turn the law around, right?”",
+					"“If we find this Fumino girl, we can turn the law around, right?”",
 					{"rt2"},
 				},
 			},
@@ -6149,7 +6149,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“So, if she's three years younger than me, then... One, two... She'd be a student in year 3 of the B level grades, right?”",
+					"“So, if she's three years my junior, then... One, two... She'd be a student in year 3 of the B level grades, right?”",
 					{"rt2"},
 				},
 			},
@@ -6436,5 +6436,3 @@ ast = {
 		top = { block="0051_00001", label=1 },
 	},
 }
-
-

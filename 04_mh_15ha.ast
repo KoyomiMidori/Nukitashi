@@ -1,0 +1,2381 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"fg", mode=-1, id=30},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=600, rule="eff_043_00000"},
+		{"fg", file="jun_01f_00002", file1="jun_01f_00123", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「………………ん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 30,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"眠りの中、差し込む朝日に目を覚ます。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 32,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"心地よい夢を見ていた気がする。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 34,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そういう夢を見た時は、いつもまぶたを開くのが億劫になる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 36,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もう少しだけ幸せな夢から覚めずにいたくなって、俺はまぶたも開けずにまどろんでいた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 38,
+	},
+	block_00005 = {
+		{"se", id=0, loop=0, file="se_c008"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すると――また心地よい気分になってきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 41,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"夢の中でしか味わえないような、不思議な浮遊感を伴う快楽――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 43,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0444", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子", "？？？"},
+					"「ちゅっ……んっ……ふふっ……眠ってても、こっちはちゃんと起きるんだぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "???"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子", "？ ？ ？"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子", "？？？"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 47,
+	},
+	block_00008 = {
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"cgdel", id=3, time=100, alphadel=1, lv=5},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"cgdel", id=10, time=100, alphadel=1, lv=5},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=18, file="mhcg10011-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_033_00000"},
+		{"bgm", file="bgm20", vol=100},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「なっ――――！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 78,
+	},
+	block_00009 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10012-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0445", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ちゅむっ……うん……？　あっ、起きたぁ……おはよ、ダーリン♪」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 86,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「お前何して――――っは……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 89,
+	},
+	block_00011 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10013-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0446", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「れろぉ……見ての通りだよ？　優しくしてくれたお・れ・い",
+					{"gaiji", text="①"},
+					"　イクがい～っぱい気持ちよくしてあげちゃうね……ちゅるっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 96,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"昨晩のしおらしい様子はどこへやら――女部田は小悪魔的な笑みを浮かべて性を貪っていた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 98,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っ――そんなこと、誰も頼んでないだろ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 101,
+	},
+	block_00014 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10012-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0447", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「えぇ～？　でも、イクが起きた時にはおちんちんすごーく勃起してたよ？　エッチしたいよ～って。触ってあげたら嬉しそうにしてたもん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 108,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「それはただの生理現象で……っ……！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 111,
+	},
+	block_00016 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10011-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0448", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あははっ、びくびくしてるぅ♪　んちゅっ……ぇろ……イクに乳首舐められるの気持ちぃ？　それとも……こっちかなぁ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 118,
+	},
+	block_00017 = {
+		{"se", id=1, loop=1, file="se_c020"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"たっぷりとローションを塗った愛用のオナホでイチモツをしごかれる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 121,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自分で使う時とはまったく違う、容赦のない責め――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 123,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あっ――はぁっ…………！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 126,
+	},
+	block_00020 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10012-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0449", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「やん……ダーリン可愛い",
+					{"gaiji", text="①"},
+					"　オナホール……って言うんだよね？　これ、そんなに気持ちいいんだぁ……それそれそれっ♪」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 133,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くぅ――――――っ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 136,
+	},
+	block_00022 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10011-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0450", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あはっ",
+					{"gaiji", text="①"},
+					"　おちんぽくんすごく喜んでる……おまんこに入ってる時のおちんちんってこんな感じなのかなぁ……？　ちゅっ……んはっ……ちゅるっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 143,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"熱い吐息を漏らしながら、舌先で乳首を弄ぶ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 145,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"寝起きに敏感な部分を刺激され、抵抗しようにも体に上手く力が入らない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 147,
+	},
+	block_00025 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10013-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0451", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「んちゅっ……あむ……ちゅるっ、じゅるるぅっ……！　ぷはっ……ぇろえろ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 154,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"乳首にキスをし、口に含んでねっとりと舐め回し――かと思えば、舌が先端に触れるか触れないかの焦らすようなフェザータッチ。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 156,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"緩急をつけた巧みな舌使いと妖艶な笑みに、体が熱くなってくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 158,
+	},
+	block_00028 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10011-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0452", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ぢゅるるっ……あは",
+					{"gaiji", text="①"},
+					"　おちんちんだけじゃなくておっぱいまで硬くなっちゃったぁ",
+					{"gaiji", text="①"},
+					"　ダーリン、女の子みたいだね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 165,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っ……やめろ……言ったろう、俺には美岬が――！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 168,
+	},
+	block_00030 = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10015-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0453", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「うーん、でもぉ……ほら、イクがおてて止めたら、おちんぽくんびくびくぅ～って、もっとしてほしいよ～って……かわいそう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 176,
+	},
+	block_00031 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10011-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0454", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「だから、やっぱりイかせてあげる♪　たまってるものどぴゅどぴゅって出しちゃおう？　ちゅっ……んちゅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 183,
+	},
+	block_00032 = {
+		{"se", id=1, loop=1, file="se_c020"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あっ、ぐっ――――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 187,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0455", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「へーぇ……このぷにぷにしてるの、そんなにイイんだぁ？　ふふっ……ミサキちゃんのおまんこと、どっちが気持ちいい？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 191,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「何を……俺と美岬は、まだそんなことは――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 194,
+	},
+	block_00035 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10015-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0456", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「えっ……してないの？　ふーん……彼女ともしないんだ？　体イク祭であーんなエッチなことしてたのに」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 201,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「あれは……不可抗力だろう……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 204,
+	},
+	block_00037 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg10012-1", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0457", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「そうだったかもねぇ……でも、ダーリンなら知ってるよね？　おまんこってぇ……太ももやおっぱいで挟まれるより、ずーっと気持ちいいんだよ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 211,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0458", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ほら、ほらぁ……想像してみて。ミサキちゃんのとろとろなおまんこに、勃起したおちんちんを挿入するの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 215,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬の、中に――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 217,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ダメだと思っているのに、つい想像してしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 219,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0459", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あっ",
+					{"gaiji", text="①"},
+					"　すごいね、まだおっきくなるんだぁ……本当にミサキちゃんが好きなんだね……ふふっ……ミサキちゃんのおまんこ、こんな感触かなぁ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 223,
+	},
+	block_00042 = {
+		{"se", id=1, loop=1, file="se_c021"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"手の動きが加速し、濡れたオナホールが激しく上下する。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 226,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根本から裏筋、カリ、亀頭――無数のヒダが勃起したイチモツを余すところなく舐め回し、快楽の波が押し寄せてくる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 228,
+	},
+	block_00044 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100121", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"extrans", sync=0, time=800},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0460", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「わぁ……エッチなおツユだらだらぁ",
+					{"gaiji", text="①"},
+					"　おちんぽくん、これが本当にミサキちゃんのおまんこだって勘違いしちゃったのかな？　ふふっ……可愛いね",
+					{"gaiji", text="①"},
+					"」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 237,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0461", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「いいよ……このまま射精しちゃおう？　ミサキちゃんのおまんこにびゅくびゅくぅって中出ししちゃいたいよね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 241,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くぅっ……はっ――――」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 244,
+	},
+	block_00047 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100131", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0462", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ちゅっ、んむっ……じゅるっ……んはぁっ……ダーリンは今ぁ……ミサキちゃんとセックスしながら、イクに乳首舐められてるの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 251,
+	},
+	block_00048 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100121", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0463", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「興奮するよね？　ゾクゾクしてきたよね？　ミサキちゃんも、ダーリンのおちんちん気持ちいいってすごく感じてるよぉ……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 258,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0464", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「エッチしてる時のミサキちゃん、どんな可愛い顔するのかな？　どんな風に喘ぐのかなぁ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 262,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「っは……みさ、き…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 265,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬の名前を連呼されると、自分でも信じられないほど鼓動の音が早くなる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 267,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自制がきかずに想像力が先走り、美岬の乱れ姿が脳裏を過ぎる。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 269,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体の芯から、熱を帯びた快感が込み上げてきた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 271,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0465", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あー",
+					{"gaiji", text="①"},
+					"　出そうなんだね？　射精しちゃいそうになってるんだね？　いいよ……出しちゃえ出しちゃえ♪」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 275,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ダメなのに――快感に耐えられない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 277,
+	},
+	block_00056 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100131", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0466", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ちゅっ、じゅるぅっ……んふっ……腰浮いてきたぁ……",
+					{"gaiji", text="①"},
+					"　でも、それだけでいいのかなぁ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 284,
+	},
+	block_00057 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100121", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0467", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「腰を振ってぇ……ミサキちゃんのおまんこにおちんぽくん出し入れしたら、もーっと気持ちよくなれるよ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 291,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"美岬の中に、俺のモノを――――",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 293,
+	},
+	block_00059 = {
+		{"se", id=1, loop=1, file="se_c022"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0468", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あっ",
+					{"gaiji", text="①"},
+					"　本当に振り始めたぁ……気持ちよくなりたいんだね……ミサキちゃんのとろとろおまんこに、ザーメンどぴゅどぴゅしちゃいたいんだね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 298,
+	},
+	block_00060 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100131", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0469", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「いいよ……たっぷり出しちゃえ",
+					{"gaiji", text="①"},
+					"　ちゅっ、んむっ……じゅるっ……ミサキちゃんのおまんこに……たーっぷり……ちゅるっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 305,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「くっ――――はっ……みさ、きぃっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 308,
+	},
+	block_00062 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100131", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, time=300, bx=800, by=450},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0470", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「イけイけ、イっちゃえっ……白いのいっぱい、どぴゅどぴゅぅ～って……んっ、むちゅっ、ぇろぉ……ぢゅるっ……んちゅっ、じゅるるるぅ――――――！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 315,
+	},
+	block_00063 = {
+		{"se", id=1, stop=1, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="mhcg100132", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=500},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ev=1, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="mhcg100112", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0471", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「んちゅっ、ちゅるっ…………ぷはっ……わあぁ……びくびくぅ～",
+					{"gaiji", text="①"},
+					"　ぴゅっぴゅ～",
+					{"gaiji", text="①"},
+					"　ふふっ……いっぱい出しちゃったね、ダーリン？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 344,
+	},
+	block_00064 = {
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=18, file="whiteback_00000", x=0, y=0, lv=5, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1},
+		{"bg", id=18, file="mhcg100123", x=-5, y=-5, path=":cg/mhcg10/", lv=5, ev=1, bx=800, by=450},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0472", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「そんなにミサキちゃんのオナホおまんこがよかったのかな？　それとも乳首？　どっちもかな？　ふふ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 360,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「はぁ…………はぁ…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 363,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"射精後の倦怠感と自責の念で、言葉を返す余裕もなかった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 365,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"――やってしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 367,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"なんて、今更悔いても遅い。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 369,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"女部田の言葉に乗せられて、まんまと射精してしまった。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 371,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"オナホールはオナホールだ。美岬なわけがない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 373,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それなのに、終いには自分の方から腰まで振って――これでは、女部田を責められるはずもない。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 375,
+	},
+	block_00072 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=18, lv=5, time=100, alphadel=1, evmaskoff=1},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1000, rule="eff_033_00000"},
+		{"fg", file="jun_01f_00002", file1="jun_01f_00108", path=":fg/jun_01f/", id=30, ch="淳之介", lv=5, mw="mw", mode=1, sync=0, x=-5, y=-5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ううぅ……ひぐっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 387,
+	},
+	block_00073 = {
+		{"fg", file="ikuko_01l_00003", file1="ikuko_01l_00109", file2="ikuko_01l_00202", path=":fg/ikuko_01l/", id=10, lv=5, head="ikuko_01l", ch="郁子", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, time=300, ax=805, ay=455, bx=-5, by=-5},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0473", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「えっ……ダーリン？　どうして泣いてるの……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 393,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「すまない美岬……俺は、俺はぁ……！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 396,
+	},
+	block_00075 = {
+		{"fg", file="ikuko_01l_00003", file1="ikuko_01l_00106", file2="ikuko_01l_00202", path=":fg/ikuko_01l/", id=10, lv=5, head="ikuko_01l", ch="郁子", mw="mw", sync=0, time=300, mode=3, x=0, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0474", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ええぇっ……？　ど、どうしよぉ……喜んでくれるって思って……あたし……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 402,
+	},
+	block_00076 = {
+		{"se", id=0, loop=0, file="se_a078"},
+		{"fgact", ch="郁子", id=10, act="移動", x=400, y=0, time=500},
+		{"fg", file="asane_02m_00007", file1="asane_02m_00124", path=":fg/asane_02m/", id=3, lv=5, head="asane_02m", ch="麻沙音", mw="mw", sync=0, time=500, mode=3, x=-600, y=0},
+		{"fgact", ch="麻沙音", id=3, act="移動", x=200, y=0, time=700},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1491", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「兄ぃ……牛乳パックが上手く開けれないよぉ……シリアルが食べられないよ――お……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 410,
+	},
+	block_00077 = {
+		{"fg", file="ikuko_01m_00003", file1="ikuko_01m_00109", file2="ikuko_01m_00202", path=":fg/ikuko_01m/", id=10, lv=5, head="ikuko_01m", ch="郁子", mw="mw", sync=0, time=300, mode=3, x=400, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0475", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「あっ……妹ちゃん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 416,
+	},
+	block_00078 = {
+		{"se", id=0, loop=0, file="se_a100"},
+		{"fg", file="asane_02m_00005", file1="asane_02m_00121", file2="asane_02m_00205", file4="asane_02m_00401", path=":fg/asane_02m/", id=3, lv=5, head="asane_02m", ch="麻沙音", mw="mw", sync=0, time=1, mode=3, x=-400, y=0},
+		{"fgact", ch="麻沙音", id=3, act="振動下", loop=1, size=12.5, time=150, ease="easeinout_sine"},
+		{"bgm", file="bgm31", vol=100},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1492", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「……3P！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 425,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「ひくっ……そんなことしねぇ……いいから服を着ろ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 428,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「うっ、ぐすっ……ひっく……許してくれ……許してくれぇ……！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 431,
+	},
+	block_00081 = {
+		{"fg", file="ikuko_01m_00003", file1="ikuko_01m_00106", file2="ikuko_01m_00202", path=":fg/ikuko_01m/", id=10, lv=5, head="ikuko_01m", ch="郁子", mw="mw", sync=0, time=300, mode=3, x=400, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="ikuko0476", path=":vo/", ch="ikuko"},
+			},
+			ja = {
+				{
+					name = {"郁子"},
+					"「ダーリン……ご、ごめんね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"郁子", "Ikuko"},
+				},
+			},
+			cn = {
+				{
+					name = {"郁子"},
+				},
+			},
+			tw = {
+				{
+					name = {"郁子"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 437,
+	},
+	block_00082 = {
+		{"fg", file="asane_02m_00005", file1="asane_02m_00105", file2="asane_02m_00202", file4="asane_02m_00401", path=":fg/asane_02m/", id=3, lv=5, head="asane_02m", ch="麻沙音", mw="mw", sync=0, time=300, mode=3, x=-400, y=0},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="asane1493", path=":vo/", ch="asane"},
+			},
+			ja = {
+				{
+					name = {"麻沙音"},
+					"「なんだこの状況……意味分からんすぎる……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"麻沙音", "Asane"},
+				},
+			},
+			cn = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+			tw = {
+				{
+					name = {"麻沙音"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 443,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"淳之介"},
+					"「許してくれ……許してくれ……美岬ぃ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"淳之介", "Junnosuke"},
+				},
+			},
+			cn = {
+				{
+					name = {"淳之介"},
+				},
+			},
+			tw = {
+				{
+					name = {"淳之介"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 446,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小一時間近く、俺は慟哭を上げ続けた。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 448,
+	},
+	block_00085 = {
+		{"bgm", stop=1},
+		{"fg", mode=-1, id=30, ch="淳之介", lv=5},
+		{"cgdel", id=2, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=3, ch="麻沙音", lv=5, time=100},
+		{"cgdel", id=4, time=100, alphadel=1, lv=5},
+		{"cgdel", id=5, time=100, alphadel=1, lv=5},
+		{"cgdel", id=6, time=100, alphadel=1, lv=5},
+		{"cgdel", id=7, time=100, alphadel=1, lv=5},
+		{"cgdel", id=8, time=100, alphadel=1, lv=5},
+		{"cgdel", id=9, time=100, alphadel=1, lv=5},
+		{"fg", mode=-1, id=10, ch="郁子", lv=5, time=100},
+		{"cgdel", id=11, time=100, alphadel=1, lv=5},
+		{"cgdel", id=18, time=100, alphadel=1, lv=5},
+		{"bg", id=1, file="blackback_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
+		{"msgoff", time=1},
+		{"extrans", sync=0, time=1500, rule="eff_043_00000"},
+		{"ex", time=3000, func="wait"},
+		{"text"},
+		linkback = "block_00084",
+		line = 479,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
