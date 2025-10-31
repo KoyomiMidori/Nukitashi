@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0011_00001"] = {
-		{"savetitle", text="レジスタンス・アンダーカバー", ja="レジスタンス・アンダーカバー", en="We Bone the Night", cn="卧底风云", tw="萬善夜總會"},
+		{"savetitle", text="レジスタンス・アンダーカバー", ja="レジスタンス・アンダーカバー", en="Resistencia Encubierta", cn="卧底风云", tw="萬善夜總會"},
 		{"eval", exp="g.01_c_10=1"},
 		{"bg", file="black", path=":bg/"},
 		{"text"},
@@ -309,7 +309,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“No somos héroes, necesitamos ese tipo de entrada del mismo modo que un chico virgen necesita el prepucio de su pene. ¿Qué sentido tenía eso?”",
+					"“No somos héroes, necesitamos ese tipo de entrada del mismo modo que un chico virgen necesita el prepucio de su polla. ¿Qué sentido tenía eso?”",
 					{"rt2"},
 				},
 			},
@@ -504,7 +504,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Sí. Sé que mi hermanito tiende a sumirse en sus pensamientos en plena noche...”",
+					"“Sí. Sé que mi manito tiende a sumirse en sus pensamientos en plena noche...”",
 					{"rt2"},
 				},
 			},
@@ -1049,7 +1049,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Hermanito, esta chica se golpeó la cabeza, creo que se olvidó de quién es.”",
+					"“Manito, esta chica se golpeó la cabeza, creo que se olvidó de quién es.”",
 					{"rt2"},
 				},
 			},
@@ -1252,7 +1252,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Uh, hermanito... Las chicas de su edad se enfadan mucho cuando las tratas como si fueran niñas. Lo sé porque lo viví...”",
+					"“Uh, manito... Las chicas de su edad se enfadan mucho cuando las tratas como si fueran niñas. Lo sé porque lo viví...”",
 					{"rt2"},
 				},
 			},
@@ -1330,7 +1330,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡Que no soy una loli! ¡Están equivocados! ¡Um, solo escúchenme, ¿bueno?! ¡No soy una loli!”",
+					"“¡Que no soy una loli! ¡Están equivocados! ¡Um, solo \nescúchenme, ¿bueno?! ¡No soy una loli!”",
 					{"rt2"},
 				},
 			},
@@ -1869,7 +1869,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ男B", "Hombre A"},
-					"“¡Te acabo de pillar con las manos en la masa y voy a denunciarte a la SHO!”",
+					"“¡Te acabo de pillar con las manos en la masa y voy a denunciarte a la OSS!”",
 					{"rt2"},
 				},
 			},
@@ -1968,7 +1968,7 @@ ast = {
 			},
 			en = {
 				{
-					"Eso atraerá a todos los guardias de la SHO que estén cerca.",
+					"Eso atraerá a todas las guardias de la OSS que estén cerca.",
 					{"rt2"},
 				},
 			},
@@ -2353,7 +2353,7 @@ ast = {
 			},
 			en = {
 				{
-					"Ocultos tras los árboles, podemos ver a dos guardias de la SHO acercándose.",
+					"Ocultos tras los árboles, podemos ver a dos guardias de la OSS acercándose.",
 					{"rt2"},
 				},
 			},
@@ -2396,8 +2396,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO A"},
-					"“Este es el grupo de orden público de la SHO, la división de mantenimiento del orden público en el distrito S. S-1 se dirige a gran velocidad al lugar de la llamada.”",
+					name = {"モブ女B", "Guardia de la OSS A"},
+					"“Este es el grupo de orden público de la OSS, la división de mantenimiento del orden público en el distrito S. S-1 se dirige a gran velocidad al lugar de la llamada.”",
 					{"rt2"},
 				},
 			},
@@ -2435,7 +2435,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO A"},
+					name = {"モブ女B", "Guardia de la OSS A"},
 					"“S-2 y S-3 han detectado a no-copuladores y utilizarán sexo pervertido para reformarlos. División de comunicación del orden público, transmita la información una vez que haya dado con su ubicación en GPS.”",
 					{"rt2"},
 				},
@@ -2474,7 +2474,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO A"},
+					name = {"モブ女B", "Guardia de la OSS A"},
 					"“El grupo de mantenimiento del orden público se dispersará y los rodeará. Se mantendrá la lubricación vaginal. Cambio.”",
 					{"rt2"},
 				},
@@ -2737,7 +2737,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Tienes razón, hermanito. Pues bien... vamos a hacerlo, ¿verdad?”",
+					"“Tienes razón, manito. Pues bien... vamos a hacerlo, ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -3205,7 +3205,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Protocolo Ariadne, actívate.”",
+					"“Protocolo Ariadna, actívate.”",
 					{"rt2"},
 				},
 			},
@@ -3415,7 +3415,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO A"},
+					name = {"モブ女B", "Guardia de la OSS A"},
 					"“Aquí S-2. Comunicaciones, tienen la ubicación— ¿Eh? Estoy recibiendo interferencias repentinas y un fuerte ruido de fondo. No puedo oír nada...”",
 					{"rt2"},
 				},
@@ -3493,7 +3493,7 @@ ast = {
 			},
 			en = {
 				{
-					"Mientras los dos guardias de la SHO están distraídos, nos escabullimos y escapamos hacia el bosque.",
+					"Mientras las dos guardias de la OSS están distraídas, nos escabullimos y escapamos hacia el bosque.",
 					{"rt2"},
 				},
 			},
@@ -3638,7 +3638,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Además, nuestra posición se transmite constantemente desde nuestras tablets. La SHO tiene localizada nuestra ubicación dondequiera que vayamos.”",
+					"“Además, nuestra posición se transmite constantemente desde nuestras tablets. La OSS tiene localizada nuestra ubicación dondequiera que vayamos.”",
 					{"rt2"},
 				},
 			},
@@ -3856,7 +3856,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Presencia enemiga detectada. Estado virgen: desconocido, se aproxima desde el noreste. Dos objetivos sospechosos. El IAE determine que el objetivo forma parte de la división de orden público de la SHO. Parecen que llevan dos pistolas calibre 44.”",
+					"“Presencia enemiga detectada. Estado virgen: desconocido, se aproxima desde el noreste. Dos objetivos sospechosos. El IAE determina que el objetivo forma parte de la división de orden público de la OSS. Parecen que llevan dos pistolas calibre 44.”",
 					{"rt2"},
 				},
 			},
@@ -3897,7 +3897,7 @@ ast = {
 					name = {"麻沙音", "Asane"},
 					"“Estado de los genitales del enemigo: humedecidos ",
 					{"gaiji", text="①"},
-					" and drenched",
+					" y empapados",
 					{"gaiji", text="①"},
 					". Debería ser posible la penetración sin juegos previos tras la llegada. 420 segundos para contactar.”",
 					{"rt2"},
@@ -4567,7 +4567,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Contacto. Se acercan enemigos. La IAE ha determinado que los objetivos son buscadores de sexo. Son seis, dos hombres y cuatro mujeres. Están en medio de un encuentro sexual entre seis. Están equipados con consoladores extremadamente gruesos, bolígrafos de pasión y tres condones marca SHO.”",
+					"“Contacto. Se acercan enemigos. La IAE ha determinado que los objetivos son buscadores de sexo. Son seis, dos hombres y cuatro mujeres. Están en medio de un encuentro sexual entre seis. Están equipados con consoladores extremadamente gruesos, bolígrafos de pasión y tres condones marca OSS.”",
 					{"rt2"},
 				},
 			},
@@ -4644,7 +4644,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Se observa que dos personas están siendo penetradas por detrás y una está practicando el beso negro. Creo que la mujer que practica beso negro tiene un consolador extremadamente grueso en la vagina. Estado genital de todas las personas: empapados",
+					"“Se observa que dos personas están siendo penetradas por \ndetrás y una está practicando el beso negro. Creo que la mujer que practica beso negro tiene un consolador extremadamente grueso en la vagina. Estado genital de todas las personas: empapados",
 					{"gaiji", text="①"},
 					".”",
 					{"rt2"},
@@ -5141,7 +5141,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Hermanito, espera! Espera un minuto, que por ahí—”",
+					"“¡Manito, espera! Espera un minuto, que por ahí—”",
 					{"rt2"},
 				},
 			},
@@ -5328,7 +5328,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO C"},
+					name = {"モブ女A", "Guardia de la OSS C"},
 					"“Está bien, Kouki-chan. Santo cielo... ¿Cómo pueden hacernos esto?”",
 					{"rt2"},
 				},
@@ -5399,10 +5399,10 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO C"},
+					name = {"モブ女A", "Guardia de la OSS C"},
 					"“Si solo experimentaran los placeres del sexo pervertido, no pensarían en hacer algo tan sucio... ",
 					{"gaiji", text="①"},
-					" Ríndanse y saquen sus penes y vaginas... ",
+					" Ríndanse y saquen sus pollas y vaginas... ",
 					{"gaiji", text="①"},
 					"”",
 					{"rt2"},
@@ -5454,7 +5454,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“Resistirse es inútil, y me excita bastante... Jeje, quién hubiera imaginado que llegaríamos a esto... Me alegra tanto haberme unido a la SHO ♪”",
+					"“Resistirse es inútil, y me excita bastante... Jeje, quién hubiera imaginado que llegaríamos a esto... Me alegra tanto haberme unido a la OSS ♪”",
 					{"rt2"},
 				},
 			},
@@ -5674,7 +5674,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“En marcha... ¡Ataquen!”",
+					"“En marcha... ¡Al ataque!”",
 					{"rt2"},
 				},
 			},
@@ -6099,7 +6099,7 @@ ast = {
 			},
 			en = {
 				{
-					"Nanase utiliza eso para escalar la pared y colocarse detrás de los guardias.",
+					"Nanase utiliza eso para escalar la pared y colocarse detrás de las guardias.",
 					{"rt2"},
 				},
 			},
@@ -6188,7 +6188,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO C"},
+					name = {"モブ女A", "Guardia de la OSS C"},
 					"“¡Aah! Nada mal...”",
 					{"rt2"},
 				},
@@ -6665,7 +6665,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO D"},
+					name = {"モブ女B", "Guardia de la OSS D"},
 					"“¡Ay! No me puedo mover... ¡¿Qué es esta cosa pegajosa?!”",
 					{"rt2"},
 				},
@@ -6855,7 +6855,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女C", "Guardia de la SHO E"},
+					name = {"モブ女C", "Guardia de la OSS E"},
 					"“¡Ahh, brilla mucho, ugh, mis ojos, mis oídos!”",
 					{"rt2"},
 				},
@@ -7173,7 +7173,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO F"},
+					name = {"モブ女A", "Guardia de la OSS F"},
 					"“¡Eww, ¿esto es lubricante?!”",
 					{"rt2"},
 				},
@@ -7677,7 +7677,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Hermano, causamos mucho alboroto. Todos los guardias de la zona nos están siguiendo. Los veo en mi radar. Tres genitales enemigos por detrás, dos por delante y cuatro cerca de la zona de la playa, están armados con metralletas.”",
+					"“Hermano, causamos mucho alboroto. Todas las guardias de la zona nos están siguiendo. Las veo en mi radar. Tres genitales enemigos por detrás, dos por delante y cuatro cerca de la zona de la playa, están armadas con metralletas.”",
 					{"rt2"},
 				},
 			},
@@ -7889,8 +7889,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO G"},
-					"“¡Esta es la división especial de combate y orden público de la SHO! ¡Deténganse ahora mismo!”",
+					name = {"モブ女A", "Guardia de la OSS G"},
+					"“¡Esta es la división especial de combate y orden público de la OSS! ¡Deténganse ahora mismo!”",
 					{"rt2"},
 				},
 			},
@@ -8005,7 +8005,7 @@ ast = {
 			},
 			en = {
 				{
-					"La asociación general de la SHO está compuesta por varios grupos. Los guardias de la SHO son miembros del de mantenimiento del orden público.",
+					"La asociación general de la OSS está compuesta por varios grupos. Las guardias de la OSS son miembros del de mantenimiento del orden público.",
 					{"rt2"},
 				},
 			},
@@ -8037,7 +8037,7 @@ ast = {
 			},
 			en = {
 				{
-					"Entre ellos se encuentran la división de mantenimiento del orden público y la división de combate especial. La división de combate cuenta con los guardias de élite especializados en combate.",
+					"Entre ellos se encuentran la división de mantenimiento del orden público y la división de combate especial. La división de combate cuenta con las guardias de élite especializados en combate.",
 					{"rt2"},
 				},
 			},
@@ -8140,7 +8140,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO G"},
+					name = {"モブ女A", "Guardia de la OSS G"},
 					"“Si intentan escapar de nuevo, los someteremos con más fuerza militar que una simple paliza. La próxima vez no habrá advertencia. ¡Les dispararemos!”",
 					{"rt2"},
 				},
@@ -8216,7 +8216,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO H"},
+					name = {"モブ女B", "Guardia de la OSS H"},
 					"“¡Oigan! ¿Están intentando alterar el orden público? ¡Están molestando a toda la gente que goza del sexo pervertido sano!”",
 					{"rt2"},
 				},
@@ -8321,7 +8321,7 @@ ast = {
 			},
 			en = {
 				{
-					"Obviamente, los rifles de la SHO no son reales.",
+					"Obviamente, los rifles de la OSS no son reales.",
 					{"rt2"},
 				},
 			},
@@ -8458,7 +8458,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Jun, seguro ya lo sabes, pero la división especial de combate está autorizada a disparar por el orden público. No son como el resto de la SHO y la SS.”",
+					"“Jun, seguro ya lo sabes, pero la división especial de combate está autorizada a disparar por el orden público. No son como el resto de la OSS y la SS.”",
 					{"rt2"},
 				},
 			},
@@ -8608,7 +8608,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Guardia de la SHO G"},
+					name = {"モブ女A", "Guardia de la OSS G"},
 					"“¡Última advertencia! ¡Dejen sus armas sin oponer resistencia, pongan las manos detrás de la cabeza y muestren su erección!”",
 					{"rt2"},
 				},
@@ -8700,8 +8700,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女B", "Guardia de la SHO H"},
-					"“Ugh... ¡No entienden lo que significa la ley pervertida, ¿verdad, bastardos incapaces de procrear?!”",
+					name = {"モブ女B", "Guardia de la OSS H"},
+					"“Ugh... ¡No entienden lo que significa la ley súperpervertida, \n¿verdad, bastardos incapaces de procrear?!”",
 					{"rt2"},
 				},
 			},
@@ -9092,7 +9092,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“No detecto nada en el radar. Confirmando la pérdida de posición de los genitales enemigos... Haaah...”",
+					"“No detecto nada en el radar. Confirmando la pérdida de \nposición de los genitales enemigos... Haaah...”",
 					{"rt2"},
 				},
 			},
@@ -10116,7 +10116,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sí, no hay nadie del SS. Entremos.”",
+					"“Sí, no hay nadie de la SS. Entremos.”",
 					{"rt2"},
 				},
 			},
@@ -10952,7 +10952,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Básicamente, somos un grupo de personas que se niega a acatar la ley pervertida de la isla y siempre estamos buscando nuevos aliados.”",
+					"“Básicamente, somos un grupo de personas que se niega a acatar la ley súperpervertida de la isla y siempre estamos buscando nuevos aliados.”",
 					{"rt2"},
 				},
 			},
@@ -11178,7 +11178,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Me llamo Tachibana Junnosuke, estoy en segundo curso y soy el líder de nuestra sociedad secreta, el NLNS. Soy virgen y estoy orgulloso de ello.”",
+					"“Me llamo Tachibana Junnosuke, estoy en segundo año y soy el líder de nuestra sociedad secreta, el NLNS. Soy virgen y estoy orgulloso de ello.”",
 					{"rt2"},
 				},
 			},
@@ -11539,7 +11539,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah, sí, he oído... algunas cosas. Eres como una celebridad, ¿cierto, Nanase-chan...?”",
+					"“Ah, sí, he oído... algunas cosas. Eres como una celebridad, \n¿cierto, Nanase-chan...?”",
 					{"rt2"},
 				},
 			},
@@ -12364,7 +12364,7 @@ ast = {
 			},
 			en = {
 				{
-					"Eso también lo recalcó con firmeza la SHO cuando entramos en la isla.",
+					"Eso también lo recalcó con firmeza la OSS cuando entramos en la isla.",
 					{"rt2"},
 				},
 			},
@@ -13365,7 +13365,7 @@ ast = {
 			},
 			en = {
 				{
-					"Lo dice como si la organización que fundé está llena de perdedores y inadaptados.",
+					"Lo dice como si la organización que fundé estuviera llena de perdedores y inadaptados.",
 					{"rt2"},
 				},
 			},
@@ -13404,7 +13404,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡A-Aun así...! Esta organización quiere destruir la ley pervertida, ¿verdad? Son delicuentes, ¿no?”",
+					"“¡A-Aun así...! Esta organización quiere destruir la ley \nsúperpervertida, ¿verdad? Son delicuentes, ¿no?”",
 					{"rt2"},
 				},
 			},
@@ -13444,7 +13444,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“¡Sé cómo se sienten, pero no croe que esté bien! ¡No puedo ayudar a un grupo de personas que hacen cosas malas!”",
+					"“¡Sé cómo se sienten, pero no creo que esté bien! ¡No puedo ayudar a un grupo de personas que hacen cosas malas!”",
 					{"rt2"},
 				},
 			},
@@ -13689,7 +13689,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Lógicamente, vas a estar infringiendo la ley de todos modos, ¿no? Aquí todos somos iguales.”",
+					"“Lógicamente, vas a estar infringiendo la ley de todos modos, \n¿no? Aquí todos somos iguales.”",
 					{"rt2"},
 				},
 			},
@@ -14972,7 +14972,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No reacciones como el idiota de tu hermano...”",
+					"“No reacciones así...”",
 					{"rt2"},
 				},
 			},

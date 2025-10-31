@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0003_00001"] = {
-		{"savetitle", text="あいえき色に染まる島", ja="あいえき色に染まる島", en="Aieki Iro ni Somaru Island", cn="爱液染色的岛屿", tw="愛液染色的島嶼"},
+		{"savetitle", text="あいえき色に染まる島", ja="あいえき色に染まる島", en="Aieki Iro ni Somaru Shima", cn="爱液染色的岛屿", tw="愛液染色的島嶼"},
 		{"eval", exp="g.01_c_02=1"},
 		{"fg", mode=-1, id=30},
 		{"cgdel", id=2, time=100, alphadel=1, lv=5},
@@ -31,7 +31,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Fwaahh...”",
+					"“Fwaaahh...”",
 					{"rt2"},
 				},
 			},
@@ -542,7 +542,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“No voy a ir... No voy a ir de ninguna manera. Me voy a quedar en mi casa.”",
+					"“No voy a ir... No voy a ir de ninguna manera. Me voy a quedar en mi casita.”",
 					{"rt2"},
 				},
 			},
@@ -697,7 +697,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“No seas tonto, hermanito. Eso es facilísmo.”",
+					"“No seas tonto, manito. Eso es facilísmo.”",
 					{"rt2"},
 				},
 			},
@@ -845,7 +845,7 @@ ast = {
 			},
 			en = {
 				{
-					"No creía que nuestra familia tuviera tantos problemas genéticos, pero mi hermana vive a partir de sus impulsos como un animal.",
+					"No creía que nuestra familia tuviera tantos problemas \ngenéticos, pero mi hermana vive a partir de sus impulsos como un animal.",
 					{"rt2"},
 				},
 			},
@@ -1178,7 +1178,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¿Qué dices, hermanito? Seamos hikikomoris juntos. Podemos ver transmisiones en directo de gente perdiendo su dinero en la bolsa y usar su dolor como sustento.”",
+					"“Manitoo... Seamos ninis juntos. Podemos ver transmisiones de gente perdiendo su dinero en la bolsa y usar su dolor como sustento.”",
 					{"rt2"},
 				},
 			},
@@ -1280,7 +1280,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's not like I want to go to such a dangerous place either.",
+					"Yo tampoco quiero ir a un lugar tan peligroso.",
 					{"rt2"},
 				},
 			},
@@ -1312,7 +1312,7 @@ ast = {
 			},
 			en = {
 				{
-					"Tal vez Asa-chan tenga razón. Nos quedaremos en casa hoy—",
+					"Tal vez Asa-chan tenga razón. Nos quedaremos en casa hoy...",
 					{"rt2"},
 				},
 			},
@@ -1413,7 +1413,7 @@ ast = {
 			},
 			en = {
 				{
-					"Mierda, por poco volví a caer en las tácticas manipuladora de mi hermana.",
+					"Mierda, por poco volví a caer en las tácticas manipuladoras de mi hermana.",
 					{"rt2"},
 				},
 			},
@@ -1605,7 +1605,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No nos queda nadie fuera de esta casa en quien confiar... Estamos solos contra el mundo. ¡Demos lo mejor de nosotros!”",
+					"“No nos queda nadie fuera de esta casa en quien confiar... Estamos solos contra el mundo. ¡Tenemos que esforzarnos!”",
 					{"rt2"},
 				},
 			},
@@ -1683,7 +1683,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Ah, hermanito! ¡Pensar que mostrarías una determinación tan inútil solo por tu hermanita! ¡Te amo! ¡Abrázame!”",
+					"“¡Ah, manito! ¡Pensar que mostrarías una determinación tan inútil solo por tu manita! ¡Te amo! ¡Abrázame!”",
 					{"rt2"},
 				},
 			},
@@ -1757,7 +1757,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Bien, volvamos a casa sanos y salvos hoy!”",
+					"“¡Bien, volvamos a casa sanos y salvos!”",
 					{"rt2"},
 				},
 			},
@@ -1798,7 +1798,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Sí!”",
+					"“¡Sip!”",
 					{"rt2"},
 				},
 			},
@@ -1860,7 +1860,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Por cierto, ¿cómo piensas eludir todo el asunto del sexo?”",
+					"“Por cierto, ¿cómo piensas evadir todo el tema del sexo?”",
 					{"rt2"},
 				},
 			},
@@ -1997,7 +1997,7 @@ ast = {
 			},
 			en = {
 				{
-					"¿Cómo vamos a evitar los actos de procreación—o sea, sexo pervertido?",
+					"¿Cómo vamos a evitar los actos de procreación... o sexo pervertido?",
 					{"rt2"},
 				},
 			},
@@ -2076,7 +2076,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ah, es nuestra vecina... Buenos días. Vamos, Asa-chan, salúdala.”",
+					"“Ah, es nuestra vecina... Buenos días. Vamos, Asa-chan, \nsalúdala.”",
 					{"rt2"},
 				},
 			},
@@ -2121,7 +2121,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Uhhh... *mnmm*... hola...”",
+					"“Uhhh... mmm... hola...”",
 					{"rt2"},
 				},
 			},
@@ -2308,7 +2308,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Hermanito, ¿a qué se refiere con guardería?”",
+					"“¿A qué se refiere con guardería?”",
 					{"rt2"},
 				},
 			},
@@ -2425,7 +2425,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女B", "Vecina casada"},
-					"“Oh, o a lo mejor... ¿te gustaría cogerte a la mujer del vecino? Podríamos ponernos cachondos delante de mi marido ",
+					"“Ay, o será que... ¿te gustaría cogerte a la mujer del vecino? Podríamos ponernos cachondos delante de mi marido ",
 					{"gaiji", text="①"},
 					"”",
 					{"rt2"},
@@ -2507,7 +2507,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, perdón... La verdad es anoche me la pasé follando, así que estoy muy agotado... No creo que se me pueda parar hoy.”",
+					"“Uh, perdón... La verdad es anoche me la pasé follando, así que estoy muy agotado... No creo que se me pare hoy.”",
 					{"rt2"},
 				},
 			},
@@ -2583,7 +2583,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Si me queda tiempo, claro. Nos vemos.”",
+					"“Si me queda tiempo, claro. Hasta luego.”",
 					{"rt2"},
 				},
 			},
@@ -2965,7 +2965,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Espera, hay un muro detrás—¡¿ahhh?!”",
+					"“Espera, hay un muro detrás... ¡¿ahhh?!”",
 					{"rt2"},
 				},
 			},
@@ -3393,7 +3393,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Está rotundamente prohibido tener relaciones sexuales con alguien menor de la edad establecida.”",
+					"“Está rotundamente prohibido tener relaciones sexuales con alguien menor a la edad establecida.”",
 					{"rt2"},
 				},
 			},
@@ -3429,7 +3429,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uno de los delitos más graves en la Isla Seiran es hacerle algo a las lolis.”",
+					"“Uno de los delitos más graves en la Isla Seiran es tocar a las lolis.”",
 					{"rt2"},
 				},
 			},
@@ -3753,7 +3753,7 @@ ast = {
 			},
 			en = {
 				{
-					"Se le hizo mucho hincapié en el vídeo que vimos durante la inspección de entrada en la isla.",
+					"Se le hizo mucho hincapié en el video que vimos durante la inspección de entrada en la isla.",
 					{"rt2"},
 				},
 			},
@@ -4342,7 +4342,7 @@ ast = {
 			},
 			en = {
 				{
-					"Aún no me he acostumbrado al entorno de escuela, así que llegar con prisas no debería ser algo terrible.",
+					"Aún no me he acostumbrado al entorno escolar, así que llegar con prisas no debería ser algo terrible.",
 					{"rt2"},
 				},
 			},
@@ -4524,7 +4524,7 @@ ast = {
 			},
 			en = {
 				{
-					"Su uniforme es notablemente distinto y llevan brazaletes con la palabra 'Comité de Disciplina'.",
+					"Su uniforme es notablemente distinto y llevan brazaletes con la palabra “Comité de Moral Pública”.",
 					{"rt2"},
 				},
 			},
@@ -4629,7 +4629,7 @@ ast = {
 			},
 			en = {
 				{
-					"La ONS, la organización encargada de la isla, ofrece becas especiales a los estudiantes para que acudan a la escuela.",
+					"La OSS, la organización encargada de la isla, ofrece becas especiales a los estudiantes para que acudan a la escuela.",
 					{"rt2"},
 				},
 			},
@@ -4661,7 +4661,7 @@ ast = {
 			},
 			en = {
 				{
-					"Al tratarse de un subsidio, no es necesario devolver el dinero, y supone un incentivo adicional para establecer residencia en la isla. De hecho, muchos de los que obtienen la beca hacen precisamente eso.",
+					"Al ser un subsidio, no es necesario devolver el dinero, y supone un incentivo adicional para establecer residencia en la isla. Muchos de los que obtienen la beca hacen precisamente eso.",
 					{"rt2"},
 				},
 			},
@@ -4693,7 +4693,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pero a cambio, están obligados a realizar trabajo voluntario para la ONS. Es algo así como una especie de programa de aprendizaje.",
+					"Pero a cambio, están obligados a realizar trabajo voluntario para la OSS. Es algo así como una especie de programa de aprendizaje.",
 					{"rt2"},
 				},
 			},
@@ -4725,7 +4725,7 @@ ast = {
 			},
 			en = {
 				{
-					"Los estudiantes que reciben la beca de la ONS tienen su propio uniforme especial.",
+					"Los estudiantes que reciben la beca de la OSS tienen su propio uniforme especial.",
 					{"rt2"},
 				},
 			},
@@ -4757,7 +4757,7 @@ ast = {
 			},
 			en = {
 				{
-					"Aunque la Academia Minotsuki tiene su propio uniforme, a estos estudiantes se les permite llevar el uniforme de la ONS. Es muy revelador y es increíblemente popular en la isla.",
+					"Aunque la Academia Minotsuki tiene su propio uniforme, a estos estudiantes se les permite llevar el uniforme de la OSS. Es muy revelador y es increíblemente popular en la isla.",
 					{"rt2"},
 				},
 			},
@@ -4789,7 +4789,7 @@ ast = {
 			},
 			en = {
 				{
-					"Las chicas que reciben la beca de la ONS se denominan Estudiantes de la ONS.",
+					"Las chicas que reciben la beca de la OSS se denominan Estudiantes de la OSS.",
 					{"rt2"},
 				},
 			},
@@ -4821,7 +4821,7 @@ ast = {
 			},
 			en = {
 				{
-					"O simplemente 'SS.'",
+					"O simplemente SS.",
 					{"rt2"},
 				},
 			},
@@ -4896,7 +4896,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Pues es como el trabajo habitual de un comité disciplinario.”",
+					"“Pues es como el trabajo habitual de un comité de \nmoral pública.”",
 					{"rt2"},
 				},
 			},
@@ -4970,7 +4970,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“¡Los que sigan! Permanezcan en la fila y muéstrenele sus pertenencias a la inspectora.”",
+					"“¡Sigan! Permanezcan en la fila y muéstrenele sus pertenencias a la inspectora.”",
 					{"rt2"},
 				},
 			},
@@ -5009,7 +5009,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Estudiante SS A"},
+					name = {"モブ女A", "Estudiante de la SS A"},
 					"“Veamos... Libros, una tablet, una cartuchera, una lonchera...”",
 					{"rt2"},
 				},
@@ -5085,8 +5085,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Estudiante SS A"},
-					"“Un vibrador, bolas anales, un rotador rosa, condones marca ONS y algo de viagra...”",
+					name = {"モブ女A", "Estudiante de la SS A"},
+					"“Un vibrador, bolas anales, un rotador rosa, condones marca OSS y algo de viagra...”",
 					{"rt2"},
 				},
 			},
@@ -5206,7 +5206,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“¡Tú, el que está ahí! ¡Quédate quieto!”",
+					"“¡Eh, tú, el de ahí! ¡Quédate quieto!”",
 					{"rt2"},
 				},
 			},
@@ -5282,7 +5282,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Estudiante SS A"},
+					name = {"モブ女A", "Estudiante de la SS A"},
 					"“Libros, estuche para bolígrafos, una tablet, una cartera y... Espera, ¿qué es esto? ¡Comandante!”",
 					{"rt2"},
 				},
@@ -5442,7 +5442,7 @@ ast = {
 			},
 			en = {
 				{
-					"Recibo un regaño verbal por parte de todos los miembros del comité disciplinario y finalmente me dejan marchar.",
+					"Recibo un regaño verbal por parte de todos los miembros del comité de moral pública y finalmente me dejan marchar.",
 					{"rt2"},
 				},
 			},
@@ -5519,7 +5519,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Lo siento, hermanito. Fue mi culpa... Pesaba mucho y lo metí en tu mochila, pero nunca pensé que pasaría esto. Lo siento, puedes gritarme si quieres.”",
+					"“Lo siento, manito. Fue mi culpa... Pesaba mucho y lo metí en tu mochila, pero nunca pensé que pasaría esto. Lo siento, puedes gritarme si quieres.”",
 					{"rt2"},
 				},
 			},
@@ -5556,7 +5556,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡No perdona es que estoy un poquito EMOCIONAL ahora mismo y tengo tantas cosas que DECIR que ni siquiera puedo pensar con claridad...!”",
+					"“¡No perdona es que estoy un poquito EMOCIONAL ahora mismo y tengo tantas cosas que DECIR que ni siquiera puedo pensar con claridad!”",
 					{"rt2"},
 				},
 			},
@@ -6026,7 +6026,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Rapera"},
-					"“¡Nwoaaaah! ¡Atrapada en un ring, fuera el semen del culo, dentro el semen del coño! ¡Intimidación de polla, inseminación de polla, el coño es la revelación! ¡¡ESTOY VAGINAAAAAL!!”",
+					"“¡Nwoaaaah! ¡Atrapada en un ring, fuera el semen del culo, dentro el semen del coño! ¡Intimidación de polla, inseminación de polla, el coño es la revelación! ¡¡SIEMPRE, SIEMPRE!!”",
 					{"rt2"},
 				},
 			},
@@ -6212,7 +6212,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“S-Sí... hermanito... ¡mira!”",
+					"“S-Sí... manito... ¡mira!”",
 					{"rt2"},
 				},
 			},
@@ -6402,7 +6402,7 @@ ast = {
 			},
 			en = {
 				{
-					"Definitivamente, todos van a enloquecer.",
+					"No hay dudas, todos van a enloquecer.",
 					{"rt2"},
 				},
 			},
@@ -6672,7 +6672,7 @@ ast = {
 			},
 			en = {
 				{
-					"Luce aburrida, con la cabeza agachada, encogida.",
+					"Luce aburrida, con la cabeza agachada y encogida.",
 					{"rt2"},
 				},
 			},
@@ -6768,7 +6768,7 @@ ast = {
 			},
 			en = {
 				{
-					"Está encorvada, como si intentara no ser vista por nadie.",
+					"Está encorvada, como si intentara que nadie la viera.",
 					{"rt2"},
 				},
 			},
@@ -6840,7 +6840,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¿Mmm? ¿Qué pasa, hermanito? ¿Viste algo curiosito?”",
+					"“¿Mmm? ¿Qué pasa, manito? ¿Viste algo curiosito?”",
 					{"rt2"},
 				},
 			},
@@ -6979,7 +6979,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pero soy muy consciente de su presencia.",
+					"Aun así, soy muy consciente de su presencia.",
 					{"rt2"},
 				},
 			},
@@ -7194,7 +7194,7 @@ ast = {
 			en = {
 				{
 					name = {"桐香", "Touka"},
-					"“... Buenos días, alumnos. Soy la presidenta del Consejo Escolar, Reizeiin Touka.”",
+					"“... Buenos días, alumnos. Soy la presidenta del consejo escolar, Reizeiin Touka.”",
 					{"rt2"},
 				},
 			},
@@ -7260,7 +7260,7 @@ ast = {
 			},
 			en = {
 				{
-					"Y todo el gimnasio estalla en aplausos.",
+					"Todo el gimnasio estalla en aplausos.",
 					{"rt2"},
 				},
 			},
@@ -7298,7 +7298,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Estudiante A"},
-					"“¡La presi! ¡¡Es la presidenta del Consejo Escolar!! ¡Touka-samaaaaa!”",
+					"“¡La presi! ¡¡Es la presidenta del consejo escolar!! \n¡Touka-samaaaaa!”",
 					{"rt2"},
 				},
 			},
@@ -7517,7 +7517,7 @@ ast = {
 			en = {
 				{
 					name = {"桐香", "Touka"},
-					"“Creo firmemente en una cosa... El sexo puede llevarte a comprender mejor a tus semejantes, y también a las mujeres.”",
+					"“Creo firmemente en una cosa... El sexo puede ayudarte a comprender mejor a tus semejantes, tanto hombres como mujeres.”",
 					{"rt2"},
 				},
 			},
@@ -7556,7 +7556,7 @@ ast = {
 			en = {
 				{
 					name = {"桐香", "Touka"},
-					"“Con nuestros ojos, aprendemos a percibir a quienes nos rodean. Con nuestras palabras, aprendemos a conversar con quienes nos rodean.”",
+					"“Con nuestros ojos, aprendemos a percibir a quienes nos rodean. Con nuestras palabras, aprendemos a conversar con ellos.”",
 					{"rt2"},
 				},
 			},
@@ -7595,7 +7595,7 @@ ast = {
 			en = {
 				{
 					name = {"桐香", "Touka"},
-					"“Y con nuestros genitales, aprendemos a comprender de todo corazón a quienes nos rodean.”",
+					"“Y con nuestros genitales, aprendemos a comprenderlos de todo corazón.”",
 					{"rt2"},
 				},
 			},
@@ -7845,7 +7845,7 @@ ast = {
 			en = {
 				{
 					name = {"桐香", "Touka"},
-					"“Habiendo dicho eso, animo a todos los presentes a que comprendan más profundamente a sus amigos, y a que disfruten al máximo de su radiante vida escolar.”",
+					"“Habiendo dicho eso, animo a todos los presentes a que comprendan profundamente a sus amigos, y espero que disfruten al máximo de su radiante vida escolar.”",
 					{"rt2"},
 				},
 			},
@@ -8063,7 +8063,7 @@ ast = {
 			},
 			en = {
 				{
-					"La chica de aspecto sencillo que había visto también desaparece entre la multitud.",
+					"La chica de aspecto básico que había visto también desaparece entre la multitud.",
 					{"rt2"},
 				},
 			},
@@ -8443,7 +8443,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¿Eh? ¡¿Ah?!”",
+					"“¿Eh? ¡¿Ahh?!”",
 					{"rt2"},
 				},
 			},
@@ -8618,7 +8618,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Estudiante C"},
-					"“Ven, así tendremos una en tu polla y otra en el culo. ¡A muchas chicas aquí nos gusta de terminar de criar a los chicos!”",
+					"“Ven, así tendremos una en tu polla y otra en el culo. ¡A muchas chicas aquí nos gusta terminar de criar a los chicos!”",
 					{"rt2"},
 				},
 			},
@@ -8831,7 +8831,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Estudiante C"},
-					"“¡No hay juegos previos como tocar glande chupar la preeyaculación, chupar el frenillo y lamer pollas palpitantes!”",
+					"“¡No hay juegos previos como tocar glande, chupar la preeyaculación, chupar el frenillo y lamer pollas palpitantes!”",
 					{"rt2"},
 				},
 			},
@@ -8948,7 +8948,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女C", "Estudiante D"},
-					"“¡No juguemos! ¡Ayer gané al piedra, papel o tijera, así que elijo primero la nueva fruta!”",
+					"“¡No estamos bromeando! ¡Ayer gané al piedra, papel o \ntijera, así que elijo primero la nueva fruta!”",
 					{"rt2"},
 				},
 			},
@@ -8982,7 +8982,7 @@ ast = {
 			},
 			en = {
 				{
-					"¿Otra vez? ¡¿Es que para este gente solo soy un objeto?!",
+					"¿Otra vez? ¡¿Es que para esta gente solo soy un objeto?!",
 					{"rt2"},
 				},
 			},
@@ -9051,7 +9051,7 @@ ast = {
 			},
 			en = {
 				{
-					"Nadie intentó hablar conmigo durante el recreo, así que ni siquiera lo vi venirse. Perdón por el chiste.",
+					"Nadie intentó hablar conmigo durante el recreo, así que ni siquiera lo vi venirse, valga la redundancia.",
 					{"rt2"},
 				},
 			},
@@ -9139,7 +9139,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ男D", "Estudiante A"},
-					"“¿Tantas ganas le tienes? ¡Pues toma! ¡Te preñaré hasta el estómago!”",
+					"“¿Tantas ganas le tienes? ¡Pues toma! ¡Te preñaré hasta el \nestómago!”",
 					{"rt2"},
 				},
 			},
@@ -9173,7 +9173,7 @@ ast = {
 			},
 			en = {
 				{
-					"Mientras busco desesperado una vía de escape, paso junto a varias personas que están follando mientras comen su almuerzo. ¿No es que como que antihigienico?",
+					"Mientras busco desesperado una vía de escape, paso junto a varias personas que están follando mientras comen su almuerzo. ¿No es como que antihigienico?",
 					{"rt2"},
 				},
 			},
@@ -9344,7 +9344,7 @@ ast = {
 			},
 			en = {
 				{
-					"¡Si esto sigue así, perderé no solo mi virginidad, sino también la de mi culo!",
+					"¡Si esto sigue así, perderé no solo mi virginidad principal, sino también la de mi culo!",
 					{"rt2"},
 				},
 			},
@@ -9501,7 +9501,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Jaa... Casi no no lo logras, mi querido hermanito.)",
+					"(Jaa... Casi no no lo logras, mi querido manito.)",
 					{"rt2"},
 				},
 			},
@@ -9579,7 +9579,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Bueno, sigo en mi etapa de "nada de follar", pero me está agotando tanta gente que se me quiere acercar... así que terminé metiéndome aquí. Está vacío.)",
+					"(Bueno, sigo en mi etapa de “nada de follar” pero me está agotando tanta gente que se me quiere acercar... así que \nterminé metiéndome aquí. Está vacío.)",
 					{"rt2"},
 				},
 			},
@@ -9616,7 +9616,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"(Me salvaste la vida, de verdad... Te amo, hermanita.)",
+					"(Me salvaste la vida, de verdad... Te amo, manita.)",
 					{"rt2"},
 				},
 			},
@@ -9661,7 +9661,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Yo también, hermanito... Shh, ahí vienen.)",
+					"(Yo también, manito... Shh, ahí vienen.)",
 					{"rt2"},
 				},
 			},
@@ -9810,7 +9810,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女C", "Estudiante D"},
-					"“Pero siempre les dan una educación sexual vaginal en tres días... En fin, solo quiero darle un bocado a nuestra nueva frutita ♪”",
+					"“Pero siempre les dan una educación sexual en tres días... En fin, solo quiero darle un bocado a nuestra nueva frutita ♪”",
 					{"rt2"},
 				},
 			},
@@ -9993,7 +9993,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Es una pollapaleta. Le ponen hielo de sabores a un condón para que lo chupes... Es una especialidad de la Isla Seiran... La compré en la cafetería.)",
+					"(Es una pollapaleta. Le ponen hielo de sabores a un condón para que lo chupes... Es una especialidad de la Isla Seiran... La \ncompré en la cafetería.)",
 					{"rt2"},
 				},
 			},
@@ -10203,7 +10203,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"(Tch... ¡es lista!)",
+					"(Tch... ¡Esta no es tonta!)",
 					{"rt2"},
 				},
 			},
@@ -10345,7 +10345,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Hermanito...)",
+					"(Manito...)",
 					{"rt2"},
 				},
 			},
@@ -10652,7 +10652,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(¡Por supuesto! ¿Las chicas de tetas grandes también te aceleran el corazón, hermanito?)",
+					"(¡Por supuesto! ¿Las chicas de tetas grandes también te aceleran el corazón, manito?)",
 					{"rt2"},
 				},
 			},
@@ -10729,7 +10729,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Hermanito... ¡Te amo!)",
+					"(Manito... ¡Te amo!)",
 					{"rt2"},
 				},
 			},
@@ -10766,7 +10766,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"(¡Yo también te amo, hermanita!)",
+					"(¡Yo también te amo, manita!)",
 					{"rt2"},
 				},
 			},
@@ -11244,7 +11244,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(¡Hermanito!)",
+					"(¡Manito!)",
 					{"rt2"},
 				},
 			},
@@ -11531,7 +11531,7 @@ ast = {
 			},
 			en = {
 				{
-					"Se aparta de la manivela y suspiramos, aliviados.",
+					"Se aparta de la manivela y suspiramos aliviados.",
 					{"rt2"},
 				},
 			},
@@ -11854,7 +11854,7 @@ ast = {
 			},
 			en = {
 				{
-					"Si tuviera que describir su apariencia con sinceridad――",
+					"Si tuviera que describir su apariencia con sinceridad...",
 					{"rt2"},
 				},
 			},
@@ -12015,7 +12015,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Ahora mismo creo que estoy en 489. Además, si mantengo mi ritmo, llegaré el mes que viene, así que no tengo prisa.”",
+					"“Ahora mismo creo que estoy en 489. Además, si mantengo mi ritmo, lo lograré el mes que viene, así que no tengo prisa.”",
 					{"rt2"},
 				},
 			},
@@ -12049,7 +12049,7 @@ ast = {
 			},
 			en = {
 				{
-					"――¿Sería adecuado decir que es 'terrible zorra'?",
+					"... ¿Sería adecuado decir que es una “puta legendaria”?",
 					{"rt2"},
 				},
 			},
@@ -12101,7 +12101,7 @@ ast = {
 			en = {
 				{
 					name = {"非表示", "Asane"},
-					"(¡Ah, esa es Nanase!)",
+					"(¡Ah, Nanase!)",
 					{"rt2"},
 				},
 			},
@@ -12180,7 +12180,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Es una celebridad de renombre en esta escuela. Es la más puta de Minotsuki. Dicen que una vez folló durante 24 horas seguidas e hizo eyacular a cien pollas, y a la vez.)",
+					"(Es una celebridad de renombre en esta escuela. Es la más puta de Minotsuki. Dicen que una vez folló durante 24 horas seguidas e hizo eyacular a cien pollas a la vez.)",
 					{"rt2"},
 				},
 			},
@@ -12417,7 +12417,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Uh, hermanito... suena como una brigada de cubo... ¿pero con eyaculación interna?)",
+					"(Uh, manito... suena como una brigada de cubo... ¿pero con eyaculación interna?)",
 					{"rt2"},
 				},
 			},
@@ -12535,7 +12535,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(Hermanito...)",
+					"(Manito...)",
 					{"rt2"},
 				},
 			},
@@ -12690,7 +12690,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(¡¿Eh?! ¡Pero si esa zorrita gyaru se ven bien sexy! ¡Y mira ese lunar de lágrima que tiene bajo ojo! ¡¿No te parece excitante?!)",
+					"(¡¿Eh?! ¡Pero si esa zorrita gyaru se ven bien sexy! ¡Y mira ese lunar de lágrima que tiene bajo el ojo! ¡¿No te parece excitante?!)",
 					{"rt2"},
 				},
 			},
@@ -12727,7 +12727,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"(Pues, parece estar en un lugar inusual en comparación a donde suelen estar esos lunares...)",
+					"(Pues, parece estar en un lugar inusual si lo comparas con donde suelen estar esos lunares...)",
 					{"rt2"},
 				},
 			},
@@ -12948,7 +12948,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(No es por eso, hermanito... Ya sabes que a mí me gustan los chicos y las chicas.)",
+					"(No es por eso, manito... Ya sabes que a mí me gustan los chicos y las chicas.)",
 					{"rt2"},
 				},
 			},
@@ -13412,7 +13412,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"(¡Hermanito, por favor sal y fóllate a esa zorrita por mí! ¡Me uniré y tendremos un trío!)",
+					"(¡Manito, por favor sal y fóllate a esa zorrita por mí! ¡Me \nuniré y tendremos un trío!)",
 					{"rt2"},
 				},
 			},
@@ -13570,7 +13570,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Estudiante A"},
-					"“Oye, ¿escuchas algo? Sonó cerca...”",
+					"“Eh, ¿escuchas algo? Sonó cerca...”",
 					{"rt2"},
 				},
 			},
@@ -13779,7 +13779,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Haah, haah... Lo siento, hermanito... Es que vi a la chica de mis sueños y me excité...”",
+					"“Haah, haah... Lo siento, manito... Es que vi a la chica de mis sueños y me excité...”",
 					{"rt2"},
 				},
 			},
@@ -14163,7 +14163,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Tu hermanito te protegerá. Te lo prometo.”",
+					"“Tu manito te protegerá. Te lo prometo.”",
 					{"rt2"},
 				},
 			},
@@ -14240,7 +14240,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Yo también te amo, hermanita...!”",
+					"“¡Yo también te amo, manita...!”",
 					{"rt2"},
 				},
 			},
@@ -14309,7 +14309,7 @@ ast = {
 			},
 			en = {
 				{
-					"Yeah.",
+					"Sí.",
 					{"rt2"},
 				},
 			},
@@ -14490,7 +14490,7 @@ ast = {
 			},
 			en = {
 				{
-					"Durante todas las clases de la tarde, he sentido las miradas depredadoras de las chicas observándome como la luz del sol a través de una lupa.",
+					"Durante todas las clases de la tarde, he sentido las miradas depredadoras de las chicas como la luz del sol a través de una lupa.",
 					{"rt2"},
 				},
 			},
@@ -14707,7 +14707,7 @@ ast = {
 			},
 			en = {
 				{
-					"Por alguna razón, el rito de reverencia al final de la clase no sonó del todo bien, pero no puedo pensar en eso ahora mismo.",
+					"Por alguna razón, el rito de reverencia al final de la clase no \nsonó del todo bien, pero no puedo pensar en eso ahora mismo.",
 					{"rt2"},
 				},
 			},
@@ -15112,7 +15112,7 @@ ast = {
 			},
 			en = {
 				{
-					"Estuvo en la inspección de esta mañana... Recuerdo que las chicas la llamaban 'Comandante'.",
+					"Estuvo en la inspección de esta mañana... Recuerdo que las chicas la llamaban “Comandante”.",
 					{"rt2"},
 				},
 			},
@@ -15152,7 +15152,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“¡¿Qué estás haciendo corriendo de esa manera por los pasillos?! ¡Si te hubieras topado con un chico en pleno coito vaginal, podrías haberle fracturado la polla!”",
+					"“¡¿Qué haces corriendo de esa manera por los pasillos?! ¡Si te hubieras topado con un chico en pleno coito vaginal, podrías haberle fracturado la polla!”",
 					{"rt2"},
 				},
 			},
@@ -15189,7 +15189,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“L-Lo siento...”",
+					"“Lo siento...”",
 					{"rt2"},
 				},
 			},
@@ -15229,7 +15229,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“Vale, al menos lo entiendes. Si estuviera en tus zapatos, no volvería a cometer imprudencias tan peligrosas como esta.”",
+					"“Vale, al menos lo entiendes. Si estuviera en tus zapatos, no volvería a cometer imprudencias tan peligrosas.”",
 					{"rt2"},
 				},
 			},
@@ -15309,7 +15309,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“Te conozco... Estabas en la inspección de esta mañana. Me llamo Tadasugawa Rei, soy una estudiante de tercer año y la presidenta del comité disciplinario de la SS.”",
+					"“Te conozco... Estabas en la inspección de esta mañana. Me llamo Tadasugawa Rei, soy una estudiante de tercer año y la presidenta del comité de moral pública de la SS.”",
 					{"rt2"},
 				},
 			},
@@ -15596,7 +15596,7 @@ ast = {
 			},
 			en = {
 				{
-					"Quienes se opongan a ella pueden ser considerados infractores de la ley y sancionados con medidas disciplinarias.",
+					"Quienes se opongan a ella pueden ser considerados infractores de la ley y se les sancionará con medidas disciplinarias.",
 					{"rt2"},
 				},
 			},
@@ -16024,7 +16024,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡No me malentiendas, me encantaría follarte ahora mismo, pero me duele informarte de que tendré que rechazarte!!”",
+					"“¡No me malentiendas, me encantaría follarte ahora mismo, pero me duele informarte de que tendré que rechazarte!”",
 					{"rt2"},
 				},
 			},
@@ -16209,7 +16209,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Jaa, aah... por poco me salvé...”",
+					"“Haah, haah... por poco me salvé...”",
 					{"rt2"},
 				},
 			},
@@ -16243,7 +16243,7 @@ ast = {
 			},
 			en = {
 				{
-					"Tuve que inventar estupideces en esa conversación, pero no pasó nada malo.",
+					"Tuve que mentir para salir de esa conversación, pero todo salió bien.",
 					{"rt2"},
 				},
 			},
@@ -16491,7 +16491,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¿Hermanito? Lo siento, me fui a casa sola.”",
+					"“¿Manito? Lo siento, me fui a casa sola.”",
 					{"rt2"},
 				},
 			},
@@ -16567,7 +16567,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Mi clase tiene chicos un tanto intensitos... Terminaron siguiéndome hasta la puerta, así que tuve que salir corriendo. Estoy cansada...”",
+					"“Mi clase tiene chicos un tanto intensitos... Terminaron \nsiguiéndome hasta la puerta, así que tuve que salir corriendo. Estoy cansada...”",
 					{"rt2"},
 				},
 			},
@@ -16676,7 +16676,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Ah, perfecto! Hermanito, ¿podrías comprarme algo?”",
+					"“¡Ah, perfecto! Manito, ¿podrías comprarme algo?”",
 					{"rt2"},
 				},
 			},
@@ -16865,7 +16865,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Aunque dudo que te despertaras aunque no tuvieras una... En fin, ya la voy a comprar. Hablamos después.”",
+					"“Pues dudo que te despertaras aunque no tuvieras una... En fin, ya la voy a comprar. Hablamos después.”",
 					{"rt2"},
 				},
 			},
@@ -17072,7 +17072,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Ah, bienvenido a casa, hermanito... Uh, ¿qué te pasa? Estás muy pálido.”",
+					"“Ah, bienvenido a casa, manito... Uh, ¿qué te pasa? Estás muy pálido.”",
 					{"rt2"},
 				},
 			},
@@ -17176,7 +17176,7 @@ ast = {
 			},
 			en = {
 				{
-					"Los almacenes a los que fui... no eran normales, sino muy, muy cachondos.",
+					"El almacen al que fui... no era normal, sino muy, muy cachondo.",
 					{"rt2"},
 				},
 			},
@@ -17243,7 +17243,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Vi algo que parecían libros infantiles ilustrados y me picó la curiosidad, pero los títulos eran "La Oruga Terriblemente Cachonda" y "Servicio Nocturno"! ¿¡Qué demonios!?”",
+					"“¡Vi algo que parecían libros infantiles ilustrados y me picó la curiosidad, pero los títulos eran “La Oruga Terriblemente Cachonda” y “Servicio Nocturno”! ¡¿Qué demonios?!”",
 					{"rt2"},
 				},
 			},
@@ -17436,7 +17436,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Ooh, gracias, hermanito. ¿Oh?”",
+					"“Ooh, gracias, manito... ¿Oh?”",
 					{"rt2"},
 				},
 			},
@@ -17514,7 +17514,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Hermanito... mira.”",
+					"“Manito... mira.”",
 					{"rt2"},
 				},
 			},
@@ -17759,7 +17759,7 @@ ast = {
 			},
 			en = {
 				{
-					"Me levanto cansado y voy a la cocina.",
+					"Me levanto, aunque agotado, y voy a la cocina.",
 					{"rt2"},
 				},
 			},
@@ -17953,7 +17953,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Bueno ¿quieres cebollino finamente picado o boliche?”",
+					"“Vale, ¿quieres cebollino finamente picado o boliche?”",
 					{"rt2"},
 				},
 			},
@@ -18420,7 +18420,7 @@ ast = {
 			},
 			en = {
 				{
-					"Aunque no es de extrañar. Mamá se ocupaba de todas esas cosas por nosotros hasta hace poco.",
+					"Aunque no es de extrañar. Mamá se ocupaba de todas esas cosas hasta hace poco.",
 					{"rt2"},
 				},
 			},
@@ -18452,7 +18452,7 @@ ast = {
 			},
 			en = {
 				{
-					"Perder de repente a nuestros padres significaba que no teníamos a nadie que nos enseñara a vivir sin ellos.",
+					"Perder a nuestros padres significaba que no teníamos a nadie que nos enseñara a vivir sin ellos.",
 					{"rt2"},
 				},
 			},
@@ -18993,7 +18993,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pero ni yo ni mi hermana hemos tenido nunca relaciones sexuales.",
+					"Pero ni yo ni mi hermana hemos tenido relaciones sexuales.",
 					{"rt2"},
 				},
 			},
@@ -19274,7 +19274,7 @@ ast = {
 			},
 			en = {
 				{
-					"Seguiré burlando esta ley a como dé lugar.",
+					"Seguiré evadiendo esta ley a como dé lugar.",
 					{"rt2"},
 				},
 			},

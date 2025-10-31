@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0005_00001"] = {
-		{"savetitle", text="夏期限定パコ・＆・パコ", ja="夏期限定パコ・＆・パコ", en="Summer Gentei Pucker a Pucker!", cn="夏日限定 啪啪 & 啪啪", tw="夏季限定 啪啪 & 啪啪"},
+		{"savetitle", text="夏期限定パコ・＆・パコ", ja="夏期限定パコ・＆・パコ", en="¡Verano Restringido Paja y Paja!", cn="夏日限定 啪啪 & 啪啪", tw="夏季限定 啪啪 & 啪啪"},
 		{"eval", exp="g.01_c_04=1"},
 		{"fg", mode=-1, id=30},
 		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
@@ -96,7 +96,7 @@ ast = {
 			en = {
 				{
 					name = {"光姫", "Kouki"},
-					"“Muy buenos días ♪ Llegó el servicio de entrega de felaciones matutinas de la ONS ♪”",
+					"“Muy buenos días ♪ Llegó el servicio de entrega de felaciones matutinas de la OSS ♪”",
 					{"rt2"},
 				},
 			},
@@ -311,7 +311,7 @@ ast = {
 			},
 			en = {
 				{
-					"Y yo que estaba descansando de lo más cómodo. ¿En serio me hizo levantarme para eso?",
+					"Estaba descansando de lo más cómodo. ¿En serio me hizo levantarme para eso?",
 					{"rt2"},
 				},
 			},
@@ -378,7 +378,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Fwaaah... Qué demonios. Bueno, iré a despertarla.”",
+					"“Fwaah... Qué demonios. Bueno, iré a despertarla.”",
 					{"rt2"},
 				},
 			},
@@ -479,7 +479,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¿Mmmm...? Ah, hermanito. ¿Ya despertaste?”",
+					"“¿Mmmm...? Ah, manito. ¿Ya despertaste?”",
 					{"rt2"},
 				},
 			},
@@ -689,7 +689,7 @@ ast = {
 			},
 			en = {
 				{
-					"Tiene un juego diferente en cada uno de sus monitores. MMORPG, FPS, MOBAs, cualquier cosa que se te ocurra la está jugando.",
+					"Tiene un juego diferente en cada uno de sus monitores. MMORPGs, FPS, MOBAs, cualquier cosa que se te ocurra la está jugando.",
 					{"rt2"},
 				},
 			},
@@ -978,7 +978,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Hay más! ¡Me estaban escribiendo 'apestas'! ¡¡Y en japonés!!”",
+					"“¡Hay más! ¡Me estaban escribiendo que apesto! ¡¡Y en japonés!!”",
 					{"rt2"},
 				},
 			},
@@ -1015,7 +1015,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ya, ya...”",
+					"“Ya, ya.”",
 					{"rt2"},
 				},
 			},
@@ -1055,7 +1055,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Voy a codificar un aimbot y vengarme!”",
+					"“¡Voy a codificar un aimbot y me vengaré!”",
 					{"rt2"},
 				},
 			},
@@ -1279,7 +1279,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡En fin, estoy ocupada ahora mismo, hermanito! Dame un poco de espacio hoy, quiero estar sola.”",
+					"“¡En fin, estoy ocupada ahora mismo, manito! Dame un poco de espacio hoy, quiero estar sola.”",
 					{"rt2"},
 				},
 			},
@@ -1620,7 +1620,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Ejeje... Te amo, hermanito.”",
+					"“Ejeje... Te amo, manito.”",
 					{"rt2"},
 				},
 			},
@@ -1654,7 +1654,7 @@ ast = {
 			},
 			en = {
 				{
-					"Mi hermana es una malcriada sin remedio alguno, pero sigue siendo mi familia. Y por tanto, mi responsabilidad.",
+					"Mi hermana es una malcriada sin remedio alguno, pero sigue siendo mi familia. Y por eso mismo es mi responsabilidad.",
 					{"rt2"},
 				},
 			},
@@ -2166,7 +2166,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ女A", "Mujer A"},
-					"“¡Disculpa! Anoche estaba viendo 'El Pistoneador' y me interesa probar el taco de la regla de los tres segundos que hicieron. ¿Me pueden dar una mano?”",
+					"“¡Disculpa! Anoche estaba viendo “El Pistoneador” y me interesa probar el taco de la regla de los tres segundos que hicieron. \n¿Me pueden dar una mano?”",
 					{"rt2"},
 				},
 			},
@@ -2204,8 +2204,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男D", "Estudiante SS A"},
-					"“Yo me ofrezco. He grabado en DVR todos los episodios de "El Pistoneador" desde el primero, así que puedo recrearlos para ti.”",
+					name = {"モブ男D", "Estudiante de la SS A"},
+					"“Yo me ofrezco. He grabado en DVR todos los episodios de “El Pistoneador” desde el primero, así que puedo recrearlos para ti.”",
 					{"rt2"},
 				},
 			},
@@ -2282,7 +2282,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Estudiante SS A"},
+					name = {"モブ女A", "Estudiante de la SS A"},
 					"“¡Sí! ¡Déjamelo a mí! ¡Haré todo lo que pueda!”",
 					{"rt2"},
 				},
@@ -2322,7 +2322,7 @@ ast = {
 			en = {
 				{
 					name = {"モブ男B", "Hombre B"},
-					"“A ustedes los vi en 'La Corrida Diaria'.”",
+					"“A ustedes los vi en “La Corrida Diaria”.”",
 					{"rt2"},
 				},
 			},
@@ -2360,7 +2360,7 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ女A", "Estudiante SS B"},
+					name = {"モブ女A", "Estudiante de la SS B"},
 					"“¡Ah, gracias! ¡Con gusto los acompañaré en un trío!”",
 					{"rt2"},
 				},
@@ -2395,7 +2395,7 @@ ast = {
 			},
 			en = {
 				{
-					"Veo a turistas e isleños teniendo sexo con guardias de la ONS y estudiantes de la SS de la Academia Minotsuki.",
+					"Veo a turistas e isleños teniendo sexo con guardias de la OSS y estudiantes de la SS de la Academia Minotsuki.",
 					{"rt2"},
 				},
 			},
@@ -2725,7 +2725,7 @@ ast = {
 			en = {
 				{
 					name = {"蘭", "Ran"},
-					"“Ahora mismo... me gustaría ofrecerte un postre de hermanas con zumo de coño para beber... Jeje, ¿qué te parece?”",
+					"“Ahora mismo... me gustaría ofrecerte un postre de hermanas con jugo de coño para beber... Jeje, ¿qué te parece?”",
 					{"rt2"},
 				},
 			},
@@ -2762,7 +2762,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡No, no tengo hambre ahora mismo, nos vemos!”",
+					"“¡No, no tengo hambre ahora mismo, nos vemos luego!”",
 					{"rt2"},
 				},
 			},
@@ -2992,7 +2992,7 @@ ast = {
 			},
 			en = {
 				{
-					"Bien. Supongo que me entretendré con mis propios pasatiempos en casa.",
+					"Bien. Supongo que me divertiré con mis propios pasatiempos en casa.",
 					{"rt2"},
 				},
 			},
@@ -3025,7 +3025,7 @@ ast = {
 			},
 			en = {
 				{
-					"Enciendo la PC en mi habitación.",
+					"Enciendo la PC de mi habitación.",
 					{"rt2"},
 				},
 			},
@@ -3125,7 +3125,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Bien, pongámonos a trabajar en mis 'creaciones'.”",
+					"“Bien, pongámonos a trabajar en mis creaciones.”",
 					{"rt2"},
 				},
 			},
@@ -3552,7 +3552,7 @@ ast = {
 			},
 			en = {
 				{
-					"Porque puedo hacer el mío.",
+					"Porque puedo hacerlos.",
 					{"rt2"},
 				},
 			},
@@ -3653,7 +3653,7 @@ ast = {
 			},
 			en = {
 				{
-					"Nunca fuimos una familia tan acomodada, y nunca recibí demasiado dinero de niño.",
+					"Nunca fuimos una familia tan acomodada, y nunca recibí demasiado dinero cuando era niño.",
 					{"rt2"},
 				},
 			},
@@ -4076,7 +4076,7 @@ ast = {
 			},
 			en = {
 				{
-					"De las cosas que hago con estos componentes, el mejor producto es la 'piel segura'.",
+					"De las cosas que hago con estos componentes, el mejor producto es la piel segura.",
 					{"rt2"},
 				},
 			},
@@ -4307,7 +4307,7 @@ ast = {
 			},
 			en = {
 				{
-					"He designado este modelo 1 de la "serie de empuje". Está equipado con grandes aletas a ambos lados del orificio vaginal, en un esfuerzo por construirlo al nivel máximo. Como es resistente a la perforación, se le pueden aplicar altos niveles de succión.",
+					"He designado este modelo 1 de la “serie de empuje”. Está equipado con grandes aletas a ambos lados del orificio vaginal, en un esfuerzo por construirlo al nivel máximo. Como es resistente a la perforación, se le pueden aplicar altos niveles de succión.",
 					{"rt2"},
 				},
 			},
@@ -4414,7 +4414,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Me gusta cómo quedó.”",
+					"“Me gustó cómo quedó.”",
 					{"rt2"},
 				},
 			},
@@ -4515,7 +4515,7 @@ ast = {
 			},
 			en = {
 				{
-					"Este es el onahole #623. Debido a su complicada construcción, creo que lo llamaré 'Guernica'.",
+					"Este es el onahole #623. Debido a su complicada construcción, creo que lo llamaré Guernica.",
 					{"rt2"},
 				},
 			},
@@ -4549,7 +4549,7 @@ ast = {
 			},
 			en = {
 				{
-					"Lo coloco junto a la onahole #428, 'Les Demoiselles d'Avignon', me cruzo de brazos y asiento satisfecho.",
+					"Lo coloco junto al onahole #428, Les Demoiselles d'Avignon, me cruzo de brazos y asiento satisfecho.",
 					{"rt2"},
 				},
 			},
@@ -4696,7 +4696,7 @@ ast = {
 			en = {
 				{
 					name = {"？？？", "???"},
-					"“Ha llegado el servicio de limpieza. Había solicitado nuestros servicios.”",
+					"“Aquí el servicio de limpieza. Había solicitado nuestros servicios.”",
 					{"rt2"},
 				},
 			},
@@ -4762,7 +4762,7 @@ ast = {
 			},
 			en = {
 				{
-					"Será agradable volver a tener un lugar limpio para vivir...",
+					"Va a ser agradable volver a tener un hogar limpio...",
 					{"rt2"},
 				},
 			},
@@ -5071,7 +5071,7 @@ ast = {
 			},
 			en = {
 				{
-					"¿Será que Asa-chan se sintió tan frustrada sexualmente que llamó a un servicio de acompañantes de putas...?",
+					"¿Será que Asa-chan se sintió tan frustrada sexualmente que llamó a un servicio de acompañantes...?",
 					{"rt2"},
 				},
 			},
@@ -5219,7 +5219,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Mm—Uh, No puedo hacer nada si no me dices qué tengo que hacer.”",
+					"“Mm... Uh, no puedo hacer nada si no me dices qué tengo que hacer.”",
 					{"rt2"},
 				},
 			},
@@ -5498,7 +5498,7 @@ ast = {
 			},
 			en = {
 				{
-					"Seguramente dirá algo como “¡Tendré que dejarte la polla limpia y bonita porque eso también forma parte de mi trabajo de limpieza ",
+					"Seguramente dirá algo como: ¡tendré que dejarte la polla limpia y bonita porque eso también forma parte de mi trabajo de limpieza ",
 					{"gaiji", text="①"},
 					"”!",
 					{"rt2"},
@@ -5767,7 +5767,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“¡Quieres meterme esa cosa por el culo para divertirte, ¿no?! ¡Como en mis mangas hentai!”",
+					"“¡Quieres meterme esa cosa por el culo para divertirte, \n¿no?! ¡Como en mis mangas hentai!”",
 					{"rt2"},
 				},
 			},
@@ -6681,7 +6681,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Traje algunos ingredientes para cocinar, pero no sabía que querías que hiciera más para después. ¿Te importa si me sirvo lo que hay en la nevera?”",
+					"“Traje algunos ingredientes para cocinar, pero no sabía que querías que hiciera más para después. ¿Te importa si sirvo lo que hay en la nevera?”",
 					{"rt2"},
 				},
 			},
@@ -6920,7 +6920,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Oye, esto... Tachibana... kun, ¿verdad? ¿Puedes probarlo por mí?”",
+					"“Oye... Tachibana... kun, ¿verdad? ¿Puedes probarlo por mí?”",
 					{"rt2"},
 				},
 			},
@@ -7531,7 +7531,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“¡Hermanitoo! ¡Estoy muy triste! ¡No hay sitio para mí en el mundo Online! ¡Por favor, acaríciame la cabeza y haz que todo mejoreee!”",
+					"“¡Manitoo! ¡Estoy muy triste! ¡No hay sitio para mí en el mundo online! ¡Por favor, acaríciame la cabeza y haz que todo mejoreee!”",
 					{"rt2"},
 				},
 			},
@@ -7638,7 +7638,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Eh— ¡¿E-E-E-E-E-E-Esa es Katagiri Nanase-san?!”",
+					"“Eh... ¡¿E-E-E-E-E-E-Esa es Katagiri Nanase-san?!”",
 					{"rt2"},
 				},
 			},
@@ -7755,7 +7755,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Eh, hermanita... Un placer conocerte, Asane-chan. Ya que me conoces, tú también vas a la Academia Minotsuki, ¿verdad?”",
+					"“Eh, manita... Un placer conocerte, Asane-chan. Ya que me conoces, tú también vas a la Academia Minotsuki, ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -7948,7 +7948,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Ayy no eres más que bienvenida aquí además estoy bien emocionada ante la idea de ser capaz de disfrutar de la comida de Nanase-san, lo aceptaré con mucho gusto jejeje.”",
+					"“Ayy eres más que bienvenida aquí además estoy bien emocionada ante la idea de ser capaz de disfrutar de la comida de Nanase-san lo aceptaré con mucho gusto jejeje.”",
 					{"rt2"},
 				},
 			},
@@ -8092,7 +8092,7 @@ ast = {
 			},
 			en = {
 				{
-					"Los ojos de la puta se entornan en respuesta.",
+					"Los ojos de la puta se abren.",
 					{"rt2"},
 				},
 			},
@@ -8281,7 +8281,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“¿Estás preocupado por mí porque ya oscureció? Mmm... conque sí puedes ser lindo.”",
+					"“¿Estás preocupado por mí porque ya oscureció? Ehh... conque sí puedes ser lindo.”",
 					{"rt2"},
 				},
 			},
@@ -8569,7 +8569,7 @@ ast = {
 			},
 			en = {
 				{
-					"O sea, mi casa, mis reglas... ¿no?",
+					"O sea, es mi casa y son mis reglas... ¿no?",
 					{"rt2"},
 				},
 			},
@@ -8961,7 +8961,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pero aun así, le digo lo que realmente pienso.",
+					"Aun así, le digo lo que realmente pienso.",
 					{"rt2"},
 				},
 			},
@@ -9066,7 +9066,7 @@ ast = {
 			},
 			en = {
 				{
-					"El corazón me late desagradablemente.",
+					"El corazón me late de manera desagradable.",
 					{"rt2"},
 				},
 			},
@@ -9464,7 +9464,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Y en cuanto a tus violaciones de la ley... tengo los labios sellados.”",
+					"“Y en cuanto a tus violaciones de la ley... guardaré silencio.”",
 					{"rt2"},
 				},
 			},
@@ -9581,7 +9581,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Me gustaría que mantuvieras en secreto el hecho de que hago este servicio de limpieza. Lo cierto es que tengo prohibido hacer trabajos a tiempo parcial.”",
+					"“Me gustaría que mantuvieras en secreto el hecho de que hago este servicio de limpieza. Lo cierto es que tengo prohibido realizar trabajos a tiempo parcial.”",
 					{"rt2"},
 				},
 			},
