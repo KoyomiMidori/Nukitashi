@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0053_00001"] = {
-		{"savetitle", text="先輩におまかせなのだ！", ja="先輩におまかせなのだ！", en="Watarai Friends! Leave It to Senpai", cn="就交给前辈啦！", tw="就交給前輩的啦！"},
+		{"savetitle", text="先輩におまかせなのだ！", ja="先輩におまかせなのだ！", en="¡Su senpai se hará cargo!", cn="就交给前辈啦！", tw="就交給前輩的啦！"},
 		{"eval", exp="g.03_hw_03=1"},
 		{"fg", mode=-1, id=30},
 		{"bg", id=1, file="bg18_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
@@ -21,7 +21,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ngh... Morning already?”",
+					"“Ngh... ¿Ya amaneció?”",
 					{"rt2"},
 				},
 			},
@@ -54,7 +54,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm awakened by the sunlight streaming into my room.",
+					"Me despierta la luz del sol que entra en mi habitación.",
 					{"rt2"},
 				},
 			},
@@ -89,7 +89,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Right, another day, another donger.”",
+					"“Cada día trae su afán.”",
 					{"rt2"},
 				},
 			},
@@ -180,7 +180,7 @@ ast = {
 			},
 			en = {
 				{
-					"I go to wake up Asa, and hear a groan coming from the bed on my way in.",
+					"Voy a despertar a Asa-chan. Al entrar, escucho un gemido que proviene de la cama.",
 					{"rt2"},
 				},
 			},
@@ -215,7 +215,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Asa... Still not feeling well?”",
+					"“Asa-chan... ¿Sigues sintiéndote mal?”",
 					{"rt2"},
 				},
 			},
@@ -256,7 +256,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Do I look well to you? One look at me should speak for itself...”",
+					"“¿Te parece que estoy bien? Con solo mirarme ya deberías darte cuenta...”",
 					{"rt2"},
 				},
 			},
@@ -292,7 +292,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sorry...”",
+					"“Lo siento...”",
 					{"rt2"},
 				},
 			},
@@ -326,7 +326,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's no hint of jocularity in her words. She's deadly serious. It's got me really worried.",
+					"No hay ni una pizca de jocosidad en sus palabras. Me está hablando con seriedad. Esto me preocupa.",
 					{"rt2"},
 				},
 			},
@@ -360,7 +360,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Are you all right? Maybe we should get you to a doctor after all...”",
+					"“¿Estás bien? Deberíamos llevarte al médico si...”",
 					{"rt2"},
 				},
 			},
@@ -400,7 +400,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“I'm telling you, leave it. Just gimme five days and I'll be fine...”",
+					"“Ya te dije que no me molestes... Dame cinco días y se me pasará...”",
 					{"rt2"},
 				},
 			},
@@ -436,7 +436,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Five days?”",
+					"“¿Cinco días?”",
 					{"rt2"},
 				},
 			},
@@ -476,7 +476,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Ah, for Christ's sake, can't you take a hint? It's that time of the month. Menstruation. You dig?”",
+					"“Maldito intenso, ¿no entiendes la indirecta? Estoy en mis días. Tengo el período. ¿Ahora sí lo entiendes?”",
 					{"rt2"},
 				},
 			},
@@ -513,7 +513,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“O...kay?”",
+					"“¿B-Bueno...?”",
 					{"rt2"},
 				},
 			},
@@ -553,7 +553,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Yeah. And I'm afraid you can't help, so just hurry and get your ass to school. I'mma get some rest.”",
+					"“Sí. Y me temo que no puedes ayudarme, así que date prisa y vete a la escuela. Voy a descansar un poco.”",
 					{"rt2"},
 				},
 			},
@@ -624,7 +624,7 @@ ast = {
 			},
 			en = {
 				{
-					"So that's it.",
+					"Ah... Conque era eso.",
 					{"rt2"},
 				},
 			},
@@ -10079,3 +10079,4 @@ ast = {
 		top = { block="0053_00001", label=1 },
 	},
 }
+
