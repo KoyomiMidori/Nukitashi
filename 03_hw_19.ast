@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0069_00001"] = {
-		{"savetitle", text="再会、ママよ", ja="再会、ママよ", en="Coming Home", cn="归乡", tw="重逢，母親阿"},
+		{"savetitle", text="再会、ママよ", ja="再会、ママよ", en="Volviendo a casa", cn="归乡", tw="重逢，母親阿"},
 		{"eval", exp="g.03_hw_19=1"},
 		{"fg", mode=-1, id=30},
 		{"bg", id=1, file="bg19_1_00000", x=0, y=0, path=":bg/", sync=0, ax=805, ay=455, bx=-5, by=-5},
@@ -27,7 +27,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Yawn... I'm awake at a reasonable hour again... Maybe I'll become healthy, wealthy and/or wise now...”",
+					"“Fwahh... Me he despertado a una hora razonable otra vez... Quizás ahora me vuelva saludable, rica o sabia...”",
 					{"rt2"},
 				},
 			},
@@ -69,7 +69,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“J-Jun, is there something I can help with? Can't I help?”",
+					"“J-Jun-kun, ¿puedo ayudarte con algo, o mejor no...?”",
 					{"rt2"},
 				},
 			},
@@ -106,7 +106,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, no... you're still not... fully recovered, are you? I'll take care of things this morning. You rest up.”",
+					"“Uh, no... todavía no te has recuperado, ¿verdad? Yo me encargaré de todo. Descansa.”",
 					{"rt2"},
 				},
 			},
@@ -146,7 +146,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“R-Really? You sure? Ahaha, okay then, please do...”",
+					"“¿E-En serio? ¿Estás seguro? Ajaja, está bien...”",
 					{"rt2"},
 				},
 			},
@@ -189,7 +189,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Wata? Did something happen?”",
+					"“¿Wata-chan...? ¿Pasó algo...?”",
 					{"rt2"},
 				},
 			},
@@ -236,7 +236,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“YIIIIII Asane!? N... N-N... Nothing! At no time did nothing happen!”",
+					"“¡¿Ahhhh, Asane-chan?! N... N-N... ¡Nada! ¡No pasó nada!”",
 					{"rt2"},
 				},
 			},
@@ -276,7 +276,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Uh, double negative there. That'd mean something happened.”",
+					"“Lo dijiste dos veces, sí pasó algo.”",
 					{"rt2"},
 				},
 			},
@@ -316,7 +316,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I-I-It's nothing, I swear! Okay, I'll admit I was so desperate to get piped down by Jun last night that we went all the way, but I swear my legs aren't trembling at all right now!”",
+					"“¡N-No es nada, en serio! ¡Vale, admito que anoche estaba tan desesperada por Jun-kun que fuimos hasta el final, pero juro que ahora mismo no me tiemblan las piernas!”",
 					{"rt2"},
 				},
 			},
@@ -356,7 +356,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Okay, so you admit you were so desperate to get piped down by Bro last night that you went all the way, but your legs are absolutely trembling right now.”",
+					"“Vale, admites que anoche estabas tan desesperada porque mi manito te la metiera, pero que ahora te tiemblan las piernas.”",
 					{"rt2"},
 				},
 			},
@@ -397,7 +397,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“How'd you figure that out!? Are you psychic!?”",
+					"“¡¿Cómo lo supiste?! ¡¿Eres un psíquica?!”",
 					{"rt2"},
 				},
 			},
@@ -437,7 +437,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“I can read you like an open book...”",
+					"“Eres como un libro abierto...”",
 					{"rt2"},
 				},
 			},
@@ -477,7 +477,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eeeek!?”",
+					"“¡¿Ahh?!”",
 					{"rt2"},
 				},
 			},
@@ -511,7 +511,7 @@ ast = {
 			},
 			en = {
 				{
-					"There didn't seem to have any problem immediately after sex, but it seems she suffered the effects somewhat later. She can't walk properly this morning.",
+					"No parecía haber ningún problema después de tener sexo, pero parece que sufrió los efectos después. No puede caminar bien.",
 					{"rt2"},
 				},
 			},
@@ -612,7 +612,7 @@ ast = {
 			},
 			en = {
 				{
-					"Sorry for being so worthless, Hinami.",
+					"Perdón por ser tan descuidado, Hinami...",
 					{"rt2"},
 				},
 			},
@@ -651,7 +651,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“I told you to let me know when you got to fuckin'.”",
+					"“Te dije que me avisaras cuando follaran.”",
 					{"rt2"},
 				},
 			},
@@ -685,7 +685,7 @@ ast = {
 			},
 			en = {
 				{
-					"Normally this is where I'd slip in a witty and blistering retort.",
+					"Aquí es donde soltaría una respuesta ingeniosa y fulminante.",
 					{"rt2"},
 				},
 			},
@@ -717,7 +717,7 @@ ast = {
 			},
 			en = {
 				{
-					"But just for once, this morning I'm too embarrassed to say anything.",
+					"Pero hoy me da mucha vergüenza decir algo.",
 					{"rt2"},
 				},
 			},
@@ -776,7 +776,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Right, let's get down to business.”",
+					"“Bien...”",
 					{"rt2"},
 				},
 			},
@@ -810,7 +810,7 @@ ast = {
 			},
 			en = {
 				{
-					"We gather in the base after school.",
+					"Nos reunimos después de clases.",
 					{"rt2"},
 				},
 			},
@@ -842,7 +842,7 @@ ast = {
 			},
 			en = {
 				{
-					"The old man is likely close to being ready to receive Fumino, and the illegal sex industry is still targeting children.",
+					"Es posible que el viejo ya quiera recoger a Fumino, y la industria sexual ilegal sigue buscando niños.",
 					{"rt2"},
 				},
 			},
@@ -877,7 +877,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I think it's about high time we kicked our sting operation into gear.”",
+					"“Creo que ya es hora de que pongamos en marcha nuestra operación encubierta.”",
 					{"rt2"},
 				},
 			},
@@ -919,7 +919,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah! Let's do this!”",
+					"“¡Sí! ¡Hagámoslo!”",
 					{"rt2"},
 				},
 			},
@@ -953,7 +953,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hinami seems to have gotten over this morning's bout of the jibblies.",
+					"Parece que Hinami ha superado los nervios de esta mañana.",
 					{"rt2"},
 				},
 			},
@@ -988,7 +988,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Now, let's go over the details of our strategy.”",
+					"“Bien, repasemos la estrategia.”",
 					{"rt2"},
 				},
 			},
@@ -1025,7 +1025,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami acts as a decoy to lure out those illegal sex industry thugs, and then we swoop in and interrogate them... Them's the basics.”",
+					"“Hinami será el señuelo para atraer a la industria sexual ilegal, y entonces nosotros atacaremos y los interrogaremos... Hasta ahí todo bien.”",
 					{"rt2"},
 				},
 			},
@@ -1059,7 +1059,7 @@ ast = {
 			},
 			en = {
 				{
-					"It sounds easy enough, but anything's going to have an additional risk factor with the yakuza involved.",
+					"Parece fácil, pero cualquier cosa que tenga que ver con la yakuza conlleva un factor de riesgo adicional.",
 					{"rt2"},
 				},
 			},
@@ -1094,7 +1094,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“The rest of our team will be assigned to bodyguard duties in case of an urgent need to escape.”",
+					"“El resto de nuestro equipo se encargará de las tareas de seguridad en caso de que sea necesario escapar.”",
 					{"rt2"},
 				},
 			},
@@ -1134,7 +1134,7 @@ ast = {
 			en = {
 				{
 					name = {"文乃", "Fumino"},
-					"“Does that mean I can help too?”",
+					"“¿Yo también puedo ayudar...?”",
 					{"rt2"},
 				},
 			},
@@ -1168,7 +1168,7 @@ ast = {
 			},
 			en = {
 				{
-					"She looks up at me in appeal, but I shake my head.",
+					"Me mira con súplica, pero niego con la cabeza.",
 					{"rt2"},
 				},
 			},
@@ -1203,7 +1203,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sorry. We have to allocate all our resources to protecting Hinami.”",
+					"“Lo siento. Tenemos que destinar todos nuestros recursos a proteger a Hinami.”",
 					{"rt2"},
 				},
 			},
@@ -1240,7 +1240,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“If some organization were to catch wind of your existence, we wouldn't be able to respond.”",
+					"“Si alguna organización se enterara de que estás con nosotros, no podríamos responder.”",
 					{"rt2"},
 				},
 			},
@@ -1274,7 +1274,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's a cowardly way to put it, but I'm unable to hide how I really feel.",
+					"Es una forma cobarde de expresarlo, pero no puedo ocultar lo que siento.",
 					{"rt2"},
 				},
 			},
@@ -1312,7 +1312,7 @@ ast = {
 			en = {
 				{
 					name = {"文乃", "Fumino"},
-					"“Very well. Even if I cannot assist you, I would like to wish all of you the best of luck.”",
+					"“... Está bien. Aunque no pueda ayudarlos, les deseo mucha suerte.”",
 					{"rt2"},
 				},
 			},
@@ -1349,7 +1349,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah, thanks.”",
+					"“Gracias.”",
 					{"rt2"},
 				},
 			},
@@ -1394,7 +1394,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“This is probably going to be dangerous as hell... but if you and Wata are up for it, then I guess I'm gonna have to go all-in myself.”",
+					"“Esto va a ser muy peligroso... pero si tú y Wata-chan están dispuestos a hacerlo, yo también tendré que arriesgarme.”",
 					{"rt2"},
 				},
 			},
@@ -1431,7 +1431,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Much obliged. That said, though... there's something of concern on my mind.”",
+					"“Gracias, de verdad. Sin embargo... hay algo que me preocupa.”",
 					{"rt2"},
 				},
 			},
@@ -1471,7 +1471,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Concern?”",
+					"“¿Qué cosa...?”",
 					{"rt2"},
 				},
 			},
@@ -1508,7 +1508,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Don't you feel like Hinami's suddenly become much more mature lately? I'm worried as to whether they'll perceive her as a loli.”",
+					"“¿No te parece que Hinami se ha vuelto mucho más madura? Me preocupa que la vean como una loli.”",
 					{"rt2"},
 				},
 			},
@@ -1546,7 +1546,7 @@ ast = {
 			},
 			en = {
 				{
-					"A silence I can only describe as frigid fills the air.",
+					"Un silencio que solo puedo describir como gélido cubre el aire.",
 					{"rt2"},
 				},
 			},
@@ -1584,7 +1584,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What's wrong?”",
+					"“¿Qué pasa?”",
 					{"rt2"},
 				},
 			},
@@ -1624,7 +1624,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Isn't that just the cradle robber in you doing the talking?”",
+					"“¿No es simplemente el sentido de asaltacunas?”",
 					{"rt2"},
 				},
 			},
@@ -1786,7 +1786,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Aridane Protocol, activate.”",
+					"“Protocolo Ariadna, actívate.”",
 					{"rt2"},
 				},
 			},
@@ -1836,7 +1836,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hide in the shadows and keep my eye on Hinami, ready for battle.",
+					"Me escondo en las sombras y vigilo a Hinami, estoy listo para la batalla.",
 					{"rt2"},
 				},
 			},
@@ -1868,7 +1868,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hold the SS-style handgun in both hands— the one that Rei gave me.",
+					"Sostengo con ambas manos la pistola de la SS que me dio Rei-senpai.",
 					{"rt2"},
 				},
 			},
@@ -1900,7 +1900,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't give it back, and I can't exactly get rid of it either, so unfortunately, I'm stuck with it.",
+					"No puedo devolverla y tampoco puedo deshacerme de ella. Lamentablemente, tengo que quedármela.",
 					{"rt2"},
 				},
 			},
@@ -1932,7 +1932,7 @@ ast = {
 			},
 			en = {
 				{
-					"Just clutching it in my hands makes me feel nervous.",
+					"Con tenerla en mis manos me pongo nervioso.",
 					{"rt2"},
 				},
 			},
@@ -1964,7 +1964,7 @@ ast = {
 			},
 			en = {
 				{
-					"But it'll be indispensable when it comes to protecting Hinami... You bet your ass I'll pull that trigger if I have to.",
+					"Pero será indispensable cuando tenga que proteger a Hinami... Apretaré el gatillo si hace falta.",
 					{"rt2"},
 				},
 			},
@@ -2002,7 +2002,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“This is Null base. All members now relocated to their designated stations. ATM-03, you've got a green light to commence the operation.”",
+					"“Aquí Null Base. Todos los miembros se han trasladado a sus puestos asignados. ATM-03, tienes luz verde para iniciar la operación.”",
 					{"rt2"},
 				},
 			},
@@ -2043,7 +2043,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“ATM-03 here, roger! Will commence operation at once, odor!”",
+					"“¡ATM-03 aquí, recibido! ¡Comenzaremos la operación de inmediato, orden!”",
 					{"rt2"},
 				},
 			},
@@ -2078,7 +2078,7 @@ ast = {
 			},
 			en = {
 				{
-					"And so, it begins.",
+					"Que comience la misión...",
 					{"rt2"},
 				},
 			},
@@ -2110,7 +2110,7 @@ ast = {
 			},
 			en = {
 				{
-					"Though the 'operation' is basically just Hinami walking around on her own in a secluded area.",
+					"Aunque la operación solo consiste en que Hinami pasee sola por una zona aislada.",
 					{"rt2"},
 				},
 			},
@@ -2142,7 +2142,7 @@ ast = {
 			},
 			en = {
 				{
-					"She left her folding chair back at the base. When it comes to this mission, the more childish she appears, the more suspicious she would seem.",
+					"Dejó su silla en la base. En lo que respecta a esta misión, cuanto más infantil parezca, más sospechosa resultará.",
 					{"rt2"},
 				},
 			},
@@ -2174,7 +2174,7 @@ ast = {
 			},
 			en = {
 				{
-					"So now, we just need to wait for one of these illegal sex industry freaks to take the bait.",
+					"Ahora solo tenemos que esperar a que uno de estos degenerados muerda el anzuelo.",
 					{"rt2"},
 				},
 			},
@@ -2210,7 +2210,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hotori, stand by. You're prepared for any possible emergency, right?”",
+					"“Hotori, prepárate. Estás lista para cualquier emergencia, ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -2250,7 +2250,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Indubitably! I got this. Nothing I haven't done before you ever came into the picture.”",
+					"“¡Así es, no tengo dudas! Lo tengo todo vigilado. Nada que no haya hecho antes de que tú aparecieras.”",
 					{"rt2"},
 				},
 			},
@@ -2284,7 +2284,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pretty confident, I see. No issues here. Apart from the whole stealing the 'indubitably' catchphrase and using it in a completely stupid context thing, of course.",
+					"Tiene mucha confianza. No hay ningún problema. Aparte de lo de decir que es indudable y usarla en un contexto completamente estúpido, eh.",
 					{"rt2"},
 				},
 			},
@@ -2323,7 +2323,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Hmm... We've got suspiciously low OSS numbers around here.”",
+					"“Mmm... Tenemos cantidades sospechosamente bajas de la OSS por aquí.”",
 					{"rt2"},
 				},
 			},
@@ -2359,7 +2359,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“So I've noticed.”",
+					"“Me di cuenta.”",
 					{"rt2"},
 				},
 			},
@@ -2396,7 +2396,7 @@ ast = {
 			},
 			en = {
 				{
-					"While we were careful to pick somewhere with little human traffic, I can't see any sign of OSS stationed anywhere nearby.",
+					"Aunque tuvimos cuidado al elegir un lugar con poco tránsito de personas, no veo rastro de la OSS.",
 					{"rt2"},
 				},
 			},
@@ -2428,7 +2428,7 @@ ast = {
 			},
 			en = {
 				{
-					"There should be at least one guard stationed in this area, going off my time undercover in the SS and the previous experiences I had with them.",
+					"Debería haber al menos un guardia en esta zona, según mi experiencia encubierta en la SS y los encuentros previos que tuve con ellos.",
 					{"rt2"},
 				},
 			},
@@ -2460,7 +2460,7 @@ ast = {
 			},
 			en = {
 				{
-					"If there's none of them in this area, then that'd mean...",
+					"Si no hay ninguno en esta zona...",
 					{"rt2"},
 				},
 			},
@@ -2498,7 +2498,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Picking up bogeys in ATM-03's general direction. IFF confirms they're sex seekers. Male-to-female ratio is 3:2, currently in midst of five-way. 40 seconds to engagement.”",
+					"“Detecto presencias en la dirección general de ATM-03. El IAE confirma que son buscadores de sexo. La proporción entre hombres y mujeres es de 3:2, y están haciéndolo 5. 40 segundos para el encuentro.”",
 					{"rt2"},
 				},
 			},
@@ -2532,7 +2532,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's no concern about sex seekers laying a hand on Hinami. We're the ones that need to be wary of them.",
+					"Los buscadores de sexo no van a tocar a Hinami. Somos nosotros los que debemos tener cuidado con ellos.",
 					{"rt2"},
 				},
 			},
@@ -2564,7 +2564,7 @@ ast = {
 			},
 			en = {
 				{
-					"We hide our traces to avoid their attention and follow Hinami.",
+					"Ocultamos nuestras huellas y seguimos a Hinami.",
 					{"rt2"},
 				},
 			},
@@ -2603,7 +2603,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hey! Stop being so rough with them!”",
+					"“¡Oigan! ¡No sean tan fuertes!”",
 					{"rt2"},
 				},
 			},
@@ -2640,7 +2640,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!?”",
+					"“¡¿Mm?!”",
 					{"rt2"},
 				},
 			},
@@ -2676,7 +2676,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hinami calls out to the five sex seekers.",
+					"Hinami habla con los cinco buscadores de sexo.",
 					{"rt2"},
 				},
 			},
@@ -2713,8 +2713,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男D", "Male A"},
-					"“Wot? Who gives a shit, these girls are total fuckin' freaks! They seem to enjoy it no matter what crazy shit we do to them!”",
+					name = {"モブ男D", "Hombre A"},
+					"“¿Qué? ¡¿A quién le importa, estas chicas son unas malditas locas?! ¡Parece que disfrutan sin importar las locuras que les hagamos!”",
 					{"rt2"},
 				},
 			},
@@ -2754,7 +2754,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“B-But... they're all red in the face... They look like they're suffering!”",
+					"“P-Pero... tienen la cara roja... ¡Parece que están sufriendo!”",
 					{"rt2"},
 				},
 			},
@@ -2788,7 +2788,7 @@ ast = {
 			},
 			en = {
 				{
-					"I take a closer look from my vantage point, and see some two-bit thug wringing the neck of the woman he's having sex with.",
+					"Desde mi posición miro más de cerca y veo a un matón retorciendo el cuello de la mujer con la que está teniendo sexo.",
 					{"rt2"},
 				},
 			},
@@ -2820,7 +2820,7 @@ ast = {
 			},
 			en = {
 				{
-					"The exact kind of thing sweet little Hinami is unable to let slip by her unnoticed...",
+					"Es el tipo de acto que la dulce y pequeña Hinami no puede ignorar...",
 					{"rt2"},
 				},
 			},
@@ -2890,7 +2890,7 @@ ast = {
 			},
 			en = {
 				{
-					"My instincts tell me to jump out and help her, but the rational side of me just barely prevents me from doing that.",
+					"Mi instinto me dice que la ayude, pero mi lado racional me impide hacerlo.",
 					{"rt2"},
 				},
 			},
@@ -2922,7 +2922,7 @@ ast = {
 			},
 			en = {
 				{
-					"I need to reel myself in for now. It's not like Hinami's in any danger.",
+					"Tengo que controlarme por ahora. No es que Hinami esté en peligro.",
 					{"rt2"},
 				},
 			},
@@ -2954,7 +2954,7 @@ ast = {
 			},
 			en = {
 				{
-					"Best to watch and see what happens.",
+					"Mejor observo lo que va a suceder...",
 					{"rt2"},
 				},
 			},
@@ -2990,8 +2990,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男B", "Male B"},
-					"“Ain't no need to worry, li'l missy. See, I made her drink this! It's a magic water that makes everything feel good!”",
+					name = {"モブ男B", "Hombre B"},
+					"“No hay por qué preocuparse, señorita. ¡Mira, le he hecho beber esto! ¡Es un agua mágica que hace que todo se sienta bien!”",
 					{"rt2"},
 				},
 			},
@@ -3025,7 +3025,7 @@ ast = {
 			},
 			en = {
 				{
-					"Magic water? What the hell...?",
+					"¿Agua mágica...? ¿Qué demonios...?",
 					{"rt2"},
 				},
 			},
@@ -3061,8 +3061,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男A", "Male C"},
-					"“Hey, it's actually okay to rail lolis on Seiran Island, ain't it? We're one short as is, how 'bout we fuck this girl? Heh heh, we didn't even call for a whore, but we still got one anyway...”",
+					name = {"モブ男A", "Hombre C"},
+					"“Oigan, las lolis son follables en la Isla Seiran, ¿no? Nos falta una, ¿qué tal si nos follamos a esta chica? Jeje, ni siquiera hemos llamado a una puta, pero nos llegó una...”",
 					{"rt2"},
 				},
 			},
@@ -3103,7 +3103,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Wait, stop!”",
+					"“¡Ah, basta!”",
 					{"rt2"},
 				},
 			},
@@ -3147,7 +3147,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hone my focus, take a proper firing stance, and—",
+					"Me concentro, adopto una postura adecuada y—",
 					{"rt2"},
 				},
 			},
@@ -3199,7 +3199,7 @@ ast = {
 			},
 			en = {
 				{
-					"A direct hit. That's one down.",
+					"Un golpe directo. Cayó uno.",
 					{"rt2"},
 				},
 			},
@@ -3237,7 +3237,7 @@ ast = {
 				{
 					{"exfont", size="f4"},
 					name = {"淳之介", "Junnosuke"},
-					"“NOW, HOTORI!”",
+					"“¡HOTORI!”",
 					{"rt2"},
 					{"exfont"},
 				},
@@ -3285,7 +3285,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“I'm moving out!”",
+					"“¡Ahí voy!”",
 					{"rt2"},
 				},
 			},
@@ -3331,7 +3331,7 @@ ast = {
 			},
 			en = {
 				{
-					"She immediately rolls out on her bike, making it to Hinami's position in less than five seconds.",
+					"Inmediatamente sale en su bicicleta y llega hasta donde está Hinami en menos de cinco segundos.",
 					{"rt2"},
 				},
 			},
@@ -3369,7 +3369,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Jun!”",
+					"“¡Jun-kun...!”",
 					{"rt2"},
 				},
 			},
@@ -3409,7 +3409,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“That was close! But you're safe now!”",
+					"“¡Estuvo cerca, pero ya estás bien!”",
 					{"rt2"},
 				},
 			},
@@ -3480,8 +3480,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男B", "Male B"},
-					"“Wh-What the hell!? What'd you do to my fri— Urgh!? What the shit is this!?”",
+					name = {"モブ男B", "Hombre B"},
+					"“¡¿Qué demonios...?! Qué le hiciste a — ¡¿Urgh?! ¡¿Qué es esto?!?”",
 					{"rt2"},
 				},
 			},
@@ -3519,7 +3519,7 @@ ast = {
 			},
 			en = {
 				{
-					"The sticky birdlime tangles up his legs, and he clumsily topples over.",
+					"El cal de pájaros enreda sus patas y se cae torpemente.",
 					{"rt2"},
 				},
 			},
@@ -3553,7 +3553,7 @@ ast = {
 			},
 			en = {
 				{
-					"In the distance, Nanase gives me a thumbs-up. Great aiming, girl.",
+					"A lo lejos, Nanase me hace un gesto de aprobación. Tiene muy buena puntería.",
 					{"rt2"},
 				},
 			},
@@ -3587,7 +3587,7 @@ ast = {
 			},
 			en = {
 				{
-					"The sex seeking males stand there with their dicks hanging out and their eyes agape at the unexpected situation.",
+					"Los buscadores de sexo se quedan allí con la polla al aire y los ojos abiertos ante la inesperada situación.",
 					{"rt2"},
 				},
 			},
@@ -3619,7 +3619,7 @@ ast = {
 			},
 			en = {
 				{
-					"These guys said 'it's okay to rail lolis on Seiran Island.'",
+					"Dijeron que estaba bien follarse a las lolis en la Isla Seiran.",
 					{"rt2"},
 				},
 			},
@@ -3651,7 +3651,7 @@ ast = {
 			},
 			en = {
 				{
-					"Ergo, they're bound to know something.",
+					"Así que saben algo.",
 					{"rt2"},
 				},
 			},
@@ -3686,7 +3686,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“So I heard you guys wanted a whore? Well, I'm your delivery boy.”",
+					"“¿Querían una puta? Pues bien, soy su repartidor.”",
 					{"rt2"},
 				},
 			},
@@ -3724,8 +3724,8 @@ ast = {
 			},
 			en = {
 				{
-					name = {"モブ男D", "Male A"},
-					"“Huh...? Wh-What the fuck are you—”",
+					name = {"モブ男D", "Hombre A"},
+					"“¿Eh...? Q-Qué mierda—”",
 					{"rt2"},
 				},
 			},
@@ -3762,7 +3762,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“A whore's what you wanted... but war's what you'll get.”",
+					"“Lo que querían era una puta... pero lo que van a tener es una guerra.”",
 					{"rt2"},
 				},
 			},
@@ -3835,7 +3835,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“'It's actually okay to rail lolis', huh...”",
+					"“Conque les parece bien follarse a las lolis, eh...”",
 					{"rt2"},
 				},
 			},
@@ -3869,7 +3869,7 @@ ast = {
 			},
 			en = {
 				{
-					"Who the fuck's spreading a rumor like that?",
+					"¿Quién está esparciendo ese rumor?",
 					{"rt2"},
 				},
 			},
@@ -3901,7 +3901,7 @@ ast = {
 			},
 			en = {
 				{
-					"I used my mad CQC skills to put the screws on the guy about to assault Hinami, and he sang for me like fuckin' Pavarotti.",
+					"Usé mis hábilidades de CC para presionar al tipo que estaba a punto de agredir a Hinami, y se puso a cantar.",
 					{"rt2"},
 				},
 			},
@@ -3933,7 +3933,7 @@ ast = {
 			},
 			en = {
 				{
-					"He told me that not long after coming to the island, he was given some of the so-called “magic water”, and told he could make use of it to fuck kids.",
+					"Me dijo que poco después de llegar a la isla, le dieron esa supuesta agua mágica y le dijeron que podía usarla para tener sexo con niños.",
 					{"rt2"},
 				},
 			},
@@ -3965,7 +3965,7 @@ ast = {
 			},
 			en = {
 				{
-					"And when I asked who gave it to him, he said it was from an OSS member.",
+					"Cuando le pregunté quién se la había dado, me dijo que fue un miembro de la OSS.",
 					{"rt2"},
 				},
 			},
@@ -3997,7 +3997,7 @@ ast = {
 			},
 			en = {
 				{
-					"The OSS are the last possible people I can imagine saying that railing lolis is okay, but he seemed to be telling the truth.",
+					"La OSS jamás diría que las lolis son follables, pero parecía estar diciendo la verdad.",
 					{"rt2"},
 				},
 			},
@@ -4029,7 +4029,7 @@ ast = {
 			},
 			en = {
 				{
-					"Thinking back, when we recaptured Fumino, some of the OSS were under yakuza orders, so this is probably a continuation of that.",
+					"Pensándolo bien, cuando rescatamos a Fumino, algunos miembros de la OSS estaban bajo las órdenes de la yakuza, así que probablemente esto sea una continuación de aquello.",
 					{"rt2"},
 				},
 			},
@@ -4061,7 +4061,7 @@ ast = {
 			},
 			en = {
 				{
-					"At any rate, that's all the information we obtained for today.",
+					"Sea como sea, esa es toda la información que hemos obtenido por hoy.",
 					{"rt2"},
 				},
 			},
@@ -4093,7 +4093,7 @@ ast = {
 			},
 			en = {
 				{
-					"Still... it's undeniable that someone is leading the spread of activity that's turning children into victims of sexual abuse.",
+					"Aun así... es innegable que alguien está liderando la propagación de actividades que convierten a los niños en víctimas de abuso sexual.",
 					{"rt2"},
 				},
 			},
@@ -4125,7 +4125,7 @@ ast = {
 			},
 			en = {
 				{
-					"It makes me sick to my stomach.",
+					"Qué asco me dan.",
 					{"rt2"},
 				},
 			},
@@ -4157,7 +4157,7 @@ ast = {
 			},
 			en = {
 				{
-					"As stupid and illogical the perverted sex law is, it does at least have a specific provision which excludes sexually immature children.",
+					"Por muy estúpida e ilógica que sea la ley súperpervertida, al menos tiene una disposición específica que excluye a los niños sexualmente inmaduros.",
 					{"rt2"},
 				},
 			},
@@ -4189,7 +4189,7 @@ ast = {
 			},
 			en = {
 				{
-					"But now even that is in peril...",
+					"Pero incluso eso corre peligro...",
 					{"rt2"},
 				},
 			},
@@ -4228,7 +4228,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Bro. I looked into the company which produced that water. Their record's clean as can be. Just your average manufacturing company with nationwide operations, nothing special.”",
+					"“Manito, investigué la empresa que produce esa agua. Su historial está limpio. Es una empresa manufacturera normal y corriente que opera en todo el país.”",
 					{"rt2"},
 				},
 			},
@@ -4264,7 +4264,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I see.”",
+					"“Ya veo.”",
 					{"rt2"},
 				},
 			},
@@ -4298,7 +4298,7 @@ ast = {
 			},
 			en = {
 				{
-					"Well, I suspected as much.",
+					"Ya me esperaba algo así.",
 					{"rt2"},
 				},
 			},
@@ -4330,7 +4330,7 @@ ast = {
 			},
 			en = {
 				{
-					"I did confiscate the bottle containing the “magic water” in order to look into it, but it turns out it's no different from a typical water bottle you'd see on store shelves.",
+					"Confiscé la botella que contenía el agua mágica para examinarla, pero resulta que no es diferente de una botella de agua típica que se puede encontrar en las tiendas.",
 					{"rt2"},
 				},
 			},
@@ -4369,7 +4369,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Say, Jun, do you think this water's...”",
+					"“Jun-kun, crees que el agua...”",
 					{"rt2"},
 				},
 			},
@@ -4406,7 +4406,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“The same stuff you drank before? Yeah, it seems likely enough.”",
+					"“¿Que si es lo mismo que bebiste antes? Sí, probablemente.”",
 					{"rt2"},
 				},
 			},
@@ -4443,7 +4443,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“It's basically the same aphrodisiac that the SS put in the water coolers. Different ballpark, same sport.”",
+					"“Es el mismo afrodisíaco que la SS ponía en los bebederos. Es lo mismo pero en otro lado.”",
 					{"rt2"},
 				},
 			},
@@ -4483,7 +4483,7 @@ ast = {
 			},
 			en = {
 				{
-					"I pour some out into a glass and have a closer look.",
+					"Sirvo un poco en un vaso y lo observo de cerca.",
 					{"rt2"},
 				},
 			},
@@ -4515,7 +4515,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's clean, transparent and odorless. No matter how you look at it, it just seems to be plain old bottled water.",
+					"Es limpia, transparente e inodora. Se mire como se mire, parece agua embotellada de toda la vida.",
 					{"rt2"},
 				},
 			},
@@ -4547,7 +4547,7 @@ ast = {
 			},
 			en = {
 				{
-					"Since it doesn't show any signs of having had the drug mixed into it, that would make it consistent with the stuff the SS had.",
+					"No parece haber sido mezclada con la droga, pues eso la haría compatible con el material que tenía la SS.",
 					{"rt2"},
 				},
 			},
@@ -4586,7 +4586,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Though, it doesn't necessarily mean that the SS are responsible for mixing that stuff into this water themselves, huh...”",
+					"“Aunque eso no significa la SS sea responsable de mezclar esas sustancias en el agua, ¿no?”",
 					{"rt2"},
 				},
 			},
@@ -4623,7 +4623,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah. Anyone could do it if they got ahold of the stuff.”",
+					"“Sí. Cualquiera podría hacerlo si consiguiera el material.”",
 					{"rt2"},
 				},
 			},
@@ -4660,7 +4660,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“So, by that extension... where's the drug coming from?”",
+					"“Entonces.... ¿de dónde viene la droga...?”",
 					{"rt2"},
 				},
 			},
@@ -4694,7 +4694,7 @@ ast = {
 			},
 			en = {
 				{
-					"During the entrance examination, the student council prez had referred to it as a “specimen.”",
+					"Durante el examen de ingreso, la presidenta dijo que era una “muestra”.",
 					{"rt2"},
 				},
 			},
@@ -4729,7 +4729,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I guess we'd need to ask the SS firsthand if we're gonna find out where the hell they got it from.”",
+					"“Tendremos que preguntarle a la SS si queremos saber de dónde demonios la sacaron.”",
 					{"rt2"},
 				},
 			},
@@ -4763,7 +4763,7 @@ ast = {
 			},
 			en = {
 				{
-					"I might end up crossing paths with Rei again... As depressing as that sounds, it's no reason to avoid the issue.",
+					"Tal vez vuelva a ver a Rei-senpai... Por muy deprimente que suene, no es motivo para huir.",
 					{"rt2"},
 				},
 			},
@@ -4798,7 +4798,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami, will you come with me?”",
+					"“... Hinami, ¿me acompañas?”",
 					{"rt2"},
 				},
 			},
@@ -4839,7 +4839,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah, of course! I'm always eager to help!”",
+					"“¡Por supuesto, siempre te ayudaré!”",
 					{"rt2"},
 				},
 			},
@@ -4876,7 +4876,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Thanks.”",
+					"“Gracias.”",
 					{"rt2"},
 				},
 			},
@@ -4910,7 +4910,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm not alone now. I have Hinami with me.",
+					"Ya no estoy solo. Hinami está a mi lado.",
 					{"rt2"},
 				},
 			},
@@ -4942,7 +4942,7 @@ ast = {
 			},
 			en = {
 				{
-					"I don't have to bear the burden for everyone on my own. There's no need for concern.",
+					"No tengo que cargar con el peso de todos. No tengo que preocuparme.",
 					{"rt2"},
 				},
 			},
@@ -4978,7 +4978,7 @@ ast = {
 			},
 			en = {
 				{
-					"However...",
+					"Sin embargo..",
 					{"rt2"},
 				},
 			},
@@ -5010,7 +5010,7 @@ ast = {
 			},
 			en = {
 				{
-					"What about Rei?",
+					"¿Qué hay de Rei-senpai?",
 					{"rt2"},
 				},
 			},
@@ -5042,7 +5042,7 @@ ast = {
 			},
 			en = {
 				{
-					"I have Hinami.",
+					"Tengo a Hinami.",
 					{"rt2"},
 				},
 			},
@@ -5074,7 +5074,7 @@ ast = {
 			},
 			en = {
 				{
-					"When I was in a bad place, and about to lose my mind, I was able to get back on my feet with Hinami's support.",
+					"Cuando estaba pasando por un mal momento y a punto de enloquecer, pude recuperarme gracias al apoyo de Hinami.",
 					{"rt2"},
 				},
 			},
@@ -5106,7 +5106,7 @@ ast = {
 			},
 			en = {
 				{
-					"However, Rei was betrayed by both of us, so isn't she alone now?",
+					"Sin embargo, Rei-senpai fue traicionada por ambos. ¿No está sola ahora?",
 					{"rt2"},
 				},
 			},
@@ -5138,7 +5138,7 @@ ast = {
 			},
 			en = {
 				{
-					"Is anyone there to support her?",
+					"¿Alguien la estará apoyando?",
 					{"rt2"},
 				},
 			},
@@ -5170,7 +5170,7 @@ ast = {
 			},
 			en = {
 				{
-					"Given that I'm the one who betrayed her, it's probably not my place to worry about her, though.",
+					"Como yo la traicioné, probablemente no sea mi responsabilidad preocuparme por ella.",
 					{"rt2"},
 				},
 			},
@@ -5213,7 +5213,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“Yawn... Well, I'm done my investigation, so I'mma go dunk on those damn foreigners some more... Just call me when dinner's ready. I could go for some wagyu beef tonight.”",
+					"“Fwahh... Bueno, ya terminé mi investigación, así que voy a seguir acabando con los extranjeros... Llámame cuando la cena esté lista. Me apetece carne esta noche.”",
 					{"rt2"},
 				},
 			},
@@ -5250,7 +5250,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'm afraid you're gonna be disappointed there.”",
+					"“Pues te fallé.”",
 					{"rt2"},
 				},
 			},
@@ -5287,7 +5287,7 @@ ast = {
 			},
 			en = {
 				{
-					"Evidently not caring for or expecting an answer to her statement, she slinks back to her room.",
+					"Evidentemente, sin importarle una respuesta a su comentario, Asa-chan se retira a su habitación.",
 					{"rt2"},
 				},
 			},
@@ -5323,7 +5323,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Good grief... Hinami?”",
+					"“Ay no... ¿Hinami?”",
 					{"rt2"},
 				},
 			},
@@ -5359,7 +5359,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's staring at the plastic bottle, seemingly flustered over something.",
+					"Está mirando la botella de plástico, aparentemente nerviosa por algo.",
 					{"rt2"},
 				},
 			},
@@ -5398,7 +5398,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Y-You know, Jun... I know it's kinda late for this, but... I'm sorry about what happened before.”",
+					"“O-Oye, Jun-kun... Sé que es un poco tarde para esto, pero... siento lo que pasó en ese momento.”",
 					{"rt2"},
 				},
 			},
@@ -5432,7 +5432,7 @@ ast = {
 			},
 			en = {
 				{
-					"Before? She must be talking about that time she drank the aphrodisiac.",
+					"¿Eh? Debe estar hablando de aquella vez que bebió el afrodisíaco.",
 					{"rt2"},
 				},
 			},
@@ -5467,7 +5467,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Well, you know... Those drugs do crazy things to people, that's how it is.”",
+					"“Bueno... Esas drogas le hacen cosas raras a la gente.”",
 					{"rt2"},
 				},
 			},
@@ -5507,7 +5507,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah, but still... I was sucking on you like a baby...”",
+					"“Sí, pero.. Te estaba chupando como un bebé...”",
 					{"rt2"},
 				},
 			},
@@ -5544,7 +5544,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, bad choice of words there. Babies wouldn't do that.”",
+					"“Qué mala elección de palabras. Los bebés no harían eso.”",
 					{"rt2"},
 				},
 			},
@@ -5592,7 +5592,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Oh, yeah, I guess so... But, well, I was kinda, like... playing pattycake on your dick like a baby... You probably thought that was awkward, right?”",
+					"“Ah, cierto... Pero, bueno, estaba... jugando con tu polla como un bebé... Probablemente pensaste que era incómodo, ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -5664,7 +5664,7 @@ ast = {
 			},
 			en = {
 				{
-					"Keep it together.",
+					"Cálmate.",
 					{"rt2"},
 				},
 			},
@@ -5696,7 +5696,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's just apologizing for something in the past. A gentleman like me should not be aroused by such things.",
+					"Solo se está disculpando. Un caballero como yo no debería excitarse por esas cosas.",
 					{"rt2"},
 				},
 			},
@@ -5728,7 +5728,7 @@ ast = {
 			},
 			en = {
 				{
-					"Yes, holding back one's own selfish whims and forgiving her is the gentlemanly thing to do.",
+					"Sí, reprimir los caprichos egoístas y perdonarla es lo que haría un caballero.",
 					{"rt2"},
 				},
 			},
@@ -5763,7 +5763,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Don't fret about it so much.”",
+					"“No le des tantas vueltas.”",
 					{"rt2"},
 				},
 			},
@@ -5800,7 +5800,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“At the time, I kinda wanted to die, but thinking back... it honestly wasn't that bad.”",
+					"“Cuando pasó eso, quería morirme, pero pensándolo bien... no estuvo tan mal.”",
 					{"rt2"},
 				},
 			},
@@ -5840,7 +5840,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh, really? Could it be that... you want to do more of that sort of thing?”",
+					"“¿En serio? Acaso... ¿quieres seguir haciendo eso?”",
 					{"rt2"},
 				},
 			},
@@ -5875,7 +5875,7 @@ ast = {
 			},
 			en = {
 				{
-					"Yes, I do.",
+					"Sí...",
 					{"rt2"},
 				},
 			},
@@ -5907,7 +5907,7 @@ ast = {
 			},
 			en = {
 				{
-					"Can I say that?",
+					"¿Puedo decirlo?",
 					{"rt2"},
 				},
 			},
@@ -5939,7 +5939,7 @@ ast = {
 			},
 			en = {
 				{
-					"And if I did say it, would she let me...?",
+					"Y si lo dijera, ¿me dejaría hacerlo...?",
 					{"rt2"},
 				},
 			},
@@ -5977,7 +5977,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Jun?”",
+					"“¿Jun-kun?”",
 					{"rt2"},
 				},
 			},
@@ -6012,7 +6012,7 @@ ast = {
 			},
 			en = {
 				{
-					"I reckon she would!",
+					"¡Seguro que sí!",
 					{"rt2"},
 				},
 			},
@@ -6047,7 +6047,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No, no, NO!”",
+					"“¡No, no, NO...!”",
 					{"rt2"},
 				},
 			},
@@ -6081,7 +6081,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't go demanding such depraved things of a kind-hearted, pure girl like her.",
+					"No puedo exigirle cosas depravadas a una chica tan bondadosa y pura como ella.",
 					{"rt2"},
 				},
 			},
@@ -6113,7 +6113,7 @@ ast = {
 			},
 			en = {
 				{
-					"I need to cool down. I'll just have a drink of water...",
+					"Tengo que calmarme. Voy a beber un poco de agua...",
 					{"rt2"},
 				},
 			},
@@ -6149,7 +6149,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Glug, glug...”",
+					"“Mmm...”",
 					{"rt2"},
 				},
 			},
@@ -6191,7 +6191,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh!? W-Wait, Jun! That water's—!”",
+					"“¡¿Eh?! ¡E-Espera, Jun-kun! ¡Esa agua—!”",
 					{"rt2"},
 				},
 			},
@@ -6235,7 +6235,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!?”",
+					"“¡¿Mm?!”",
 					{"rt2"},
 				},
 			},
@@ -6269,7 +6269,7 @@ ast = {
 			},
 			en = {
 				{
-					"Oh, SHIT! This had the aphrodisiac in it!!",
+					"¡Mierda! ¡¡Tiene el afrodisíaco!!",
 					{"rt2"},
 				},
 			},
@@ -6304,7 +6304,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uurgh...!?”",
+					"“¡¿Uurgh...?!”",
 					{"rt2"},
 				},
 			},
@@ -6370,7 +6370,7 @@ ast = {
 			},
 			en = {
 				{
-					"The stuff I drank during the entrance exam was a milkshake compared to this...!!",
+					"¡Lo que bebí en el examen de ingreso era un batido comparado con esto...!",
 					{"rt2"},
 				},
 			},
@@ -6408,7 +6408,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“A-Are you okay!?”",
+					"“¡¿E-Estás bien?!”",
 					{"rt2"},
 				},
 			},
@@ -6446,7 +6446,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami...!”",
+					"“¡Hinami...!”",
 					{"rt2"},
 				},
 			},
@@ -6480,7 +6480,7 @@ ast = {
 			},
 			en = {
 				{
-					"Just looking at her face makes my heart beat at a thousand miles an hour.",
+					"Con solo ver su rostro, mi corazón late rápidamente.",
 					{"rt2"},
 				},
 			},
@@ -6519,7 +6519,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Oh no oh no oh no... Wh-What should I do!?”",
+					"“Oh no oh no oh no... ¡¿Q-Qué hago?!”",
 					{"rt2"},
 				},
 			},
@@ -6555,7 +6555,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hearing her voice is setting me aflame.",
+					"Oír su voz me prende.",
 					{"rt2"},
 				},
 			},
@@ -6587,7 +6587,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can feel an intense pulsation between my loins.",
+					"Siento una intensa pulsación.",
 					{"rt2"},
 				},
 			},
@@ -6619,7 +6619,7 @@ ast = {
 			},
 			en = {
 				{
-					"Uncontrollable lust wells up from deep inside me.",
+					"Una lujuria incontrolable brota de lo profundo de mi ser.",
 					{"rt2"},
 				},
 			},
@@ -6651,7 +6651,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want Hinami.",
+					"Quiero a Hinami.",
 					{"rt2"},
 				},
 			},
@@ -6683,7 +6683,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want to strip her down to her bare, naked skin.",
+					"Quiero dejarla completamente desnuda.",
 					{"rt2"},
 				},
 			},
@@ -6715,7 +6715,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want to touch her smooth body.",
+					"Quiero tocar su cuerpo suave.",
 					{"rt2"},
 				},
 			},
@@ -6747,7 +6747,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want to rub my junk against it.",
+					"Quiero frotarme contra ella.",
 					{"rt2"},
 				},
 			},
@@ -6779,7 +6779,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her palms.",
+					"Sus palmas.",
 					{"rt2"},
 				},
 			},
@@ -6811,7 +6811,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her chest.",
+					"Su pecho.",
 					{"rt2"},
 				},
 			},
@@ -6843,7 +6843,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her ass.",
+					"Su culo.",
 					{"rt2"},
 				},
 			},
@@ -6875,7 +6875,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her thighs, her cheek, her abdomen.",
+					"Sus muslos, sus mejillas, su abdomen.",
 					{"rt2"},
 				},
 			},
@@ -6907,7 +6907,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her navel, the sole of her foot, her armpit, her calf, her hair, the back of her knees, her back, her forehead, her shins...",
+					"Su ombligo, la planta de sus pies, sus axilas, sus pantorrillas, su cabello, la parte posterior de sus rodillas, su espalda, su frente, sus espinillas...",
 					{"rt2"},
 				},
 			},
@@ -6939,7 +6939,7 @@ ast = {
 			},
 			en = {
 				{
-					"And her cunt.",
+					"Y su coño.",
 					{"rt2"},
 				},
 			},
@@ -6971,7 +6971,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want to rub my junk all over her body.",
+					"Quiero frotarla por todo su cuerpo.",
 					{"rt2"},
 				},
 			},
@@ -7003,7 +7003,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel like a candle about to melt. My cock is so hard it feels like it's going to explode.",
+					"Me siento como una vela a punto de derretirse. Mi polla está tan dura que va a explotar.",
 					{"rt2"},
 				},
 			},
@@ -7035,7 +7035,7 @@ ast = {
 			},
 			en = {
 				{
-					"I want to fuck her.",
+					"Quiero follarla.",
 					{"rt2"},
 				},
 			},
@@ -7070,7 +7070,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Urgh... Grrrrrgh...!!”",
+					"“Urgh... ¡¡Grrrrrgh...!!”",
 					{"rt2"},
 				},
 			},
@@ -7113,7 +7113,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Wha!? Jun!? Where are you going!?”",
+					"“¡¿Eh?! ¡¿Jun-kun?! ¡¿A dónde vas?!”",
 					{"rt2"},
 				},
 			},
@@ -7184,7 +7184,7 @@ ast = {
 			},
 			en = {
 				{
-					"If I stick around here, who knows what horrible things I'll do to her.",
+					"Si me quedo aquí, quién sabe qué cosas horribles le haré.",
 					{"rt2"},
 				},
 			},
@@ -7218,7 +7218,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'm going out for a run...!!”",
+					"“¡¡Voy a correr un rato...!!”",
 					{"rt2"},
 				},
 			},
@@ -7257,7 +7257,7 @@ ast = {
 			},
 			en = {
 				{
-					"With my remaining reason, I run out of the house as fast as I can.",
+					"Con la poca cordura que me queda, salgo corriendo de la casa.",
 					{"rt2"},
 				},
 			},
@@ -7294,7 +7294,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Guh... Aghhhh...!!”",
+					"“Guh... ¡¡Aghhhh...!!”",
 					{"rt2"},
 				},
 			},
@@ -7360,7 +7360,7 @@ ast = {
 			},
 			en = {
 				{
-					"Run, Junnosuke! Sublimate your lust through running!",
+					"¡Corre, Junnosuke! ¡Apacigua tu lujuria corriendo!",
 					{"rt2"},
 				},
 			},
@@ -7393,7 +7393,7 @@ ast = {
 			},
 			en = {
 				{
-					"Alas, this is Seiran Island. No matter what direction I run in, I can hear moans wherever I go.",
+					"Ah, conque esto es la Isla Seiran. No importa en qué dirección corra, oigo gemidos por todas partes.",
 					{"rt2"},
 				},
 			},
@@ -7427,7 +7427,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ugh!!”",
+					"“¡¡Ugh!!”",
 					{"rt2"},
 				},
 			},
@@ -7461,7 +7461,7 @@ ast = {
 			},
 			en = {
 				{
-					"Normally they just wash over me, but right now the moans of the sex seekers just inflame my lust!",
+					"Normalmente me dan igual, ¡pero ahora los gemidos de los buscadores de sexo avivan mi lujuria!",
 					{"rt2"},
 				},
 			},
@@ -7538,7 +7538,7 @@ ast = {
 				{
 					{"exfont", size="f4"},
 					name = {"淳之介", "Junnosuke"},
-					"“GUUUUUGGGGGHHHHH!!”",
+					"“¡¡GUUUUUGGGGGHHHHH!!”",
 					{"rt2"},
 					{"exfont"},
 				},
@@ -7577,7 +7577,7 @@ ast = {
 			},
 			en = {
 				{
-					"I belt out a primal howl, trying madly to suppress my carnal desires.",
+					"Lanzo un grito primitivo, tratando de reprimir mis deseos carnales.",
 					{"rt2"},
 				},
 			},
@@ -7609,7 +7609,7 @@ ast = {
 			},
 			en = {
 				{
-					"I was taught that if I had the energy to scream, then that energy would be better directed towards my thoughts. But right now, that's impossible.",
+					"Me enseñaron que si tenía energía para gritar, era mejor dirigir esa energía hacia mis pensamientos. Pero ahora mismo, eso es imposible.",
 					{"rt2"},
 				},
 			},
@@ -7641,7 +7641,7 @@ ast = {
 			},
 			en = {
 				{
-					"When I try to think, all I can think about is Hinami, and how I just wanna run back home and immediately start hitting those back walls.",
+					"Cuando trato de pensar, solo puedo pensar en Hinami, y en cómo solo quiero volver a casa y darle como cajón que no cierra.",
 					{"rt2"},
 				},
 			},
@@ -7673,7 +7673,7 @@ ast = {
 			},
 			en = {
 				{
-					"Shit... What the hell am I supposed to—",
+					"Mierda... Qué voy a—",
 					{"rt2"},
 				},
 			},
@@ -7711,7 +7711,7 @@ ast = {
 			en = {
 				{
 					name = {"ユキ", "Yuki"},
-					"“Oh? Aren't you Hinami's big bro?”",
+					"“¿Eh...? ¿No eres el hermano de Hinami-chan...?”",
 					{"rt2"},
 				},
 			},
@@ -7748,7 +7748,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!?”",
+					"“¡¿Mm?!”",
 					{"rt2"},
 				},
 			},
@@ -7782,7 +7782,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's Yuki... that girl I saved a while back...",
+					"Es Yuki... la chica que salvé...",
 					{"rt2"},
 				},
 			},
@@ -7855,7 +7855,7 @@ ast = {
 			en = {
 				{
 					name = {"ユキ", "Yuki"},
-					"“I saw a bunch of sticky sap around here... so I thought I could get my hands on a huge bug or something.”",
+					"“Vi un montón de savia pegajosa por aquí... así que pensé que podría atrapar un insecto enorme.”",
 					{"rt2"},
 				},
 			},
@@ -7890,7 +7890,7 @@ ast = {
 			},
 			en = {
 				{
-					"Just staring at Yuki... is making me flip my lid.",
+					"Solo mirar a Yuki... me está volviendo loco.",
 					{"rt2"},
 				},
 			},
@@ -7922,7 +7922,7 @@ ast = {
 			},
 			en = {
 				{
-					"No... NO! Don't you fucking DARE!!!",
+					"No... ¡NO! ¡¡NO LO HAGAS!!",
 					{"rt2"},
 				},
 			},
@@ -7954,7 +7954,7 @@ ast = {
 			},
 			en = {
 				{
-					"Yuki didn't come here to get her hands on YOUR huge bug, asshole...!!",
+					"¡Yuki no vino aquí para atrapar tu enorme bicho, idiota...!",
 					{"rt2"},
 				},
 			},
@@ -7994,7 +7994,7 @@ ast = {
 				{
 					{"exfont", size="f4"},
 					name = {"淳之介", "Junnosuke"},
-					"“GWRAAAAAAARWRGH!!!”",
+					"“¡¡GWRAAAAAAARWRGH!!!”",
 					{"rt2"},
 					{"exfont"},
 				},
@@ -8037,7 +8037,7 @@ ast = {
 			},
 			en = {
 				{
-					"I use the last shred of reason in me to force down my sexual urges, turn myself around, and get the living hell out of Dodge on impulse alone.",
+					"Utilizo hasta la última pizca de razón que me queda para reprimir mis impulsos sexuales, dar media vuelta y salir corriendo.",
 					{"rt2"},
 				},
 			},
@@ -8069,7 +8069,7 @@ ast = {
 			},
 			en = {
 				{
-					"That was close. I could've really done something awful back there.",
+					"Estuvo cerca. Podría haber hecho algo horrible.",
 					{"rt2"},
 				},
 			},
@@ -8101,7 +8101,7 @@ ast = {
 			},
 			en = {
 				{
-					"But what if something like that happens again...?",
+					"Pero ¿y si vuelve a pasar algo así...?",
 					{"rt2"},
 				},
 			},
@@ -8137,7 +8137,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!!”",
+					"“¡¡Mm!!”",
 					{"rt2"},
 				},
 			},
@@ -8174,7 +8174,7 @@ ast = {
 			},
 			en = {
 				{
-					"As that thought crosses my mind, I spot a small girl.",
+					"Mientras pienso eso, veo a una niña.",
 					{"rt2"},
 				},
 			},
@@ -8206,7 +8206,7 @@ ast = {
 			},
 			en = {
 				{
-					"Ah, fuck this... I can't take it anymore...!",
+					"Ah, mierda.... ¡No puedo aguantar más...!",
 					{"rt2"},
 				},
 			},
@@ -8245,7 +8245,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah... Hah...”",
+					"“Jaaa... jaaa...”",
 					{"rt2"},
 				},
 			},
@@ -8282,7 +8282,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hi...na...mi...!?”",
+					"“¡¿Hi...na...mi...?!”",
 					{"rt2"},
 				},
 			},
@@ -8322,7 +8322,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah, thank God... Jun, I finally found you...”",
+					"“Ah, qué alivio... Jun-kun, por fin te encontré...”",
 					{"rt2"},
 				},
 			},
@@ -8359,7 +8359,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What the hell are you doing he—”",
+					"“Qué estás—”",
 					{"rt2"},
 				},
 			},
@@ -8399,7 +8399,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Kiss... nngh!”",
+					"“Chuu... ¡nngh!”",
 					{"rt2"},
 				},
 			},
@@ -8433,7 +8433,7 @@ ast = {
 			},
 			en = {
 				{
-					"She abruptly gives me an intense kiss.",
+					"Me da un beso intenso.",
 					{"rt2"},
 				},
 			},
@@ -8465,7 +8465,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's so soft and tender, and her fluttering hair gives off a sweet fragrance in the evening air that fuels my burning lust.",
+					"Es tan suave, tierna, y su cabello ondulado desprende una dulce fragancia en el aire de la tarde que aviva mi ardiente deseo.",
 					{"rt2"},
 				},
 			},
@@ -8497,7 +8497,7 @@ ast = {
 			},
 			en = {
 				{
-					"No... You can't do this to me... Not now...!",
+					"No... No me hagas esto... ¡Ahora no...!",
 					{"rt2"},
 				},
 			},
@@ -8540,7 +8540,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Pah...! Ngh, haah... Heh heh... You see, Jun... I drank some too...”",
+					"“¡Pah...! Ngh, haah... Jeje... Verás, Jun-kun... Yo también bebí un poco...”",
 					{"rt2"},
 				},
 			},
@@ -8577,7 +8577,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You drank some... wait, you mean the aphrodisiac!? Why...?”",
+					"“¿Bebiste un poco...? ¡Espera, ¿te refieres al afrodisíaco?! ¿Por qué...?”",
 					{"rt2"},
 				},
 			},
@@ -8617,7 +8617,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Come on... I just wanted to get freaky with you.”",
+					"“Vamos... Solo quería hacer cositas contigo.”",
 					{"rt2"},
 				},
 			},
@@ -8652,7 +8652,7 @@ ast = {
 			},
 			en = {
 				{
-					"She gives me a lustful smile, grabs my hand, and directs it inside her skirt.",
+					"Me hace una sonrisa lasciva, me agarra la mano y la introduce dentro de su falda.",
 					{"rt2"},
 				},
 			},
@@ -8692,7 +8692,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, uh...!”",
+					"“¡Ngh, uh...!”",
 					{"rt2"},
 				},
 			},
@@ -8727,7 +8727,7 @@ ast = {
 			},
 			en = {
 				{
-					"Even through her panties, I can tell she's wetter than a New Orleans swimming pool right now.",
+					"Incluso con las bragas puestas, puedo notar que ahora mismo está más mojada que una piscina.",
 					{"rt2"},
 				},
 			},
@@ -8765,7 +8765,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Heh heh... Look at how wet I am... Whatever you wanna do to me, I can handle it...”",
+					"“Jeje... Mira lo mojadita que estoy... Lo que quieras hacerme, puedo soportarlo...”",
 					{"rt2"},
 				},
 			},
@@ -8805,7 +8805,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“So let's do some real freaky stuff... yeah?”",
+					"“Así que hagamos cositas sucias... ¿sí?”",
 					{"rt2"},
 				},
 			},
@@ -8848,7 +8848,7 @@ ast = {
 			},
 			en = {
 				{
-					"She takes her panties off behind an electricity pole, then puts her hands against it and pokes her ass out.",
+					"Se quita las bragas detrás de un poste eléctrico, apoya las manos contra él y saca el trasero.",
 					{"rt2"},
 				},
 			},
@@ -8885,7 +8885,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Come on, Jun... I can't take it anymore... Please...”",
+					"“Vamos, Jun-kun... No puedo aguantar más... Por favor...”",
 					{"rt2"},
 				},
 			},
@@ -8919,7 +8919,7 @@ ast = {
 			},
 			en = {
 				{
-					"Given her normally bright and cheerful personality, I almost would've never expected to see her do something like this.",
+					"Dada su personalidad normalmente alegre y viva, nunca hubiera imaginado que haría algo así.",
 					{"rt2"},
 				},
 			},
@@ -8951,7 +8951,7 @@ ast = {
 			},
 			en = {
 				{
-					"Just seeing Hinami in her state of undress, in this dimly lit space...",
+					"Solo con ver a Hinami semidesnuda, en este espacio con poca luz...",
 					{"rt2"},
 				},
 			},
@@ -8985,7 +8985,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Haah... Hah...”",
+					"“Jaaa... jaa...”",
 					{"rt2"},
 				},
 			},
@@ -9019,7 +9019,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's enough to obliterate all rational thoughts from my mind.",
+					"Los pensamientos racionales son eliminados de mi mente.",
 					{"rt2"},
 				},
 			},
@@ -9051,7 +9051,7 @@ ast = {
 			},
 			en = {
 				{
-					"I don't even care if someone else comes right now. That's the least of my concerns.",
+					"Ni siquiera me importa si viene alguien. Eso es lo que menos me preocupa.",
 					{"rt2"},
 				},
 			},
@@ -9088,7 +9088,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I'm all soaked now... you see? My pussy's just begging to be pounded by you...”",
+					"“Ahora estoy toda mojada... ¿ves? Mi coño quiere que me folles...”",
 					{"rt2"},
 				},
 			},
@@ -9122,7 +9122,7 @@ ast = {
 			},
 			en = {
 				{
-					"They're words that don't sound unusual to hear from a Seiran Islander.",
+					"Son palabras que no suenan extrañas viniendo de un habitante de la Isla Seiran.",
 					{"rt2"},
 				},
 			},
@@ -9154,7 +9154,7 @@ ast = {
 			},
 			en = {
 				{
-					"But coming from Hinami, they feel completely different.",
+					"Pero es distinto cuando lo dice Hinami.",
 					{"rt2"},
 				},
 			},
@@ -9186,7 +9186,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can see even more fluids dripping from her gash than that time I touched her before.",
+					"Puedo ver aún más fluidos goteando de su coño desde la última vez que la toqué.",
 					{"rt2"},
 				},
 			},
@@ -9223,7 +9223,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh... Haaah... Come on... You gonna leave me in the lurch, or what?”",
+					"“Ngh... Haaah... Vamos... ¿Me vas a dejar tirada?”",
 					{"rt2"},
 				},
 			},
@@ -9257,7 +9257,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her voice is seductive. It's a tone totally unlike our first time together.",
+					"Su voz es seductora. Es un tono distinto al de nuestra primera vez juntos.",
 					{"rt2"},
 				},
 			},
@@ -9289,7 +9289,7 @@ ast = {
 			},
 			en = {
 				{
-					"It reminds me of when she last drank the aphrodisiac.",
+					"Me recuerda a la última vez que bebió el afrodisíaco.",
 					{"rt2"},
 				},
 			},
@@ -9321,7 +9321,7 @@ ast = {
 			},
 			en = {
 				{
-					"The smell of her obscenely wet pussy invades every corner of my brain folds.",
+					"El olor de su obsceno coño mojado invade cada rincón de mi cerebro.",
 					{"rt2"},
 				},
 			},
@@ -9355,7 +9355,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Can I... just stick it in now?”",
+					"“¿Puedo... meterla ya?”",
 					{"rt2"},
 				},
 			},
@@ -9394,7 +9394,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Sure can... Your big sis wants you to nut buckets inside of her...”",
+					"“Claro que sí... Tu onee-san quiere que te corras dentro de ella...”",
 					{"rt2"},
 				},
 			},
@@ -9428,7 +9428,7 @@ ast = {
 			},
 			en = {
 				{
-					"The sound of her sweet voice makes me feel like my brains are leaking out of my ears.",
+					"El sonido de su dulce voz me hace sentir que mi cerebro saldrá por mis oídos.",
 					{"rt2"},
 				},
 			},
@@ -9460,7 +9460,7 @@ ast = {
 			},
 			en = {
 				{
-					"Right. Let's do this shit, then.",
+					"Bien, hagámoslo...",
 					{"rt2"},
 				},
 			},
@@ -9492,7 +9492,7 @@ ast = {
 			},
 			en = {
 				{
-					"I shove myself right into her with one stroke, right up to the hilt.",
+					"La meto hasta el fondo.",
 					{"rt2"},
 				},
 			},
@@ -9568,7 +9568,7 @@ ast = {
 			},
 			en = {
 				{
-					"Thanks to the drug, she's totally drenched. Enough so to take all of me in without any resistance.",
+					"Gracias a la droga, está empapada, lo suficiente como para aceptarme por completo sin ninguna resistencia.",
 					{"rt2"},
 				},
 			},
@@ -9634,7 +9634,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“There's no pain... is there?”",
+					"“No te duele... ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -9675,7 +9675,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“No, none at all... Quite the opposite... Ngh, haah...”",
+					"“No, no me duele... Se siente bien... Ngh, haah...”",
 					{"rt2"},
 				},
 			},
@@ -9709,7 +9709,7 @@ ast = {
 			},
 			en = {
 				{
-					"She begins writhing around.",
+					"Comienza a moverse.",
 					{"rt2"},
 				},
 			},
@@ -9746,7 +9746,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“That's strange... I'm aching even more now than before you stuck it in me...”",
+					"“Qué raro... Me duele más ahora... que antes de que la metieras...”",
 					{"rt2"},
 				},
 			},
@@ -9785,7 +9785,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Maybe it's a signal that... I want more of it...”",
+					"“Tal vez sea una señal de que... quiero más...”",
 					{"rt2"},
 				},
 			},
@@ -9819,7 +9819,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her ecstatic eyes gaze up at me longingly.",
+					"Sus ojos extasiados me miran con anhelo.",
 					{"rt2"},
 				},
 			},
@@ -9851,7 +9851,7 @@ ast = {
 			},
 			en = {
 				{
-					"Seeing her face erases the last bit of restraint in me.",
+					"Ver su rostro borra el último vestigio de moderación que me queda.",
 					{"rt2"},
 				},
 			},
@@ -9891,7 +9891,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh... hah... ah, ah, ngh, hah... haah...!”",
+					"“Ngh... hah... ah, ah, ngh, hah... ¡haah...!”",
 					{"rt2"},
 				},
 			},
@@ -9925,7 +9925,7 @@ ast = {
 			},
 			en = {
 				{
-					"I immediately start moving my hips at full speed and let my lust take over.",
+					"Comienzo a mover mis caderas a toda velocidad y dejo que mi lujuria tome el control.",
 					{"rt2"},
 				},
 			},
@@ -9957,7 +9957,7 @@ ast = {
 			},
 			en = {
 				{
-					"No matter how wet she is, her tiny vagina is so tight that it wrings my dick each time I push forward.",
+					"No importa lo mojada que esté, su pequeño coño es tan estrecho que me aprieta la polla cada vez que empujo hacia adelante.",
 					{"rt2"},
 				},
 			},
@@ -9994,7 +9994,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, aah... ngh, ah... ungh, eek, ah, ah, hah...”",
+					"“Uh, aah... ngh, ah... ungh, ah, ah, ah, hah...”",
 					{"rt2"},
 				},
 			},
@@ -10028,7 +10028,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her seductive voice echoes beneath the dark night skies.",
+					"Su voz seductora resuena bajo el oscuro cielo nocturno.",
 					{"rt2"},
 				},
 			},
@@ -10060,7 +10060,7 @@ ast = {
 			},
 			en = {
 				{
-					"Has the aphrodisiac driven me completely mad?",
+					"¿El afrodisíaco me ha vuelto completamente loco?",
 					{"rt2"},
 				},
 			},
@@ -10092,7 +10092,7 @@ ast = {
 			},
 			en = {
 				{
-					"Amidst all the madness, my cock is so engorged that it hurts, and the feeling of it enveloped in her sugar walls feels too good to describe adequately.",
+					"En medio de toda esta locura, mi polla está tan hinchado que me duele, y la sensación de estar cubierto en sus paredes azucaradas es demasiado agradable como para describirla.",
 					{"rt2"},
 				},
 			},
@@ -10131,7 +10131,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Haah, ngh, hah... uh, ngh, hah... Those are some crazy noises we're making, huh...?”",
+					"“Jaaa, nh, jaa... eh, nh, jaa... Qué ruidos tan extraños estamos haciendo, ¿verdad...?”",
 					{"rt2"},
 				},
 			},
@@ -10165,7 +10165,7 @@ ast = {
 			},
 			en = {
 				{
-					"The squelching sound of my dick stirring up her genital secretions reach our ears.",
+					"El sonido húmedo de mi polla agitando sus secreciones genitales llega a nuestros oídos.",
 					{"rt2"},
 				},
 			},
@@ -10197,7 +10197,7 @@ ast = {
 			},
 			en = {
 				{
-					"That's just how wet she is.",
+					"Así de mojada está.",
 					{"rt2"},
 				},
 			},
@@ -10229,7 +10229,7 @@ ast = {
 			},
 			en = {
 				{
-					"When I think of how sexually excited she is, I thrust even more furiously in response.",
+					"Cuando pienso en lo excitada que está, empujo con más fuerza.",
 					{"rt2"},
 				},
 			},
@@ -10268,7 +10268,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Nnnngh! Hah... eep... ah...! Jun, your cock's gotten even bigger, ngh...”",
+					"“¡Nnnngh! Jaa... ahh... ¡ah...! Jun-kun, tu polla se puso más grande, ngh...”",
 					{"rt2"},
 				},
 			},
@@ -10302,7 +10302,7 @@ ast = {
 			},
 			en = {
 				{
-					"I find my bell-end striking something every time I stroke forward into her.",
+					"Cada vez que la penetro, noto que mi glande toca algo.",
 					{"rt2"},
 				},
 			},
@@ -10334,7 +10334,7 @@ ast = {
 			},
 			en = {
 				{
-					"Talk about hitting the back walls. It definitely seems I'm reaching her innermost spot.",
+					"Es la parte trasera. Definitivamente parece que estoy llegando a su punto más íntimo.",
 					{"rt2"},
 				},
 			},
@@ -10366,7 +10366,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hardly surprising, given the combo of my massively oversized cock and her petite frame.",
+					"No es de extrañar, dada la combinación de mi polla enorme y su pequeño cuerpo.",
 					{"rt2"},
 				},
 			},
@@ -10403,7 +10403,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, uh, hah, hah... eep, ah, hah...”",
+					"“Ngh, uh, hah, hah... ahh, ah, hah...”",
 					{"rt2"},
 				},
 			},
@@ -10439,7 +10439,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Does it still hurt when I go deep... Hinami?”",
+					"“¿Aún te duele cuando la meto hasta el fondo... Hinami?”",
 					{"rt2"},
 				},
 			},
@@ -10480,7 +10480,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“No, it's fine... I was just startled... I'm fine... Just do me the way you want to, okay...?”",
+					"“No, tranquilo... Solo me asusté... Estoy bien... Haz lo que quieras conmigo, ¿vale...?”",
 					{"rt2"},
 				},
 			},
@@ -10514,7 +10514,7 @@ ast = {
 			},
 			en = {
 				{
-					"She sweetly says that, as if to pacify me.",
+					"Me lo dice con dulzura, como si quisiera tranquilizarme.",
 					{"rt2"},
 				},
 			},
@@ -10546,7 +10546,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her voice has an unusual capacity for making me want to dote on her.",
+					"Su voz tiene una capacidad inusual para hacer que quiera consentirla.",
 					{"rt2"},
 				},
 			},
@@ -10578,7 +10578,7 @@ ast = {
 			},
 			en = {
 				{
-					"I abandon all restraint and thrust my hips out of pure instinct, giving in to pleasure.",
+					"Abandono toda moderación y empujo mis caderas por puro instinto, rindiéndome al placer.",
 					{"rt2"},
 				},
 			},
@@ -10617,7 +10617,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, ngh... ah, ngh... hah, aah... ow... uh, ngh... eek...”",
+					"“Uh, ngh... ah, ngh... hah, aah... ow... uh, ngh... ahh...”",
 					{"rt2"},
 				},
 			},
@@ -10651,7 +10651,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her face is flushed as she lets out endless moans.",
+					"Su rostro está sonrojado mientras suelta gemidos.",
 					{"rt2"},
 				},
 			},
@@ -10683,7 +10683,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her squeals of pleasure and discomfort are causing me to struggle for breath myself.",
+					"Sus chillidos de placer y malestar me están haciendo jadear.",
 					{"rt2"},
 				},
 			},
@@ -10724,7 +10724,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, ngh... hah... ngh... hah... ahaa... Jun, you look to be in so much pleasure...”",
+					"“Uh, ngh... hah... ngh... hah... ahaa... Jun-kun, te sientes muy bien...”",
 					{"rt2"},
 				},
 			},
@@ -10758,7 +10758,7 @@ ast = {
 			},
 			en = {
 				{
-					"She looks at my face and smiles happily.",
+					"Me mira a la cara y sonríe con felicidad.",
 					{"rt2"},
 				},
 			},
@@ -10795,7 +10795,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I-It's fine... Seeing you enjoy yourself... with my body... makes me incredibly happy...”",
+					"“E-Está bien... Verte disfrutar... con mi cuerpo... me hace feliz...”",
 					{"rt2"},
 				},
 			},
@@ -10829,7 +10829,7 @@ ast = {
 			},
 			en = {
 				{
-					"She seems to really mean that.",
+					"Lo dice en serio.",
 					{"rt2"},
 				},
 			},
@@ -10866,7 +10866,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“So... hah... do as much as you want that you find pleasurable... okay?”",
+					"“Así que... haz todo lo que quieras... ¿vale?”",
 					{"rt2"},
 				},
 			},
@@ -10900,7 +10900,7 @@ ast = {
 			},
 			en = {
 				{
-					"Now she's done it.",
+					"No me puedo contener.",
 					{"rt2"},
 				},
 			},
@@ -10932,7 +10932,7 @@ ast = {
 			},
 			en = {
 				{
-					"That just makes me want to pleasure her more.",
+					"Lo que dijo hace que quiera darle más placer.",
 					{"rt2"},
 				},
 			},
@@ -10971,7 +10971,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eeek! Ah, w-wait... Jun... don't touch my boobs!”",
+					"“¡Ahh! Ah, e-espera... Jun-kun... ¡No toques mis tetas!”",
 					{"rt2"},
 				},
 			},
@@ -11005,7 +11005,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her vagina contracts down.",
+					"Su coño se contrae.",
 					{"rt2"},
 				},
 			},
@@ -11042,7 +11042,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah, eek... Ugh... eeek, stop kneading my nipples...”",
+					"“Jaaa, ahh... Ugh... no pellizques mis pezones...”",
 					{"rt2"},
 				},
 			},
@@ -11076,7 +11076,7 @@ ast = {
 			},
 			en = {
 				{
-					"It feels wonderful just touching her smooth skin.",
+					"Se siente maravilloso tocar su piel suave.",
 					{"rt2"},
 				},
 			},
@@ -11108,7 +11108,7 @@ ast = {
 			},
 			en = {
 				{
-					"I roll around her nipples with the palm of my hands and my fingers and enjoy the texture of her smooth skin.",
+					"Muevo sus pezones con las palmas de mis manos y mis dedos, disfrutando la textura de su suave piel.",
 					{"rt2"},
 				},
 			},
@@ -11142,7 +11142,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“This will make... your boobs bigger.”",
+					"“Si hago esto... te crecerán las tetas...”",
 					{"rt2"},
 				},
 			},
@@ -11183,7 +11183,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huuh...? Really...? Uh, ngh... then keep doing it...”",
+					"“¿Ehh...? ¿En serio...? Ah, ngh... sigue haciéndolo...”",
 					{"rt2"},
 				},
 			},
@@ -11217,7 +11217,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hadn't planned on removing my hands from her chest even without her permission.",
+					"Incluso sin su permiso, no tenía intención de quitar las manos de sus tetas.",
 					{"rt2"},
 				},
 			},
@@ -11249,7 +11249,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't fight against the waves of pleasure from her vagina contracting each time I stimulate her sensitive slim breasts.",
+					"No puedo luchar contra las oleadas de placer que me provocan las contracciones de su coño cada vez que estimulo sus sensibles y pequeños pechos.",
 					{"rt2"},
 				},
 			},
@@ -11281,7 +11281,7 @@ ast = {
 			},
 			en = {
 				{
-					"What if I stimulate them harder?",
+					"¿Y si los estimulo con más fuerza?",
 					{"rt2"},
 				},
 			},
@@ -11320,7 +11320,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, nngh... J-Jun... m-my nipples have nothing to do... with my breasts... aaah...!”",
+					"“Ah, nngh... J-Jun-kun... m-mis pezones no tienen nada que ver... con mis pechos... ¡aaah...!”",
 					{"rt2"},
 				},
 			},
@@ -11354,7 +11354,7 @@ ast = {
 			},
 			en = {
 				{
-					"I tweak her nipples between my index and middle fingers which makes her vaginal walls contract down harder than ever before on my junk.",
+					"Le pellizco los pezones entre los dedos índice y medio, lo que hace que las paredes de su coño se contraigan con más fuerza.",
 					{"rt2"},
 				},
 			},
@@ -11391,7 +11391,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eek, uh, ngh... ah, eek, uh, ngh, hah... gasp...”",
+					"“Ah, uh, ngh... ah, ahh, uh, ngh, hah... jaa...”",
 					{"rt2"},
 				},
 			},
@@ -11425,7 +11425,7 @@ ast = {
 			},
 			en = {
 				{
-					"The breast stimulation must be pleasurable, as there's no trace of pain left in her moans.",
+					"La estimulación de los senos debe ser placentera, ya que no hay rastro de dolor en sus gemidos.",
 					{"rt2"},
 				},
 			},
@@ -11462,7 +11462,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, hah, eek... d-don't... not my boobs... ngh, hah, gasp...”",
+					"“Ngh, jaa, ahh... n-no... mis tetas no... ngh, jaaa...”",
 					{"rt2"},
 				},
 			},
@@ -11496,7 +11496,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her remaining sounds are just sweet erotic moans.",
+					"Sus últimos sonidos son solo dulces gemidos eróticos.",
 					{"rt2"},
 				},
 			},
@@ -11528,7 +11528,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm becoming addicted to her moans, and I accelerate my thrusts, just seeking pleasure.",
+					"Me estoy volviendo adicto a sus gemidos y acelero mis embestidas en busca del placer.",
 					{"rt2"},
 				},
 			},
@@ -11565,7 +11565,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp, hah... ah, ngh... phew, hah, ah, nngh...”",
+					"“Ahh... ah, ngh... ahhh, nngh...”",
 					{"rt2"},
 				},
 			},
@@ -11599,7 +11599,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's on the verge and is gasping out hot breaths.",
+					"Está al límite y está jadeando.",
 					{"rt2"},
 				},
 			},
@@ -11631,7 +11631,7 @@ ast = {
 			},
 			en = {
 				{
-					"For some reason she looks around at me apologetically.",
+					"Por alguna razón, me mira con aire de disculpa.",
 					{"rt2"},
 				},
 			},
@@ -11670,7 +11670,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I'm sorry, Jun... I was trying to sound like a big sister... when really...”",
+					"“Lo siento, Jun-kun... Quería sonar como una onee-san, pero...”",
 					{"rt2"},
 				},
 			},
@@ -11709,7 +11709,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ever since last time... I've been wanting to have sex with you again...”",
+					"“Desde la última vez... quería volver a tener sexo contigo...”",
 					{"rt2"},
 				},
 			},
@@ -11743,7 +11743,7 @@ ast = {
 			},
 			en = {
 				{
-					"Is that why she drank the aphrodisiac of her own accord?",
+					"¿Por eso se bebió el afrodisíaco?",
 					{"rt2"},
 				},
 			},
@@ -11775,7 +11775,7 @@ ast = {
 			},
 			en = {
 				{
-					"The way she says that sounds like she's worried what I might think... that I might hate her for being horny.",
+					"La forma en que lo dice es como si le preocupara lo que yo pudiera pensar... Que pudiera odiarla por estar cachonda.",
 					{"rt2"},
 				},
 			},
@@ -11812,7 +11812,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, hah, sorry, I'm sorry... for being a selfish... and repulsive senior, sorry...”",
+					"“Ngh, jaa, lo siento, lo siento... por ser una senpai egoísta y desagradable... lo siento...”",
 					{"rt2"},
 				},
 			},
@@ -11846,7 +11846,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's nothing for her to apologize about.",
+					"No tiene que disculparse.",
 					{"rt2"},
 				},
 			},
@@ -11878,7 +11878,7 @@ ast = {
 			},
 			en = {
 				{
-					"I find that aspect of her adorable.",
+					"Esa parte de ella me parece adorable.",
 					{"rt2"},
 				},
 			},
@@ -11912,7 +11912,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I want to... share in our ecstasy together...”",
+					"“Quiero... compartir nuestro éxtasis juntos...”",
 					{"rt2"},
 				},
 			},
@@ -11953,7 +11953,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, ungh, aah, huh?”",
+					"“Ngh, ungh, aah, ¿eh?”",
 					{"rt2"},
 				},
 			},
@@ -11989,7 +11989,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'm incredibly happy right now!”",
+					"“¡Estoy muy feliz ahora mismo!”",
 					{"rt2"},
 				},
 			},
@@ -12023,7 +12023,7 @@ ast = {
 			},
 			en = {
 				{
-					"I enjoy my fill of her boobs as my junk keeps dripping precum and pounding her depths.",
+					"Disfruto al máximo de sus tetas mientras mi polla sigue goteando líquido preseminal dentro de ella.",
 					{"rt2"},
 				},
 			},
@@ -12055,7 +12055,7 @@ ast = {
 			},
 			en = {
 				{
-					"She writhes and her vagina contracts in response.",
+					"Se mueve y su coño se contrae.",
 					{"rt2"},
 				},
 			},
@@ -12094,7 +12094,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, ngh... Me too... Haah... Let's enjoy ourselves together...”",
+					"“Ah, ngh... Yo también... Haah... Disfrutemos juntos...”",
 					{"rt2"},
 				},
 			},
@@ -12128,7 +12128,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm bound to Hinami in both body and soul, and we enjoy the pleasure as on.",
+					"Estoy unido a Hinami tanto en cuerpo como en alma, y disfrutamos del placer juntos.",
 					{"rt2"},
 				},
 			},
@@ -12160,7 +12160,7 @@ ast = {
 			},
 			en = {
 				{
-					"It was the same during our first experience.",
+					"Nuestra primera experiencia fue igual.",
 					{"rt2"},
 				},
 			},
@@ -12192,7 +12192,7 @@ ast = {
 			},
 			en = {
 				{
-					"However, with this uninhibited display of sexuality, the pleasure is incomparable with last time.",
+					"Sin embargo, con esta exhibición desenfrenada de sexualidad, el placer es incomparable con el de la última vez.",
 					{"rt2"},
 				},
 			},
@@ -12224,7 +12224,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel like my back is going to crumble from the overwhelming pleasure.",
+					"Siento que mi espalda se va a derrumbar por el placer abrumador.",
 					{"rt2"},
 				},
 			},
@@ -12263,7 +12263,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah, uh, ngh, gasp... eek, hah, ah, ngh...”",
+					"“Jaa, uh, ngh, jaa... ahhh, ah, ngh...”",
 					{"rt2"},
 				},
 			},
@@ -12297,7 +12297,7 @@ ast = {
 			},
 			en = {
 				{
-					"The interval between moans is shortening.",
+					"El intervalo entre gemidos se acorta.",
 					{"rt2"},
 				},
 			},
@@ -12329,7 +12329,7 @@ ast = {
 			},
 			en = {
 				{
-					"The contractions of her vagina are becoming even more intense.",
+					"Las contracciones de su coño se están volviendo más intensas.",
 					{"rt2"},
 				},
 			},
@@ -12368,7 +12368,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah, ngh, Jun... my head feels really spacey... ngh... gasp... it feels so good...”",
+					"“Jaa, ngh, Jun-kun... me siento muy mareada... ngh... jaa... Me siento muy bien...”",
 					{"rt2"},
 				},
 			},
@@ -12404,7 +12404,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Haah... Mine too... Hinami...”",
+					"“Jaaa... Yo también... Hinami...”",
 					{"rt2"},
 				},
 			},
@@ -12438,7 +12438,7 @@ ast = {
 			},
 			en = {
 				{
-					"I bask in the pleasure of Hinami's tight drenched flesh to my heart's content as my legs begin shaking from the oncoming climax.",
+					"Disfruto el placer que me proporciona Hinami mientras mis piernas comienzan a temblar por el clímax que se avecina.",
 					{"rt2"},
 				},
 			},
@@ -12470,7 +12470,7 @@ ast = {
 			},
 			en = {
 				{
-					"But I still want to fuck her more. Being intent on staying connected I force myself to endure it more.",
+					"Pero quiero follarla más. Decidido a mantener la conexión, intento aguantar.",
 					{"rt2"},
 				},
 			},
@@ -12509,7 +12509,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, uh, ngh, hah, ungh... Jun... your cock is grinding... my insides, ugh, ngh...”",
+					"“Ngh, uh, ngh, jaa, ungh... Jun-kun... tu polla está frotando... mi coño... ahh...”",
 					{"rt2"},
 				},
 			},
@@ -12545,7 +12545,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Does it still hurt?”",
+					"“¿Te duele?”",
 					{"rt2"},
 				},
 			},
@@ -12586,7 +12586,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“No, not at all... anymore... I just could get addicted to this...!”",
+					"“No... ya no me duele... ¡Podría volverme adicta a esto...!”",
 					{"rt2"},
 				},
 			},
@@ -12625,7 +12625,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“But, hah, phew, if your cock is reaching so deep... I'll get pregnant... with your baby.”",
+					"“Pero, jaa, si me la metes tanto... Voy a quedar embarazada...”",
 					{"rt2"},
 				},
 			},
@@ -12661,7 +12661,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah... that's fine... get pregnant.”",
+					"“Sí... Está bien... Embarázate...”",
 					{"rt2"},
 				},
 			},
@@ -12700,7 +12700,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah, ngh, sweet...! My boobs will get bigger, huh... hah, hah, ngh...”",
+					"“¡Ah, ngh, sí...! Mis tetas se volverán más grandes, ¿verdad..? Jaa, jaa...”",
 					{"rt2"},
 				},
 			},
@@ -12736,7 +12736,7 @@ ast = {
 			},
 			en = {
 				{
-					"I thrust for the home straight.",
+					"El último disparo.",
 					{"rt2"},
 				},
 			},
@@ -12768,7 +12768,7 @@ ast = {
 			},
 			en = {
 				{
-					"Deeper, further inside, and stuff my dick in pushing aside her rippled vaginal walls.",
+					"Más profundo, más adentro. Meto mi polla, apartando sus onduladas paredes vaginales.",
 					{"rt2"},
 				},
 			},
@@ -12800,7 +12800,7 @@ ast = {
 			},
 			en = {
 				{
-					"I push to her greatest depths to truly impregnate her.",
+					"Empujo hasta lo más profundo de ella para embarazarla.",
 					{"rt2"},
 				},
 			},
@@ -12839,7 +12839,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah, uh, ah, gasp, aah, nnnngh!”",
+					"“¡Jaa, uhh, ahh, aah, nnnngh!”",
 					{"rt2"},
 				},
 			},
@@ -12873,7 +12873,7 @@ ast = {
 			},
 			en = {
 				{
-					"The orgasmic wave gives me goosebumps.",
+					"La ola orgásmica me pone la piel de gallina.",
 					{"rt2"},
 				},
 			},
@@ -12905,7 +12905,7 @@ ast = {
 			},
 			en = {
 				{
-					"My junk shudders endlessly, really wanting to fertilize her.",
+					"Mi polla tiembla, quiere fertilizarla.",
 					{"rt2"},
 				},
 			},
@@ -12937,7 +12937,7 @@ ast = {
 			},
 			en = {
 				{
-					"All of the sperm in my body want to be part of Hinami's baby.",
+					"Todo el esperma de mi cuerpo quieren formar parte del bebé de Hinami.",
 					{"rt2"},
 				},
 			},
@@ -12971,7 +12971,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Gasp... Hinami, I'm about to cum...!”",
+					"“Jaa... ¡Hinami, me voy a venir...!”",
 					{"rt2"},
 				},
 			},
@@ -13012,7 +13012,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah, I want your babies... Make a momma outta me...!”",
+					"“Sí, quiero tener tus hijos... ¡Hazme mamá...!”",
 					{"rt2"},
 				},
 			},
@@ -13046,7 +13046,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hearing those words pushes me instantly over the edge.",
+					"Escuchar esas palabras me lleva al límite.",
 					{"rt2"},
 				},
 			},
@@ -13103,7 +13103,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eeek, ah, nngh, nnngh!”",
+					"“¡Ahh, ah, nngh, nnngh!”",
 					{"rt2"},
 				},
 			},
@@ -13147,7 +13147,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel a torrent of explosive pleasure.",
+					"Siento una explosión de placer.",
 					{"rt2"},
 				},
 			},
@@ -13179,7 +13179,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm hit with a shock so hard my field of vision goes all white.",
+					"Recibo un golpe tan fuerte que mi vista se vuelve completamente blanca.",
 					{"rt2"},
 				},
 			},
@@ -13211,7 +13211,7 @@ ast = {
 			},
 			en = {
 				{
-					"The pleasure breaks like a sequence of diminishing crashing waves over and over again.",
+					"El placer se rompe como una secuencia de olas que se estrellan y desaparecen una y otra vez.",
 					{"rt2"},
 				},
 			},
@@ -13248,7 +13248,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eek, ah, uh... ngh, gasp...”",
+					"“Ahh, ah, uh... ngh, jaa...”",
 					{"rt2"},
 				},
 			},
@@ -13282,7 +13282,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's twitching slightly.",
+					"Se está retorciendo.",
 					{"rt2"},
 				},
 			},
@@ -13314,7 +13314,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her back flinches a few times.",
+					"Su espalda se estremece.",
 					{"rt2"},
 				},
 			},
@@ -13351,7 +13351,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp, aah... you poured... so much hot cum... d-deep inside me...”",
+					"“Jaa, aah... derramaste... tanto semen caliente... dentro de mí...”",
 					{"rt2"},
 				},
 			},
@@ -13385,7 +13385,7 @@ ast = {
 			},
 			en = {
 				{
-					"She can feel the semen in her vagina and enjoys the sensation in rapture.",
+					"Puede sentir el semen en su vagina y disfruta de la sensación con éxtasis.",
 					{"rt2"},
 				},
 			},
@@ -13417,7 +13417,7 @@ ast = {
 			},
 			en = {
 				{
-					"My ejaculation eventually stops.",
+					"Mi eyaculación se detiene.",
 					{"rt2"},
 				},
 			},
@@ -13454,7 +13454,7 @@ ast = {
 			},
 			en = {
 				{
-					"When I pull my junk out, huge globs of semen pour out of her vagina.",
+					"Cuando saco mi polla, enormes gotas de semen brotan de su coño.",
 					{"rt2"},
 				},
 			},
@@ -13486,7 +13486,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel an intense sense of satisfaction having ejaculated so much into this girl that the sperm is dripping down onto her removed panties.",
+					"Siento una intensa satisfacción al haber eyaculado tanto dentro de esta chica que el esperma le gotea sobre las bragas.",
 					{"rt2"},
 				},
 			},
@@ -13518,7 +13518,7 @@ ast = {
 			},
 			en = {
 				{
-					"I nutted all the way inside her. I seriously feel like I might've knocked her up for real...",
+					"Me corrí mucho dentro de ella. Tal vez sí la embaracé...",
 					{"rt2"},
 				},
 			},
@@ -13555,7 +13555,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gah... haaaaaah...”",
+					"“Gah... jaaaaaa...”",
 					{"rt2"},
 				},
 			},
@@ -13591,7 +13591,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Shit, Hinami!”",
+					"“¡Hinami!”",
 					{"rt2"},
 				},
 			},
@@ -13640,7 +13640,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eeek... Sorry, Jun... I just suddenly got weak in the knees...”",
+					"“Ahh... Lo siento, Jun-kun... Es que ya no pude más...”",
 					{"rt2"},
 				},
 			},
@@ -13674,7 +13674,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hold her up and she smiles weakly.",
+					"La sostengo, me sonríe un poco.",
 					{"rt2"},
 				},
 			},
@@ -13706,7 +13706,7 @@ ast = {
 			},
 			en = {
 				{
-					"I must've really worn her out.",
+					"Debí dejarla agotada.",
 					{"rt2"},
 				},
 			},
@@ -13741,7 +13741,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sorry, you must be exhausted...”",
+					"“Lo siento, debes estar cansada...”",
 					{"rt2"},
 				},
 			},
@@ -13781,7 +13781,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah, you really went to town on me... I'm glad, though... We really got to enjoy ourselves, you and I...”",
+					"“Sí, me diste muy duro... Pero me alegro... Lo pasamos muy bien...”",
 					{"rt2"},
 				},
 			},
@@ -13821,7 +13821,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Eeep, there's so much of it... I'm still dripping... ngh.”",
+					"“Ahh, aún hay mucho... No deja de salir... ngh.”",
 					{"rt2"},
 				},
 			},
@@ -13857,7 +13857,7 @@ ast = {
 			},
 			en = {
 				{
-					"She rubs her thighs together and lets out a sexy sounding voice.",
+					"Se frota los muslos y deja escapar un sonido sensual.",
 					{"rt2"},
 				},
 			},
@@ -13889,7 +13889,7 @@ ast = {
 			},
 			en = {
 				{
-					"I nutted so much that it's still dolloping out of her.",
+					"Me corrí tanto que todavía sigue saliendo.",
 					{"rt2"},
 				},
 			},
@@ -13924,7 +13924,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“It's fine! If you do get pregnant, I'll take full responsibility!”",
+					"“¡Está bien! ¡Si quedas embarazada, asumiré toda la responsabilidad!”",
 					{"rt2"},
 				},
 			},
@@ -13964,7 +13964,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh?”",
+					"“¿Eh?”",
 					{"rt2"},
 				},
 			},
@@ -14001,7 +14001,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I mean, I still gotta graduate first, so I might have to keep you waiting until then, but I swear I'll get a job as soon as I do!”",
+					"“Bueno, primero tengo que graduarme, así que tal vez haya que esperar un poco, ¡pero te prometo que buscaré trabajo!”",
 					{"rt2"},
 				},
 			},
@@ -14041,7 +14041,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ahaha, don't worry about it, Jun! I'm on the island-sanctioned pill, don't you remember? I'm not gonna get knocked up.”",
+					"“¡Ajaja, no te preocupes, Jun-kun! Estoy tomando la píldora autorizada por la isla, ¿recuerdas? No voy a quedar embarazada.”",
 					{"rt2"},
 				},
 			},
@@ -14075,7 +14075,7 @@ ast = {
 			},
 			en = {
 				{
-					"Oh. Right. Forgot about that.",
+					"... Cierto, se me olvidó.",
 					{"rt2"},
 				},
 			},
@@ -14113,7 +14113,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Oh, but I do want my tits to grow some more, so maybe I should stop taking it now...?”",
+					"“Ah, pero quiero que mis tetas crezcan un poco, así que debería dejar de tomarla...”",
 					{"rt2"},
 				},
 			},
@@ -14150,7 +14150,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Wut.”",
+					"“Eh...”",
 					{"rt2"},
 				},
 			},
@@ -14190,7 +14190,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I've always wanted to be a mommy myself. I might be able to become one if I have you...”",
+					"“Siempre he querido ser mamá. Quizás pueda serlo si te tengo a ti...”",
 					{"rt2"},
 				},
 			},
@@ -14227,7 +14227,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, I'd just keep taking the pill for now if I were you...”",
+					"“Eh, yo seguiría tomando la pastilla por ahora...”",
 					{"rt2"},
 				},
 			},
@@ -14261,7 +14261,7 @@ ast = {
 			},
 			en = {
 				{
-					"I end up blurting that out.",
+					"Termino diciéndole eso.",
 					{"rt2"},
 				},
 			},
@@ -14295,7 +14295,7 @@ ast = {
 			},
 			en = {
 				{
-					"And she just laughs.",
+					"Y solo se ríe.",
 					{"rt2"},
 				},
 			},
@@ -14350,7 +14350,7 @@ ast = {
 			},
 			en = {
 				{
-					"After returning home and resting, night gradually falls.",
+					"Después de regresar a casa y descansar, la noche llega.",
 					{"rt2"},
 				},
 			},
@@ -14419,7 +14419,7 @@ ast = {
 			},
 			en = {
 				{
-					"I have to ask the SS about the aphrodisiac tomorrow.",
+					"Mañana tengo que preguntarle a la SS sobre el afrodisíaco.",
 					{"rt2"},
 				},
 			},
@@ -14451,7 +14451,7 @@ ast = {
 			},
 			en = {
 				{
-					"I need to flesh out countermeasures for all the possible situations that may arise, as I don't know how to ask them, or what to do if they don't answer.",
+					"Tento que elaborar soluciones para todas las situaciones que puedan surgir, y no sé cómo preguntarles ni qué hacer si no responden.",
 					{"rt2"},
 				},
 			},
@@ -14483,7 +14483,7 @@ ast = {
 			},
 			en = {
 				{
-					"Pretty cut and dry. But...",
+					"Es bastante claro y sencillo. Pero...",
 					{"rt2"},
 				},
 			},
@@ -14557,7 +14557,7 @@ ast = {
 			},
 			en = {
 				{
-					"Right now, I'm so overly conscious of Hinami that I can't focus much brainpower on that.",
+					"Ahora mismo, estoy tan pendiente de Hinami que no puedo concentrarme mucho.",
 					{"rt2"},
 				},
 			},
@@ -14589,7 +14589,7 @@ ast = {
 			},
 			en = {
 				{
-					"Like... We only just started going out yesterday, and yet we've already gone and done some pretty freaky shit.",
+					"Es que... Apenas empezamos a salir ayer, y ya hemos hecho muchísimas cosas.",
 					{"rt2"},
 				},
 			},
@@ -14632,7 +14632,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hmm... Oh, how about this?”",
+					"“Mmm... Ah, ¿qué tal esto?”",
 					{"rt2"},
 				},
 			},
@@ -14669,7 +14669,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What are you doing?”",
+					"“¿Qué estás haciendo?”",
 					{"rt2"},
 				},
 			},
@@ -14704,7 +14704,7 @@ ast = {
 			},
 			en = {
 				{
-					"Fiddling with her tablet, she turns her big, round eyes to me.",
+					"Mientras juega con su tableta, me mira.",
 					{"rt2"},
 				},
 			},
@@ -14742,7 +14742,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Well, you see, I was looking up what to say to please a guy! I want to please you and stuff, so yeah.”",
+					"“¡Bueno, estaba buscando qué decir para complacer a un chico! Quiero complacerte.”",
 					{"rt2"},
 				},
 			},
@@ -14779,7 +14779,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh... I see...”",
+					"“Y-Ya veo...”",
 					{"rt2"},
 				},
 			},
@@ -14816,7 +14816,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“But is that really something you wanna tell me directly?”",
+					"“Pero ¿de verdad quieres decírmelo directamente?”",
 					{"rt2"},
 				},
 			},
@@ -14862,7 +14862,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh? Ah! N-No! Forget what I said!”",
+					"“¿Eh? ¡Ah! ¡N-No! ¡Olvida lo que dije!”",
 					{"rt2"},
 				},
 			},
@@ -14899,7 +14899,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Kinda late to take it back now... You could at least give me an example.”",
+					"“Ya es tarde para retractarse... Al menos podría darme un ejemplo.”",
 					{"rt2"},
 				},
 			},
@@ -14944,7 +14944,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ugh, stupid me, I shouldn't have said anything... Well, anyway. 'The Tantalizing Lines Your Man Loves to Hear'... Hmm, let's see...”",
+					"“Ay, qué tonta, no debería haber dicho nada... Bueno, en fin. 'Las frases tentadoras que tu chico quisiera escuchar'... Mmm, veamos...”",
 					{"rt2"},
 				},
 			},
@@ -14985,7 +14985,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“You all right? Wanna grope my boobs?”",
+					"“¿Estás bien? ¿Quieres tocarme las tetas...?”",
 					{"rt2"},
 				},
 			},
@@ -15019,7 +15019,7 @@ ast = {
 			},
 			en = {
 				{
-					"Is it just me, or does it suddenly feel colder in here?",
+					"¿Soy solo yo, o hace más frío?",
 					{"rt2"},
 				},
 			},
@@ -15058,7 +15058,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Haha... Sorry... That line's old hat anyway, huh...”",
+					"“Jaja... Lo siento... Esa línea es viejísima...”",
 					{"rt2"},
 				},
 			},
@@ -15095,7 +15095,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You don't have to take it that seriously...”",
+					"“No te lo tomes tan en serio...”",
 					{"rt2"},
 				},
 			},
@@ -15135,7 +15135,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I see how it is... If I don't have big bazongas, then I can't really please you...”",
+					"“Ya entiendo... Si no tengo tetas grandes, no puedo complacerte...”",
 					{"rt2"},
 				},
 			},
@@ -15172,7 +15172,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh, come on, that's nonsense...”",
+					"“No, no digas tonterías...”",
 					{"rt2"},
 				},
 			},
@@ -15212,7 +15212,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Jun... Have you ever touched a chopping board while cooking?”",
+					"“Jun-kun... ¿Alguna vez has tocado una tabla de cortar mientras cocinas?”",
 					{"rt2"},
 				},
 			},
@@ -15248,7 +15248,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, yes?”",
+					"“Pues... sí.”",
 					{"rt2"},
 				},
 			},
@@ -15287,7 +15287,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Does touching a chopping board make you happy? Does it feel pleasing when you do that?”",
+					"“¿Te sientes feliz al tocar una tabla de cortar? ¿Te resulta agradable hacerlo?”",
 					{"rt2"},
 				},
 			},
@@ -15323,7 +15323,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Not really...?”",
+					"“Realmente no...”",
 					{"rt2"},
 				},
 			},
@@ -15363,7 +15363,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“See...?”",
+					"“¿Ves...?”",
 					{"rt2"},
 				},
 			},
@@ -15397,7 +15397,7 @@ ast = {
 			},
 			en = {
 				{
-					"Uh, sorry, but I don't see.",
+					"No lo entiendo.",
 					{"rt2"},
 				},
 			},
@@ -15429,7 +15429,7 @@ ast = {
 			},
 			en = {
 				{
-					"She seems to be emanating a menacing dark miasma. Her expression is indescribably gloomy.",
+					"Parece emanar un miasma oscuro y amenazante. Su expresión es sombría.",
 					{"rt2"},
 				},
 			},
@@ -15461,7 +15461,7 @@ ast = {
 			},
 			en = {
 				{
-					"She didn't remotely care about her flat chest when we started going out. That discussion instantly shifted her attention to it in a bleak way.",
+					"Cuando empezamos a salir, no le importaba tener el pecho plano. Esa conversación hizo que se fijara en eso de una manera muy negativa.",
 					{"rt2"},
 				},
 			},
@@ -15496,7 +15496,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Listen, Hinami. I enjoy touching your breasts, even if they're not huge.”",
+					"“A ver, Hinami. Aunque no sean grandes, me gusta tocar tus tetas.”",
 					{"rt2"},
 				},
 			},
@@ -15536,7 +15536,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Really? But I'm flat-chested. They don't even fill your palms, and you can't put anything between them.”",
+					"“¿En serio? Pero soy plana. Ni siquiera llenan las palmas de tus manos, y no puedes poner nada encima.”",
 					{"rt2"},
 				},
 			},
@@ -15573,7 +15573,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I don't care. I've come to love those tiny breasts of yours.”",
+					"“No me importa. Me encantan tus tetas pequeñas.”",
 					{"rt2"},
 				},
 			},
@@ -15614,7 +15614,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Jun...!!”",
+					"“¡¡Jun-kun...!!”",
 					{"rt2"},
 				},
 			},
@@ -15648,7 +15648,7 @@ ast = {
 			},
 			en = {
 				{
-					"Thank goodness. She's cheered up.",
+					"Qué alivio, ahora está feliz.",
 					{"rt2"},
 				},
 			},
@@ -15680,7 +15680,7 @@ ast = {
 			},
 			en = {
 				{
-					"When she's down, I get depressed too.",
+					"Cuando está triste, yo también me deprimo...",
 					{"rt2"},
 				},
 			},
@@ -15719,7 +15719,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“So... wanna grope my boobs?”",
+					"“Bueno... ¿quieres tocarme las tetas?”",
 					{"rt2"},
 				},
 			},
@@ -15756,7 +15756,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Wait, what?”",
+					"“¿Eh...?”",
 					{"rt2"},
 				},
 			},
@@ -15817,7 +15817,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Nngh, phew...”",
+					"“Nngh, fiuu...”",
 					{"rt2"},
 				},
 			},
@@ -15851,7 +15851,7 @@ ast = {
 			},
 			en = {
 				{
-					"We sit on the bed, I place Hinami on my lap, and touch her breasts across her pajamas.",
+					"Nos sentamos en la cama, pongo a Hinami en mi regazo y le toco las tetas por encima de la pijama.",
 					{"rt2"},
 				},
 			},
@@ -15920,7 +15920,7 @@ ast = {
 			},
 			en = {
 				{
-					"How did it come to this again?",
+					"¿Cómo terminamos así?",
 					{"rt2"},
 				},
 			},
@@ -15952,7 +15952,7 @@ ast = {
 			},
 			en = {
 				{
-					"It wasn't that long ago that we did all that crazy stuff outdoors...",
+					"Hicimos todas esas locuras afuera...",
 					{"rt2"},
 				},
 			},
@@ -15994,7 +15994,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah, ngh... h-how is it? Does this please you?”",
+					"“Ah, ngh... ¿c-cómo se siente? ¿Te gusta esto...?”",
 					{"rt2"},
 				},
 			},
@@ -16031,7 +16031,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh, yeah... I love it.”",
+					"“S-Sí... Me encanta.”",
 					{"rt2"},
 				},
 			},
@@ -16065,7 +16065,7 @@ ast = {
 			},
 			en = {
 				{
-					"What kind of feeling is it to enjoy myself feeling her breasts...?",
+					"¿Qué se siente al disfrutar sus tetas...?",
 					{"rt2"},
 				},
 			},
@@ -16097,7 +16097,7 @@ ast = {
 			},
 			en = {
 				{
-					"I make fun of my own actions, but to be honest, I'm rather excited.",
+					"Me burlo de mis propias acciones, pero lo cierto es que estoy excitado.",
 					{"rt2"},
 				},
 			},
@@ -16131,7 +16131,7 @@ ast = {
 			},
 			en = {
 				{
-					"Even if she is a washboard, it doesn't change the fact that I'm touching her breasts...",
+					"Aunque sea una tablita, le estoy tocando las tetas...",
 					{"rt2"},
 				},
 			},
@@ -16169,7 +16169,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah... phew...”",
+					"“Ah... uff...”",
 					{"rt2"},
 				},
 			},
@@ -16203,7 +16203,7 @@ ast = {
 			},
 			en = {
 				{
-					"How could I not get turned on by her steamy, hot breathing at such close range?",
+					"¿Cómo no iba a excitarme con su respiración caliente y sensual?",
 					{"rt2"},
 				},
 			},
@@ -16235,7 +16235,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's also worth mentioning that being in such intimate contact with Hinami means I can feel her feverish body temperature, and smell the gentle fragrance wafting from her hair.",
+					"También vale la pena mencionar que estar en contacto tan íntimo con Hinami significa que puedo sentir la temperatura febril de su cuerpo y oler la suave fragancia que emana de su cabello.",
 					{"rt2"},
 				},
 			},
@@ -16270,7 +16270,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh?”",
+					"“... ¿Oh?”",
 					{"rt2"},
 				},
 			},
@@ -16314,7 +16314,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hmm? What is it?”",
+					"“¿Mmm? ¿Qué pasa?”",
 					{"rt2"},
 				},
 			},
@@ -16351,7 +16351,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No, umm...”",
+					"“No, esto...”",
 					{"rt2"},
 				},
 			},
@@ -16385,7 +16385,7 @@ ast = {
 			},
 			en = {
 				{
-					"Feeling the tips of her breasts with the fingertips from both hands, I can appreciate the subtle swelling of her breasts underneath.",
+					"Al sentir las puntas de sus tetas con las yemas de los dedos, puedo apreciar el sutil hinchazón.",
 					{"rt2"},
 				},
 			},
@@ -16420,7 +16420,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You're not wearing a bra?”",
+					"“¿No tienes sostén...?”",
 					{"rt2"},
 				},
 			},
@@ -16464,7 +16464,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, y-yeah... It feels kinda tight when I sleep with it on, so I go without...”",
+					"“Ah... Pues no... Me aprieta cuando me duermo...”",
 					{"rt2"},
 				},
 			},
@@ -16500,7 +16500,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I see...”",
+					"“Ya veo...”",
 					{"rt2"},
 				},
 			},
@@ -16541,7 +16541,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Aaah...!”",
+					"“¡Aaah...!”",
 					{"rt2"},
 				},
 			},
@@ -16575,7 +16575,7 @@ ast = {
 			},
 			en = {
 				{
-					"She lets out sweet moans as I tweak her nipples through her clothes.",
+					"Suelta dulces gemidos mientras le pellizco los pezones a través de la ropa.",
 					{"rt2"},
 				},
 			},
@@ -16610,7 +16610,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Can I take your top off and touch them directly?”",
+					"“¿Puedo quitarte la blusa y tocarlas?”",
 					{"rt2"},
 				},
 			},
@@ -16656,7 +16656,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh...? Y-Yeah... you can feel them better if I raise my arms... U-Up we go...”",
+					"“¿Eh...? S-Sí... las sentirás mejor si levanto los brazos... A-Ahora sí...”",
 					{"rt2"},
 				},
 			},
@@ -16693,7 +16693,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Here goes, then...”",
+					"“Ahora sí...”",
 					{"rt2"},
 				},
 			},
@@ -16735,7 +16735,7 @@ ast = {
 			},
 			en = {
 				{
-					"I gently peel off her pajama top.",
+					"Le quito la pijama.",
 					{"rt2"},
 				},
 			},
@@ -16774,7 +16774,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah... hah... eep...”",
+					"“Ah... jaaa...”",
 					{"rt2"},
 				},
 			},
@@ -16808,7 +16808,7 @@ ast = {
 			},
 			en = {
 				{
-					"I slide my hands directly over her smooth skin.",
+					"Deslizo mis manos sobre su piel suave.",
 					{"rt2"},
 				},
 			},
@@ -16840,7 +16840,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her breasts are so slight that you can barely make them out visually.",
+					"Sus tetas son tan pequeñas que apenas se distinguen a simple vista.",
 					{"rt2"},
 				},
 			},
@@ -16873,7 +16873,7 @@ ast = {
 			},
 			en = {
 				{
-					"Touching them directly like this, I can feel their subtle warmth and swelling well enough.",
+					"Al tocarlas así, puedo sentir su calidez y su sensación.",
 					{"rt2"},
 				},
 			},
@@ -16905,7 +16905,7 @@ ast = {
 			},
 			en = {
 				{
-					"As I press lightly on her breasts, I feel their elastic resistance.",
+					"Al presionarlas, siento su resistencia elástica.",
 					{"rt2"},
 				},
 			},
@@ -16943,7 +16943,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah... aah...”",
+					"“Jaa... ahh...”",
 					{"rt2"},
 				},
 			},
@@ -17022,7 +17022,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh! Ah...!”",
+					"“¡Ngh! ¡Ah...!”",
 					{"rt2"},
 				},
 			},
@@ -17056,7 +17056,7 @@ ast = {
 			},
 			en = {
 				{
-					"I lightly pinch her hardened nipples, and her petite body squirms on my lap.",
+					"Le pellizco los pezones endurecidos y su pequeño cuerpo se mueve en mi regazo.",
 					{"rt2"},
 				},
 			},
@@ -17121,7 +17121,7 @@ ast = {
 			},
 			en = {
 				{
-					"Shit, here I go again...",
+					"Aquí vamos de nuevo...",
 					{"rt2"},
 				},
 			},
@@ -17164,7 +17164,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh, phew... aaah...”",
+					"“Ngh, ahh... aaah...”",
 					{"rt2"},
 				},
 			},
@@ -17201,7 +17201,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami?”",
+					"“¿Hinami?”",
 					{"rt2"},
 				},
 			},
@@ -17240,7 +17240,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh... mmgh... sorry, I'm getting sleepy again...”",
+					"“Ngh... mmgh... lo siento, me está dando sueño otra vez...”",
 					{"rt2"},
 				},
 			},
@@ -17277,7 +17277,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh... really? You want to sleep?”",
+					"“Uh... ¿en serio? ¿Quieres dormir?”",
 					{"rt2"},
 				},
 			},
@@ -17316,7 +17316,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah... I might go to sleep now.”",
+					"“Sí... Voy a dormir...”",
 					{"rt2"},
 				},
 			},
@@ -17350,7 +17350,7 @@ ast = {
 			},
 			en = {
 				{
-					"Great. Way to hang me out to dry.",
+					"Me dejó colgado.",
 					{"rt2"},
 				},
 			},
@@ -17382,7 +17382,7 @@ ast = {
 			},
 			en = {
 				{
-					"And here we were just really getting into it...",
+					"Y justo cuando estábamos entrando en ambiente...",
 					{"rt2"},
 				},
 			},
@@ -17414,7 +17414,7 @@ ast = {
 			},
 			en = {
 				{
-					"Such a tiny little girl I did all that to, and now I want more... I must be a real super freak.",
+					"Le hice eso a una chica tan pequeña, y ahora quiero más... Soy de lo peor.",
 					{"rt2"},
 				},
 			},
@@ -17457,7 +17457,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sorry. I went so crazy with you earlier.”",
+					"“Lo siento, me dejé llevar.”",
 					{"rt2"},
 				},
 			},
@@ -17503,7 +17503,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Nah, it's fine. I'm your girlfriend. I'm happy with you doing whatever you want to me whenever you feel like it...”",
+					"“No, está bien. Soy tu novia. Me gusta que me hagas lo que quieras cuando te apetezca...”",
 					{"rt2"},
 				},
 			},
@@ -17539,7 +17539,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hinami instantly goes limp.",
+					"Hinami se queda dormida.",
 					{"rt2"},
 				},
 			},
@@ -17574,7 +17574,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami?”",
+					"“¿Hinami?”",
 					{"rt2"},
 				},
 			},
@@ -17614,7 +17614,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Phew... zzz...”",
+					"“Fuu... zzz...”",
 					{"rt2"},
 				},
 			},
@@ -17684,7 +17684,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Night...”",
+					"“Buenas noches...”",
 					{"rt2"},
 				},
 			},
@@ -17734,7 +17734,7 @@ ast = {
 			},
 			en = {
 				{
-					"I put her to bed and turn off the lights.",
+					"La acomodo y apago las luces.",
 					{"rt2"},
 				},
 			},
@@ -17766,7 +17766,7 @@ ast = {
 			},
 			en = {
 				{
-					"I climb into the futon with her.",
+					"Me subo al futón con ella.",
 					{"rt2"},
 				},
 			},
@@ -17835,7 +17835,7 @@ ast = {
 			},
 			en = {
 				{
-					"My eyes are glowing maniacally.",
+					"Me brillan los ojos.",
 					{"rt2"},
 				},
 			},
@@ -17867,7 +17867,7 @@ ast = {
 			},
 			en = {
 				{
-					"Not only that, but I'm hard as a rock. I practically feel like a criminal.",
+					"Y estoy duro. Me siento como un delincuente.",
 					{"rt2"},
 				},
 			},
@@ -17899,7 +17899,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's probably down to her leaving me with blue balls... I mean, that's not all of it, but I'm not gonna get any sleep like this.",
+					"Probablemente sea porque me dejó colgado... Bueno, no es solo por eso, pero así no voy a poder dormir.",
 					{"rt2"},
 				},
 			},
@@ -17931,7 +17931,7 @@ ast = {
 			},
 			en = {
 				{
-					"I ruminate over Hinami's words earlier.",
+					"Pienso en las palabras de Hinami.",
 					{"rt2"},
 				},
 			},
@@ -17966,7 +17966,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I can do whatever I want to her whenever I feel like it, huh...”",
+					"“Puedo hacerle lo que quiera, ¿eh?”",
 					{"rt2"},
 				},
 			},
@@ -18000,7 +18000,7 @@ ast = {
 			},
 			en = {
 				{
-					"I stare at her rhythmically breathing in her sleep.",
+					"La observo mientras respira durante su sueño.",
 					{"rt2"},
 				},
 			},
@@ -18049,7 +18049,7 @@ ast = {
 			},
 			en = {
 				{
-					"I stealthily remove her clothing in her sleeping state.",
+					"Le quito la ropa mientras duerme.",
 					{"rt2"},
 				},
 			},
@@ -18083,7 +18083,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“J-Just a little feel...”",
+					"“S-Solo un poco...”",
 					{"rt2"},
 				},
 			},
@@ -18118,7 +18118,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel the lovely sensation of her breasts.",
+					"Siento la agradable sensación de sus tetas.",
 					{"rt2"},
 				},
 			},
@@ -18189,7 +18189,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's completely asleep and provides absolutely no resistance.",
+					"Está completamente dormida y no se resiste.",
 					{"rt2"},
 				},
 			},
@@ -18221,7 +18221,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's unusually appealing, and feels much more perverted.",
+					"Esto es inusualmente atractivo y se percibe como mucho más pervertido.",
 					{"rt2"},
 				},
 			},
@@ -18255,7 +18255,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Just a little bit... Just a little...”",
+					"“Un poco más... un poco más...”",
 					{"rt2"},
 				},
 			},
@@ -18290,7 +18290,7 @@ ast = {
 			},
 			en = {
 				{
-					"I softly stroke her breasts with the lightest of touches.",
+					"Acaricio suavemente sus tetas con un toque muy ligero.",
 					{"rt2"},
 				},
 			},
@@ -18366,7 +18366,7 @@ ast = {
 			},
 			en = {
 				{
-					"She responds subtly.",
+					"Responde con sutileza.",
 					{"rt2"},
 				},
 			},
@@ -18398,7 +18398,7 @@ ast = {
 			},
 			en = {
 				{
-					"But she shows no sign of rousing.",
+					"Pero no parece que vaya a despertar.",
 					{"rt2"},
 				},
 			},
@@ -18432,7 +18432,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Maybe just a little more...”",
+					"“Solo un poco más...”",
 					{"rt2"},
 				},
 			},
@@ -18466,7 +18466,7 @@ ast = {
 			},
 			en = {
 				{
-					"I touch her hardened nipples.",
+					"Toco sus pezones endurecidos.",
 					{"rt2"},
 				},
 			},
@@ -18541,7 +18541,7 @@ ast = {
 			},
 			en = {
 				{
-					"I recoil unconsciously.",
+					"Retrocedo.",
 					{"rt2"},
 				},
 			},
@@ -18614,7 +18614,7 @@ ast = {
 			},
 			en = {
 				{
-					"Thank goodness, she's still asleep...",
+					"Qué alivio, sigue dormida...",
 					{"rt2"},
 				},
 			},
@@ -18646,7 +18646,7 @@ ast = {
 			},
 			en = {
 				{
-					"Well, it's not like there's anything wrong with me just touching her.",
+					"Bueno, no tiene nada de malo que la toque.",
 					{"rt2"},
 				},
 			},
@@ -18714,7 +18714,7 @@ ast = {
 			},
 			en = {
 				{
-					"Are her nipples erect?",
+					"¿Sus pezones están duros?",
 					{"rt2"},
 				},
 			},
@@ -18746,7 +18746,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her nipples swell up in response.",
+					"Siento cómo se endurecen.",
 					{"rt2"},
 				},
 			},
@@ -18787,7 +18787,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ngh... phew, aah...”",
+					"“Ngh... ahh, aah...”",
 					{"rt2"},
 				},
 			},
@@ -18822,7 +18822,7 @@ ast = {
 			},
 			en = {
 				{
-					"She begins moaning sweetly when I pinch them.",
+					"Comienza a gemir dulcemente cuando se los pellizco.",
 					{"rt2"},
 				},
 			},
@@ -18897,7 +18897,7 @@ ast = {
 			},
 			en = {
 				{
-					"She moans hotly in response to my tweaking of her nipples.",
+					"Gime apasionadamente en respuesta a mis pellizcos.",
 					{"rt2"},
 				},
 			},
@@ -18970,7 +18970,7 @@ ast = {
 			},
 			en = {
 				{
-					"As soon as I stop, she falls back into a motionless slumber.",
+					"En cuanto me detengo, vuelve a caer en el sueño.",
 					{"rt2"},
 				},
 			},
@@ -19002,7 +19002,7 @@ ast = {
 			},
 			en = {
 				{
-					"This discrepancy is really appealing.",
+					"Esta discrepancia es atractiva.",
 					{"rt2"},
 				},
 			},
@@ -19034,7 +19034,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's like a doll when sleeping.",
+					"Parece una muñeca cuando está durmiendo.",
 					{"rt2"},
 				},
 			},
@@ -19066,7 +19066,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can feel myself getting even more turned on.",
+					"Puedo sentir que me excito más.",
 					{"rt2"},
 				},
 			},
@@ -19100,7 +19100,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Just a little bit more... I'll try here...”",
+					"“Un poco más... Lo haré aquí...”",
 					{"rt2"},
 				},
 			},
@@ -19134,7 +19134,7 @@ ast = {
 			},
 			en = {
 				{
-					"I reach for her crotch in her sleep.",
+					"Toco su entrepierna.",
 					{"rt2"},
 				},
 			},
@@ -19171,7 +19171,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can feel it as soon as my fingers touch her there.",
+					"La siento.",
 					{"rt2"},
 				},
 			},
@@ -19244,7 +19244,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's wet.",
+					"Está mojada.",
 					{"rt2"},
 				},
 			},
@@ -19276,7 +19276,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's not just moist, but drenched to the base of her thighs.",
+					"No solo está mojada, sino empapada hasta los muslos.",
 					{"rt2"},
 				},
 			},
@@ -19310,7 +19310,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami, are you really asleep?”",
+					"“... Hinami, ¿estás dormida?”",
 					{"rt2"},
 				},
 			},
@@ -19353,7 +19353,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ugh... zzz... ngh, phew...”",
+					"“Ugh... zzz... ngh...”",
 					{"rt2"},
 				},
 			},
@@ -19389,7 +19389,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh, Hinami? Wata? My little washboard loli?”",
+					"“¿Hinami? ¿Wata-chan? ¿Loliloli-senpai?”",
 					{"rt2"},
 				},
 			},
@@ -19423,7 +19423,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's dead to the world.",
+					"... Ya está en otro plano.",
 					{"rt2"},
 				},
 			},
@@ -19455,7 +19455,7 @@ ast = {
 			},
 			en = {
 				{
-					"And yet, despite being out like a light, she's still wet where it counts.",
+					"Y, sin embargo, a pesar de estar inconsciente, sigue mojada.",
 					{"rt2"},
 				},
 			},
@@ -19526,7 +19526,7 @@ ast = {
 			},
 			en = {
 				{
-					"To think she'd have such an innocent expression when her genitals are soaked...",
+					"Pensar que tiene una expresión tan inocente cuando sus genitales están empapados...",
 					{"rt2"},
 				},
 			},
@@ -19558,7 +19558,7 @@ ast = {
 			},
 			en = {
 				{
-					"I gulp.",
+					"Trago saliva.",
 					{"rt2"},
 				},
 			},
@@ -19590,7 +19590,7 @@ ast = {
 			},
 			en = {
 				{
-					"What on earth would it take to wake her up?",
+					"¿Cómo se despertará?",
 					{"rt2"},
 				},
 			},
@@ -19624,7 +19624,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Surely fingering her would have to wake her up?”",
+					"“¿Manosearla la despertará?”",
 					{"rt2"},
 				},
 			},
@@ -19664,7 +19664,7 @@ ast = {
 			},
 			en = {
 				{
-					"I slide her panties aside, and touch my middle finger against her wet cunt.",
+					"Le quito las bragas y toco su coño mojado con mi dedo medio.",
 					{"rt2"},
 				},
 			},
@@ -19698,7 +19698,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Don't mind me, Hinami... Just gonna get a finger in...”",
+					"“Con permiso, Hinami... Solo voy a meter un dedo...”",
 					{"rt2"},
 				},
 			},
@@ -19732,7 +19732,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's no response.",
+					"No me responde.",
 					{"rt2"},
 				},
 			},
@@ -19764,7 +19764,7 @@ ast = {
 			},
 			en = {
 				{
-					"I slip my finger into her vaginal orifice.",
+					"Le meto el dedo.",
 					{"rt2"},
 				},
 			},
@@ -19840,7 +19840,7 @@ ast = {
 			},
 			en = {
 				{
-					"My middle finger is buried to its base.",
+					"Mi dedo medio está adentro.",
 					{"rt2"},
 				},
 			},
@@ -19872,7 +19872,7 @@ ast = {
 			},
 			en = {
 				{
-					"I don't really get that deep per se, but it's drenched as far as I can reach.",
+					"No llega tan profundo, pero está empapado hasta donde puedo alcanzar.",
 					{"rt2"},
 				},
 			},
@@ -19904,7 +19904,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel so depraved, but I slowly rove my finger around inside her.",
+					"Me siento depravado, pero lentamente recorro con mi dedo su interior.",
 					{"rt2"},
 				},
 			},
@@ -19976,7 +19976,7 @@ ast = {
 			},
 			en = {
 				{
-					"As I pull my finger out, I feel her vagina contract down hard before it comes out.",
+					"Cuando saco el dedo, siento cómo su coño se contrae con fuerza antes de que salga.",
 					{"rt2"},
 				},
 			},
@@ -20008,7 +20008,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's like she really doesn't want me to pull it out.",
+					"Es como si no quisiera que lo sacara.",
 					{"rt2"},
 				},
 			},
@@ -20084,7 +20084,7 @@ ast = {
 			},
 			en = {
 				{
-					"When I plunge it back in as far as I can, she breathes calmly again, as though relieved.",
+					"Cuando lo vuelvo a meter, vuelve a respirar con calma, como si se sintiera aliviada.",
 					{"rt2"},
 				},
 			},
@@ -20153,7 +20153,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm getting unusually addicted to the sensation of my finger being enveloped in her slippery warmth.",
+					"Me estoy volviendo adicto a la sensación de que mi dedo se vea envuelto en su resbaladiza calidez.",
 					{"rt2"},
 				},
 			},
@@ -20186,7 +20186,7 @@ ast = {
 			},
 			en = {
 				{
-					"I control my breathing as I repeatedly thrust my finger in and out of her.",
+					"Controlo mi respiración mientras introduzco y saco mi dedo.",
 					{"rt2"},
 				},
 			},
@@ -20225,7 +20225,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp... gasp... ah... hah...”",
+					"“Ahh... ah... ahhh...”",
 					{"rt2"},
 				},
 			},
@@ -20260,7 +20260,7 @@ ast = {
 			},
 			en = {
 				{
-					"Before I know it, the back of my hand is drenched in vaginal secretions.",
+					"El dorso de mi mano está empapado de secreciones vaginales.",
 					{"rt2"},
 				},
 			},
@@ -20292,7 +20292,7 @@ ast = {
 			},
 			en = {
 				{
-					"But there's still no sign of her waking up.",
+					"Pero ni así se despierta.",
 					{"rt2"},
 				},
 			},
@@ -20331,7 +20331,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp... ngh... hah... zzz...”",
+					"“Ahh... ngh... hah... zzz...”",
 					{"rt2"},
 				},
 			},
@@ -20369,7 +20369,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her breathing is ragged, but she's still sound asleep.",
+					"Su respiración está agitada, pero sigue profundamente dormida.",
 					{"rt2"},
 				},
 			},
@@ -20437,7 +20437,7 @@ ast = {
 			},
 			en = {
 				{
-					"I think for a moment and hesitate briefly before sticking my love juice laden finger into her mouth.",
+					"Pienso por un momento, y dudo antes de meter mi dedo cubierto de jugo amoroso en su boca.",
 					{"rt2"},
 				},
 			},
@@ -20471,7 +20471,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Look, you've gotten this all filthy... Lick it off for me.”",
+					"“Mira, lo ensuciaste... Límpialo por mí.”",
 					{"rt2"},
 				},
 			},
@@ -20514,7 +20514,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gulp... suck... slurp... pah...”",
+					"“Glp... mm... slrp... aah...”",
 					{"rt2"},
 				},
 			},
@@ -20548,7 +20548,7 @@ ast = {
 			},
 			en = {
 				{
-					"She reflexively sticks her tongue out and saliva dribbles down onto the pillow.",
+					"Saca la lengua y la saliva le gotea sobre la almohada.",
 					{"rt2"},
 				},
 			},
@@ -20580,7 +20580,7 @@ ast = {
 			},
 			en = {
 				{
-					"Guess she didn't like the taste.",
+					"¿No le gustó el sabor?",
 					{"rt2"},
 				},
 			},
@@ -20614,7 +20614,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“How the hell is she not waking up after that...?”",
+					"“¿Cómo es que sigue dormida...?”",
 					{"rt2"},
 				},
 			},
@@ -20648,7 +20648,7 @@ ast = {
 			},
 			en = {
 				{
-					"I rubbed her breasts, fingered her vagina, and stuck my finger in her mouth, but she still didn't rouse.",
+					"Le acaricié las tetas, le toqué el coño y le metí el dedo en la boca, pero sigue dormida.",
 					{"rt2"},
 				},
 			},
@@ -20680,7 +20680,7 @@ ast = {
 			},
 			en = {
 				{
-					"Right, only one thing to do.",
+					"Solo puedo hacer una cosa...",
 					{"rt2"},
 				},
 			},
@@ -20714,7 +20714,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami... I'm going to put it in now, all right?”",
+					"“Hinami... Voy a meterla, ¿vale?”",
 					{"rt2"},
 				},
 			},
@@ -20748,7 +20748,7 @@ ast = {
 			},
 			en = {
 				{
-					"I take my dick out.",
+					"Saco mi polla.",
 					{"rt2"},
 				},
 			},
@@ -20780,7 +20780,7 @@ ast = {
 			},
 			en = {
 				{
-					"Of course, it's hard as can be.",
+					"Está durísima.",
 					{"rt2"},
 				},
 			},
@@ -20812,7 +20812,7 @@ ast = {
 			},
 			en = {
 				{
-					"Here Hinami is, sleeping like a log, and I'm horny like an absolute motherfucker.",
+					"Hinami está dormida, y yo estoy demasiado cachondo.",
 					{"rt2"},
 				},
 			},
@@ -20846,7 +20846,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You don't mind, right? I'm gonna stick it in you...”",
+					"“No te molesta, ¿verdad? Te la voy a meter...”",
 					{"rt2"},
 				},
 			},
@@ -20885,7 +20885,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Snore... zzz... gurgle...”",
+					"“Zzz... zzz... zzz...”",
 					{"rt2"},
 				},
 			},
@@ -20921,7 +20921,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'mma shove my big, fat cock inside your teeny little loli gash.”",
+					"“Voy a meter mi polla enorme en tu coño de loli, ¿vale?”",
 					{"rt2"},
 				},
 			},
@@ -20960,7 +20960,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Pop... snore... zzz...”",
+					"“Zzz... zzz... zzz...”",
 					{"rt2"},
 				},
 			},
@@ -20994,7 +20994,7 @@ ast = {
 			},
 			en = {
 				{
-					"Oh, fuck this.",
+					"Ah, es inútil.",
 					{"rt2"},
 				},
 			},
@@ -21026,7 +21026,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't hold back anymore. I want to get it in.",
+					"Ya no puedo contenerme más. Quiero meterla.",
 					{"rt2"},
 				},
 			},
@@ -21058,7 +21058,7 @@ ast = {
 			},
 			en = {
 				{
-					"The more I think that I really shouldn't be doing this, the stronger my desire is to penetrate her.",
+					"Cuanto más pienso que no debería hacerlo, más fuerte es mi deseo de penetrarla.",
 					{"rt2"},
 				},
 			},
@@ -21090,7 +21090,7 @@ ast = {
 			},
 			en = {
 				{
-					"I know this should be wrong, but Hinami was the one who said I can do whatever I want to her whenever I feel like it.",
+					"Sé que esto está mal, pero Hinami me dijo que podía hacerle lo que quisiera.",
 					{"rt2"},
 				},
 			},
@@ -21122,7 +21122,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'll turn her on her back.",
+					"La pondré boca arriba.",
 					{"rt2"},
 				},
 			},
@@ -21156,7 +21156,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Huh? She's surprisingly heavy!”",
+					"“¿Eh? ¡Pesa mucho...!”",
 					{"rt2"},
 				},
 			},
@@ -21190,7 +21190,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's so slim and petite that it would seem impossible, but she's much harder to turn over than I'd expected.",
+					"Es tan delgada y pequeña que parece imposible, pero me cuesta mucho darle la vuelta.",
 					{"rt2"},
 				},
 			},
@@ -21222,7 +21222,7 @@ ast = {
 			},
 			en = {
 				{
-					"Is a sleeping person really this cumbersome to move?",
+					"¿Tan difícil es mover a una persona dormida?",
 					{"rt2"},
 				},
 			},
@@ -21256,7 +21256,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'll do it just like this, then...”",
+					"“Entonces lo haré así...”",
 					{"rt2"},
 				},
 			},
@@ -21291,7 +21291,7 @@ ast = {
 			},
 			en = {
 				{
-					"I mount her thighs and touch my precum soaked glans against her petite body.",
+					"Me subo a sus muslos y froto mi glande empapado de líquido preseminal contra su pequeño cuerpo.",
 					{"rt2"},
 				},
 			},
@@ -21323,7 +21323,7 @@ ast = {
 			},
 			en = {
 				{
-					"If her asshole's there, then I need to aim a little lower...",
+					"Si su culo está ahí, tengo que apuntar un poco más abajo...",
 					{"rt2"},
 				},
 			},
@@ -21365,7 +21365,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah... ngh... ah...”",
+					"“Jaa... ngh... ah...”",
 					{"rt2"},
 				},
 			},
@@ -21399,7 +21399,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her vagina sucks up my junk without any resistance whatsoever.",
+					"Su coño absorbe mi polla.",
 					{"rt2"},
 				},
 			},
@@ -21431,7 +21431,7 @@ ast = {
 			},
 			en = {
 				{
-					"Then...",
+					"Y...",
 					{"rt2"},
 				},
 			},
@@ -21465,7 +21465,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ngh... hah...”",
+					"“Ngh... jaa...”",
 					{"rt2"},
 				},
 			},
@@ -21505,7 +21505,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm in.",
+					"La metí.",
 					{"rt2"},
 				},
 			},
@@ -21537,7 +21537,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't get all the way in, thanks to her ass cheeks.",
+					"No puedo meterla del todo por culpa de sus nalgas.",
 					{"rt2"},
 				},
 			},
@@ -21569,7 +21569,7 @@ ast = {
 			},
 			en = {
 				{
-					"Instead, her ass cheeks grip around the base of my junk.",
+					"Pero sus nalgas se aprietan alrededor de la base de mi polla.",
 					{"rt2"},
 				},
 			},
@@ -21601,7 +21601,7 @@ ast = {
 			},
 			en = {
 				{
-					"And since her legs are together, her vaginal walls feel even more cramped than I've felt before.",
+					"Y como tiene las piernas juntas, las paredes de su coño se sienten aún más estrechas.",
 					{"rt2"},
 				},
 			},
@@ -21633,7 +21633,7 @@ ast = {
 			},
 			en = {
 				{
-					"Christ, this feels too good...",
+					"Esto se siente muy bien...",
 					{"rt2"},
 				},
 			},
@@ -21670,7 +21670,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah... ah...”",
+					"“Jaa... ah...”",
 					{"rt2"},
 				},
 			},
@@ -21704,7 +21704,7 @@ ast = {
 			},
 			en = {
 				{
-					"I've penetrated her with my junk, but she just moans slightly and doesn't rouse.",
+					"La penetré con mi polla, pero ella solo gime y no se excita.",
 					{"rt2"},
 				},
 			},
@@ -21736,7 +21736,7 @@ ast = {
 			},
 			en = {
 				{
-					"Surely thrusting will wake her up?",
+					"¿Meterla la despertará?",
 					{"rt2"},
 				},
 			},
@@ -21808,7 +21808,7 @@ ast = {
 			},
 			en = {
 				{
-					"I slowly shove my dick in and out.",
+					"Meto y saco mi polla con lentitud.",
 					{"rt2"},
 				},
 			},
@@ -21840,7 +21840,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't shove it in all the way, so the stimulation is light on.",
+					"No puedo meterla toda, por lo que la estimulación es ligera.",
 					{"rt2"},
 				},
 			},
@@ -21872,7 +21872,7 @@ ast = {
 			},
 			en = {
 				{
-					"However, thanks to her butt cheeks, I feel intense pleasure.",
+					"Sin embargo, gracias a sus nalgas, siento un placer intenso.",
 					{"rt2"},
 				},
 			},
@@ -21909,7 +21909,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hah... ugh... uh... nngh...”",
+					"“Jaa... agh... uh... nngh...”",
 					{"rt2"},
 				},
 			},
@@ -21943,7 +21943,7 @@ ast = {
 			},
 			en = {
 				{
-					"I mash into her butt cheeks and rub my junk along her vaginal rugae.",
+					"Me froto contra sus nalgas y rozo mi polla contra sus pliegues vaginales.",
 					{"rt2"},
 				},
 			},
@@ -21975,7 +21975,7 @@ ast = {
 			},
 			en = {
 				{
-					"I feel her vagina sucking up the tip of my dick and the pressure along the length of my shaft.",
+					"Siento cómo su coño succiona la punta de mi polla, así como la presión a lo largo de todo mi miembro.",
 					{"rt2"},
 				},
 			},
@@ -22007,7 +22007,7 @@ ast = {
 			},
 			en = {
 				{
-					"This is the best fuck I've had with her yet. Much more pleasant than when I was just completely going to town on her.",
+					"Esta es nuestra mejor follada hasta ahora. Es mucho más agradable que cuando simplemente me dedicaba a hacerle todo lo que se me antojaba.",
 					{"rt2"},
 				},
 			},
@@ -22039,7 +22039,7 @@ ast = {
 			},
 			en = {
 				{
-					"But this much alone isn't gonna cut it...",
+					"Pero no va a bastar con esto...",
 					{"rt2"},
 				},
 			},
@@ -22071,7 +22071,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'll need to plunge to her depths at the end again.",
+					"Tendré que meterla al fondo otra vez.",
 					{"rt2"},
 				},
 			},
@@ -22142,7 +22142,7 @@ ast = {
 			},
 			en = {
 				{
-					"She pants as I push my junk hard into her.",
+					"Gime mientras empujo mi polla.",
 					{"rt2"},
 				},
 			},
@@ -22174,7 +22174,7 @@ ast = {
 			},
 			en = {
 				{
-					"Her voice is so sweet and seductive that it risks melting my brain.",
+					"Su voz es tan dulce y seductora que corre el riesgo de derretirme los pensamientos.",
 					{"rt2"},
 				},
 			},
@@ -22206,7 +22206,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's enough to unleash the lust I've been trying to hold back.",
+					"Es suficiente para desatar la lujuria que he intentado contener.",
 					{"rt2"},
 				},
 			},
@@ -22241,7 +22241,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Haah... hah... Hinami...”",
+					"“Jaa... jaa... Hinami...”",
 					{"rt2"},
 				},
 			},
@@ -22280,7 +22280,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ugh, ngh... ugh... hah... ungh.”",
+					"“Ugh, ngh... ugh... jaa... ungh.”",
 					{"rt2"},
 				},
 			},
@@ -22314,7 +22314,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's not waking up.",
+					"No se despierta.",
 					{"rt2"},
 				},
 			},
@@ -22346,7 +22346,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm starting to think I can keep this up right to the end.",
+					"Creo que puedo seguir así hasta el final.",
 					{"rt2"},
 				},
 			},
@@ -22380,7 +22380,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hinami, I'm gonna cum in you if you don't wake up.”",
+					"“Hinami, voy a venirme si no te despiertas.”",
 					{"rt2"},
 				},
 			},
@@ -22419,7 +22419,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp... ah... uh, ah... hah... ugh...”",
+					"“Jaa... ah... uh, ah... jaa... ugh...”",
 					{"rt2"},
 				},
 			},
@@ -22453,7 +22453,7 @@ ast = {
 			},
 			en = {
 				{
-					"This is just like fucking a blow-up doll.",
+					"Es como follar con una muñeca inflable.",
 					{"rt2"},
 				},
 			},
@@ -22485,7 +22485,7 @@ ast = {
 			},
 			en = {
 				{
-					"Hinami, my dutch wife.",
+					"Hinami, mi esposa holandesa.",
 					{"rt2"},
 				},
 			},
@@ -22519,7 +22519,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“It's okay to cum in you... right?”",
+					"“Puedo venirme... ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -22558,7 +22558,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Gasp... hah... hah... ngh... gasp...”",
+					"“Jaa... jaa... jaa... ngh... gasp...”",
 					{"rt2"},
 				},
 			},
@@ -22592,7 +22592,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm dying to cum in her.",
+					"Quiero dejarlo salir.",
 					{"rt2"},
 				},
 			},
@@ -22624,7 +22624,7 @@ ast = {
 			},
 			en = {
 				{
-					"Or rather, I'm just about to anyway.",
+					"No... es que ya voy a hacerlo.",
 					{"rt2"},
 				},
 			},
@@ -22658,7 +22658,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'm gonna knock you up... You don't mind if I make a momma outta you, after all!”",
+					"“Te voy a embarazar... ¡No te importa que te convierta en mamá!”",
 					{"rt2"},
 				},
 			},
@@ -22692,7 +22692,7 @@ ast = {
 			},
 			en = {
 				{
-					"I hold the sleeping Hinami tight and pound my hips into her with all my lust.",
+					"Abrazo con fuerza a Hinami y empujo mis caderas con toda mi lujuria.",
 					{"rt2"},
 				},
 			},
@@ -22763,7 +22763,7 @@ ast = {
 			},
 			en = {
 				{
-					"This is stupidly arousing. It's killing me.",
+					"Esto es estúpidamente excitante. Me está matando...",
 					{"rt2"},
 				},
 			},
@@ -22852,7 +22852,7 @@ ast = {
 			},
 			en = {
 				{
-					"I push my hips hard up against her, and ejaculate as deep as I can.",
+					"Empujo mis caderas contra ella y eyaculo todo lo que puedo.",
 					{"rt2"},
 				},
 			},
@@ -22884,7 +22884,7 @@ ast = {
 			},
 			en = {
 				{
-					"I grip her ass cheeks and bust a massive nut.",
+					"Le agarro las nalgas y me vengo mucho.",
 					{"rt2"},
 				},
 			},
@@ -22916,7 +22916,7 @@ ast = {
 			},
 			en = {
 				{
-					"The hot load I'm dropping inside the sleeping Hinami is practically unbelievable.",
+					"La carga caliente que estoy liberando dentro de Hinami mientras duerme es increíble.",
 					{"rt2"},
 				},
 			},
@@ -22999,7 +22999,7 @@ ast = {
 			},
 			en = {
 				{
-					"She's twitching, as though acknowledging my ejaculation.",
+					"Se estremece, como si sintiera mi eyaculación.",
 					{"rt2"},
 				},
 			},
@@ -23031,7 +23031,7 @@ ast = {
 			},
 			en = {
 				{
-					"I pull my junk out of her.",
+					"Saco mi polla.",
 					{"rt2"},
 				},
 			},
@@ -23071,7 +23071,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Holy shit...”",
+					"“Joder...”",
 					{"rt2"},
 				},
 			},
@@ -23105,7 +23105,7 @@ ast = {
 			},
 			en = {
 				{
-					"A huge volume of spunk comes gushing out of her.",
+					"Una gran cantidad de semen brota de ella.",
 					{"rt2"},
 				},
 			},
@@ -23137,7 +23137,7 @@ ast = {
 			},
 			en = {
 				{
-					"The sight of it brings me a moment of lucidity.",
+					"Verlo me da un momento de claridad.",
 					{"rt2"},
 				},
 			},
@@ -23171,7 +23171,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What the hell did I just do to her...?”",
+					"“¿Qué le hice...?”",
 					{"rt2"},
 				},
 			},
@@ -23205,7 +23205,7 @@ ast = {
 			},
 			en = {
 				{
-					"Lust is a terrifying monstrosity.",
+					"La lujuria es una monstruosidad aterradora.",
 					{"rt2"},
 				},
 			},
@@ -23237,7 +23237,7 @@ ast = {
 			},
 			en = {
 				{
-					"Or maybe the fact that this teeny little girlfriend of mine was the catalyst for arousing that monstrous lust is more terrifying?",
+					"¿O tal vez el hecho de que mi pequeña novia fuera la catalizadora de ese deseo es aún más aterrador?",
 					{"rt2"},
 				},
 			},
@@ -23271,7 +23271,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“But anyway...”",
+					"“En fin...”",
 					{"rt2"},
 				},
 			},
@@ -23306,7 +23306,7 @@ ast = {
 			},
 			en = {
 				{
-					"I get an alcohol wipe out, and wipe away the cocktail of our bodily secretions from her genitalia.",
+					"Saco una toallita con alcohol y limpio el cóctel de nuestras secreciones corporales.",
 					{"rt2"},
 				},
 			},
@@ -23338,7 +23338,7 @@ ast = {
 			},
 			en = {
 				{
-					"Even I'm kinda surprised I could nut that much, honestly.",
+					"Hasta a mí me sorprende que pueda venirme tanto.",
 					{"rt2"},
 				},
 			},
@@ -23370,7 +23370,7 @@ ast = {
 			},
 			en = {
 				{
-					"Once I've wiped it all away, I get her back into her clothes.",
+					"Una vez que lo limpio todo, le vuelvo a poner la ropa.",
 					{"rt2"},
 				},
 			},
@@ -23407,7 +23407,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Snore... mmm mmm...”",
+					"“Zzz... mmm mmm...”",
 					{"rt2"},
 				},
 			},
@@ -23443,7 +23443,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Sorry, Hinami... Or maybe thanks, I guess...? That was fuckin' amazing.”",
+					"“Lo siento, Hinami... O más bien, gracias... Eso fue increíble.”",
 					{"rt2"},
 				},
 			},
@@ -23477,7 +23477,7 @@ ast = {
 			},
 			en = {
 				{
-					"I stroke her sleeping head and pull the covers up over her.",
+					"Le acaricio la cabeza mientras duerme y le subo las mantas.",
 					{"rt2"},
 				},
 			},
@@ -23509,7 +23509,7 @@ ast = {
 			},
 			en = {
 				{
-					"Despite what I just did to her, she looks so peaceful and somewhat content.",
+					"A pesar de lo que le hice, parece tranquila y algo satisfecha.",
 					{"rt2"},
 				},
 			},
@@ -23541,7 +23541,7 @@ ast = {
 			},
 			en = {
 				{
-					"I wonder what she's dreaming about?",
+					"¿Qué estará soñando?",
 					{"rt2"},
 				},
 			},
@@ -23573,7 +23573,7 @@ ast = {
 			},
 			en = {
 				{
-					"Maybe she's dreaming about me? Yeah, right. Go ahead and make it all about you again.",
+					"¿Estará soñando conmigo? Eh, no todo tiene que ser sobre mí.",
 					{"rt2"},
 				},
 			},
@@ -23607,7 +23607,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Night, Hinami...”",
+					"“Buenas noches, Hinami...”",
 					{"rt2"},
 				},
 			},
@@ -23641,7 +23641,7 @@ ast = {
 			},
 			en = {
 				{
-					"I crawl into bed beside the person I love and slowly close my eyes.",
+					"Me meto en la cama junto a la persona que amo y cierro lentamente los ojos.",
 					{"rt2"},
 				},
 			},
@@ -23690,7 +23690,7 @@ ast = {
 			},
 			en = {
 				{
-					"The morning after that, Hinami coyly said to me, “I had the wildest sex dream last night.”",
+					"A la mañana siguiente, Hinami me dijo con timidez: “Tuve un sueño sexual muy intenso”.",
 					{"rt2"},
 				},
 			},
@@ -23722,7 +23722,7 @@ ast = {
 			},
 			en = {
 				{
-					"And upon telling her about what we'd done the night before, her face turned quite a vivid shade of crimson.",
+					"Y cuando le dije lo que hicimos, su rostro se sonrojó intensamente.dd",
 					{"rt2"},
 				},
 			},

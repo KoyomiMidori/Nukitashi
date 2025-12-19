@@ -1,7 +1,7 @@
 astver = 2.0
 ast = {
 	["0063_00001"] = {
-		{"savetitle", text="カウントダウン", ja="カウントダウン", en="Countdown", cn="倒计时", tw="倒數計時"},
+		{"savetitle", text="カウントダウン", ja="カウントダウン", en="Cuenta Regresiva", cn="倒计时", tw="倒數計時"},
 		{"eval", exp="g.03_hw_13=1"},
 		{"se", id=0, loop=0, file="se_a112"},
 		{"fg", mode=-1, id=30},
@@ -28,7 +28,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Ah, Tachibana! Meesa glad you came! Weesa waiting for you!”",
+					"“¡Ah, Tachibana-san llegó! ¡Te estábamos esperanding!”",
 					{"rt2"},
 				},
 			},
@@ -64,7 +64,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Kept you waiting, huh?”",
+					"“Sí, perdón por la demora.”",
 					{"rt2"},
 				},
 			},
@@ -98,7 +98,7 @@ ast = {
 			},
 			en = {
 				{
-					"Lunch time. We've got a full house in the base today.",
+					"Es hora de comer. Hoy tenemos la base llena.",
 					{"rt2"},
 				},
 			},
@@ -136,7 +136,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Wata told us about the governor's kidnapping... Are you okay?”",
+					"“Wata-chan nos contó que secuestraron al gobernador... ¿Estás bien?”",
 					{"rt2"},
 				},
 			},
@@ -173,7 +173,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah, that issue's all taken care of now. No more problems there.”",
+					"“Sí, ese asunto ya está resuelto. Ya no hay más problemas.”",
 					{"rt2"},
 				},
 			},
@@ -210,7 +210,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“More importantly, did you guys run into any big problems while I wasn't here to be the leader?”",
+					"“Hablando de eso, ¿tuvieron algún problema mientras su líder estuvo ausente?”",
 					{"rt2"},
 				},
 			},
@@ -250,7 +250,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“I wonder about that. Hell, I'd say we've been doing pretty well ever since a certain somebody started leaning towards joining the SS.”",
+					"“Pues a saber. Hasta diría que nos ha ido bastante bien desde que cierta persona empezó a querer unirse a la SS.”",
 					{"rt2"},
 				},
 			},
@@ -287,7 +287,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I'll take that answer as a no, then.”",
+					"“Entonces no...”",
 					{"rt2"},
 				},
 			},
@@ -327,7 +327,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Oh, I've been meaning to ask, Tachibana. Did you enjoy the party last night?”",
+					"“Ah, quería preguntarte algo, Tachibana-kun. ¿Te gustó la fiesta de anoche?”",
 					{"rt2"},
 				},
 			},
@@ -396,7 +396,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah. It was a nice little respite, I'd say.”",
+					"“Sí. Diría que fue un descanso muy agradable.”",
 					{"rt2"},
 				},
 			},
@@ -433,7 +433,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I feel like I've basically cemented the SS's trust in me now.”",
+					"“Siento que me he ganado la confianza de la SS.”",
 					{"rt2"},
 				},
 			},
@@ -467,7 +467,7 @@ ast = {
 			},
 			en = {
 				{
-					"I briefly pause before my next comment.",
+					"Me detengo antes de seguir hablando.",
 					{"rt2"},
 				},
 			},
@@ -499,7 +499,7 @@ ast = {
 			},
 			en = {
 				{
-					"They should be fine with it...",
+					"No debería haber ningún problema...",
 					{"rt2"},
 				},
 			},
@@ -533,7 +533,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“It's my understanding that this whole incident is spurring on the process of making me an official SS member.”",
+					"“Tengo entendido que este incidente está acelerando el proceso para convertirme en miembro oficial de la SS.”",
 					{"rt2"},
 				},
 			},
@@ -574,7 +574,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Huh... So yoosa really going to join SS, Tachibana!?”",
+					"“Eh... ¡¿De verdad vas a unirte a la SS, Tachibana-san?!”",
 					{"rt2"},
 				},
 			},
@@ -611,7 +611,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No. I only teamed up with them to get info on the illegal sex industry, and on Fumino.”",
+					"“No. Solo me uní a ellos para obtener información sobre la industria sexual ilegal y sobre Fumino.”",
 					{"rt2"},
 				},
 			},
@@ -648,7 +648,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Once both those things are sorted out, I'll have no reason to stay. I'll just make up a good excuse and quit as soon as I'm able.”",
+					"“Cuando termine todo eso, no tendré motivos para quedarme. Simplemente inventaré una buena excusa y renunciaré tan pronto como pueda.”",
 					{"rt2"},
 				},
 			},
@@ -688,7 +688,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“But being a trainee isn't the same kettle of fish as being an official member. You might have a lot more trouble quitting that way.”",
+					"“Pero ser cadete no es lo mismo que ser miembro oficial. Puede que no sea tan fácil renunciar.”",
 					{"rt2"},
 				},
 			},
@@ -725,7 +725,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You may have a point there...”",
+					"“Tienes razón...”",
 					{"rt2"},
 				},
 			},
@@ -769,7 +769,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Wait! All yoosa shut up a minute! Why! The hell! Is nobody! Acknowledging meesa!?”",
+					"“¡Esperen! ¡Cállense todos! ¡¿Por qué no me hacen caso?!”",
 					{"rt2"},
 				},
 			},
@@ -810,7 +810,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“So... nobody's clapped back about this yet?”",
+					"“Entonces... ¿nadie ha respondido todavía?”",
 					{"rt2"},
 				},
 			},
@@ -850,7 +850,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“I figured we were better off not broaching the subject...”",
+					"“Pensé que era mejor no tocar el tema...”",
 					{"rt2"},
 				},
 			},
@@ -892,7 +892,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“But meesa WANT you to broach subject! Meesa just look stupid now!”",
+					"“¡Pero es mejor que toquemos el tema! ¡Ahora me veo como una tonta!”",
 					{"rt2"},
 				},
 			},
@@ -932,7 +932,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“You ARE stupid. And a walking, talking tub of lard to boot.”",
+					"“Eres tonta. Además, eres un barril de manteca andante y que habla.”",
 					{"rt2"},
 				},
 			},
@@ -973,7 +973,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh!? Wait a minute, she's talking all funny! Seriously? That's incredible!”",
+					"“¡¿Eh?! ¡Esperen, está hablando chistoso! ¿En serio? ¡Increíble!”",
 					{"rt2"},
 				},
 			},
@@ -1010,7 +1010,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“The fact that you only just noticed is more incredible.”",
+					"“El hecho de que apenas te hayas dado cuenta es peor.”",
 					{"rt2"},
 				},
 			},
@@ -1047,7 +1047,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“So, care to explain yourself? Have you been binge-watching space wizard movies for toddlers or what?”",
+					"“¿Nos explicas qué estás haciendo? ¿Has estado viendo animes para niños o qué?”",
 					{"rt2"},
 				},
 			},
@@ -1086,7 +1086,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Come on... I can't take this anymore! You always leave me out, and even when I'm in the group, you still forget about me anyway... I need to have SOME kind of memorable trait to make my character stand out!”",
+					"“Vamos... ¡Ya no puedo más! Siempre me dejan fuera, e incluso cuando estoy en el grupo, siguen olvidándose de mí... ¡Necesito tener algún rasgo memorable para que mi personaje destaque!”",
 					{"rt2"},
 				},
 			},
@@ -1123,7 +1123,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Don't worry about it so much. I think you've got enough memorable character traits.”",
+					"“No te preocupes tanto por eso. Creo que tienes suficientes rasgos memorables.”",
 					{"rt2"},
 				},
 			},
@@ -1163,7 +1163,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Name one!”",
+					"“¡Dime uno!”",
 					{"rt2"},
 				},
 			},
@@ -1200,7 +1200,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Uh... bookworm?”",
+					"“Uh... ¿ratón de biblioteca?”",
 					{"rt2"},
 				},
 			},
@@ -1240,7 +1240,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“So you really think that, do you? Okay, answer me this—have you ever thought of me as a bookworm even once before now?”",
+					"“¿De verdad piensas eso? Bueno, dime algo: ¿alguna vez me habías considerado un ratón de biblioteca antes de esto?”",
 					{"rt2"},
 				},
 			},
@@ -1274,7 +1274,7 @@ ast = {
 			},
 			en = {
 				{
-					"Good grief, who pissed in her cornflakes today?",
+					"Joder, ¿por qué está tan molesta...?",
 					{"rt2"},
 				},
 			},
@@ -1312,7 +1312,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, umm... I don't quite understand what you're talking about, but did something unpleasant happen to you? I'm your senior, I can hear you out if you want.”",
+					"“Uh, umm... No sé de qué estás hablando, pero ¿te pasó algo malo? Soy tu senpai, así que te escucharé.”",
 					{"rt2"},
 				},
 			},
@@ -1357,7 +1357,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Wata... Must be nice walking in your shoes, huh... Your character really stands out... Being such a teeny, flat loli even though you're also our senior...!”",
+					"“Wata-chan... Debe ser agradable caminar en tus zapatos, ¿eh? Tu personalidad destaca... ¡Ser tan pequeña y plana a pesar de que eres nuestra senpai...!”",
 					{"rt2"},
 				},
 			},
@@ -1398,7 +1398,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I may be the senior, but I'm not a loli, or teeny, or flat!”",
+					"“¡Seré la senpai y todo, pero no soy una loli, no soy pequeña y no soy plana!”",
 					{"rt2"},
 				},
 			},
@@ -1439,7 +1439,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Argh! See, you've got your own recurring catchphrase and everything! Not to mention, you've got cute, ditzy, and 'carries chair' all rolled into one... You're such a Mary Sue! Gimme some of your traits!”",
+					"“¡Argh! ¡Hasta tienes tu propia frase y todo! Eres lindísima, despistada y llevas una silla... ¡Eres perfecta! ¡Dame algunos de tus rasgos de personaje!”",
 					{"rt2"},
 				},
 			},
@@ -1479,7 +1479,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“N-No way... I oughta be asking YOU for some of YOUR traits! What I wouldn't give to swap for your height, your titties, and your pleasant plumpness!”",
+					"“N-No.. Yo debería tener algunos de tus rasgos! ¡Me encantaría tener tu estatura, tus tetas y tu agradable relleno!”",
 					{"rt2"},
 				},
 			},
@@ -1520,7 +1520,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“Do you have any idea how insulting 'pleasantly plump' sounds to me!? I'm more 'youthfully overweight'!”",
+					"“¡¿Tienes idea de lo ofensivo que suena lo del relleno agradable?! ¡Más bien tengo una obesidad jovial!”",
 					{"rt2"},
 				},
 			},
@@ -1560,7 +1560,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“That's a weird way to pronounce 'senile fat cuntbag'.”",
+					"“Qué manera tan rara de decir 'vieja gorda y chupapollas'.”",
 					{"rt2"},
 				},
 			},
@@ -1594,7 +1594,7 @@ ast = {
 			},
 			en = {
 				{
-					"Oh, Asa, you pinnacle of witty jokey-jokes, you.",
+					"Asa-chan, hoy sí te atreviste.",
 					{"rt2"},
 				},
 			},
@@ -1637,7 +1637,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Urrgh...! What's up with those damn honkers of yours!? How do you even GET them to be that big, HUH!?”",
+					"“¡Urrgh...! ¡¿Qué tiene esas tetazas?! ¡¿Cómo es que las tienes tan grandes, eh?!”",
 					{"rt2"},
 				},
 			},
@@ -1678,7 +1678,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“AAAAGH! Make it stop! Whenever you get mad your cowlick bobs to and fro all cute-like! No fair!!”",
+					"“¡AAAAGH! ¡Ya basta! ¡Cada vez que te enojas, tu mechón se mueve de un lado a otro de forma muy graciosa! ¡No es justo!”",
 					{"rt2"},
 				},
 			},
@@ -1718,7 +1718,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Aaaah...! Come on, don't bring my bedhead up... I'm really sensitive about that, okay!?”",
+					"“¡Aaaah...! Oye, a mi mechón no lo metas en esto... ¡Soy muy sensible, ¿vale?!”",
 					{"rt2"},
 				},
 			},
@@ -1759,7 +1759,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“WHAT!? Literally HOW can you be sensitive about a stupid clump of hair! You just wanna throw that on your character page and never mention it again, don't you!?”",
+					"“¿¡QUÉ!? ¡¿Cómo puedes ser tan sensible por un estúpido mechón de pelo?! ¡Solo quieres ponerlo en la página de tu personaje y no volver a mencionarlo nunca más, ¿verdad?!”",
 					{"rt2"},
 				},
 			},
@@ -1799,7 +1799,7 @@ ast = {
 			en = {
 				{
 					name = {"奈々瀬", "Nanase"},
-					"“Uh, don't you have a cowlick yourself, Misaki?”",
+					"“... ¿No tienes tú también un remolino, Misaki?”",
 					{"rt2"},
 				},
 			},
@@ -1857,7 +1857,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“I have to set it like this every single morning! It's all that separates me from being just another BG rando! If I cut it off, I doubt anyone would even recognize me...!”",
+					"“¡Tengo que ponerlo así cada mañana! ¡Es lo único que me diferencia de cualquiera! ¡Si lo quitara, no me reconocerían...!”",
 					{"rt2"},
 				},
 			},
@@ -1902,7 +1902,7 @@ ast = {
 			en = {
 				{
 					name = {"麻沙音", "Asane"},
-					"“I like the way you think. Wonder if we got a chainsaw around here...”",
+					"“Me gusta cómo piensas. Me pregunto si tendremos una motosierra por aquí...”",
 					{"rt2"},
 				},
 			},
@@ -1942,7 +1942,7 @@ ast = {
 			en = {
 				{
 					name = {"美岬", "Misaki"},
-					"“AAAAAGH, MEESA GONNA BE ERASED FROM EXISTEEENCE!!”",
+					"“¡¡AAAAAGH, ME VAN A BORRAR DE LA EXISTENCIA!!”",
 					{"rt2"},
 				},
 			},
@@ -1979,7 +1979,7 @@ ast = {
 			},
 			en = {
 				{
-					"And so, the NLNS meeting has devolved into a circus.",
+					"Y así, la reunión del NLNS se convirtió en un circo.",
 					{"rt2"},
 				},
 			},
@@ -2011,7 +2011,7 @@ ast = {
 			},
 			en = {
 				{
-					"Asa is chasing Hotori around, Nanase's trying to calm them down, and Wata is off to the side, panicking.",
+					"Asa-chan está persiguiendo a Hotori, Nanase intenta calmarlos y Wata-chan está a un lado, completamente alterada.",
 					{"rt2"},
 				},
 			},
@@ -2081,7 +2081,7 @@ ast = {
 			},
 			en = {
 				{
-					"Destroying the perverted sex law is the only way to protect these girls and keep them smiling like this.",
+					"Acabar con la ley súperpervertida es la única forma de proteger a estas chicas y sus sonrisas.",
 					{"rt2"},
 				},
 			},
@@ -2113,7 +2113,7 @@ ast = {
 			},
 			en = {
 				{
-					"Even if I have comrades in the SS, and even if I can understand Senator Hitoura's standpoint, my resolve is still firm.",
+					"Aunque tenga compañeros en la SS y comprenda el punto de vista del senador Hitoura, mi determinación sigue siendo firme.",
 					{"rt2"},
 				},
 			},
@@ -2145,7 +2145,7 @@ ast = {
 			},
 			en = {
 				{
-					"However...",
+					"Sin embargo...",
 					{"rt2"},
 				},
 			},
@@ -2190,7 +2190,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Aaaaah, uh, um, y-you mustn't horse around like that! It's my duty as senior to help settle my juniors down, but... uh... I don't want to get crushed by your massive boobies...”",
+					"“¡Aaaaah, n-no puedes hacer eso! Es mi deber como senpai tranquilizar a los kouhais, pero... no quiero que tus enormes pechos me aplasten...”",
 					{"rt2"},
 				},
 			},
@@ -2224,7 +2224,7 @@ ast = {
 			},
 			en = {
 				{
-					"Watching them happily goofing around like this reminds me of the SS party last night.",
+					"Verlas divertirse así me recuerda a la fiesta de la SS.",
 					{"rt2"},
 				},
 			},
@@ -2282,7 +2282,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“There's no one around.”",
+					"“No hay nadie.”",
 					{"rt2"},
 				},
 			},
@@ -2316,7 +2316,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's hard to imagine the quiet, deserted disciplinary committee office is the same place where the SS party took place just last night.",
+					"Cuesta imaginar que la tranquila y desierta oficina del comité de moral pública sea el mismo lugar donde anoche se celebró la fiesta de la SS.",
 					{"rt2"},
 				},
 			},
@@ -2348,7 +2348,7 @@ ast = {
 			},
 			en = {
 				{
-					"All of the SS are likely busy with their duties and training right now.",
+					"Parece que la SS está ocupada con sus tareas y entrenamiento.",
 					{"rt2"},
 				},
 			},
@@ -2380,7 +2380,7 @@ ast = {
 			},
 			en = {
 				{
-					"As per SS rules, I've been given time off for recuperation, having taken a riot bullet to the head.",
+					"Según las normas de la SS, me concedieron tiempo libre para recuperarme, ya que recibí un balazo en la cabeza.",
 					{"rt2"},
 				},
 			},
@@ -2412,7 +2412,7 @@ ast = {
 			},
 			en = {
 				{
-					"I've been taking advantage of the opportunity to search for more information. The first step is to make sure no one will come in or out.",
+					"He aprovechado la oportunidad para buscar más información. El primer paso es asegurarme de que nadie entre ni salga.",
 					{"rt2"},
 				},
 			},
@@ -2447,7 +2447,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Hmm?”",
+					"“¿Mmm?”",
 					{"rt2"},
 				},
 			},
@@ -2482,7 +2482,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's a document on the desk.",
+					"Hay un documento en el escritorio...",
 					{"rt2"},
 				},
 			},
@@ -2515,7 +2515,7 @@ ast = {
 			},
 			en = {
 				{
-					"“RE: Organizations Contravening Public Order on Seiran Island, Appendix 1.”",
+					"“Organizaciones que atentan contra el orden público de la Isla Seiran, Anexo 1.”",
 					{"rt2"},
 				},
 			},
@@ -2550,7 +2550,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh, shit...”",
+					"“Ah, esto...”",
 					{"rt2"},
 				},
 			},
@@ -2584,7 +2584,7 @@ ast = {
 			},
 			en = {
 				{
-					"That document I scanned with my goggles with before got an appendix, so it should have all the latest, juiciest dirt on the illegal sex trade.",
+					"El documento que escaneé antes con mis gafas tiene un anexo, así que debería contener toda la información más reciente e interesante del comercio sexual ilegal.",
 					{"rt2"},
 				},
 			},
@@ -2617,7 +2617,7 @@ ast = {
 			},
 			en = {
 				{
-					"I immediately leap into action.",
+					"Actúo al instante.",
 					{"rt2"},
 				},
 			},
@@ -2652,7 +2652,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“'Intel Recovered from Cross-Examination of Aforesaid Organizations, Recovered By OSS Authority'...”",
+					"“'Información recuperada del interrogatorio de organizaciones, recuperada por la autoridad de la OSS'...”",
 					{"rt2"},
 				},
 			},
@@ -2686,7 +2686,7 @@ ast = {
 			},
 			en = {
 				{
-					"Sweat drips down my brow at that ominous sentence, but I go on speed-reading it.",
+					"El sudor me resbala por la frente al leer esa frase inquietante, pero sigo leyendo.",
 					{"rt2"},
 				},
 			},
@@ -2718,7 +2718,7 @@ ast = {
 			},
 			en = {
 				{
-					"I try to summarize the verbose document and store the important details in my head.",
+					"Intento resumir el extenso documento y guardar los detalles importantes en mi cabeza.",
 					{"rt2"},
 				},
 			},
@@ -2750,7 +2750,7 @@ ast = {
 			},
 			en = {
 				{
-					"Apparently the illegal sex trade is a part of the island's underground.",
+					"Al parecer, el comercio sexual ilegal forma parte del submundo de la isla.",
 					{"rt2"},
 				},
 			},
@@ -2782,7 +2782,7 @@ ast = {
 			},
 			en = {
 				{
-					"Apparently, specific locations are unknown, but with enough man-hours they should be able to sniff them out.",
+					"Por lo visto, se desconocen las ubicaciones específicas, pero con suficientes horas de trabajo deberían localizarlas.",
 					{"rt2"},
 				},
 			},
@@ -2814,7 +2814,7 @@ ast = {
 			},
 			en = {
 				{
-					"I swallow nervously. On to the next one...",
+					"Trago saliva, pero tengo que seguir...",
 					{"rt2"},
 				},
 			},
@@ -2851,7 +2851,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!?”",
+					"“¡¿Mmm?!”",
 					{"rt2"},
 				},
 			},
@@ -2885,7 +2885,7 @@ ast = {
 			},
 			en = {
 				{
-					"There's something written there on that page.",
+					"Hay algo escrito en esa página.",
 					{"rt2"},
 				},
 			},
@@ -2917,7 +2917,7 @@ ast = {
 			},
 			en = {
 				{
-					"And I think it just made me shit out my heart.",
+					"Y quedo aterrado.",
 					{"rt2"},
 				},
 			},
@@ -2949,7 +2949,7 @@ ast = {
 			},
 			en = {
 				{
-					"We have reason to believe the current problems associated with the illegal sex industry are a result of repercussions from dealing with the Yakuza and their attempted kidnapping of Fumino.'",
+					"Creemos que los problemas de la industria sexual ilegal son consecuencia de las relaciones con la yakuza y su intento de secuestro de Fumino.",
 					{"rt2"},
 				},
 			},
@@ -2984,7 +2984,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Fumino...?”",
+					"“¿Fumino...?”",
 					{"rt2"},
 				},
 			},
@@ -3018,7 +3018,7 @@ ast = {
 			},
 			en = {
 				{
-					"Why is she coming up here?",
+					"¿Por qué la mencionan?",
 					{"rt2"},
 				},
 			},
@@ -3050,7 +3050,7 @@ ast = {
 			},
 			en = {
 				{
-					"The Yakuza tried to kidnap her?",
+					"¿La yakuza intentó secuestrarla?",
 					{"rt2"},
 				},
 			},
@@ -3082,7 +3082,7 @@ ast = {
 			},
 			en = {
 				{
-					"Not only that, but it's all related to the problems with the illegal sex trade?",
+					"¿Todo está relacionado con el comercio sexual ilegal?",
 					{"rt2"},
 				},
 			},
@@ -3117,7 +3117,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What does this mean...?”",
+					"“¿Qué mierda...?”",
 					{"rt2"},
 				},
 			},
@@ -3151,7 +3151,7 @@ ast = {
 			},
 			en = {
 				{
-					"My head is full from trying to process the implications of that one sentence.",
+					"Intento de procesar las implicaciones de esa frase.",
 					{"rt2"},
 				},
 			},
@@ -3183,7 +3183,7 @@ ast = {
 			},
 			en = {
 				{
-					"Three issues that I thought were totally separate are actually all connected?",
+					"¿Tres asuntos que pensaba que eran completamente distintos están relacionados?",
 					{"rt2"},
 				},
 			},
@@ -3221,7 +3221,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "???"},
-					"“Hey! Who's sneaking around in there!”",
+					"“¡Eh! ¡¿Quién está ahí?!”",
 					{"rt2"},
 				},
 			},
@@ -3258,7 +3258,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“...!”",
+					"“¡Mm!”",
 					{"rt2"},
 				},
 			},
@@ -3305,7 +3305,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Uh... T-Tachibana!? What are you doing here... Wait, is it just me, or have we already gone through this exact situation before?”",
+					"“Eh... ¡¿T-Tachibana?! ¿Qué haces aquí...? Espera, ¿soy yo o ya hemos tenido esta conversación?”",
 					{"rt2"},
 				},
 			},
@@ -3342,7 +3342,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“You ain't just whistling Dixie...”",
+					"“Así es...”",
 					{"rt2"},
 				},
 			},
@@ -3387,7 +3387,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Oh, uh... what's that you're reading? Oh, that document. Sigh... Looks like Ran forgot to file it away again... goodness.”",
+					"“Ah, um... ¿qué estás leyendo? Ah, ese documento. Uff... Parece que a Ran se le olvidó archivarlo otra vez... Santo cielo.”",
 					{"rt2"},
 				},
 			},
@@ -3424,7 +3424,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I kinda took the liberty of reading it, sorry...”",
+					"“Me puse a leerlo, perdón...”",
 					{"rt2"},
 				},
 			},
@@ -3464,7 +3464,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“It's fine. You already tentatively have full membership. Whether you learn that now or inevitably hear about it later, it doesn't really make a difference.”",
+					"“Tranquilo. Ya eres un miembro hecho y derecho. Da igual si te enteras ahora o si inevitablemente te enteras después, realmente no importa.”",
 					{"rt2"},
 				},
 			},
@@ -3498,7 +3498,7 @@ ast = {
 			},
 			en = {
 				{
-					"Once more, I'm getting off scot-free.",
+					"Otra vez me libro de problemas.",
 					{"rt2"},
 				},
 			},
@@ -3530,7 +3530,7 @@ ast = {
 			},
 			en = {
 				{
-					"Since I've been building up her trust, she doesn't doubt me anymore.",
+					"Desde que he ido ganándome su confianza, ya no duda de mí.",
 					{"rt2"},
 				},
 			},
@@ -3562,7 +3562,7 @@ ast = {
 			},
 			en = {
 				{
-					"God, thinking about it in that cynical way kinda hurts.",
+					"Pensarlo de esa manera tan cínica es horrible.",
 					{"rt2"},
 				},
 			},
@@ -3597,7 +3597,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Rei... Who's this Fumino?”",
+					"“Rei-senpai... ¿Quién es esta tal Fumino?”",
 					{"rt2"},
 				},
 			},
@@ -3637,7 +3637,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Ah, I suppose the cadets wouldn't know. We were given orders to find and secure her some time ago.”",
+					"“Ah, supongo que los cadetes no lo saben. Hace tiempo nos dieron órdenes de encontrarla y protegerla.”",
 					{"rt2"},
 				},
 			},
@@ -3671,7 +3671,7 @@ ast = {
 			},
 			en = {
 				{
-					"So the SS are also searching for her?",
+					"¿La SS también la está buscando?",
 					{"rt2"},
 				},
 			},
@@ -3703,7 +3703,7 @@ ast = {
 			},
 			en = {
 				{
-					"Not only that, but they've been at it for a while?",
+					"¿Han estado haciéndolo desde hace un buen rato?",
 					{"rt2"},
 				},
 			},
@@ -3735,7 +3735,7 @@ ast = {
 			},
 			en = {
 				{
-					"My heart is pounding. I try to calm myself down and choose my words carefully.",
+					"Mi corazón late con fuerza. Intento calmarme y elegir cuidadosamente mis palabras.",
 					{"rt2"},
 				},
 			},
@@ -3770,7 +3770,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“If you were ordered to secure her, does that mean she did something?”",
+					"“Si se les ordeno encontrarla, ¿fue por algo que hizo?”",
 					{"rt2"},
 				},
 			},
@@ -3810,7 +3810,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“We weren't told anything. The order came down to us directly from Senator Hitoura to find and secure her ASAP.”",
+					"“No nos dijeron nada. Fue una orden directa del senador Hitoura: encontrarla y protegerla lo antes posible.”",
 					{"rt2"},
 				},
 			},
@@ -3847,7 +3847,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“From Senator Hitoura...”",
+					"“El senador Hitoura...”",
 					{"rt2"},
 				},
 			},
@@ -3881,7 +3881,7 @@ ast = {
 			},
 			en = {
 				{
-					"Even that weirdo wants her.",
+					"Hasta ese tipo la busca.",
 					{"rt2"},
 				},
 			},
@@ -3919,7 +3919,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“There's only one thing I know about her: she poses a threat to both the perverted sex law and the island as a whole.”",
+					"“Lo único que sé es que representa una amenaza para la ley súperpervertida y la isla entera.”",
 					{"rt2"},
 				},
 			},
@@ -3953,7 +3953,7 @@ ast = {
 			},
 			en = {
 				{
-					"Based on what our NLNS patron said, that checks out.",
+					"Según lo que dijo nuestro patrocinador en la NLNS, tiene sentido.",
 					{"rt2"},
 				},
 			},
@@ -3985,7 +3985,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't imagine why, but she's the lynchpin for everything on this island.",
+					"No sé por qué, pero ella es el eje central de todo lo que pasa en esta isla.",
 					{"rt2"},
 				},
 			},
@@ -4017,7 +4017,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's all a finely connected web, but I still don't know how everything fits together.",
+					"Es una red muy bien conectada, pero aún no sé cómo encaja todo.",
 					{"rt2"},
 				},
 			},
@@ -4055,7 +4055,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“At the moment, securing Fumino is the highest priority for the SS.”",
+					"“En este momento, proteger a Fumino es la máxima prioridad de la SS.”",
 					{"rt2"},
 				},
 			},
@@ -4092,7 +4092,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Not the illegal sex trade?”",
+					"“¿No es el comercio sexual ilegal...?”",
 					{"rt2"},
 				},
 			},
@@ -4132,7 +4132,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Correct. As you've read, those monsters are probably hunting her as well. We can't allow them to get ahold of her first, or it'll put the entire island at risk.”",
+					"“No. Como ya leíste, es posible que esos desgraciados también la estén persiguiendo. No podemos permitir que la atrapen primero, o pondrán en peligro a toda la isla.”",
 					{"rt2"},
 				},
 			},
@@ -4166,7 +4166,7 @@ ast = {
 			},
 			en = {
 				{
-					"In other words, they're prioritizing Fumino in order to protect the law.",
+					"En pocas palabras, están dándole prioridad a Fumino para proteger la ley.",
 					{"rt2"},
 				},
 			},
@@ -4198,7 +4198,7 @@ ast = {
 			},
 			en = {
 				{
-					"The needs of the many outweigh the needs of the few. From the government's point of view, the victims of the illegal sex trade are far fewer than those who'd be impacted by the collapse of the perverted sex law. Typical pragmatic political bullshit, if you ask me.",
+					"Las necesidades de la mayoría prevalecen sobre las necesidades de unos pocos. Para el gobierno, las víctimas del comercio sexual ilegal son mucho menos numerosas que las personas que se verían afectadas por el colapso de la ley. Típica tontería política y pragmática.",
 					{"rt2"},
 				},
 			},
@@ -4236,7 +4236,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Realistically, the SS should deal with the Anti-Copulation Front before anything else, but we also need to contend with the brainwashing issue in the OSS.”",
+					"“Sinceramente, la SS deberían ocuparse del Frente Anticopulación, pero también tenemos que lidiar con el problema del lavado de cerebro en la OSS.”",
 					{"rt2"},
 				},
 			},
@@ -4273,7 +4273,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Ah, the ones who tried to abduct Senator Hitoura.”",
+					"“Ah, los que intentaron secuestrar al senador...”",
 					{"rt2"},
 				},
 			},
@@ -4307,7 +4307,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's still unknown how the brainwashing behind the mutiny was carried out, and it's under investigation.",
+					"Aún se desconoce cómo se llevó a cabo el lavado de cerebro que provocó el motín, y ya se está investigando.",
 					{"rt2"},
 				},
 			},
@@ -4345,7 +4345,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“But yeah, that's why we're postponing dealing with the illegal sex trade. I know it's important to you, so sorry.”",
+					"“Pero sí, por eso estamos posponiendo el problema del comercio sexual ilegal. Sé que es importante para ti, así que lo siento.”",
 					{"rt2"},
 				},
 			},
@@ -4382,7 +4382,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No, I get it. It's not your fault, anyway.”",
+					"“No... No es tu culpa.”",
 					{"rt2"},
 				},
 			},
@@ -4422,7 +4422,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“All right. Also, there's something else I want to apologize for... I'm sorry about yesterday.”",
+					"“Vale. Por cierto, hay otra cosa por la que quiero disculparme... Discúlpame por lo de ayer.”",
 					{"rt2"},
 				},
 			},
@@ -4459,7 +4459,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yesterday?”",
+					"“¿Ayer?”",
 					{"rt2"},
 				},
 			},
@@ -4498,7 +4498,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Well... I don't really remember it that well, but... I believe I behaved somewhat inappropriately toward you.”",
+					"“Bueno... No lo recuerdo muy bien, pero... creo que me comporté de manera un poco inapropiada contigo.”",
 					{"rt2"},
 				},
 			},
@@ -4535,7 +4535,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Oh yeah, when you were drunk. 'Somewhat' is the understatement of the year, there.”",
+					"“Ah, cuando estabas borracha... No fue solo un poquito...”",
 					{"rt2"},
 				},
 			},
@@ -4575,7 +4575,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“W-Was I that bad!? Ikuko wasn't exaggerating!? Did... did I really meow after every sentence...!?”",
+					"“¡¿T-Tan malo fue?! ¡¿Ikuko no estaba exagerando?! ¡¿De verdad maullaba después de cada frase...?!”",
 					{"rt2"},
 				},
 			},
@@ -4612,7 +4612,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“That part she was.”",
+					"“Eso sí se lo inventó.”",
 					{"rt2"},
 				},
 			},
@@ -4655,7 +4655,7 @@ ast = {
 				{
 					{"exfont", size="f4"},
 					name = {"礼", "Rei"},
-					"“IKUKOOOOOOOOOOO!!”",
+					"“¡¡IKUKOOOOOOOOOOO!!”",
 					{"rt2"},
 					{"exfont"},
 				},
@@ -4697,7 +4697,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“N-Now, now... calm down. You just got a bit out of control, that's all.”",
+					"“T-Tranquila... Solo te descontrolaste un poco.”",
 					{"rt2"},
 				},
 			},
@@ -4742,7 +4742,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Ugh... really? A-Are you disillusioned in your instructor?”",
+					"“Ugh... ¿en serio? ¿E-Estás decepcionado de tu instructora?”",
 					{"rt2"},
 				},
 			},
@@ -4779,7 +4779,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Of course not. You were drunk. Everyone does weird shit when they're drunk.”",
+					"“Por supuesto que no. Estabas borracha. Todo el mundo hace cosas raras cuando está borracho.”",
 					{"rt2"},
 				},
 			},
@@ -4813,7 +4813,7 @@ ast = {
 			},
 			en = {
 				{
-					"What I got to see was something truly precious.",
+					"Lo que vi fue algo precioso.",
 					{"rt2"},
 				},
 			},
@@ -4851,7 +4851,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Thank goodness, you're too kind. It's shameful to me that, after all you did for us, I had to subject you to such a display, but I'm grateful to see that you aren't disgusted or angry with me.”",
+					"“Qué alivio, eres muy amable. Me avergüenza que después de todo lo que hiciste por nosotros, haya tenido que someterte a tal espectáculo. Te agradezco que no estés disgustado ni enojado conmigo.”",
 					{"rt2"},
 				},
 			},
@@ -4888,7 +4888,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Well, it was kinda... cute.”",
+					"“Bueno, fue un poco tierno verte así.”",
 					{"rt2"},
 				},
 			},
@@ -4934,7 +4934,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Cute!? Wh-What are you talking about!? Don't tease your superior officer!”",
+					"“¡¿Tierno?! ¡¿D-De qué estás hablando?! ¡No te burles de tu oficial superior!”",
 					{"rt2"},
 				},
 			},
@@ -4968,7 +4968,7 @@ ast = {
 			},
 			en = {
 				{
-					"It's the truth, though...",
+					"Pero es la verdad...",
 					{"rt2"},
 				},
 			},
@@ -5006,7 +5006,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Ahem, a-anyway. I know this isn't enough to fully apologize, but... I'd like you to have it regardless.”",
+					"“Ejem, e-en fin. Sé que esto no es suficiente para disculparme, pero... me gustaría que lo aceptaras.”",
 					{"rt2"},
 				},
 			},
@@ -5044,7 +5044,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“This is... an SS handgun? A brand new one, too.”",
+					"“¿Es... una pistola de la SS? Y de las nuevas.”",
 					{"rt2"},
 				},
 			},
@@ -5084,7 +5084,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Yes. There was money left over from the reward for rescuing Senator Hitoura. I believe you've earned it.”",
+					"“Sí. Quedó dinero de la recompensa por rescatar al senador Hitoura. Creo que te la ganaste.”",
 					{"rt2"},
 				},
 			},
@@ -5118,7 +5118,7 @@ ast = {
 			},
 			en = {
 				{
-					"I've been told that all full SS members are given a standard-issue handgun for personal use.",
+					"Me dijeron a que todos los miembros oficiales de la SS se les entrega una pistola reglamentaria para uso personal.",
 					{"rt2"},
 				},
 			},
@@ -5150,7 +5150,7 @@ ast = {
 			},
 			en = {
 				{
-					"From what I've heard, though, it's common for graduating members to hand their guns down to upcoming members, but this is clearly new. It doesn't look like it's ever even been fired.",
+					"Sin embargo, por lo que sé, es habitual que los miembros que se gradúan entreguen sus armas a los nuevos miembros, pero esta es nueva. No parece que se haya disparado nunca.",
 					{"rt2"},
 				},
 			},
@@ -5185,7 +5185,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Are you sure? You were the one given the reward money.”",
+					"“¿Estás segura? Tú te ganaste ese dinero.”",
 					{"rt2"},
 				},
 			},
@@ -5225,7 +5225,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“It's fine. That was just because of a regulation requiring rewards not be given to cadets. Realistically, you're the one who deserves it. This is your achievement.”",
+					"“Tranquilo. Solo fue por una normativa que prohíbe dar recompensas a los cadetes. Tú te lo mereces más que yo. Es tu propio logro.”",
 					{"rt2"},
 				},
 			},
@@ -5270,7 +5270,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Also, um... you worked so hard for this... that's right. It's a preemptive gift. Congratulations on your promotion.”",
+					"“Además, um... te esforzaste muchísimo... así que ya sabes. Es un regalo anticipado. Felicidades por tu ascenso.”",
 					{"rt2"},
 				},
 			},
@@ -5307,7 +5307,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Rei...”",
+					"“Rei-senpai...”",
 					{"rt2"},
 				},
 			},
@@ -5341,7 +5341,7 @@ ast = {
 			},
 			en = {
 				{
-					"I try to thank her, but I can't get the words out.",
+					"Intento darle las gracias, pero no me salen las palabras.",
 					{"rt2"},
 				},
 			},
@@ -5373,7 +5373,7 @@ ast = {
 			},
 			en = {
 				{
-					"Can I really thank her?",
+					"¿De verdad puedo darle las gracias?",
 					{"rt2"},
 				},
 			},
@@ -5405,7 +5405,7 @@ ast = {
 			},
 			en = {
 				{
-					"I'm deceiving her.",
+					"Estoy engañándola.",
 					{"rt2"},
 				},
 			},
@@ -5443,7 +5443,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Phew... You know, giving you that gun kind of reminds me of your first target practice. Do you remember that?”",
+					"“Uff... ¿Sabes? Darte esa pistola me recuerda a tu primera práctica de tiro al blanco. ¿Te acuerdas?”",
 					{"rt2"},
 				},
 			},
@@ -5480,7 +5480,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yes, how could I possibly forget the feeling of your knuckles on my face when you sucker-punched me?”",
+					"“Sí, ¿cómo podría olvidar la sensación de tus nudillos en mi cara cuando me diste un puñetazo por sorpresa?”",
 					{"rt2"},
 				},
 			},
@@ -5520,7 +5520,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“P-Putting it like that just makes me look bad! It was your own fault.”",
+					"“¡D-Decirlo así solo me hace quedar mal! Fue culpa tuya.”",
 					{"rt2"},
 				},
 			},
@@ -5557,7 +5557,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“That's true...”",
+					"“Es verdad...”",
 					{"rt2"},
 				},
 			},
@@ -5591,7 +5591,7 @@ ast = {
 			},
 			en = {
 				{
-					"It seems ridiculous in retrospect, but when she first put the gun in my hands, I just casually pointed it at her.",
+					"En retrospectiva, parece ridículo, pero cuando me puso la pistola en las manos por primera vez, simplemente la apunté hacia ella con indiferencia.",
 					{"rt2"},
 				},
 			},
@@ -5623,7 +5623,7 @@ ast = {
 			},
 			en = {
 				{
-					"If I did that again, I would be kicked out of the SS on the spot.",
+					"Si volviera a hacerlo, me expulsarían de la SS.",
 					{"rt2"},
 				},
 			},
@@ -5655,7 +5655,7 @@ ast = {
 			},
 			en = {
 				{
-					"I could never forget her tone of voice when she told me that.",
+					"Nunca olvidaré el tono de su voz cuando me lo dijo.",
 					{"rt2"},
 				},
 			},
@@ -5693,7 +5693,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Still, to think our hopeless little impotence quota would go on to pass the selection training... In all my years in the SS, I don't think I've seen anything more surprising.”",
+					"“Aun así, pensar que nuestra pequeña y desesperada cuota de impotencia pasaría el entrenamiento de selección... En todos los años que llevo en la SS, esto es lo más increíble que he visto.”",
 					{"rt2"},
 				},
 			},
@@ -5730,7 +5730,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Wow, thanks for sugar-coating it.”",
+					"“Vaya, gracias por suavizar las cosas...”",
 					{"rt2"},
 				},
 			},
@@ -5775,7 +5775,7 @@ ast = {
 			en = {
 				{
 					name = {"礼", "Rei"},
-					"“Haha, I'm kidding. I know very well how hard you've been working to get this far. Enjoy your rest. From now on, you'll be working so hard that you won't have the time to get yourself down.”",
+					"“Jaja, estoy bromeando. Sé muy bien lo duro que has trabajado para llegar aquí. Disfruta de tu descanso. A partir de ahora, vas a trabajar tan duro que no tendrás tiempo de deprimirte.”",
 					{"rt2"},
 				},
 			},
@@ -5812,7 +5812,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yes...”",
+					"“Sí...”",
 					{"rt2"},
 				},
 			},
@@ -5847,7 +5847,7 @@ ast = {
 			},
 			en = {
 				{
-					"Success is to win by any means necessary, no matter how evil they may be, and to continue to do so to protect that success.",
+					"El éxito consiste en ganar por cualquier medio necesario, sin importar lo perverso que sea, y seguir haciéndolo para proteger ese éxito.",
 					{"rt2"},
 				},
 			},
@@ -5879,7 +5879,7 @@ ast = {
 			},
 			en = {
 				{
-					"Senator Hitoura's words echo in my head.",
+					"Las palabras del senador Hitoura resuenan en mi cabeza.",
 					{"rt2"},
 				},
 			},
@@ -5939,7 +5939,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“I see. We're not the only ones looking for Fumino, the SS and Yakuza are, too? Wow, she's so popular.”",
+					"“Ya veo. ¿No somos los únicos que buscamos a Fumino, sino también la SS y la yakuza? Se nota que es popular.”",
 					{"rt2"},
 				},
 			},
@@ -5976,7 +5976,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“The SS also believes that her existence is key to bringing down the perverted sex law.”",
+					"“La SS también cree que su existencia es clave para acabar con la ley súperpervertida.”",
 					{"rt2"},
 				},
 			},
@@ -6013,7 +6013,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“I still don't understand how, though.”",
+					"“Pero no entiendo cómo.”",
 					{"rt2"},
 				},
 			},
@@ -6053,7 +6053,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hmm, I wonder. Maybe she's just really good at abolishing laws?”",
+					"“Mmm, quién sabe. ¿Quizás solo sea muy buena aboliendo leyes?”",
 					{"rt2"},
 				},
 			},
@@ -6090,7 +6090,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Heh, who the hell would be like that?”",
+					"“Je... ¿Quién es capaz de semejante cosa?”",
 					{"rt2"},
 				},
 			},
@@ -6130,7 +6130,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ah, why are you laughing!? That was a real suggestion!”",
+					"“¡Ah, ¿por qué te ríes?! ¡Lo decía en serio!”",
 					{"rt2"},
 				},
 			},
@@ -6167,7 +6167,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah, sorry...”",
+					"“Sí, perdón...”",
 					{"rt2"},
 				},
 			},
@@ -6204,7 +6204,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Still, the order came from Senator Hitoura himself. If he cares enough to personally make a standing order to search for her, maybe she's got some dirt on him?”",
+					"“Aun así, la orden vino del propio senador Hitoura. Si le importa lo suficiente como para dar la orden de buscarla, debe tener algo comprometedor, ¿verdad?”",
 					{"rt2"},
 				},
 			},
@@ -6239,7 +6239,7 @@ ast = {
 			},
 			en = {
 				{
-					"Wata looks at me quizzically.",
+					"Wata-chan me mira con curiosidad.",
 					{"rt2"},
 				},
 			},
@@ -6274,7 +6274,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Like maybe she knows something that could threaten his standing.”",
+					"“Tal vez sabe algo que podría poner en peligro su posición.”",
 					{"rt2"},
 				},
 			},
@@ -6314,7 +6314,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ooh, yeah, maybe. Or maybe she herself is his weakness.”",
+					"“Ahh, me imagino que sí... O tal vez ella misma sea su debilidad.”",
 					{"rt2"},
 				},
 			},
@@ -6351,7 +6351,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What do you mean?”",
+					"“¿Cómo así?”",
 					{"rt2"},
 				},
 			},
@@ -6391,7 +6391,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Well, maybe Fumino is personally important to him. Then he really wouldn't want the Yakuza to get ahold of her.”",
+					"“Bueno, tal vez Fumino-chan sea importante para él. Por eso no quiere que la yakuza la encuentre.”",
 					{"rt2"},
 				},
 			},
@@ -6428,7 +6428,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“That's true...”",
+					"“Es posible...”",
 					{"rt2"},
 				},
 			},
@@ -6462,7 +6462,7 @@ ast = {
 			},
 			en = {
 				{
-					"That's something I'd never even considered.",
+					"No lo había considerado...",
 					{"rt2"},
 				},
 			},
@@ -6494,7 +6494,7 @@ ast = {
 			},
 			en = {
 				{
-					"Fumino herself as Senator Hitoura's weakness?",
+					"¿Fumino es la debilidad del senador Hitoura?",
 					{"rt2"},
 				},
 			},
@@ -6529,7 +6529,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Maybe, but how?”",
+					"“Tal vez, pero ¿cómo...?”",
 					{"rt2"},
 				},
 			},
@@ -6569,7 +6569,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Hmm... Companion, friend, family? Any of those would be precious to someone.”",
+					"“Mmm... ¿Compañera amiga, familia? Todo eso es valioso para una persona.”",
 					{"rt2"},
 				},
 			},
@@ -6606,7 +6606,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Family...”",
+					"“Familia...”",
 					{"rt2"},
 				},
 			},
@@ -6640,7 +6640,7 @@ ast = {
 			},
 			en = {
 				{
-					"He's single and has never been married.",
+					"Está soltero y nunca se casó.",
 					{"rt2"},
 				},
 			},
@@ -6672,7 +6672,7 @@ ast = {
 			},
 			en = {
 				{
-					"Fumino is younger than us, so there's no way she's his sibling.",
+					"Fumino es menor que nosotros, así que no puede ser su hermana.",
 					{"rt2"},
 				},
 			},
@@ -6704,7 +6704,7 @@ ast = {
 			},
 			en = {
 				{
-					"However, if she were his family...",
+					"Sin embargo, si fuera parte de su familia...",
 					{"rt2"},
 				},
 			},
@@ -6736,7 +6736,7 @@ ast = {
 			},
 			en = {
 				{
-					"...And her existence poses an existential threat to the law...",
+					"... Y si su existencia representa una amenaza para la ley...",
 					{"rt2"},
 				},
 			},
@@ -6771,7 +6771,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“If, hypothetically, Fumino happened to be the governor's illegitimate child, it opens a lot of questions, but it would make some things make sense.”",
+					"“Suponiendo que Fumino fuera la hija ilegítima del gobernador, tendría muchas preguntas, pero algunas cosas tendrían sentido.”",
 					{"rt2"},
 				},
 			},
@@ -6811,7 +6811,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“So he'd want to protect Fumino because he's her dad?”",
+					"“¿Quiere proteger a Fumino-chan porque es su papá?”",
 					{"rt2"},
 				},
 			},
@@ -6848,7 +6848,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“That's not necessarily what I was thinking.”",
+					"“No tiene que ser eso.”",
 					{"rt2"},
 				},
 			},
@@ -6882,7 +6882,7 @@ ast = {
 			},
 			en = {
 				{
-					"Could someone like him even have feelings like that?",
+					"¿Alguien como él puede tener sentimientos así?",
 					{"rt2"},
 				},
 			},
@@ -6914,7 +6914,7 @@ ast = {
 			},
 			en = {
 				{
-					"I can't pretend to know him well, since we've only spoken once, but he came across as an intense pragmatist.",
+					"No puedo decir que lo conozca bien, ya que solo hemos hablado una vez, pero me pareció un pragmático intenso.",
 					{"rt2"},
 				},
 			},
@@ -6946,7 +6946,7 @@ ast = {
 			},
 			en = {
 				{
-					"If he saw his illegitimate child as a fatal weakness, then he'd want to secure her to keep that info from leaking. That's the kind of filth I'm smelling here.",
+					"Si consideraba a su hija ilegítima como una debilidad fatal, se habría asegurado de que esa información no se filtrara. Ese es el tipo de inmundicia que percibo aquí.",
 					{"rt2"},
 				},
 			},
@@ -6981,7 +6981,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“This is all totally hypothetical, of course. Maybe she's a complete stranger after all.”",
+					"“A ver, solo es una hipótesis. Quizás sea una completa desconocida después de todo.”",
 					{"rt2"},
 				},
 			},
@@ -7018,7 +7018,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“But, since we now know that both the SS and Yakuza are hunting for her, we really need to secure her as quickly as possible.”",
+					"“Pero ahora sabemos que la SS y la yakuza la están buscando, tenemos que protegerla.”",
 					{"rt2"},
 				},
 			},
@@ -7058,7 +7058,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Yeah! The illegal sex trade worries me, but now I'm even more scared for Fumino!”",
+					"“¡Sí! ¡El comercio sexual ilegal me preocupa, pero ahora estoy aún más preocupada por Fumino-chan!”",
 					{"rt2"},
 				},
 			},
@@ -7094,7 +7094,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“Yeah. Till now I haven't been able to learn anything about her, but now I think I have an idea.”",
+					"“Sí. Hasta ahora no había podido descubrir nada sobre ella, pero creo que ahora tengo una idea.”",
 					{"rt2"},
 				},
 			},
@@ -7134,7 +7134,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Ooh, that's awesome! What are you going to do?”",
+					"“¡Ohh, genial! ¿Qué vas a hacer?”",
 					{"rt2"},
 				},
 			},
@@ -7170,7 +7170,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“The SS are putting their full resources behind the search for her. That means we've got a chance to follow their search and take Fumino right from under their noses.”",
+					"“La SS está dedicando todos sus recursos a buscarla. Eso significa que tenemos la oportunidad de seguir su búsqueda y llevarnos a Fumino.”",
 					{"rt2"},
 				},
 			},
@@ -7211,7 +7211,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Huh?”",
+					"“¿Eh?”",
 					{"rt2"},
 				},
 			},
@@ -7248,7 +7248,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“What's wrong?”",
+					"“¿Qué pasa?”",
 					{"rt2"},
 				},
 			},
@@ -7288,7 +7288,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Uh, no, nothing... but are you sure?”",
+					"“No, nada... pero ¿estás seguro...?”",
 					{"rt2"},
 				},
 			},
@@ -7325,7 +7325,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“About what?”",
+					"“¿Por qué lo dices...?”",
 					{"rt2"},
 				},
 			},
@@ -7364,7 +7364,7 @@ ast = {
 			en = {
 				{
 					name = {"ヒナミ", "Hinami"},
-					"“Well, you're finally friends with Rei, and she talks about you a lot. What would happen if you betrayed the SS now?”",
+					"“Bueno, por fin eres amigo de Rei-chan, y ella habla mucho de ti. ¿Qué pasaría si traicionaras a la SS?”",
 					{"rt2"},
 				},
 			},
@@ -7398,7 +7398,7 @@ ast = {
 			},
 			en = {
 				{
-					"After asking that, she looks up at me.",
+					"Después de preguntar eso, me mira.",
 					{"rt2"},
 				},
 			},
@@ -7430,7 +7430,7 @@ ast = {
 			},
 			en = {
 				{
-					"In my pocket I have the bear strap she gave me, attached to my tablet.",
+					"En mi bolsillo tengo la correa con forma de oso que me regaló, está enganchada a mi tableta.",
 					{"rt2"},
 				},
 			},
@@ -7462,7 +7462,7 @@ ast = {
 			},
 			en = {
 				{
-					"In my bag I have the brand-new handgun that Rei gave me.",
+					"En mi bolso tengo la pistola nueva que Rei-senpai me dio.",
 					{"rt2"},
 				},
 			},
@@ -7531,7 +7531,7 @@ ast = {
 			},
 			en = {
 				{
-					"No matter what, I never even considered that my conviction could waver.",
+					"Pase lo que pase, nunca se me ocurrió que mi determinación pudiera debilitarse.",
 					{"rt2"},
 				},
 			},
@@ -7563,7 +7563,7 @@ ast = {
 			},
 			en = {
 				{
-					"The perverted sex law is twisted and evil, and I cannot allow it to exist.",
+					"La ley súperpervertida es retorcida y malvada, y no puedo permitir que exista.",
 					{"rt2"},
 				},
 			},
@@ -7598,7 +7598,7 @@ ast = {
 			en = {
 				{
 					name = {"淳之介", "Junnosuke"},
-					"“No matter what, I have to do what I set out to do at the start.”",
+					"“Pase lo que pase, tengo que hacer lo que me propuse al principio.”",
 					{"rt2"},
 				},
 			},
@@ -7632,7 +7632,7 @@ ast = {
 			},
 			en = {
 				{
-					"As I speak, I can hear my voice trembling ever so slightly.",
+					"Mientras hablo, puedo oír cómo me tiemba la voz.",
 					{"rt2"},
 				},
 			},
